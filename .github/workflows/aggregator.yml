@@ -55,7 +55,7 @@ jobs:
           cache: pip
       - run: pip install --require-hashes -r requirements.txt
       - run: python main.py build
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
 
