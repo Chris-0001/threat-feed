@@ -1,5 +1,60 @@
 [
  {
+  "category": "news",
+  "cves": [],
+  "id": "c088bb527b3d7368",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
+  "published": "2026-10-08T21:42:51Z",
+  "source": "BleepingComputer",
+  "summary": "The FBI has seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate two hacking tools, MicroScan and FishHub, used in attacks that breached critical infrastructure and other organizations worldwide. [...]",
+  "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3f7d8542c4942d7f",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/",
+  "published": "2026-10-08T20:09:45Z",
+  "source": "BleepingComputer",
+  "summary": "IDC Frontier, a major Japanese cloud and digital infrastructure company, disclosed that its IDCF Cloud service was targeted in a ransomware attack that caused an outage at a data center cluster serving the eastern part of the country. [...]",
+  "title": "Ransomware attack disrupts Japan's IDCF Cloud used by govt clients",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76781",
+   "CVE-2026-86138",
+   "CVE-2026-86139",
+   "CVE-2026-86142",
+   "CVE-2026-86143",
+   "CVE-2026-86144"
+  ],
+  "id": "6f0e82dcfe347f29",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8910-1",
+  "published": "2026-10-08T20:05:15Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Yirou Yang discovered that libxml2 incorrectly handled certain XML catalogs. If a user or automated system was tricked into processing a specially crafted XML catalog, an attacker could possibly use this issue to cause libxml2 to crash, resulting in…",
+  "title": "USN-8910-1: libxml2 vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "5e9a8c0ace7f07bf",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/",
+  "published": "2026-10-08T19:20:33Z",
+  "source": "BleepingComputer",
+  "summary": "A malware campaign dubbed 'Midnight Mimosa' has been discovered on low-cost Android smartphones that ship with malicious software embedded in their firmware, allowing attackers to silently install apps, perform ad fraud, and turn devices into…",
+  "title": "Low-cost Android phones ship with residential proxy malware",
+  "trust": "media"
+ },
+ {
   "category": "advisories",
   "cves": [
    "CVE-2026-14990"
@@ -36,6 +91,18 @@
   "summary": "The crooks have trust problems of their own. One ransomware affiliate decided to keep the profits for himself. Elsewhere, an attacker left a server exposed, complete with tools and traces of an intrusion.",
   "title": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "73bd14781323af27",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8909-1",
+  "published": "2026-10-08T17:11:46Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that libde265 did not properly validate certain crafted H.265 bitstreams, leading to a NULL pointer dereference. An attacker could possibly use this issue to cause libde265 to crash, resulting in a denial of service.",
+  "title": "USN-8909-1: libde265 vulnerability",
+  "trust": "official"
  },
  {
   "category": "news",
@@ -158,6 +225,18 @@
   "trust": "official"
  },
  {
+  "category": "advisories",
+  "cves": [],
+  "id": "d54c8e382128cc20",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8907-1",
+  "published": "2026-10-08T13:40:27Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that libgit2 incorrectly handled IP address SubjectAltName verification in TLS certificate validation. A remote attacker with a CA-trusted certificate could possibly use this issue to perform a machine-in-the-middle attack, leading…",
+  "title": "USN-8907-1: libgit2 vulnerability",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "c968fc888b819a43",
@@ -168,6 +247,156 @@
   "summary": "A Maryland man was found guilty of stealing more than $53 million after hacking the decentralized crypto exchange Uranium Finance twice in April 2021. [...]",
   "title": "Uranium crypto exchange hacker convicted for stealing $53 million",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "b804814c0c26000f",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8902-1",
+  "published": "2026-10-08T13:14:05Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that libarchive had a signed integer overflow in its ZIP writer when handling encrypted entries with sizes near the maximum value. An attacker could possibly use this issue to cause libarchive to crash or execute arbitrary code.",
+  "title": "USN-8902-1: libarchive vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2025-10263",
+   "CVE-2025-68296",
+   "CVE-2025-68768",
+   "CVE-2025-71289",
+   "CVE-2026-23346",
+   "CVE-2026-23469",
+   "CVE-2026-31420",
+   "CVE-2026-31486",
+   "CVE-2026-31560",
+   "CVE-2026-31663"
+  ],
+  "id": "291b4bd2d0f0209f",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8906-1",
+  "published": "2026-10-08T12:56:57Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that some Arm processors could complete a broadcast translation lookaside buffer (TLB) invalidation before memory writes made through the invalidated translation were globally observed.",
+  "title": "USN-8906-1: Linux kernel (IBM) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2025-68296",
+   "CVE-2025-68768",
+   "CVE-2026-23346",
+   "CVE-2026-31663",
+   "CVE-2026-43116",
+   "CVE-2026-43219",
+   "CVE-2026-43240",
+   "CVE-2026-43303",
+   "CVE-2026-43311",
+   "CVE-2026-43331"
+  ],
+  "id": "b6f9eed860d3f1ac",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8905-1",
+  "published": "2026-10-08T12:56:25Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM32 architecture; - ARM64 architecture; - MIPS architecture; -…",
+  "title": "USN-8905-1: Linux kernel (GCP) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2025-68296",
+   "CVE-2025-68768",
+   "CVE-2026-23346",
+   "CVE-2026-31663",
+   "CVE-2026-43116",
+   "CVE-2026-43219",
+   "CVE-2026-43240",
+   "CVE-2026-43303",
+   "CVE-2026-43311",
+   "CVE-2026-43331"
+  ],
+  "id": "e538ed86276cce8a",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8904-1",
+  "published": "2026-10-08T12:55:56Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM32 architecture; - ARM64 architecture; - MIPS architecture; -…",
+  "title": "USN-8904-1: Linux kernel (Azure) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2025-68296",
+   "CVE-2025-68768",
+   "CVE-2026-23346",
+   "CVE-2026-31663",
+   "CVE-2026-43116",
+   "CVE-2026-43219",
+   "CVE-2026-43240",
+   "CVE-2026-43303",
+   "CVE-2026-43311",
+   "CVE-2026-43331"
+  ],
+  "id": "8f3e07c1398c49c4",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8903-1",
+  "published": "2026-10-08T12:55:06Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM32 architecture; - ARM64 architecture; - MIPS architecture; -…",
+  "title": "USN-8903-1: Linux kernel vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2023-20585",
+   "CVE-2026-64349",
+   "CVE-2026-64530",
+   "CVE-2026-64532",
+   "CVE-2026-64533",
+   "CVE-2026-64534",
+   "CVE-2026-64535",
+   "CVE-2026-64537",
+   "CVE-2026-64538",
+   "CVE-2026-64539"
+  ],
+  "id": "8168341c0ad3be48",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8888-2",
+  "published": "2026-10-08T12:50:59Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that some AMD processors did not properly perform Reverse Map Table (RMP) checks when the IOMMU accessed certain host buffers.",
+  "title": "USN-8888-2: Linux kernel (Azure) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2023-20585",
+   "CVE-2026-64349",
+   "CVE-2026-64532",
+   "CVE-2026-64533",
+   "CVE-2026-64537",
+   "CVE-2026-64538",
+   "CVE-2026-64539",
+   "CVE-2026-64540",
+   "CVE-2026-64542",
+   "CVE-2026-64543"
+  ],
+  "id": "b00c56edfe9b4dd0",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8887-2",
+  "published": "2026-10-08T12:50:56Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that some AMD processors did not properly perform Reverse Map Table (RMP) checks when the IOMMU accessed certain host buffers.",
+  "title": "USN-8887-2: Linux kernel (AWS) vulnerabilities",
+  "trust": "official"
  },
  {
   "category": "news",
