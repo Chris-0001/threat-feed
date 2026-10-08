@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>{{ title }}</title>
+<link>{{ site_url }}</link>
+<description>{{ description }}</description>
+<language>en</language>
+<lastBuildDate>{{ build_rfc }}</lastBuildDate>
+<atom:link href="{{ self_url }}" rel="self" type="application/rss+xml"/>
+{% for it in items %}
+<item>
+<title>{{ it.title }}</title>
+<link>{{ it.link }}</link>
+<guid isPermaLink="false">{{ it.id }}</guid>
+<pubDate>{{ it.pubdate }}</pubDate>
+<category>{{ categories[it.category] }}</category>
+<description>{{ it.source }}{% if it.kev %} (exploited in the wild){% endif %}{% if it.summary %}: {{ it.summary }}{% endif %}</description>
+</item>
+{% endfor %}
+</channel>
+</rss>

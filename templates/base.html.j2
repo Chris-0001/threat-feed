@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }} - Threat feed</title>
+<link rel="stylesheet" href="{{ root }}style.css">
+{% for slug, label in categories.items() %}
+<link rel="alternate" type="application/rss+xml" title="Threat feed: {{ label }}" href="{{ site_url }}feeds/{{ slug }}.xml">
+{% endfor %}
+</head>
+<body>
+<header>
+<a class="brand" href="{{ root }}index.html">Threat feed</a>
+<nav aria-label="Sections">
+<a href="{{ root }}index.html"{% if current == 'all' %} aria-current="page"{% endif %}>Latest</a>
+{% for slug, label in categories.items() %}
+<a href="{{ root }}{{ slug }}.html"{% if current == slug %} aria-current="page"{% endif %}>{{ label }}</a>
+{% endfor %}
+<a href="{{ root }}archive/index.html"{% if current == 'archive' %} aria-current="page"{% endif %}>Archive</a>
+<a href="{{ root }}subscribe.html"{% if current == 'subscribe' %} aria-current="page"{% endif %}>Subscribe</a>
+</nav>
+</header>
+<main>
+{% block content %}{% endblock %}
+</main>
+<footer>
+<p>Updated {{ built }} UTC. Titles and summaries come from each source's own feed and are shown as plain text. Links go only to the source's own domain.</p>
+</footer>
+</body>
+</html>

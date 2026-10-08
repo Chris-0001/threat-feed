@@ -1,0 +1,1561 @@
+[
+ {
+  "category": "news",
+  "cves": [],
+  "id": "14969dfabff41e6a",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
+  "published": "2026-10-08T10:30:00Z",
+  "source": "The Hacker News",
+  "summary": "Phishing kits are no longer limited to copying a familiar login page and waiting for a victim to enter credentials. Attackers are increasingly building filtering, session management, and traffic controls into the infrastructure that delivers the…",
+  "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "57b7a575b5c1cdd7",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/owner-of-empire-cybercrime-market-gets-40-years-in-prison/",
+  "published": "2026-10-08T10:29:19Z",
+  "source": "BleepingComputer",
+  "summary": "The co-creator of Empire Market, one of the largest dark web marketplaces before its shutdown, has been sentenced to 40 years in prison for facilitating $430 million in illegal transactions from 2018 to 2020. [...]",
+  "title": "Owner of Empire cybercrime market gets 40 years in prison",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "a680d6663067d51a",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
+  "published": "2026-10-08T09:46:32Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have discovered a cluster of 16 malicious Mozilla Firefox extensions that are capable of stealing cryptocurrency wallet recovery phrases and private keys.",
+  "title": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "478b85025e6364e6",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html",
+  "published": "2026-10-08T07:42:04Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. State Department is offering up to $10 million for information leading to the identification or location of Zhang Yu, a Chinese national charged in the United States in connection with the 2021 Microsoft Exchange Server attacks known as…",
+  "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2ee2c0261fe0b9a2",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html",
+  "published": "2026-10-08T07:41:44Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding ransomware victims by secretly paying the attackers to obtain decryptors while claiming to use proprietary…",
+  "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ff8be0fd80360c6c",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/",
+  "published": "2026-10-08T06:32:16Z",
+  "source": "BleepingComputer",
+  "summary": "​​​On the second day of Pwn2Own Ireland 2026, security researchers collected $232,500 in cash awards after exploiting 45 unique zero-day vulnerabilities. [...]",
+  "title": "Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "cc71c88c9e07fe62",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
+  "published": "2026-10-08T05:46:20Z",
+  "source": "The Hacker News",
+  "summary": "The npm package known as \"tensorlake,\" a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a ChainDrop / Shai-Hulud supply chain attack.",
+  "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "c2a52742664e3ad7",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
+  "published": "2026-10-07T23:04:37Z",
+  "source": "BleepingComputer",
+  "summary": "The owner of ransomware remediation company MonsterCloud has been charged with allegedly defrauding ransomware victims by secretly paying their attackers for decryptors while claiming to use proprietary technology to recover encrypted data. [...]",
+  "title": "Ransomware recovery CEO charged over secret ransom payments",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2336fb54f5a77733",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
+  "published": "2026-10-07T21:28:54Z",
+  "source": "BleepingComputer",
+  "summary": "The FBI is warning that FortiBleed attacks are still ongoing, targeting exposed Fortinet FortiGate firewalls and SSL VPN gateways and locking out legitimate administrators. [...]",
+  "title": "FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3fa5e913e7da3eb0",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
+  "published": "2026-10-07T20:50:13Z",
+  "source": "BleepingComputer",
+  "summary": "Hackers obtained unauthorized HTTPS certificates for several Google domains and hijacked domains in the country-code top-level domains (ccTLDs) for Ghana, American Samoa, and Sierra Leone after compromising third-party operators and modifying…",
+  "title": "Hackers hijack Google domains after breaching ccTLD registries",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2023-38103",
+   "CVE-2023-38104",
+   "CVE-2026-19389",
+   "CVE-2026-2920",
+   "CVE-2026-2922",
+   "CVE-2026-53703",
+   "CVE-2026-53704"
+  ],
+  "id": "84f4f2d51025a74d",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8896-1",
+  "published": "2026-10-07T19:43:55Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Michael Randrianantenaina discovered that GStreamer's Ugly Plugins incorrectly handled certain malformed RealMedia files. If a user were tricked into opening a crafted media file, an attacker could possibly use this issue to execute arbitrary code.",
+  "title": "USN-8896-1: GStreamer Ugly Plugins vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2022-27664",
+   "CVE-2022-41723",
+   "CVE-2023-3978",
+   "CVE-2024-45338",
+   "CVE-2025-22872",
+   "CVE-2025-47911",
+   "CVE-2025-58190",
+   "CVE-2026-39821"
+  ],
+  "id": "dd966d4fc888b729",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8900-1",
+  "published": "2026-10-07T19:09:10Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that Go Networking did not properly handle server errors after sending a GOAWAY frame during HTTP/2 connection shutdown, which could cause the connection to hang.",
+  "title": "USN-8900-1: Go Networking vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "61603d5b4e9505c7",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/sonicwall-security-advisory-av26-1017",
+  "published": "2026-10-07T19:07:07Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1017 Date: October 7, 2026 As of October 6, 2026, SonicWall is affected by vulnerabilities in the following product: SMA1000 Models - 6210, 7210, 8200v Version 12.4.3-03670 (platform-hotfix) and prior Version 12.5.0-03082…",
+  "title": "SonicWall security advisory (AV26-1017)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "7820cd3cf114054e",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+  "published": "2026-10-07T18:48:17Z",
+  "source": "The Hacker News",
+  "summary": "Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google said on October 6.",
+  "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "80060388d6939b3e",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/wolfssl-security-advisory-av26-1016",
+  "published": "2026-10-07T18:39:37Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1016 Date: October 7, 2026 As of October 7, 2026, wolfSSL is affected by vulnerabilities in the following product: wolfSSH Prior to 1.6.0 The Cyber Centre encourages users and administrators to review the provided web links and…",
+  "title": "wolfSSL security advisory (AV26-1016)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "b3914da245fde683",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/arista-networks-security-advisory-av26-1015",
+  "published": "2026-10-07T18:18:19Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1015 Date: October 7, 2026 As of October 6, 2026, Arista Networks is affected by vulnerabilities in the following product: CloudVision CUE Version 2026.2.0 and prior Version 2021.2.0 and prior Version 2022.2.0 and prior Version…",
+  "title": "Arista Networks security advisory (AV26-1015)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "2baea7d884b4182a",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/amd-security-advisory-av26-1014",
+  "published": "2026-10-07T17:48:08Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1014 Date: October 7, 2026 As of October 6, 2026, AMD is affected by a vulnerability in the following products: AMD Instinct MI210 Versions prior to ROCm 7.14 AMD Instinct MI250 Versions prior to ROCm 7.14 AMD Instinct MI250X…",
+  "title": "AMD security advisory (AV26-1014)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "96513ec096e46a84",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
+  "published": "2026-10-07T17:43:20Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts.",
+  "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "d38ee98e6ebac98d",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/qualcomm-security-advisory-av26-1013",
+  "published": "2026-10-07T17:24:34Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1013 Date: octobre 7, 2026 As of October 5, 2026, Qualcomm published a security bulletin to address vulnerabilities affecting Qualcomm products The Cyber Centre encourages users and administrators to review the provided web link…",
+  "title": "Qualcomm security advisory (AV26-1013)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "e0f62daf731b9bb8",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/jetbrains-security-advisory-av26-1012",
+  "published": "2026-10-07T17:14:28Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1012 Date: October 7, 2026 As of October 6, 2026, JetBrains is affected by vulnerabilities in the following product: TeamCity Prior to 2026.1.32025.11.7 Prior to 2026.2.1 The Cyber Centre encourages users and administrators to…",
+  "title": "JetBrains security advisory (AV26-1012)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2bb0b0fa565ece8c",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
+  "published": "2026-10-07T16:17:44Z",
+  "source": "The Hacker News",
+  "summary": "SonicWall has released hotfixes for four flaws in its SMA1000 appliances, the gateways that give remote workers access to a company's network and applications.",
+  "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-41066",
+   "CVE-2026-49825"
+  ],
+  "id": "52637a7ae809ec1d",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8897-1",
+  "published": "2026-10-07T16:13:52Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Guillem Lefait discovered that lxml incorrectly handled certain URL attributes. A remote attacker could possibly use this issue to bypass URL sanitization, leading to a cross-site scripting attack.",
+  "title": "USN-8897-1: lxml vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "3ffc438c1450ee88",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/hpe-security-advisory-av26-1011",
+  "published": "2026-10-07T15:56:36Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1011 Date: October 7, 2026 As of October 6, 2026, Hewlett Packard Enterprise (HPE) is affected by vulnerabilities in the following products: HPE Networking AOS-Switch (AOS-S) Version 16.11.0031 and prior HP Networking ClearPass…",
+  "title": "HPE security advisory (AV26-1011)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "9196f99df8316ddf",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks/",
+  "published": "2026-10-07T15:44:22Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft announced that it will add .msix and .msixbundle attachments to the list of blocked attachments in Outlook Web and the new Outlook Windows client starting next month. [...]",
+  "title": "Microsoft Outlook to block MSIX attachments starting November",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "9c21f2a6459da3da",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/control-systems-johnson-controls-security-advisory-av26-1010",
+  "published": "2026-10-07T15:39:38Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1010 Date: October 7, 2026 As of October 6, 2026, Johnson Controls is affected by a vulnerability in the following product: Illustra Standard - L4L China Prior to 6.0.0.66394 The Cyber Centre encourages users and administrators…",
+  "title": "[Control Systems] Johnson Controls security advisory (AV26-1010)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "1cc42cf044182b9a",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
+  "published": "2026-10-07T15:34:53Z",
+  "source": "The Hacker News",
+  "summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available.",
+  "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "346b814f1d9cded6",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
+  "published": "2026-10-07T15:33:51Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy cryptocurrency miners and further…",
+  "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "39468c4c2e8d25db",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/veeam-security-advisory-av26-1009",
+  "published": "2026-10-07T15:14:30Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1009 Date: October 7, 2026 As of October 7, 2026, Veeam is affected by vulnerabilities in the following product: Veeam Backup and Replication Prior to 12.3.2.P4 Prior to 13.03 Prior to 13.1 The Cyber Centre encourages users and…",
+  "title": "Veeam security advisory (AV26-1009)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "fdc37a9e6af6dc34",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
+  "published": "2026-10-07T15:04:08Z",
+  "source": "BleepingComputer",
+  "summary": "A cryptomining campaign targeting exposed AI services is using PoeLLM malware to turn compromised servers into scanners and exploit launchpads. [...]",
+  "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-59346",
+   "CVE-2026-59347"
+  ],
+  "id": "46c33fb10091f487",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/broadcom-vmware-security-advisory-av26-1008",
+  "published": "2026-10-07T14:56:11Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1008 Date: October 7, 2026 As of October 7, 2026, VMware is affected by vulnerabilities in the following products: VMware Fusion MacOS Prior to 26H1u1 VMware Workstation Prior to 26H1u1 The Cyber Centre encourages users and…",
+  "title": "Broadcom VMware security advisory (AV26-1008)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "2fcde701295fad5b",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/github-security-advisory-av26-1007",
+  "published": "2026-10-07T14:31:40Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1007 Date: October 7, 2026 As of October 6, 2026, GitHub is affected by vulnerabilities in the following product: Enterprise Server 3.18.0 Prior to 3.18.16 3.19.0 Prior to 3.19.13 3.20.0 Prior to 3.20.9 3.21.0 Prior to 3.21.7…",
+  "title": "GitHub security advisory (AV26-1007)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "a77e10ddfc417e9f",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready/",
+  "published": "2026-10-07T14:01:11Z",
+  "source": "BleepingComputer",
+  "summary": "Ransomware groups are increasingly targeting backup infrastructure to eliminate recovery options and increase pressure on victims to pay.",
+  "title": "Ransomware has a new target. Is your backup ready?",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "eb046f86efffc2cb",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/google-security-advisory-av26-1006",
+  "published": "2026-10-07T13:54:39Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1006 Date: October 7, 2026 As of October 6, 2026, Google is affected by vulnerabilities in the following product: Stable Channel Chrome for Desktop Versions prior to 155.0.8059.39/.40 (Windows/Mac), and 155.0.8059.39 (Linux) The…",
+  "title": "Google security advisory (AV26-1006)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "9e42c327d1802ff0",
+  "kev": false,
+  "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+  "published": "2026-10-07T13:48:45Z",
+  "source": "Krebs on Security",
+  "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang.",
+  "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-21589"
+  ],
+  "id": "135cf296557054fa",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/atlassian-security-advisory-av26-1002",
+  "published": "2026-10-07T13:21:03Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1002 Date: October 5, 2026 Updated: October 7, 2026 As of October 5, 2026, Atlassian is affected by a vulnerability in the following products: Bamboo Data Center Version 10.2.4 and prior Version 12.1.12 and prior Bamboo Server…",
+  "title": "Atlassian security advisory (AV26-1002) - Update 1",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "66a875dbb8996352",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8895-1",
+  "published": "2026-10-07T13:12:22Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that Sudo did not properly handle time-based access restrictions when sudoers rules used NOTBEFORE or NOTAFTER with timestamps omitting the trailing timezone indicator.",
+  "title": "USN-8895-1: Sudo vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-102620",
+   "CVE-2026-102621",
+   "CVE-2026-93312",
+   "CVE-2026-93313",
+   "CVE-2026-93314"
+  ],
+  "id": "db8c27c36458de23",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8894-1",
+  "published": "2026-10-07T13:00:38Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that Poppler had an integer overflow in FoFiTrueType::cvtSfnts. An attacker could possibly use this issue to cause Poppler to crash, resulting in a denial of service, or execute arbitrary code.",
+  "title": "USN-8894-1: poppler vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-21589"
+  ],
+  "id": "0d47aeffa2af1e9b",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
+  "published": "2026-10-07T12:49:01Z",
+  "source": "BleepingComputer",
+  "summary": "A critical vulnerability (CVE-2026-21589) affecting multiple Atlassian product families, including Jira, Confluence, and Bitbucket, is being exploited in attacks that do not require authentication. [...]",
+  "title": "Hackers exploit critical Atlassian flaw after public PoC release",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "eb8a7e1a3511f642",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html",
+  "published": "2026-10-07T11:57:05Z",
+  "source": "The Hacker News",
+  "summary": "The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging inside the systems where work actually happens.",
+  "title": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "99e84aa7281164d1",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
+  "published": "2026-10-07T11:56:56Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Federal Bureau of Investigation (FBI) and Secret Service (USSS) on Tuesday warned that the FortiBleed credential harvesting campaign remains an active threat aimed at internet-facing Fortinet FortiGate firewalls and secure socket layer…",
+  "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-21589"
+  ],
+  "id": "aaa0328cd4f1f330",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
+  "published": "2026-10-07T11:49:26Z",
+  "source": "The Hacker News",
+  "summary": "Threat actors have begun to exploit a newly disclosed critical security flaw impacting Atlassian Data Center products that could allow access to sensitive files under certain conditions.",
+  "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "736af35a9162c677",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html",
+  "published": "2026-10-07T11:42:24Z",
+  "source": "The Hacker News",
+  "summary": "If you’re evaluating an agentic pentesting solution right now, you’ve probably heard the same pitch more than once: point it at a target, and it discovers, validates, and exploits attack paths autonomously, the way a real attacker would.",
+  "title": "What Is Agentic Pentesting? What It Proves, and Where It Stops.",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "1d043224bfbfedd1",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
+  "published": "2026-10-07T11:37:07Z",
+  "source": "BleepingComputer",
+  "summary": "SonicWall has released hotfixes to address a maximum-severity server-side request forgery (SSRF) flaw in SMA1000 series appliances. [...]",
+  "title": "SonicWall warns of max severity SSRF flaw in SMA1000 gateways",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "73004d7302241a34",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/",
+  "published": "2026-10-07T10:35:15Z",
+  "source": "BleepingComputer",
+  "summary": "A North Carolina musician was sentenced to 18 months in prison for collecting more than $10 million in royalties from Spotify, Apple Music, Amazon Music, and YouTube Music in a massive streaming royalty fraud scheme. [...]",
+  "title": "Musician sent to prison for $10 million streaming fraud using AI bots",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "9bb9ffe272a3155f",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/advantest-confirms-personal-information-stolen-in-ransomware-attack/",
+  "published": "2026-10-07T10:27:52Z",
+  "source": "BleepingComputer",
+  "summary": "Advantest Corporation is notifying affected individuals that a ransomware attack earlier this year exposed their personally identifiable data. [...]",
+  "title": "Advantest confirms personal information stolen in ransomware attack",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-19773",
+   "CVE-2026-78161"
+  ],
+  "id": "9a8456aa030ac08d",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8893-1",
+  "published": "2026-10-07T10:05:38Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that libwebsockets did not properly validate user-supplied data when parsing HTTP/2 HPACK path headers, which could result in a write past the end of an allocated buffer.",
+  "title": "USN-8893-1: Libwebsockets vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2025-37823",
+   "CVE-2025-38425",
+   "CVE-2025-38437",
+   "CVE-2025-38494",
+   "CVE-2025-38550",
+   "CVE-2025-38707",
+   "CVE-2025-39730",
+   "CVE-2025-39849",
+   "CVE-2025-39864",
+   "CVE-2026-23222"
+  ],
+  "id": "5b2ff334b6e0ae9c",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/LSN-0122-1",
+  "published": "2026-10-07T09:53:00Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "In the Linux kernel, the following vulnerability has been resolved: fs: dlm: fix use after free in midcomms commit While working on processing dlm message in softirq context I experienced the following KASAN use-after-free warning: .",
+  "title": "LSN-0122-1: Kernel Live Patch Security Notice",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "5327a07ef4fcf90d",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html",
+  "published": "2026-10-07T08:07:38Z",
+  "source": "The Hacker News",
+  "summary": "Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifiers, as the company claimed its Project Glasswing…",
+  "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "e948d4d17f884570",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
+  "published": "2026-10-07T06:57:54Z",
+  "source": "The Hacker News",
+  "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer).",
+  "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "6d87427538f02d80",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
+  "published": "2026-10-06T21:00:27Z",
+  "source": "BleepingComputer",
+  "summary": "Hackers are exploiting stored cross-site scripting (XSS) vulnerabilities in two unrelated WordPress plugins, Ninja Forms and WPC Product Bundles for WooCommerce, to install backdoors and create rogue admin accounts. [...]",
+  "title": "Ninja Forms plugin flaw exploited to hack WordPress sites",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "ca0452599e23446c",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8892-1",
+  "published": "2026-10-06T20:11:42Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Darshan U discovered that Ubuntu Pro for WSL exposed the attach token in command-line arguments when enabling a subscription on a WSL instance.",
+  "title": "USN-8892-1: Ubuntu Pro for WSL vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-91140"
+  ],
+  "id": "5764d92e1b5d8f36",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/progress-security-advisory-av26-1005",
+  "published": "2026-10-06T19:42:39Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1005 Date: October 6, 2026 As of October 6, 2026, Progress Software is affected by a vulnerability in the following product: Progress Software Autonomous REST Connector GenAI Agents ARCGenAI-Generator Prior to 2.1 The Cyber…",
+  "title": "Progress security advisory (AV26-1005)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "0384fc66c0f5d6c8",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/",
+  "published": "2026-10-06T19:21:53Z",
+  "source": "BleepingComputer",
+  "summary": "On the first day of the Pwn2Own Ireland 2026 competition, security researchers hacked the Samsung Galaxy S26 twice and earned $388,500 after exploiting 32 zero-days. [...]",
+  "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "58297090e3916755",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
+  "published": "2026-10-06T18:38:55Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have disclosed details of a \"human-operated phishing platform\" that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic Claude, OpenAI ChatGPT, Perplexity, Meta Muse…",
+  "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "0d9a96f5f2a73b43",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
+  "published": "2026-10-06T18:24:25Z",
+  "source": "The Hacker News",
+  "summary": "Linux backdoors targeting telecom and network appliances in South Korea and Taiwan have been disguising their traffic as email services and seemingly legitimate processes to blend in and evade detection.",
+  "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-78411"
+  ],
+  "id": "46e44896ea5efc15",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/rapid7-security-advisory-av26-1004",
+  "published": "2026-10-06T17:56:12Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1004 Date: October 6, 2026 As of October 5, 2026, Rapid7 is affected by a vulnerability in the following product: Velociraptor Prior to 0.77.3 The Cyber Centre encourages users and administrators to review the provided web links…",
+  "title": "Rapid7 security advisory (AV26-1004)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "19696629eafbcc19",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8891-1",
+  "published": "2026-10-06T17:47:29Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that librsvg incorrectly handled duplicate XML entity declarations while processing SVG documents containing nested XML inclusions. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code.",
+  "title": "USN-8891-1: librsvg vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-21589"
+  ],
+  "id": "49df1a74fa621be9",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/",
+  "published": "2026-10-06T17:34:59Z",
+  "source": "BleepingComputer",
+  "summary": "Atlassian is warning customers of a critical vulnerability, tracked as CVE-2026-21589, that can be exploited for arbitrary file-access in multiple self-hosted Data Center products, including Confluence, Jira, and Bitbucket. [...]",
+  "title": "Atlassian warns of critical file-access flaw in Jira, Confluence",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-4271",
+   "CVE-2026-5119",
+   "CVE-2026-6324",
+   "CVE-2026-66339",
+   "CVE-2026-77014",
+   "CVE-2026-77680",
+   "CVE-2026-85197",
+   "CVE-2026-85534"
+  ],
+  "id": "88cadda7b849f053",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8890-1",
+  "published": "2026-10-06T16:43:00Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that libsoup incorrectly handled certain HTTP/2 requests. A remote attacker could possibly use this issue to cause a denial of service. This issue only affected Ubuntu 24.04 LTS and Ubuntu 26.04 LTS.",
+  "title": "USN-8890-1: libsoup vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "86ce1e36e486ff8a",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/android-security-advisory-october-2026-monthly-rollup-av26-1003",
+  "published": "2026-10-06T13:59:04Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1003 Date: October 6, 2026 As of October 5, 2026, Android published a security bulletin to address vulnerabilities affecting Android devices.",
+  "title": "Android security advisory – October 2026 monthly rollup (AV26-1003)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2024-8176",
+   "CVE-2025-59375"
+  ],
+  "id": "f64e7dac9ab9b33b",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-05",
+  "published": "2026-10-06T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Hitachi Energy is aware of open-source software vulnerabilities that affect REB500 product versions listed in this document. These vulnerabilities can be exploited to carry out Denial of Service (DoS) attack on the product.",
+  "title": "Hitachi Energy REB500",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-34197"
+  ],
+  "id": "e24922f1a6ddb4f7",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-04",
+  "published": "2026-10-06T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Hitachi Energy is aware of RCE (Remote Code Execution) vulnerability in Apache ActiveMQ component of SOI product versions listed in this document.",
+  "title": "Hitachi Energy SOI",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2010-2965",
+   "CVE-2014-9195",
+   "CVE-2023-46143",
+   "CVE-2026-8065",
+   "CVE-2026-8066",
+   "CVE-2026-8067"
+  ],
+  "id": "c040950ba967373c",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-06",
+  "published": "2026-10-06T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Hitachi Energy is publishing this cybersecurity advisory in response to the security findings reported by Dragos affecting end-of-life RTU500 CMU firmware version 9.x.",
+  "title": "Hitachi Energy RTU500",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-27872",
+   "CVE-2026-27873"
+  ],
+  "id": "aa45918a916b801c",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-01",
+  "published": "2026-10-06T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain full unauthorized access to the device.",
+  "title": "Johnson Controls EasyIO FG",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-15340"
+  ],
+  "id": "9f4c42dc2c84915d",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-02",
+  "published": "2026-10-06T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of this vulnerability could crash the device being accessed; a buffer overflow condition may allow remote code execution.",
+  "title": "Savannah lwIP SMTP client",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-11796",
+   "CVE-2026-7395"
+  ],
+  "id": "68bf941641a719b7",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-03",
+  "published": "2026-10-06T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Hitachi Energy is aware of unauthenticated servlet access vulnerabilities that affect Asset Suite product versions listed in this document.",
+  "title": "Hitachi Energy Asset Suite",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f107108232dc7571",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
+  "published": "2026-10-06T11:57:00Z",
+  "source": "The Hacker News",
+  "summary": "A malicious spreadsheet can make LibreOffice and Apache OpenOffice run an attacker's code as soon as the file is opened, security researchers have shown. There is no warning first, of the kind either program shows before it runs a macro.",
+  "title": "LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "e04834116e750743",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
+  "published": "2026-10-06T11:26:25Z",
+  "source": "The Hacker News",
+  "summary": "The Wikimedia Foundation, which hosts Wikipedia, has confirmed that it has discovered activity by rogue OpenAI agents on its platforms, including unsuccessful efforts to compromise Etherpad, a public note-taking tool, and edit Wikipedia pages.",
+  "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-96940"
+  ],
+  "id": "e011709759312ece",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/microsoft-security-advisory-av26-1001",
+  "published": "2026-10-05T18:53:16Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1001 Date: October 5, 2026 As of October 2, 2026, Microsoft is affected by a vulnerability in the following products: Microsoft Exchange Server 2016 Cumulative Update 23 Prior to 15.01.2507.075 Microsoft Exchange Server 2019…",
+  "title": "Microsoft security advisory (AV26-1001)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "1ffb6e1530729b35",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/hpe-security-advisory-av26-1000",
+  "published": "2026-10-05T18:16:59Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1000 Date: October 5, 2026 As of October 5, 2026, Hewlett Packard Enterprise (HPE) is affected by a vulnerability in the following product: HPE Integrated Lights-Out (iLO) 7 Prior to 1.25.00 The Cyber Centre encourages users and…",
+  "title": "HPE security advisory (AV26-1000)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-77805"
+  ],
+  "id": "d4dc83c005d709ca",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/progress-security-advisory-av26-999",
+  "published": "2026-10-05T18:01:21Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-999 Date: October 5, 2026 As of October 5, 2026, Progress Software is affected by vulnerabilities in the following product: Progress Telerik Fiddler Classic Prior to 6.0.20262.10021 @progress/sitefinity-nextjs-sdk Prior to…",
+  "title": "Progress security advisory (AV26-999)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "ce5d5126f0891751",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/control-systems-geovision-security-advisory-av26-998",
+  "published": "2026-10-05T17:47:59Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-998 Date: October 5, 2026 As of October 2, 2026, GeoVision Inc. is affected by vulnerabilities in the following product: GV-Eye Versions prior to V3.6.0 Android The Cyber Centre encourages users and administrators to review the…",
+  "title": "[Control systems] GeoVision security advisory (AV26-998)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-88779"
+  ],
+  "id": "38097a6cba0041fb",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/10/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+  "published": "2026-10-04T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-88779"
+  ],
+  "id": "eb4e145c93778d3e",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-88779",
+  "published": "2026-10-04T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Citrix NetScaler ADC (formerly Citrix ADC) and Citrix NetScaler Gateway (formerly Citrix Gateway) contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for a denial of service.",
+  "title": "CVE-2026-88779: Citrix NetScaler (Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-102489",
+   "CVE-2026-102490"
+  ],
+  "id": "93ca50e1968c3143",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/10/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+  "published": "2026-10-02T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-102489",
+   "CVE-2026-102490"
+  ],
+  "id": "e527164b8dd6ec0d",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-102490",
+  "published": "2026-10-02T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Zammad GmbH Zammad contains an improper privilege management vulnerability that can allow the local zammad user to escalate privileges to root. This vulnerability can be chained with CVE-2026-102489.",
+  "title": "CVE-2026-102490: Zammad GmbH Zammad (Zammad GmbH Zammad Improper Privilege Management Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-102489",
+   "CVE-2026-102490"
+  ],
+  "id": "283d23c3713f8add",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-102489",
+  "published": "2026-10-02T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Zammad GmbH Zammad contains a session fixation vulnerability that can lead to remote code execution as the zammad user. This vulnerability can be chained with CVE-2026-102490.",
+  "title": "CVE-2026-102489: Zammad GmbH Zammad (Zammad GmbH Zammad Session Fixation Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2023-46604",
+   "CVE-2026-94591",
+   "CVE-2026-94592",
+   "CVE-2026-94593",
+   "CVE-2026-94594"
+  ],
+  "id": "f915cb35536d1b9b",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-01",
+  "published": "2026-10-01T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to the database, execute arbitrary code on the host with the highest level of privilege, or gain control of the physical…",
+  "title": "Armatura LLC Armatura One",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-15952",
+   "CVE-2026-15953"
+  ],
+  "id": "e0b549774922648e",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-03",
+  "published": "2026-10-01T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to escalate privileges or overwrite files.",
+  "title": "ABB Protection and Control IED Manager PCM600",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-101104",
+   "CVE-2026-96613"
+  ],
+  "id": "ada6d22ce129bfe0",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-06",
+  "published": "2026-10-01T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to manipulate device configurations, trigger unauthorized behaviors, and access sensitive information such as device credentials, owner details, and network…",
+  "title": "Meari IoT Cloud Platform OpenAPI Service",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-104286"
+  ],
+  "id": "86ff53f41f1ace39",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/10/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+  "published": "2026-10-01T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-64892"
+  ],
+  "id": "79e19a2d17edffc2",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-04",
+  "published": "2026-10-01T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain access to sensitive information that could be used to conduct further attacks against the system.",
+  "title": "Johnson Controls EasyIO Neo Series EC and CW Controllers",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-64893"
+  ],
+  "id": "714e885304e2ca10",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-05",
+  "published": "2026-10-01T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker tointercept and read sensitive information, including credentials andsession data.",
+  "title": "Johnson Controls EasyIO Neo Series EC and CW Controllers",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-93474",
+   "CVE-2026-95102",
+   "CVE-2026-97212",
+   "CVE-2026-97363"
+  ],
+  "id": "18e3b88c1f59d77c",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-02",
+  "published": "2026-10-01T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services through denial-of-service attacks.",
+  "title": "Monta monta.app",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-90443",
+   "CVE-2026-90444",
+   "CVE-2026-90445",
+   "CVE-2026-90446",
+   "CVE-2026-90447",
+   "CVE-2026-90448",
+   "CVE-2026-90449",
+   "CVE-2026-90450",
+   "CVE-2026-90451",
+   "CVE-2026-90452"
+  ],
+  "id": "153ae15346e74284",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-254-01",
+  "published": "2026-10-01T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary The following versions of CISA Malcolm are affected: Malcolm CVSS Vendor Equipment Vulnerabilities v3 8.8 CISA CISA Malcolm Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'), Improper…",
+  "title": "CISA Malcolm",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-104286"
+  ],
+  "id": "333ba947414710a9",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-104286",
+  "published": "2026-10-01T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Fortinet FortiMail contains a path traversal and an improper neutralization of NULL byte or NULL character vulnerability that may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.",
+  "title": "CVE-2026-104286: Fortinet FortiMail (Fortinet FortiMail Path Traversal Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76504"
+  ],
+  "id": "46e02bbeedb8b3b6",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/09/30/cisa-adds-one-known-exploited-vulnerability-catalog",
+  "published": "2026-09-30T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-76504"
+  ],
+  "id": "21abc07d0119f136",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76504",
+  "published": "2026-09-30T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Cisco Catalyst SD-WAN Manager contains a hex encoding vulnerability that could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user due to improper handling of URI encoding in an HTTP request.",
+  "title": "CVE-2026-76504: Cisco Catalyst SD-WAN Manager (Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-84409",
+   "CVE-2026-91191"
+  ],
+  "id": "dfd6cb77e0f4ae93",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-01",
+  "published": "2026-09-29T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to replace software and execute arbitrary code with root privileges.",
+  "title": "Lantronix G520 Series Cellular Gateway",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-84411"
+  ],
+  "id": "d4fd692ee37269eb",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-06",
+  "published": "2026-09-29T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to achieve remote code execution or cause a denial of service.",
+  "title": "MikroTik RouterOS",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-96274"
+  ],
+  "id": "1543e9a733b44842",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-04",
+  "published": "2026-09-29T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to inject malformed messages which may lead to a denial-of-service condition.",
+  "title": "Baicells Nova 430H",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-86950"
+  ],
+  "id": "cfcc9de158939639",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86950",
+  "published": "2026-09-29T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Apple iOS, macOS, and iPadOS contain an out-of-bounds write vulnerability in CoreGraphics that may lead to arbitrary code execution.",
+  "title": "CVE-2026-86950: Apple Multiple Products (Apple Multiple Products Out-of-Bounds Write Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "e656f274f93335aa",
+  "kev": false,
+  "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
+  "published": "2026-09-28T15:08:57Z",
+  "source": "Krebs on Security",
+  "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters.",
+  "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
+  "trust": "media"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-88771"
+  ],
+  "id": "e922c4388a971d47",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-88771",
+  "published": "2026-09-27T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Citrix NetScaler ADC and NetScaler Gateway contain an improper input validation vulnerability that could allow an unauthenticated attacker to execute arbitrary commands.",
+  "title": "CVE-2026-88771: Citrix NetScaler (Citrix NetScaler Improper Input Validation Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-88772"
+  ],
+  "id": "9d86ad954c0105cb",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-88772",
+  "published": "2026-09-27T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for remote code execution or denial of service",
+  "title": "CVE-2026-88772: Citrix NetScaler (Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "a6a291d54dd2812a",
+  "kev": false,
+  "link": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
+  "published": "2026-09-25T21:44:40Z",
+  "source": "Krebs on Security",
+  "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&T customers in 2024 was sentenced to 70 months in federal prison today and ordered…",
+  "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
+  "trust": "media"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-67279",
+   "CVE-2026-86060"
+  ],
+  "id": "fbaf4233a25e5ccb",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-67279",
+  "published": "2026-09-25T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Mikrotik RouterOS contains an improper enforcement of behavioral workflow vulnerability that could allow an unauthenticated client to open a session channel and send an exec request.",
+  "title": "CVE-2026-67279: MikroTik RouterOS (Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-87902"
+  ],
+  "id": "f15a88cd1bc476b9",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-87902",
+  "published": "2026-09-25T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "WordPress Core contains a remote file inclusion vulnerability which could allow an unauthenticated attacker to make page-template resolution include a chosen readable local `.php` file outside the active theme directories, leading to remote code…",
+  "title": "CVE-2026-87902: WordPress Core (WordPress Core Remote File Inclusion Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-65660"
+  ],
+  "id": "650ae3bca605ccce",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-65660",
+  "published": "2026-09-25T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Microsoft SharePoint contains a code injection vulnerability which could allow an authorized attacker to execute code over a network.",
+  "title": "CVE-2026-65660: Microsoft SharePoint (Microsoft SharePoint Code Injection Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-71362"
+  ],
+  "id": "a5a16eab52367ffa",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-71362",
+  "published": "2026-09-24T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Adobe Commerce and Magento contains an incorrect authorization vulnerability that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any user interaction.",
+  "title": "CVE-2026-71362: Adobe Commerce and Magento (Adobe Commerce and Magento Incorrect Authorization Vulnerability )",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-5430"
+  ],
+  "id": "076ee87a7133c9d8",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-5430",
+  "published": "2026-09-24T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "WSO2 API Control Plane, API Manager, Traffic Manager & Universal Gateway contain a path traversal vulnerability that could allow for unrestricted file upload and lead to remote code execution.",
+  "title": "CVE-2026-5430: WSO2 Multiple Products (WSO2 Multiple Products Path Traversal Vulnerability )",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-85102"
+  ],
+  "id": "988e4df10488a6f8",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-85102",
+  "published": "2026-09-22T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Check Point Security Gateway and Check Point Spark Firewall using Site to Site VPN or Remote Access VPN contain an improper certificate validation vulnerability which could allow an unauthenticated remote attacker to execute arbitrary code on the…",
+  "title": "CVE-2026-85102: Check Point Multiple Products (Check Point Multiple Products Improper Certificate Validation Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-93952"
+  ],
+  "id": "6e1342348d4accdc",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-93952",
+  "published": "2026-09-22T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Arista VeloCloud Orchestrator (VCO) on-prem contains an improper input validation vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host.",
+  "title": "CVE-2026-93952: Arista VeloCloud Orchestrator (Arista VeloCloud Orchestrator Improper Input Validation Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-93616"
+  ],
+  "id": "440baa50dfc2a34a",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-93616",
+  "published": "2026-09-22T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Check Point Security Management Server, Multi-Domain Security Management Server, Log Server, Multi-Domain Log Server, and SmartEvent contain a path traversal vulnerability that allows an unauthenticated attacker to upload and execute arbitrary…",
+  "title": "CVE-2026-93616: Check Point Multiple Products (Check Point Multiple Products Path Traversal Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-94127"
+  ],
+  "id": "421e9129b2aed79a",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-94127",
+  "published": "2026-09-22T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "F5 BIG-IP APM contains a heap-based buffer overflow vulnerability when access policy and an OAuth profile are configured on a virtual server. This vulnerability could allow an unauthenticated attacker to perform remote code execution.",
+  "title": "CVE-2026-94127: F5 BIG-IP APM (F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-7273"
+  ],
+  "id": "a50e0bd5643fde21",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-7273",
+  "published": "2026-09-21T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Zyxel GS1900 series switches contain a stack-based buffer overflow vulnerability in the CGI program which could allow a LAN-based, unauthenticated attacker to exploit the flaw and potentially execute OS commands via a crafted HTTP request.",
+  "title": "CVE-2026-7273: Zyxel GS1900 Series Switches (Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2025-39964"
+  ],
+  "id": "f5b72306349c6ed9",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-39964",
+  "published": "2026-09-18T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Linux Kernel contains a race condition vulnerability which allows concurrent writes to the same AF_ALG socket causing data to be unpredictably interleaved and creating inconsistencies in the socket's internal state.",
+  "title": "CVE-2025-39964: Linux Kernel (Linux Kernel Race Condition Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-53266"
+  ],
+  "id": "51f8ff209684be91",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-53266",
+  "published": "2026-09-18T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Linux Kernel contains an out-of-bounds write vulnerability in the ebtables SNAT target which allows an ARP sender hardware address rewrite to write directly into a nonlinear socket-buffer fragment backed by a splice-imported file page.",
+  "title": "CVE-2026-53266: Linux Kernel (Linux Kernel Out-of-Bounds Write Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3ae7aa31680bb222",
+  "kev": false,
+  "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
+  "published": "2026-09-16T18:14:22Z",
+  "source": "Krebs on Security",
+  "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online.",
+  "title": "Data Broker Radaris Loses Domains in Privacy Fight",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "8cf2af5c08678b18",
+  "kev": false,
+  "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+  "published": "2026-09-08T21:44:22Z",
+  "source": "Krebs on Security",
+  "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever.",
+  "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "e6bb781d40972747",
+  "kev": false,
+  "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+  "published": "2026-09-01T22:40:28Z",
+  "source": "Krebs on Security",
+  "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada.",
+  "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3bbe7166816efb64",
+  "kev": false,
+  "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
+  "published": "2026-08-27T11:04:15Z",
+  "source": "Krebs on Security",
+  "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever.",
+  "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "d0cbbd4a546d9488",
+  "kev": false,
+  "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+  "published": "2026-08-14T11:24:35Z",
+  "source": "Krebs on Security",
+  "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day.",
+  "title": "Who’s Tracking You? Use This New Service to Find Out",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "23056da7e0fd2ea2",
+  "kev": false,
+  "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+  "published": "2026-08-11T21:28:35Z",
+  "source": "Krebs on Security",
+  "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed…",
+  "title": "Microsoft Plugs Nearly 400 Security Holes",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "4ce89d483b5e4b15",
+  "kev": false,
+  "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+  "published": "2026-08-06T17:00:56Z",
+  "source": "Krebs on Security",
+  "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider…",
+  "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+  "trust": "media"
+ }
+]
