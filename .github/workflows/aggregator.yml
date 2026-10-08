@@ -21,7 +21,7 @@ jobs:
       new_items: ${{ steps.collect.outputs.new_items }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
           cache: pip
@@ -49,7 +49,7 @@ jobs:
         with:
           ref: ${{ github.ref_name }}   # latest branch tip, includes the data commit
           persist-credentials: false
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
           cache: pip
