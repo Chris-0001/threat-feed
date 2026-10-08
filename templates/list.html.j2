@@ -1,0 +1,17 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<h1>{{ heading }}</h1>
+<p class="intro">{{ intro }}</p>
+{% for it in items %}
+<article class="item cat-{{ it.category }}">
+<p class="meta"><span class="cat">{{ categories[it.category] }}</span><span>{{ it.source }}</span><span>{{ it.trust }} source</span><time datetime="{{ it.published }}">{{ it.published[:10] }}</time></p>
+<h2><a href="{{ it.link }}" rel="noopener noreferrer nofollow">{{ it.title }}</a></h2>
+{% if it.summary %}<p class="sum">{{ it.summary }}</p>{% endif %}
+{% if it.kev or it.cves %}
+<p class="tags">{% if it.kev %}<span class="kev">Exploited in the wild</span>{% endif %}{% for c in it.cves %}<a href="https://nvd.nist.gov/vuln/detail/{{ c }}" rel="noopener noreferrer nofollow">{{ c }}</a>{% endfor %}</p>
+{% endif %}
+</article>
+{% else %}
+<p class="empty">Nothing here yet. Items appear after the next hourly run.</p>
+{% endfor %}
+{% endblock %}

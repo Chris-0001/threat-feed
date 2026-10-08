@@ -1,0 +1,12 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<h1>Archive</h1>
+<p class="intro">Every item, grouped by the month it was first collected. Past months never change.</p>
+<ul class="plain">
+{% for m, n in months %}
+<li><a href="{{ m }}.html">{{ m }}</a> <span class="count">{{ n }} items</span></li>
+{% else %}
+<li class="empty">No archive yet.</li>
+{% endfor %}
+</ul>
+{% endblock %}

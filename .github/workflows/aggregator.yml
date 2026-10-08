@@ -1,0 +1,74 @@
+name: Threat feed
+
+on:
+  schedule:
+    - cron: '17 * * * *'   # hourly, off the :00 rush
+  workflow_dispatch:
+
+concurrency:
+  group: threat-feed
+  cancel-in-progress: false
+
+permissions: {}            # deny by default; each job asks for what it needs
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write      # only to commit data/
+    outputs:
+      new_items: ${{ steps.collect.outputs.new_items }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install --require-hashes -r requirements.txt
+      - id: collect
+        run: python main.py collect
+      - name: Commit data
+        run: |
+          git config user.name "threat-feed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && exit 0
+          git commit -m "data: new items $(date -u +%F)"
+          git push
+
+  build:
+    needs: collect
+    if: needs.collect.outputs.new_items != '0' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read       # no write access, no secrets
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}   # latest branch tip, includes the data commit
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install --require-hashes -r requirements.txt
+      - run: python main.py build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

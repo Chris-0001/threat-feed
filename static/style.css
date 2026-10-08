@@ -1,0 +1,29 @@
+:root{--bg:#eef1f4;--ink:#161b22;--mute:#59626e;--line:#cdd5de;--card:#fff;--link:#0b4f9c;--on:#fff;
+--c-exploited:#c4271b;--c-advisories:#a86a0e;--c-news:#2b6cb0;--c-research:#2a7a52}
+@media (prefers-color-scheme:dark){:root{--bg:#12161b;--ink:#e6eaef;--mute:#9aa4b0;--line:#2a323c;--card:#1a2028;--link:#8ab8f0;--on:#12161b;
+--c-exploited:#ff7b6e;--c-advisories:#e5ad55;--c-news:#74aeea;--c-research:#62c592}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header,main,footer{max-width:46rem;margin:0 auto;padding:0 1rem}
+header{padding-top:1.25rem}
+a{color:var(--link)}
+a:focus-visible{outline:3px solid var(--link);outline-offset:2px}
+.brand{font-weight:800;font-size:1.4rem;letter-spacing:-.02em;color:var(--ink);text-decoration:none}
+nav{display:flex;flex-wrap:wrap;gap:.2rem 1rem;margin:.6rem 0 1.25rem;padding-bottom:.6rem;border-bottom:1px solid var(--line)}
+nav a{color:var(--mute);text-decoration:none;padding:.15rem 0;border-bottom:2px solid transparent}
+nav a[aria-current]{color:var(--ink);font-weight:700;border-bottom-color:var(--ink)}
+h1{font-size:1.6rem;line-height:1.2;margin:0 0 .25rem;letter-spacing:-.01em}
+.intro{margin:0 0 1.25rem;color:var(--mute)}
+.item{background:var(--card);border-left:5px solid var(--cat,var(--line));padding:.8rem 1rem;margin:0 0 .75rem;border-radius:2px}
+.cat-exploited{--cat:var(--c-exploited)}.cat-advisories{--cat:var(--c-advisories)}
+.cat-news{--cat:var(--c-news)}.cat-research{--cat:var(--c-research)}
+.meta{display:flex;flex-wrap:wrap;gap:0 .9rem;margin:0;color:var(--mute);font-size:.85rem}
+.meta .cat{color:var(--cat);font-weight:700}
+.item h2{font-size:1.05rem;line-height:1.35;margin:.2rem 0 .3rem;overflow-wrap:anywhere}
+.sum{margin:0 0 .3rem;overflow-wrap:anywhere}
+.tags{display:flex;flex-wrap:wrap;gap:.2rem .7rem;margin:.3rem 0 0;font-size:.85rem}
+.kev{background:var(--c-exploited);color:var(--on);padding:0 .5rem;border-radius:2px;font-weight:700}
+.plain{list-style:none;padding:0}.plain li{margin:0 0 .9rem}
+.count,.empty{color:var(--mute)}
+code{font-size:.85rem;overflow-wrap:anywhere}
+footer{color:var(--mute);font-size:.85rem;padding-bottom:2rem;margin-top:1.5rem}

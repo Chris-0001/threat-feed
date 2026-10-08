@@ -1,0 +1,11 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<h1>Subscribe</h1>
+<p class="intro">Add any of these addresses to an RSS reader, such as Feeder on Android or NewsFlash on Linux. Turn on notifications only for the feeds you want to be interrupted by.</p>
+<ul class="plain">
+<li><a href="{{ site_url }}feeds/all.xml">All categories</a><br><code>{{ site_url }}feeds/all.xml</code></li>
+{% for slug, label in categories.items() %}
+<li><a href="{{ site_url }}feeds/{{ slug }}.xml">{{ label }}</a><br><code>{{ site_url }}feeds/{{ slug }}.xml</code></li>
+{% endfor %}
+</ul>
+{% endblock %}

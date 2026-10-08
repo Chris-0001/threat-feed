@@ -1,0 +1,9 @@
+[
+  {"name": "CISA KEV", "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json", "category": "exploited", "trust": "official", "type": "kev", "link_domains": ["nvd.nist.gov"]},
+  {"name": "CISA Advisories", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml", "category": "advisories", "trust": "official", "link_domains": ["cisa.gov"]},
+  {"name": "Ubuntu Security Notices", "url": "https://ubuntu.com/security/notices/rss.xml", "category": "advisories", "trust": "official", "link_domains": ["ubuntu.com"]},
+  {"name": "Canadian Cyber Centre", "url": "https://www.cyber.gc.ca/api/cccs/atom/v1/get?feed=alerts_advisories&lang=en", "category": "advisories", "trust": "official", "link_domains": ["cyber.gc.ca"]},
+  {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/", "category": "news", "trust": "media", "link_domains": ["bleepingcomputer.com"]},
+  {"name": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews", "category": "news", "trust": "media", "link_domains": ["thehackernews.com"]},
+  {"name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/", "category": "news", "trust": "media", "link_domains": ["krebsonsecurity.com"]}
+]
