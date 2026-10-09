@@ -1,5 +1,177 @@
 [
  {
+  "category": "advisories",
+  "cves": [],
+  "id": "a93c51d2287a9246",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/smartertools-security-advisory-av26-1026",
+  "published": "2026-10-09T19:25:04Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1026 Date: October 9, 2026 As of October 8, 2026, SmarterTools is affected by a vulnerability in the following product: SmarterMail Prior to Build 9777 The Cyber Centre encourages users and administrators to review the provided…",
+  "title": "SmarterTools security advisory (AV26-1026)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "df76abc5bf3cc2fc",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/mongodb-security-advisory-av26-1024",
+  "published": "2026-10-09T18:05:36Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1024 Date: October 9, 2026 As of October 8, 2026, MongoDB is affected by vulnerabilities in the following products: Go Driver Prior to 2.9.0 Prior to 2.9.2 libmongocrypt Prior to 1.20.5 The Cyber Centre encourages users and…",
+  "title": "MongoDB security advisory (AV26-1024)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "891440ea61daca83",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/hpe-security-advisory-av26-1025",
+  "published": "2026-10-09T18:02:41Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1025 Date: October 9, 2026 As of October 8, 2026, Hewlett Packard Enterprise is affected by vulnerabilities in the following products: HPE Intelligent Management Center (iMC) Prior to 7.3 E0713 HPE Intelligent Assurance FAS/PDO…",
+  "title": "HPE security advisory (AV26-1025)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "680031f976976d67",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
+  "published": "2026-10-09T17:45:26Z",
+  "source": "The Hacker News",
+  "summary": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a post on X.",
+  "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "a6baf81ca93c392c",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
+  "published": "2026-10-09T17:17:23Z",
+  "source": "BleepingComputer",
+  "summary": "Threat actors are exploiting one critical and one medium-severity vulnerability still unpatched in the AhsayCBS backup management platform to deploy webshells and cryptocurrency miners. [...]",
+  "title": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "88a0cfb1da9a790e",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/",
+  "published": "2026-10-09T17:02:29Z",
+  "source": "BleepingComputer",
+  "summary": "The FBI has arrested another suspected member of the ShinyHunters extortion group believed to be involved in the recent breach of FBI systems, Director Kash Patel announced Friday. [...]",
+  "title": "FBI arrests another suspected ShinyHunters hacker after agency breach",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "5283200f328277c3",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+  "published": "2026-10-09T16:29:55Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword.",
+  "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "d5b9d7c8fc81ee4a",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/",
+  "published": "2026-10-09T15:38:56Z",
+  "source": "BleepingComputer",
+  "summary": "Germany has arrested a Russian national suspected of being a leading member of the Qilin ransomware group following extradition from Japan earlier this month. [...]",
+  "title": "Germany arrests alleged core Qilin ransomware member after extradition",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "67ae392c9781a836",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/",
+  "published": "2026-10-09T14:01:11Z",
+  "source": "BleepingComputer",
+  "summary": "AI agents can use valid credentials to perform actions beyond their assigned permissions, creating risks that traditional access controls may not prevent.",
+  "title": "How to keep AI agents within their permissions",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-107406"
+  ],
+  "id": "6fad47640b4d6216",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/citrix-security-advisory-av26-1023",
+  "published": "2026-10-09T13:31:29Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1023 Date: October 9, 2026 NetScaler ADC and NetScaler Gateway Prior to 13.1-64.29 Prior to 14.1-73.46 NetScaler ADC FIPS Prior to 14.1-73.46 FIPS Prior to 13.1-37.283 FIPS & NDcPP The Cyber Centre encourages users and…",
+  "title": "Citrix security advisory (AV26-1023)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "d117cb5f06f99c6f",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
+  "published": "2026-10-09T13:22:53Z",
+  "source": "The Hacker News",
+  "summary": "Four more U.S. states sued router maker TP-Link Systems on October 6, bringing the total to five, with Texas filing a suit in February.",
+  "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "65f3f6f758dc931a",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
+  "published": "2026-10-09T12:59:22Z",
+  "source": "The Hacker News",
+  "summary": "Security researchers have published a full working exploit for a pre-authentication remote code execution flaw in AnyDesk Linux that gives attackers root access before anyone approves the connection.",
+  "title": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "71d71e86b4ce6c51",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
+  "published": "2026-10-09T12:47:28Z",
+  "source": "The Hacker News",
+  "summary": "Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI).",
+  "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-105133"
+  ],
+  "id": "2b84161ee0c3987d",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
+  "published": "2026-10-09T12:47:26Z",
+  "source": "The Hacker News",
+  "summary": "Threat actors have been observed exploiting two recently disclosed flaws in the AhsayCBS backup utility to seize control of affected devices and deploy web shells and XMRig cryptocurrency miners.",
+  "title": "Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge",
+  "trust": "media"
+ },
+ {
   "category": "news",
   "cves": [
    "CVE-2026-102255"
