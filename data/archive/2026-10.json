@@ -2,6 +2,18 @@
  {
   "category": "news",
   "cves": [],
+  "id": "de6bbcc142adb5d2",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
+  "published": "2026-10-09T05:41:04Z",
+  "source": "BleepingComputer",
+  "summary": "The Pwn2Own Ireland 2026 hacking contest has concluded, with hackers collecting $1,262,000 in rewards after exploiting 98 zero-day flaws. [...]",
+  "title": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "c088bb527b3d7368",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
