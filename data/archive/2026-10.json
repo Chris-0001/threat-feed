@@ -1,6 +1,247 @@
 [
  {
   "category": "news",
+  "cves": [
+   "CVE-2026-102255"
+  ],
+  "id": "e536097a4953cbf2",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/",
+  "published": "2026-10-09T12:32:16Z",
+  "source": "BleepingComputer",
+  "summary": "Attackers are exploiting a maximum-severity vulnerability in SonicWall SMA1000 appliances (CVE-2026-102255) that was patched on Tuesday, three days ago. [...]",
+  "title": "Max severity SonicWall SMA1000 flaw now exploited in attacks",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2015-3306"
+  ],
+  "id": "3ae8f5f75eaceb3e",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
+  "published": "2026-10-09T12:21:51Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added five security flaws to its Known Exploited Vulnerabilities (KEV) catalog, following their abuse by a China-linked threat actor known as Flax Typhoon.",
+  "title": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-43095",
+   "CVE-2026-52914",
+   "CVE-2026-52931",
+   "CVE-2026-52955",
+   "CVE-2026-52958",
+   "CVE-2026-52982",
+   "CVE-2026-52986",
+   "CVE-2026-52993",
+   "CVE-2026-52999",
+   "CVE-2026-53002"
+  ],
+  "id": "777e21b1eb6ab8f9",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8911-1",
+  "published": "2026-10-09T11:58:11Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Hardware crypto device drivers; - NVIDIA Tegra memory controller…",
+  "title": "USN-8911-1: Linux kernel (OEM) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "361a96168a111610",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
+  "published": "2026-10-09T11:30:00Z",
+  "source": "The Hacker News",
+  "summary": "As enterprises race to deploy autonomous AI agents to accelerate business, a new report reveals they are tethered to security architectures built for a different era.",
+  "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ca96ca498e9cd9d5",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals/",
+  "published": "2026-10-09T11:14:28Z",
+  "source": "BleepingComputer",
+  "summary": "​A Ukrainian-Russian dual citizen has pleaded guilty to running a massive money laundering operation that laundered millions for cybercriminals worldwide. [...]",
+  "title": "Man admits to running network of 15,000 money mules for cybercriminals",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "86f5d2be99172570",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outdated-windows-devices-will-lose-security-protection-next-year/",
+  "published": "2026-10-09T10:12:24Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft says devices running unsupported versions of Windows will stop receiving security updates after next year's Windows Update certificate rotation. [...]",
+  "title": "Microsoft: Outdated Windows devices will stop receiving security updates",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "7352daf3d746f623",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
+  "published": "2026-10-09T09:03:24Z",
+  "source": "The Hacker News",
+  "summary": "A bug in GoBalance, a tool many dark-web sites use to stay reachable during attacks, lets anyone work out the secret key that controls a site's .onion address using only public information, and then take that address over.",
+  "title": "GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2023-20585",
+   "CVE-2026-64349",
+   "CVE-2026-64532",
+   "CVE-2026-64533",
+   "CVE-2026-64537",
+   "CVE-2026-64538",
+   "CVE-2026-64539",
+   "CVE-2026-64540",
+   "CVE-2026-64542",
+   "CVE-2026-64543"
+  ],
+  "id": "17a30b7b6610d67c",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8887-3",
+  "published": "2026-10-09T08:38:46Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that some AMD processors did not properly perform Reverse Map Table (RMP) checks when the IOMMU accessed certain host buffers.",
+  "title": "USN-8887-3: Linux kernel vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2022-3114",
+   "CVE-2023-54125",
+   "CVE-2023-54271",
+   "CVE-2025-22026",
+   "CVE-2025-23131",
+   "CVE-2025-39863",
+   "CVE-2025-39929",
+   "CVE-2025-39931",
+   "CVE-2026-23364",
+   "CVE-2026-31449"
+  ],
+  "id": "8f34917c5bcda18c",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8875-2",
+  "published": "2026-10-09T08:38:43Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that the i.MX clock driver in the Linux kernel did not properly handle certain memory allocation failure conditions, leading to a null pointer dereference vulnerability.",
+  "title": "USN-8875-2: Linux kernel (NVIDIA) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2025-68296",
+   "CVE-2025-68768",
+   "CVE-2026-23346",
+   "CVE-2026-31663",
+   "CVE-2026-43116",
+   "CVE-2026-43219",
+   "CVE-2026-43240",
+   "CVE-2026-43303",
+   "CVE-2026-43311",
+   "CVE-2026-43331"
+  ],
+  "id": "3b06e2efbde57d2f",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8903-2",
+  "published": "2026-10-09T08:38:34Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM32 architecture; - ARM64 architecture; - MIPS architecture; -…",
+  "title": "USN-8903-2: Linux kernel vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2025-68296",
+   "CVE-2025-68768",
+   "CVE-2026-23346",
+   "CVE-2026-31663",
+   "CVE-2026-43116",
+   "CVE-2026-43219",
+   "CVE-2026-43240",
+   "CVE-2026-43303",
+   "CVE-2026-43311",
+   "CVE-2026-43331"
+  ],
+  "id": "7d34add5f0ee1e88",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8905-2",
+  "published": "2026-10-09T08:38:26Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM32 architecture; - ARM64 architecture; - MIPS architecture; -…",
+  "title": "USN-8905-2: Linux kernel (GCP) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "563fc09a4237337b",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
+  "published": "2026-10-09T08:27:42Z",
+  "source": "BleepingComputer",
+  "summary": "Citrix has warned IT administrators to patch systems immediately against a new critical vulnerability affecting NetScaler ADC networking appliances and NetScaler Gateway secure remote access solutions. [...]",
+  "title": "Citrix warns admins to patch new NetScaler RCE flaw immediately",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2046ea2d3d22f8fe",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html",
+  "published": "2026-10-09T08:26:17Z",
+  "source": "The Hacker News",
+  "summary": "Three research teams broke into Google's Pixel 10 on October 8 at Pwn2Own Ireland, a hacking contest in Cork whose rules require every target to be fully patched.",
+  "title": "Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-107406"
+  ],
+  "id": "222747da9536b94f",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
+  "published": "2026-10-09T08:11:33Z",
+  "source": "The Hacker News",
+  "summary": "Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain conditions.",
+  "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "5f461e68350a36f7",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html",
+  "published": "2026-10-09T06:39:29Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Federal Bureau of Investigation (FBI) and Department of Justice (DoJ) have announced the disruption of malicious tools used by a China-linked advanced persistent threat group known as Flax Typhoon.",
+  "title": "FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions",
+  "trust": "media"
+ },
+ {
+  "category": "news",
   "cves": [],
   "id": "de6bbcc142adb5d2",
   "kev": false,
@@ -10,6 +251,24 @@
   "summary": "The Pwn2Own Ireland 2026 hacking contest has concluded, with hackers collecting $1,262,000 in rewards after exploiting 98 zero-day flaws. [...]",
   "title": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-19774",
+   "CVE-2026-75032",
+   "CVE-2026-80185",
+   "CVE-2026-80186",
+   "CVE-2026-85218"
+  ],
+  "id": "5f73180943eddf96",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8908-1",
+  "published": "2026-10-08T21:50:08Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Michael Bommarito discovered that BlueZ incorrectly handled codec capability storage in the A2DP profile. An attacker could possibly use this issue to cause a stack buffer overflow, resulting in a denial of service or arbitrary code execution.",
+  "title": "USN-8908-1: BlueZ vulnerabilities",
+  "trust": "official"
  },
  {
   "category": "news",
