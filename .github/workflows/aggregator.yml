@@ -13,7 +13,7 @@ permissions: {}            # deny by default; each job asks for what it needs
 
 jobs:
   collect:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     permissions:
       contents: write      # only to commit data/
@@ -40,7 +40,7 @@ jobs:
   build:
     needs: collect
     if: needs.collect.outputs.new_items != '0' || github.event_name == 'workflow_dispatch'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     permissions:
       contents: read       # no write access, no secrets
@@ -61,7 +61,7 @@ jobs:
 
   deploy:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 5
     permissions:
       pages: write
