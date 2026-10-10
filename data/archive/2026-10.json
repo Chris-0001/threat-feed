@@ -1,5 +1,17 @@
 [
  {
+  "category": "news",
+  "cves": [],
+  "id": "d1b4ad9232252f1e",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
+  "published": "2026-10-09T20:31:37Z",
+  "source": "BleepingComputer",
+  "summary": "Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks. [...]",
+  "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
+  "trust": "media"
+ },
+ {
   "category": "advisories",
   "cves": [],
   "id": "a93c51d2287a9246",
@@ -10,6 +22,18 @@
   "summary": "Serial number: AV26-1026 Date: October 9, 2026 As of October 8, 2026, SmarterTools is affected by a vulnerability in the following product: SmarterMail Prior to Build 9777 The Cyber Centre encourages users and administrators to review the provided…",
   "title": "SmarterTools security advisory (AV26-1026)",
   "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "4af63b420c7147a7",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
+  "published": "2026-10-09T19:14:28Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over 340 repositories.",
+  "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+  "trust": "media"
  },
  {
   "category": "advisories",
