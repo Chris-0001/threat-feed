@@ -2,6 +2,42 @@
  {
   "category": "news",
   "cves": [],
+  "id": "95637e8b758dd9c8",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
+  "published": "2026-10-10T12:30:39Z",
+  "source": "BleepingComputer",
+  "summary": "Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats.",
+  "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "03d8e82399427323",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
+  "published": "2026-10-10T11:00:00Z",
+  "source": "The Hacker News",
+  "summary": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on.",
+  "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "80ccb82868a0b3b3",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+  "published": "2026-10-10T09:18:45Z",
+  "source": "The Hacker News",
+  "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites.",
+  "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "07e3850cc23c0df4",
   "kev": false,
   "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
