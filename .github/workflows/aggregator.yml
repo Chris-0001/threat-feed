@@ -29,13 +29,19 @@ jobs:
       - id: collect
         run: python main.py collect
       - name: Commit data
+        env:
+          BRANCH: ${{ github.ref_name }}
         run: |
           git config user.name "threat-feed-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
           git diff --cached --quiet && exit 0
           git commit -m "data: new items $(date -u +%F)"
-          git push
+          for i in 1 2 3; do
+            git pull --rebase origin "$BRANCH" && git push origin "HEAD:$BRANCH" && exit 0
+            sleep 5
+          done
+          exit 1
 
   build:
     needs: collect
