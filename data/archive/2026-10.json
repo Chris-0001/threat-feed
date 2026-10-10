@@ -2,6 +2,18 @@
  {
   "category": "news",
   "cves": [],
+  "id": "07e3850cc23c0df4",
+  "kev": false,
+  "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+  "published": "2026-10-10T00:17:42Z",
+  "source": "Krebs on Security",
+  "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on…",
+  "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "d1b4ad9232252f1e",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
