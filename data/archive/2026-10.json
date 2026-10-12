@@ -1,5 +1,46 @@
 [
  {
+  "category": "news",
+  "cves": [
+   "CVE-2026-85097"
+  ],
+  "id": "bc12da062ab08780",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+  "published": "2026-10-12T09:02:14Z",
+  "source": "The Hacker News",
+  "summary": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack.",
+  "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "43d246229f88f2d2",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+  "published": "2026-10-12T07:26:12Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine.",
+  "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-78030",
+   "CVE-2026-88816"
+  ],
+  "id": "d3151e44a4839e00",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8912-1",
+  "published": "2026-10-12T02:53:18Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Harsh Raj Singhania discovered that the Perl DBI module did not correctly validate certain attributes. An attacker could possibly use this issue to execute arbitrary code.",
+  "title": "USN-8912-1: Perl DBI module vulnerabilities",
+  "trust": "official"
+ },
+ {
   "category": "research",
   "cves": [],
   "id": "cf7c50f3a5ad609b",
