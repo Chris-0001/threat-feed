@@ -1,6 +1,193 @@
 [
  {
   "category": "news",
+  "cves": [],
+  "id": "438abd38eedf5a8f",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
+  "published": "2026-10-12T20:13:52Z",
+  "source": "BleepingComputer",
+  "summary": "Norway's Data Protection Authority (Datatilsynet) has fined Microsoft-owned advertising company Xandr NOK 92 million ($9.6M) for unlawfully processing and sharing sensitive data belonging to Grindr users in the country. [...]",
+  "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "6a9722032a17e8ba",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
+  "published": "2026-10-12T19:23:01Z",
+  "source": "BleepingComputer",
+  "summary": "Russian cloud services provider Yandex announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and partially disable a third. [...]",
+  "title": "Yandex confirms service outage as users lose access to cloud files",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "560668eacdc2c46d",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
+  "published": "2026-10-12T18:51:59Z",
+  "source": "BleepingComputer",
+  "summary": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels. [...]",
+  "title": "Anthropic takes risky AI tests offline after models breach govt sites",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "e7631b448c12149f",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+  "published": "2026-10-12T16:27:23Z",
+  "source": "BleepingComputer",
+  "summary": "Ledger has confirmed that some of its devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware implant that drained users' cryptocurrency wallets. [...]",
+  "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "a29c7d50415f2d37",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8914-1",
+  "published": "2026-10-12T15:24:07Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that the Go x/net/idna package, vendored in Google Guest Agent and Google OS Config Agent, incorrectly accepted Punycode-encoded labels that decoded to ASCII-only labels when processing internationalized domain names.",
+  "title": "USN-8914-1: Google Guest Agent, Google OS Config Agent vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "264ae2a76b64beca",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+  "published": "2026-10-12T15:23:34Z",
+  "source": "BleepingComputer",
+  "summary": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack that reportedly targeted Danfoss refrigeration controllers. [...]",
+  "title": "Cyberattack shuts down refrigerators at French supermarkets",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ce75f127918bc162",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
+  "published": "2026-10-12T15:16:26Z",
+  "source": "The Hacker News",
+  "summary": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it.",
+  "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ae7f644af7618f84",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
+  "published": "2026-10-12T14:00:10Z",
+  "source": "BleepingComputer",
+  "summary": "A new Windows malware loader called AvisLoader uses encrypted peer-to-peer communications to make command-and-control infrastructure harder to disrupt.",
+  "title": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "71be485ba66d38a1",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
+  "published": "2026-10-12T13:51:07Z",
+  "source": "BleepingComputer",
+  "summary": "Retail giant Ahold Delhaize, one of the world's largest food retail chains, confirmed today that it had to take some systems offline in response to a \"cybersecurity incident\" affecting its network. [...]",
+  "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "6e80cb0c7f4b2704",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+  "published": "2026-10-12T13:09:09Z",
+  "source": "BleepingComputer",
+  "summary": "GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remote attackers run arbitrary code on targeted instances. [...]",
+  "title": "GitLab warns of max severity code execution vulnerability",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-88806",
+   "CVE-2026-94283",
+   "CVE-2026-94284",
+   "CVE-2026-94285"
+  ],
+  "id": "dcce51faff58ec9a",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8913-1",
+  "published": "2026-10-12T12:53:41Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Adam Bedard discovered that libx11 incorrectly handled certain XKB keyboard map replies. If a user were tricked into connecting to a malicious X server, a remote attacker could possibly use this issue to cause libx11 to crash, resulting in a denial…",
+  "title": "USN-8913-1: libx11 vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "122e3ddd78721170",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
+  "published": "2026-10-12T11:58:33Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft has reminded customers that systems running Windows 11 23H2 Enterprise, Education, and IoT Enterprise editions will stop receiving security updates next month. [...]",
+  "title": "Microsoft: Windows 11 23H2 reaches end of support in 30 days",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "58c002be9fcce1c9",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
+  "published": "2026-10-12T11:55:00Z",
+  "source": "The Hacker News",
+  "summary": "The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps raising privacy concerns; and the horror stories from pretty much every…",
+  "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "a94575df19a28163",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+  "published": "2026-10-12T11:21:48Z",
+  "source": "The Hacker News",
+  "summary": "Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller.",
+  "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-102255"
+  ],
+  "id": "d98036922a5f2f3a",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
+  "published": "2026-10-12T10:36:56Z",
+  "source": "The Hacker News",
+  "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure.",
+  "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
+  "trust": "media"
+ },
+ {
+  "category": "news",
   "cves": [
    "CVE-2026-85097"
   ],
