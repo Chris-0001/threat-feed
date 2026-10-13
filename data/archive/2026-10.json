@@ -2,6 +2,212 @@
  {
   "category": "news",
   "cves": [],
+  "id": "f3175ab595968517",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/",
+  "published": "2026-10-13T22:33:02Z",
+  "source": "BleepingComputer",
+  "summary": "A Saudi OpenAI engineer has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to secretly record sensitive conversations. [...]",
+  "title": "OpenAI engineer arrested for allegedly planting spy device in office",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-39919"
+  ],
+  "id": "38cf85a1da0c7bf7",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
+  "published": "2026-10-13T21:33:26Z",
+  "source": "BleepingComputer",
+  "summary": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF files. [...]",
+  "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "dfc08b5a86d2ebde",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/",
+  "published": "2026-10-13T21:16:34Z",
+  "source": "BleepingComputer",
+  "summary": "Anthropic is warning that small AI models could soon be able to self-replicate across consumer IoT devices, from Android TV boxes to smart ovens, creating distributed botnets capable of running AI workloads without relying on data centers. [...]",
+  "title": "Anthropic warns self-replicating AI could spread to your smart devices",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "59a08fb443812095",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/fortinet-security-advisory-av26-1037",
+  "published": "2026-10-13T20:21:54Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1037 Date: October 13, 2026 As of October 13, 2026, Fortinet is affected by vulnerabilities in the following products: FortiAnalyzer Prior to 7.6.5 Prior to 7.4.8 Prior to 7.6.5 FortiAnalyzer Cloud Prior to 7.6.5 Prior to 7.4.8…",
+  "title": "Fortinet security advisory (AV26-1037)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "0a0c0c91cc906f61",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/esri-security-advisory-av26-1036",
+  "published": "2026-10-13T20:10:52Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1036 Date: October 13, 2026 As of October 13, 2026, Esri is affected by vulnerabilities in the following product: Portal for ArcGIS Prior to 12.2 The Cyber Centre encourages users and administrators to review the provided web…",
+  "title": "Esri security advisory (AV26-1036)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-96951"
+  ],
+  "id": "fd0b2f32a44b9712",
+  "kev": true,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/microsoft-security-advisory-october-2026-monthly-rollup-av26-1038",
+  "published": "2026-10-13T20:06:47Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1038 Date: October 13, 2026 As of October 13, 2026, Microsoft is affected by vulnerabilities in the following products: .NET 10.0 .NET 11.0 .NET 8.0 .NET 9.0 ASP.NET Core 10.0 ASP.NET Core 11.0 ASP.NET Core 8.0 ASP.NET Core 9.0…",
+  "title": "Microsoft security advisory – October 2026 monthly rollup (AV26-1038)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "c621b1f10b9a3618",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+  "published": "2026-10-13T19:56:09Z",
+  "source": "BleepingComputer",
+  "summary": "Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]",
+  "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "22ea28878c1b3528",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5126657-extended-security-update/",
+  "published": "2026-10-13T19:47:30Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft released the Windows 10 KB5126657 extended security update, which includes this month's record-breaking October 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
+  "title": "Microsoft releases Windows 10 KB5126657 extended security update",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-104935",
+   "CVE-2026-109412"
+  ],
+  "id": "1ab043a0cd805cdf",
+  "kev": true,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/ivanti-security-advisory-av26-1035",
+  "published": "2026-10-13T19:32:43Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1035 Date: October 13, 2026 As of October 13, 2026, Ivanti is affected by vulnerabilities in the following products: Ivanti Connect Secure Version 25.1.1.1 and prior Version 25.2.2 and prior Version 22.8R2.4 and prior Ivanti…",
+  "title": "Ivanti security advisory (AV26-1035)",
+  "trust": "official"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "0e065bae6ec54b30",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33422",
+  "published": "2026-10-13T19:25:52Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "Microsoft today released patches for 1,417 vulnerabilities. 76 of these vulnerabilities are rated critical, with 7 critical vulnerabiilties requiring no customer actions.",
+  "title": "October 2026 Microsoft Patch Tuesday, (Tue, Oct 13th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-102700",
+   "CVE-2026-102701",
+   "CVE-2026-53562",
+   "CVE-2026-53563",
+   "CVE-2026-53564",
+   "CVE-2026-79610"
+  ],
+  "id": "8decdbe72fa52439",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/citrix-security-advisory-av26-1034",
+  "published": "2026-10-13T19:10:44Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1034 Date: October 13, 2026 As of October 13, 2026, Citrix is affected by vulnerabilities in the following products: UniconOS Prior to 2603 LTSR CU2 Prior to 2607.2 CR XenServer Version 8.4 XenServer Version 9 The Cyber Centre…",
+  "title": "Citrix security advisory (AV26-1034)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "9e097821e81f2ee3",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/",
+  "published": "2026-10-13T19:04:38Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft announced today that devices running Windows 11 24H2 Home and Pro editions have reached the end of support and will no longer receive monthly security and non-security preview updates. [...]",
+  "title": "Microsoft: Windows 11 24H2 Home and Pro reached end of support",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "5fc85eef7eafdb4e",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/commvault-security-advisory-av26-1033",
+  "published": "2026-10-13T18:53:51Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1033 Date: October 13, 2026 As of October 13, 2026, Commvault is affected by vulnerabilities in the following products: Commvault Cloud 11.36.0 Prior to 11.36.127 11.40.0 Prior to 11.40.78 11.44.0 Prior to 11.44.25 11.46.0 Prior…",
+  "title": "Commvault security advisory (AV26-1033)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "1a237f352287c957",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
+  "published": "2026-10-13T18:20:57Z",
+  "source": "The Hacker News",
+  "summary": "Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic.",
+  "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "737738faa0963475",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/",
+  "published": "2026-10-13T18:19:44Z",
+  "source": "BleepingComputer",
+  "summary": "The U.K. Housing Ombudsman Service is investigating a third-party IT security incident that impacted its case management system on Tuesday. [...]",
+  "title": "UK Housing Ombudsman Service investigates 'security incident'",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3ca5543d6abacf43",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
+  "published": "2026-10-13T18:03:18Z",
+  "source": "The Hacker News",
+  "summary": "A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence that anyone exploited it.",
+  "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "bc13de277e7a857a",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/",
@@ -9,6 +215,30 @@
   "source": "BleepingComputer",
   "summary": "Microsoft has released Windows 11 KB5127648 and KB5126653 cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs and add new features. [...]",
   "title": "Windows 11 KB5127648 & KB5126653 cumulative updates released",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "de317ab6f5e7b5e5",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+  "published": "2026-10-13T17:33:11Z",
+  "source": "The Hacker News",
+  "summary": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm Volexity said on October 13.",
+  "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ecb81ab5e797216a",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
+  "published": "2026-10-13T17:28:50Z",
+  "source": "The Hacker News",
+  "summary": "A flaw in SAP's Cloud SDK for Python can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a security advisory on October 13.",
+  "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
   "trust": "media"
  },
  {
@@ -359,6 +589,35 @@
   "trust": "official"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-104935",
+   "CVE-2026-96951"
+  ],
+  "id": "57fd4877136544b3",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+  "published": "2026-10-13T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-104935"
+  ],
+  "id": "1f9e726d5676a4ec",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure",
+  "published": "2026-10-13T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA is aware of Ivanti’s disclosure of a newly exploited vulnerability, CVE-2026-104935 , affecting Ivanti Connect Secure versions 25.1.1.1 and prior, 25.1.2.2 and prior, and 22.8R2.4 and prior.",
+  "title": "CISA Urges Patching Newly Exploited Vulnerability in Ivanti Connect Secure",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "fbf8ca21ae4d6151",
@@ -453,6 +712,20 @@
   "summary": "",
   "title": "ISC Stormcast For Tuesday, October 13th, 2026 https://isc.sans.edu/podcastdetail/10134, (Tue, Oct 13th)",
   "trust": "vendor"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-96951"
+  ],
+  "id": "fe3f203f5901f2d2",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96951",
+  "published": "2026-10-13T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Microsoft Windows Shell contains a command injection vulnerability that allows an unauthorized attacker to bypass a security feature over a network.",
+  "title": "CVE-2026-96951: Microsoft Windows (Microsoft Windows Command Injection Vulnerability)",
+  "trust": "official"
  },
  {
   "category": "exploited",
