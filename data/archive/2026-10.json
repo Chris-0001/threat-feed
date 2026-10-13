@@ -1,5 +1,53 @@
 [
  {
+  "category": "news",
+  "cves": [],
+  "id": "cd47365f85ed896d",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+  "published": "2026-10-13T08:48:41Z",
+  "source": "The Hacker News",
+  "summary": "Attackers took remote control of fridges and freezers at hundreds of French supermarkets on the night of October 11 and warmed them, forcing stores to throw food away, several retail chains said.",
+  "title": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "cab1cef8158a2e85",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
+  "published": "2026-10-13T08:44:01Z",
+  "source": "The Hacker News",
+  "summary": "Two of 31 newly disclosed flaws in Progress Software's MarkLogic Server database could let an account given only some management privileges take administrator control of the server, the company says.",
+  "title": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "d108e3a9b992b0a1",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
+  "published": "2026-10-13T08:43:37Z",
+  "source": "The Hacker News",
+  "summary": "GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software that could result in arbitrary code execution.",
+  "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "c1b4703f52c16eeb",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
+  "published": "2026-10-13T06:00:11Z",
+  "source": "The Hacker News",
+  "summary": "Low-cost Android smartphones have been shipped with malicious software baked into the device firmware, allowing bad actors to covertly install apps, conduct ad fraud, and turn devices into residential proxies.",
+  "title": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
+  "trust": "media"
+ },
+ {
   "category": "research",
   "cves": [],
   "id": "ab53ac785e9eaaa7",
@@ -10,6 +58,27 @@
   "summary": "",
   "title": "ISC Stormcast For Tuesday, October 13th, 2026 https://isc.sans.edu/podcastdetail/10134, (Tue, Oct 13th)",
   "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-30754",
+   "CVE-2026-38344",
+   "CVE-2026-38346",
+   "CVE-2026-38347",
+   "CVE-2026-38348",
+   "CVE-2026-38349",
+   "CVE-2026-38350",
+   "CVE-2026-75147"
+  ],
+  "id": "cf42ddebe06ab53f",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8915-1",
+  "published": "2026-10-12T23:14:33Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Momoko Shiraishi discovered that FFmpeg did not correctly handle certain memory operations. An attacker could possibly use this issue to execute arbitrary code.",
+  "title": "USN-8915-1: FFmpeg vulnerabilities",
+  "trust": "official"
  },
  {
   "category": "news",
