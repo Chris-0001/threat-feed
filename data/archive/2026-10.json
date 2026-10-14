@@ -1,5 +1,81 @@
 [
  {
+  "category": "research",
+  "cves": [],
+  "id": "5a2cb22f26c2b9c7",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33420",
+  "published": "2026-10-14T06:49:46Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "Years ago I wrote diary entries about VBA code stored inside AutoCAD drawing files (.dwg).",
+  "title": "Orphaned VBA Projects Inside DWG Files, (Wed, Oct 14th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f38c00c0419a4014",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
+  "published": "2026-10-14T05:52:28Z",
+  "source": "The Hacker News",
+  "summary": "Security researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the computer is taken over.",
+  "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "c463df2357c9db0f",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html",
+  "published": "2026-10-14T04:34:43Z",
+  "source": "The Hacker News",
+  "summary": "Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation.",
+  "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2017-20285",
+   "CVE-2019-25777",
+   "CVE-2026-63676"
+  ],
+  "id": "2cf7a495f11a563a",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8925-1",
+  "published": "2026-10-14T03:31:33Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Dominique Dumont discovered that YAML-LibYAML did not correctly handle certain reflection operations. If a user or system were tricked into opening a specially crafted file, an attacker could possibly use this issue to delete files.",
+  "title": "USN-8925-1: YAML-LibYAML vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "94d7dac3b4b13777",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33424",
+  "published": "2026-10-14T02:00:03Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "",
+  "title": "ISC Stormcast For Wednesday, October 14th, 2026 https://isc.sans.edu/podcastdetail/10136, (Wed, Oct 14th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "6bf724a018edeb23",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
+  "published": "2026-10-14T01:59:25Z",
+  "source": "The Hacker News",
+  "summary": "A Saudi National and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations.",
+  "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
+  "trust": "media"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "083f57ca27c3c4a6",
@@ -678,6 +754,25 @@
   "summary": "A user opens a browser tab, pastes data into a chat assistant, and nothing is installed. A developer adds a coding assistant as an editor extension, and nothing shows up in the installed programs list.",
   "title": "Product Walkthrough: Bitdefender AI Visibility and Control",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-102266",
+   "CVE-2026-102267",
+   "CVE-2026-102268",
+   "CVE-2026-102271",
+   "CVE-2026-102272",
+   "CVE-2026-102273"
+  ],
+  "id": "0846fea7a1c2d8a6",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8916-1",
+  "published": "2026-10-13T10:09:47Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "YuSung Han discovered that PyJWT did not properly validate certain JWK keys when performing HMAC verification. An attacker could possibly use this issue to forge authentication tokens. This issue only affected Ubuntu 26.04 LTS.",
+  "title": "USN-8916-1: PyJWT vulnerabilities",
+  "trust": "official"
  },
  {
   "category": "news",
