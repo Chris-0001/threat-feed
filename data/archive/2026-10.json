@@ -1,5 +1,141 @@
 [
  {
+  "category": "news",
+  "cves": [],
+  "id": "dc3e2dd19c635e8e",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/",
+  "published": "2026-10-14T13:12:52Z",
+  "source": "BleepingComputer",
+  "summary": "A massive cybercriminal ecosystem facilitating more than a billion malicious messages targeting over 75,000 organizations across 150 countries has been disrupted by law enforcement agencies and partners worldwide. [...]",
+  "title": "Global takedown hits network behind 1 billion phishing messages",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "769064a0278d24bb",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
+  "published": "2026-10-14T12:58:07Z",
+  "source": "BleepingComputer",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st. [...]",
+  "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-104935"
+  ],
+  "id": "ed07709b0e7092bb",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
+  "published": "2026-10-14T12:30:42Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an…",
+  "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "8c8adbe0fff0d640",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
+  "published": "2026-10-14T12:13:36Z",
+  "source": "The Hacker News",
+  "summary": "A flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client's memory, and the researcher who reported it turned that into code execution on the uploading machine.",
+  "title": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "1d7f7ced90eb1d86",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
+  "published": "2026-10-14T11:50:00Z",
+  "source": "The Hacker News",
+  "summary": "Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake.",
+  "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "9a406c7c3ecf94ec",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
+  "published": "2026-10-14T11:41:20Z",
+  "source": "BleepingComputer",
+  "summary": "A new Android malware called Hirudo steals bank account credentials by replacing legitimate banking apps with modified versions that disable security checks. [...]",
+  "title": "Hirudo Android malware replaces banking apps to evade security checks",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "b15eedacef51f699",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
+  "published": "2026-10-14T11:19:02Z",
+  "source": "The Hacker News",
+  "summary": "A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said.",
+  "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "1986ca2bfc01f813",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
+  "published": "2026-10-14T11:08:22Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions designed to bypass security checks from inside the app itself, marking…",
+  "title": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "367c2cb7c4797742",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html",
+  "published": "2026-10-14T11:00:00Z",
+  "source": "The Hacker News",
+  "summary": "The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part. TL;DR During an authorized assessment, an AI pentesting agent found a critical authentication bypass on a major insurer's…",
+  "title": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "5165f8b62b0c68de",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/",
+  "published": "2026-10-14T10:48:09Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft has confirmed that non-admin users may be unable to connect to devices via Remote Desktop after installing recent Windows updates if the \"Administrator protection\" security feature is enabled. [...]",
+  "title": "Microsoft: Recent Windows updates may trigger Remote Desktop failures",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-74580"
+  ],
+  "id": "15d7a3357042c0f0",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+  "published": "2026-10-14T07:46:57Z",
+  "source": "The Hacker News",
+  "summary": "A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions.",
+  "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
+  "trust": "media"
+ },
+ {
   "category": "research",
   "cves": [],
   "id": "5a2cb22f26c2b9c7",
