@@ -2,6 +2,80 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-76519"
+  ],
+  "id": "0c6755128913b3e9",
+  "kev": true,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/cisco-security-advisory-av26-1042",
+  "published": "2026-10-14T20:00:12Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1042 Date: October 14, 2026 As of October 14, 2026, Cisco is affected by vulnerabilities in the following products: Cisco AsyncOS Software for Cisco Secure Email Gateway Release 15.5 version prior to 15.5.5-014 16.5 versions…",
+  "title": "Cisco security advisory (AV26-1042) – Update 1",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "10a07fb6b575e1b8",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/",
+  "published": "2026-10-14T19:41:43Z",
+  "source": "BleepingComputer",
+  "summary": "The U.S. Department of Justice (DoJ) has disrupted the Famous Chollima threat group's operations by arresting two suspects, charging 14 individuals, and seizing nearly 187 laptops used in North Korean remote IT worker schemes. [...]",
+  "title": "FBI raids DPRK IT worker laptop farms in Texas, US nationals arrested",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-86409",
+   "CVE-2026-86414",
+   "CVE-2026-87862",
+   "CVE-2026-87863",
+   "CVE-2026-87864",
+   "CVE-2026-92388",
+   "CVE-2026-92389",
+   "CVE-2026-92391",
+   "CVE-2026-94266"
+  ],
+  "id": "e9049f9ad17f6d95",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8932-1",
+  "published": "2026-10-14T19:26:26Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Stanislav Fort discovered that curl did not properly clear AWS SigV4 authentication state when CURLOPT_AWS_SIGV4 was set to NULL. An attacker could possibly use this issue to obtain sensitive information.",
+  "title": "USN-8932-1: curl vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-0322"
+  ],
+  "id": "233eaa76232af892",
+  "kev": true,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/palo-alto-networks-security-advisory-av26-1041",
+  "published": "2026-10-14T19:08:03Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1041 Date: October 14, 2026 As of October 14, 2026, Palo Alto Networks is affected by vulnerabilities in the following products: PAN-OS 12.2 Prior to 12.2.4 PAN-OS 12.1 Prior to 12.1.4-h12 Prior to 12.1.7-h8 Prior to 12.1.10-h2…",
+  "title": "Palo Alto Networks security advisory (AV26-1041)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "5a9f38d622b3ed78",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
+  "published": "2026-10-14T18:38:56Z",
+  "source": "The Hacker News",
+  "summary": "Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco said in an advisory on Wednesday.",
+  "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-103499"
   ],
   "id": "1c526baad76629e9",
@@ -11,6 +85,28 @@
   "source": "Canadian Cyber Centre",
   "summary": "Serial number: AV26-1040 Date: October 14, 2026 As of October 13, 2026, IBM is affected by vulnerabilities in the following products: WebSphere Application Server Prior to or equal to 8.5 Prior to or equal to 9.0 WebSphere Application Server -…",
   "title": "IBM security advisory (AV26-1040)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-58415",
+   "CVE-2026-63045",
+   "CVE-2026-63292",
+   "CVE-2026-63686",
+   "CVE-2026-63718",
+   "CVE-2026-73636",
+   "CVE-2026-73637",
+   "CVE-2026-79768",
+   "CVE-2026-93546"
+  ],
+  "id": "3163dc9d7d24509a",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8931-1",
+  "published": "2026-10-14T18:21:58Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "이지웅 discovered that Apache HTTP Server exposed WebDAV property information. A remote attacker could possibly use this issue to obtain sensitive information.",
+  "title": "USN-8931-1: Apache HTTP Server vulnerabilities",
   "trust": "official"
  },
  {
@@ -28,6 +124,18 @@
  {
   "category": "news",
   "cves": [],
+  "id": "81bc79dba8a4c63e",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+  "published": "2026-10-14T17:38:31Z",
+  "source": "The Hacker News",
+  "summary": "Attackers exploited a flaw in an optional Nextcloud app, Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators reported the issue on GitHub, with the first logged attack on September 10.",
+  "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "7accf8fdb3d01de0",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
@@ -35,6 +143,18 @@
   "source": "BleepingComputer",
   "summary": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges. [...]",
   "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f408793ff786dc2a",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
+  "published": "2026-10-14T17:09:15Z",
+  "source": "The Hacker News",
+  "summary": "Microsoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of three phishing kits, CoGUI…",
+  "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
   "trust": "media"
  },
  {
@@ -48,6 +168,23 @@
   "summary": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme. The indictment charges a mix of U.S.",
   "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-74220",
+   "CVE-2026-74221",
+   "CVE-2026-74222",
+   "CVE-2026-74225"
+  ],
+  "id": "8880e434b9e3532a",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8930-1",
+  "published": "2026-10-14T16:23:58Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Shahriyar Jalayeri and Mehrun P. Hunter discovered that U-Boot incorrectly handled certain NFS READ and NFS READLINK responses.",
+  "title": "USN-8930-1: U-Boot vulnerabilities",
+  "trust": "official"
  },
  {
   "category": "advisories",
@@ -190,6 +327,23 @@
   "source": "Ubuntu Security Notices",
   "summary": "It was discovered that OpenSSH's sftp client incorrectly handled paths returned by the server during a recursive copy operation. A remote attacker controlling the server could possibly use this issue to write files to unintended locations.",
   "title": "USN-8928-1: OpenSSH vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-0322",
+   "CVE-2026-105133",
+   "CVE-2026-105134",
+   "CVE-2026-76519"
+  ],
+  "id": "cc722ba7d043cd5a",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/10/14/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+  "published": "2026-10-14T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
   "trust": "official"
  },
  {
@@ -376,6 +530,64 @@
   "summary": "A Saudi National and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations.",
   "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
   "trust": "media"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-0322"
+  ],
+  "id": "b7371bbee9f2e884",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-0322",
+  "published": "2026-10-14T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.",
+  "title": "CVE-2026-0322: Palo Alto Networks PAN-OS (Palo Alto Networks PAN-OS Code Injection Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-105133",
+   "CVE-2026-105134"
+  ],
+  "id": "a5c93bd30f536ef8",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133",
+  "published": "2026-10-14T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Ahsay AhsayCBS contains an improper authentication vulnerability that could allow a remote attacker to bypass authentication via manipulation of the random parameter in the API component’s checkSysPwd function.",
+  "title": "CVE-2026-105133: Ahsay AhsayCBS (Ahsay AhsayCBS Improper Authentication Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-105133",
+   "CVE-2026-105134"
+  ],
+  "id": "54ffb519140d4718",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134",
+  "published": "2026-10-14T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Ahsay AhsayCBS contains a command injection vulnerability that could allow a remote attacker to execute operating system commands via manipulation of the random parameter in the Replication Receiver component’s /rps/api/json/UpdateReceivers.do…",
+  "title": "CVE-2026-105134: Ahsay AhsayCBS (Ahsay AhsayCBS Command Injection Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-76519"
+  ],
+  "id": "434f3ad28a52a66e",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519",
+  "published": "2026-10-14T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Cisco Secure Email Gateway contains a relative path traversal vulnerability that could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.",
+  "title": "CVE-2026-76519: Cisco Secure Email Gateway (Cisco Secure Email Gateway Relative Path Traversal Vulnerability)",
+  "trust": "official"
  },
  {
   "category": "news",
