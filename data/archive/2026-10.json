@@ -2,6 +2,18 @@
  {
   "category": "news",
   "cves": [],
+  "id": "083f57ca27c3c4a6",
+  "kev": false,
+  "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+  "published": "2026-10-13T23:24:53Z",
+  "source": "Krebs on Security",
+  "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software.",
+  "title": "Microsoft Patches More Than 1,400 Security Flaws",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "f3175ab595968517",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/",
@@ -570,6 +582,20 @@
   "source": "Canadian Cyber Centre",
   "summary": "Serial number: AV26-1027 Date: October 13, 2026 As of October 6, 2026, Dell is affected by vulnerabilities in the following products: Command | Configure (DCC) Prior to 5.2.3.35 Dell Container Storage Modules (CSM) Prior to 1.18.0 Dell OpenManage…",
   "title": "Dell security advisory (AV26-1027)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-92817"
+  ],
+  "id": "d83af5ab28f094ca",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-01",
+  "published": "2026-10-13T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated low-level user to escalate their privileges to a higher level.",
+  "title": "Inductive Automation Ignition Software",
   "trust": "official"
  },
  {
