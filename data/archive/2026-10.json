@@ -1,5 +1,31 @@
 [
  {
+  "category": "research",
+  "cves": [],
+  "id": "ad4a5d9292e9d6eb",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33426",
+  "published": "2026-10-15T01:10:57Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "[This is a Guest Diary by Zachary Norwood, an ISC intern as part of the SANS.edu BACS program]",
+  "title": "Panchan's Mining Island [Guest Diary], (Wed, Oct 14th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-0322"
+  ],
+  "id": "2e5d5987cc61053b",
+  "kev": true,
+  "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
+  "published": "2026-10-14T22:56:47Z",
+  "source": "BleepingComputer",
+  "summary": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls. [...]",
+  "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
+  "trust": "media"
+ },
+ {
   "category": "advisories",
   "cves": [
    "CVE-2026-76519"
@@ -466,6 +492,22 @@
   "summary": "Years ago I wrote diary entries about VBA code stored inside AutoCAD drawing files (.dwg).",
   "title": "Orphaned VBA Projects Inside DWG Files, (Wed, Oct 14th)",
   "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-97687",
+   "CVE-2026-97688",
+   "CVE-2026-97689"
+  ],
+  "id": "9860fb58c529fabc",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8926-1",
+  "published": "2026-10-14T06:23:09Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Yu-Fu Fu, Seth Larson and Yonatan Magier discovered that urllib3 did not correctly handle certain certificate validations. An attacker could possibly use this issue to observe or modify forwarded traffic. This issue only affected Ubuntu 26.04 LTS.",
+  "title": "USN-8926-1: urllib3 vulnerabilities",
+  "trust": "official"
  },
  {
   "category": "news",
