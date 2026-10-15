@@ -1,5 +1,160 @@
 [
  {
+  "category": "advisories",
+  "cves": [],
+  "id": "357caa2fd9d2c293",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/sonicwall-security-advisory-av26-1048",
+  "published": "2026-10-15T17:58:39Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1048 Date: October 15, 2026 As of October 14, 2026, SonicWall is affected by vulnerabilities in the following product: Network Security Manager (NSM) On-Prem (VMWare, Hyper-V, Azure and KVM) Version 4.3.1 and prior The Cyber…",
+  "title": "SonicWall security advisory (AV26-1048)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "fb820998c7ecc5f2",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
+  "published": "2026-10-15T17:12:31Z",
+  "source": "BleepingComputer",
+  "summary": "A threat actor uploaded malicious packages to the Arch User Repository (AUR) that impersonated two popular helper tools, yay and paru. [...]",
+  "title": "Fake Arch Linux packages push malware with root privileges",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "16545b6070c8ddeb",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
+  "published": "2026-10-15T16:01:57Z",
+  "source": "The Hacker News",
+  "summary": "Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, researchers at the Citizen Lab said Thursday.",
+  "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "fa74e1f0411ea7e5",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
+  "published": "2026-10-15T16:00:26Z",
+  "source": "The Hacker News",
+  "summary": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS).",
+  "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "63eb7074683598a1",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/drupal-security-advisory-av26-1047",
+  "published": "2026-10-15T15:19:12Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1047 Date: October 15, 2026 As of October 14, 2026, Drupal is affected by vulnerabilities in the following product: Drupal core Prior to 11.4.10 Prior to 11.3.19 Prior to 10.6.19 The Cyber Centre encourages users and…",
+  "title": "Drupal security advisory (AV26-1047)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "872e5485a3ed5517",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/hpe-security-advisory-av26-1046",
+  "published": "2026-10-15T15:09:14Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1046 Date: October 15, 2026 As of October 15, 2026, Hewlett Packard Enterprise is affected by vulnerabilities in the following products: HPE NonStop HTTP WEBSERVER Version T1144L24^AAL and prior HPE NonStop Servers Multiple…",
+  "title": "HPE security advisory (AV26-1046)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "898cd8248c90ec97",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/google-security-advisory-av26-1045",
+  "published": "2026-10-15T14:50:27Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1045 Date: October 15, 2026 As of October 13, 2026, Google is affected by vulnerabilities in the following product: Stable Channel Chrome for Desktop Versions prior to 155.0.8059.79/.80 (Windows/Mac), and 155.0.8059.79 to (Linux)…",
+  "title": "Google security advisory (AV26-1045)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "a7ebde529965ea35",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/n8n-security-advisory-av26-1044",
+  "published": "2026-10-15T14:40:03Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1044 Date: October 15, 2026 As of October 14, 2026, n8n is affected by vulnerabilities in the following product: n8n Prior to 1.123.83 Prior to 2.41.4 Prior to 2.42.1 The Cyber Centre encourages users and administrators to review…",
+  "title": "n8n security advisory (AV26-1044)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2024-53194",
+   "CVE-2024-53214",
+   "CVE-2024-56570",
+   "CVE-2024-56779",
+   "CVE-2024-57849",
+   "CVE-2024-57904",
+   "CVE-2024-57929",
+   "CVE-2025-21664",
+   "CVE-2025-38724",
+   "CVE-2026-53131"
+  ],
+  "id": "8c05ccc0c6ba0ebf",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8922-2",
+  "published": "2026-10-15T14:21:09Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - S390 architecture; - IIO ADC drivers; - Multiple devices driver; -…",
+  "title": "USN-8922-2: Linux kernel (Azure) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "c5f41905f314e98f",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
+  "published": "2026-10-15T14:11:36Z",
+  "source": "The Hacker News",
+  "summary": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777.",
+  "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "d0495ea21814f959",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/",
+  "published": "2026-10-15T14:01:11Z",
+  "source": "BleepingComputer",
+  "summary": "AI pentesting can uncover vulnerabilities missed by human testers, but it also has limitations in consistency, risk assessment, and understanding business context.",
+  "title": "Is AI pentesting as good as a human pentester?",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "14e3fa05ada3183a",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/juniper-networks-security-advisory-av26-1043",
+  "published": "2026-10-15T13:44:50Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1043 Date: October 15, 2026 As of October 14, 2026, Juniper Networks is affected by vulnerabilities in the following products: Junos OS Versions prior to 23.2R2-S7.7 Version 23.4 prior to 23.4R2-S8.13 Version 24.2 prior to…",
+  "title": "Juniper Networks security advisory (AV26-1043)",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "0cf7f7bcc23d197a",
@@ -14,6 +169,30 @@
  {
   "category": "news",
   "cves": [],
+  "id": "8c730c478abeb71d",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
+  "published": "2026-10-15T12:58:05Z",
+  "source": "The Hacker News",
+  "summary": "NGINX released versions 1.30.6 and 1.31.7 on October 14 to fix five vulnerabilities, one of them present in every release since May 2005.",
+  "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "9c5c4273d1c7fb52",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
+  "published": "2026-10-15T12:28:13Z",
+  "source": "The Hacker News",
+  "summary": "Next.js released an out-of-band security update on October 14 that fixes two critical flaws allowing unauthenticated remote code execution, along with a high-severity denial-of-service flaw.",
+  "title": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "fc92b30c0e097420",
   "kev": false,
   "link": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
@@ -22,6 +201,94 @@
   "summary": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19.",
   "title": "Drupal Patches Critical Core RCE Flaw with No-Login Path via Contributed Modules",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-58080",
+   "CVE-2026-60007",
+   "CVE-2026-61387",
+   "CVE-2026-62927",
+   "CVE-2026-63248",
+   "CVE-2026-63252"
+  ],
+  "id": "a58daaca021ec5ec",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-01",
+  "published": "2026-10-15T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to delete protected data, recover user credentials and impersonate legitimate users, or cause the server to stop responding to all clients.",
+  "title": "Eclipse Foundation Eclipse Milo",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-107777"
+  ],
+  "id": "73d317a4a30162b3",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-01",
+  "published": "2026-10-15T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to read arbitrary files on the Torrent Server.",
+  "title": "Thermo Fisher Torrent Suite Software",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-101021",
+   "CVE-2026-105273",
+   "CVE-2026-105279",
+   "CVE-2026-105667",
+   "CVE-2026-107621",
+   "CVE-2026-97851"
+  ],
+  "id": "54f7bc84ce6eebd3",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-02",
+  "published": "2026-10-15T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to delete stored medical images, disclose patient information, inject forged studies, reassign patient records, overwrite files, and cause a denial-of-service…",
+  "title": "J4Care dcm4che",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-105664",
+   "CVE-2026-107617",
+   "CVE-2026-97858"
+  ],
+  "id": "461bd4e316a78525",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-02",
+  "published": "2026-10-15T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain control over affected IP cameras.",
+  "title": "Guangzhou Juan IoT Technology EseeCloud",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-107333",
+   "CVE-2026-107334",
+   "CVE-2026-107335",
+   "CVE-2026-107336",
+   "CVE-2026-107337",
+   "CVE-2026-107361",
+   "CVE-2026-107362"
+  ],
+  "id": "255a284f65fc770e",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-280-01",
+  "published": "2026-10-15T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary The following versions of CISA Malcolm are affected: Malcolm <=v26.07.1 (CVE-2026-107336, CVE-2026-107361, CVE-2026-107337, CVE-2026-107335, CVE-2026-107334) Malcolm <=v26.08.0 (CVE-2026-107333, CVE-2026-107362) CVSS Vendor…",
+  "title": "CISA Malcolm",
+  "trust": "official"
  },
  {
   "category": "news",
@@ -46,6 +313,18 @@
   "summary": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and October of 2026.",
   "title": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "2ccda318ce991122",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8883-2",
+  "published": "2026-10-15T11:40:31Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "USN-8883-1 fixed a vulnerability in Go versions 1.18, 1.21, and 1.24. This update provides the corresponding fix for Go version 1.23.",
+  "title": "USN-8883-2: Go vulnerability",
+  "trust": "official"
  },
  {
   "category": "news",
@@ -173,6 +452,20 @@
   "summary": "[This is a Guest Diary by Zachary Norwood, an ISC intern as part of the SANS.edu BACS program]",
   "title": "Panchan's Mining Island [Guest Diary], (Wed, Oct 14th)",
   "trust": "vendor"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-21589"
+  ],
+  "id": "960655bbc712a269",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-21589",
+  "published": "2026-10-15T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessible to…",
+  "title": "CVE-2026-21589: Atlassian Multiple Products (Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability)",
+  "trust": "official"
  },
  {
   "category": "news",
