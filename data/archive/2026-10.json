@@ -1,6 +1,143 @@
 [
  {
   "category": "news",
+  "cves": [],
+  "id": "0cf7f7bcc23d197a",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/",
+  "published": "2026-10-15T13:18:36Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft announced that Windows Server 2022 has reached the end of mainstream support and will remain in extended support until October 2031. [...]",
+  "title": "Microsoft: Windows Server 2022 reached end of mainstream support",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "fc92b30c0e097420",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
+  "published": "2026-10-15T12:07:20Z",
+  "source": "The Hacker News",
+  "summary": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19.",
+  "title": "Drupal Patches Critical Core RCE Flaw with No-Login Path via Contributed Modules",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "46d0908018c423b9",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/",
+  "published": "2026-10-15T11:55:38Z",
+  "source": "BleepingComputer",
+  "summary": "Law enforcement authorities from 17 countries in Latin America and Europe have arrested 95 suspects in an INTERPOL-coordinated operation targeting the distribution of child sexual abuse material (CSAM) through online messaging groups. [...]",
+  "title": "Police arrests 95 suspects in international CSAM crackdown action",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "7632c9775fc3f8a1",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
+  "published": "2026-10-15T11:46:59Z",
+  "source": "The Hacker News",
+  "summary": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and October of 2026.",
+  "title": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f26b950a10884afc",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html",
+  "published": "2026-10-15T11:04:35Z",
+  "source": "The Hacker News",
+  "summary": "AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in their own output faster than practitioners are developing reliable ways…",
+  "title": "Why AI Confidence Is Not Validation",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "42bb64dbb397e3d9",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html",
+  "published": "2026-10-15T10:42:16Z",
+  "source": "The Hacker News",
+  "summary": "The Indian government has directed telecom service providers (TSPs) in the country to mandatorily display callers' registered names along with their numbers for incoming calls starting November 1, 2026, in an effort to help people identify calls…",
+  "title": "India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "b2b98793cc680ebe",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/",
+  "published": "2026-10-15T09:10:20Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft has resolved a known issue that was causing black screens, desktop loading issues, and Explorer crashes after installing Windows 11 updates released since August. [...]",
+  "title": "Microsoft fixes bug causing Windows black screens, Explorer crashes",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "de389138ccc3b170",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
+  "published": "2026-10-15T08:45:10Z",
+  "source": "The Hacker News",
+  "summary": "The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations. The spike, according to GitGuardian, was observed on October 8 and 9, 2026.",
+  "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "c1c711a40de7fa36",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/",
+  "published": "2026-10-15T08:06:47Z",
+  "source": "BleepingComputer",
+  "summary": "The Legal Aid Agency (LAA), an executive agency of the UK's Ministry of Justice that manages the country's Public Defender Service, says attackers who breached its IT systems in April 2025 stole records dating back to 1978. [...]",
+  "title": "UK Legal Aid Agency: Hackers stole records dating back to 1978",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-105740"
+  ],
+  "id": "62b0593f8c5cf933",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
+  "published": "2026-10-15T07:07:05Z",
+  "source": "The Hacker News",
+  "summary": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian. Langflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows.",
+  "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-105133",
+   "CVE-2026-105134"
+  ],
+  "id": "a85111717c44994a",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
+  "published": "2026-10-15T06:43:08Z",
+  "source": "The Hacker News",
+  "summary": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners.",
+  "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+  "trust": "media"
+ },
+ {
+  "category": "news",
   "cves": [
    "CVE-2026-0322"
   ],
