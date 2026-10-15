@@ -1,5 +1,31 @@
 [
  {
+  "category": "news",
+  "cves": [
+   "CVE-2026-0322"
+  ],
+  "id": "ca345f99060270cb",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+  "published": "2026-10-15T06:17:58Z",
+  "source": "The Hacker News",
+  "summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation.",
+  "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "944a492dea78db63",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33428",
+  "published": "2026-10-15T02:00:03Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "",
+  "title": "ISC Stormcast For Thursday, October 15th, 2026 https://isc.sans.edu/podcastdetail/10138, (Thu, Oct 15th)",
+  "trust": "vendor"
+ },
+ {
   "category": "research",
   "cves": [],
   "id": "ad4a5d9292e9d6eb",
