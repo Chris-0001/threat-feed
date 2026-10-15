@@ -1,5 +1,133 @@
 [
  {
+  "category": "news",
+  "cves": [
+   "CVE-2026-110447"
+  ],
+  "id": "b3b47170fae45523",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+  "published": "2026-10-15T20:25:04Z",
+  "source": "BleepingComputer",
+  "summary": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud. [...]",
+  "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-99999"
+  ],
+  "id": "629359ddccabdb00",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+  "published": "2026-10-15T20:24:36Z",
+  "source": "The Hacker News",
+  "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it.",
+  "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "9fcebf386bfe1621",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
+  "published": "2026-10-15T19:48:43Z",
+  "source": "BleepingComputer",
+  "summary": "Google announced new AI-powered defenses against scam messages and call-forwarding abuse on Android, currently rolling out to eligible devices. [...]",
+  "title": "Android gets AI defenses against messaging scams, fake calls",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "3736a9004bbd087c",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/suse-linux-security-advisory-av26-1053",
+  "published": "2026-10-15T19:35:56Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1053 Date: October 15, 2026 As of October 15, 2026, SUSE is affected by vulnerabilities in the following products: Rancher Prior to 2.10.5 Prior to 2.11.1 Prior to 2.9.9 Steve Prior to 0.2.1 Prior to 0.3.3 Prior to 0.4.4 Prior to…",
+  "title": "SUSE Linux security advisory (AV26-1053)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "7e101e9e86e54a81",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/control-systems-johnson-controls-security-advisory-av26-1052",
+  "published": "2026-10-15T19:24:46Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1052 Date: October 15, 2026 As of October 7, 2026, Johnson Controls is affected by a vulnerability in the following product: ADVMS Prior to 3.10 The Cyber Centre encourages users and administrators to review the provided web…",
+  "title": "[Control systems] Johnson Controls security advisory (AV26-1052)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "38024289c9acf644",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/control-systems-schneider-electric-security-advisory-av26-1051",
+  "published": "2026-10-15T19:10:41Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1051 Date: October 15, 2026 As of October 13, 2026, Schneider Electric is affected by a vulnerability in the following products: Sage RTU 1410/1430/1450 Versions prior to C3414-500-S02L0 Sage RTU 2400 Versions prior to…",
+  "title": "[Control systems] Schneider Electric security advisory (AV26-1051)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "48f31174aa6c140e",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/jetbrains-security-advisory-av26-1050",
+  "published": "2026-10-15T18:53:12Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1050 Date: October 15, 2026 As of October 15, 2026, JetBrains is affected by vulnerabilities in the following products: Datalore Prior to 2026.2.1 Junie CLI Prior to 26.8.3 TeamCity Prior to 2026.2 Prior to 2026.1.4 Prior to…",
+  "title": "JetBrains security advisory (AV26-1050)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "c34e2957e8db7f0a",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
+  "published": "2026-10-15T18:49:33Z",
+  "source": "The Hacker News",
+  "summary": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories. The rest gets interesting in different ways.",
+  "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "edb40b2ae9658779",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
+  "published": "2026-10-15T18:20:59Z",
+  "source": "BleepingComputer",
+  "summary": "A proxyjacking campaign has impacted devices in 34 countries, monetizing victims' internet connections through a commercial residential proxy network. [...]",
+  "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-101019",
+   "CVE-2026-104939",
+   "CVE-2026-15176"
+  ],
+  "id": "a11a2964c96756e8",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/f5-security-advisory-av26-1049",
+  "published": "2026-10-15T18:20:30Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1049 Date: October 15, 2026 As of October 14, 2026, F5 is affected by vulnerabilities in the following products: NGINX Gateway Fabric Prior to 2.8.0 NGINX Ingress Controller Prior to 5.7.0 NGINX JavaScript Prior to 1.0.2 NGINX…",
+  "title": "F5 security advisory (AV26-1049)",
+  "trust": "official"
+ },
+ {
   "category": "advisories",
   "cves": [],
   "id": "357caa2fd9d2c293",
@@ -9,6 +137,29 @@
   "source": "Canadian Cyber Centre",
   "summary": "Serial number: AV26-1048 Date: October 15, 2026 As of October 14, 2026, SonicWall is affected by vulnerabilities in the following product: Network Security Manager (NSM) On-Prem (VMWare, Hyper-V, Azure and KVM) Version 4.3.1 and prior The Cyber…",
   "title": "SonicWall security advisory (AV26-1048)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-66070",
+   "CVE-2026-66077",
+   "CVE-2026-66079",
+   "CVE-2026-67231",
+   "CVE-2026-67232",
+   "CVE-2026-67235",
+   "CVE-2026-67236",
+   "CVE-2026-67237",
+   "CVE-2026-67238",
+   "CVE-2026-67239"
+  ],
+  "id": "856ce25375168418",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8933-1",
+  "published": "2026-10-15T17:27:24Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that RabbitMQ Server incorrectly handled CORS wildcard origin configuration. An attacker could possibly use this issue to cause a cross-site request forgery attack.",
+  "title": "USN-8933-1: RabbitMQ Server vulnerabilities",
   "trust": "official"
  },
  {
@@ -288,6 +439,20 @@
   "source": "CISA Advisories",
   "summary": "View CSAF Summary The following versions of CISA Malcolm are affected: Malcolm <=v26.07.1 (CVE-2026-107336, CVE-2026-107361, CVE-2026-107337, CVE-2026-107335, CVE-2026-107334) Malcolm <=v26.08.0 (CVE-2026-107333, CVE-2026-107362) CVSS Vendor…",
   "title": "CISA Malcolm",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-21589"
+  ],
+  "id": "0f95b6ca5ffb0941",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog",
+  "published": "2026-10-15T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
   "trust": "official"
  },
  {
