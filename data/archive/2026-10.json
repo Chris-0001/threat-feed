@@ -2,6 +2,121 @@
  {
   "category": "news",
   "cves": [],
+  "id": "15e3db20a02645fa",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
+  "published": "2026-10-16T17:20:03Z",
+  "source": "BleepingComputer",
+  "summary": "Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device. [...]",
+  "title": "Zero-click attacks used targeted ads to deliver Candiru spyware",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-102764"
+  ],
+  "id": "b4ecdd3053b30a13",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/al26-025-critical-vulnerability-impacting-beyondtrust-remote-support-cve-2026-102764",
+  "published": "2026-10-16T16:34:00Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Number: AL26-025 Date: October 16, 2026 Audience This Alert is intended for IT professionals and managers. Purpose An Alert is used to raise awareness of a recently identified cyber threat that may impact cyber information assets, and to provide…",
+  "title": "AL26-025 - Critical vulnerability impacting BeyondTrust Remote Support – CVE-2026-102764",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3273da5669cee4fd",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
+  "published": "2026-10-16T16:16:44Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (AitM)…",
+  "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "3ad964fb42f28370",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/mozilla-security-advisory-av26-1057",
+  "published": "2026-10-16T14:19:42Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1057 Date: October 16, 2026 As of October 13, 2026, Mozilla is affected by vulnerabilities in the following products: Firefox ESR Prior to 153.5 Prior to 115.43 Firefox Prior to 158 Thunderbird Prior to 153.5 Prior to 158 The…",
+  "title": "Mozilla security advisory (AV26-1057)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "47eccb459db3d145",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
+  "published": "2026-10-16T14:03:04Z",
+  "source": "The Hacker News",
+  "summary": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurrency from…",
+  "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "6a4885c6245dea0b",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
+  "published": "2026-10-16T13:50:59Z",
+  "source": "BleepingComputer",
+  "summary": "Employees using personal ChatGPT accounts at work can expose sensitive company data, even when their organization provides an approved Enterprise workspace.",
+  "title": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "52f6669216fd4e8e",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/palo-alto-networks-security-advisory-av26-1056",
+  "published": "2026-10-16T13:29:16Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1056 Date: October 16, 2026 As of October 15, 2026, Palo Alto Networks is affected by a vulnerability in the following product: Idira Secrets Manager (Self-Hosted) Prior to v13.9.1 The Cyber Centre encourages users and…",
+  "title": "Palo Alto Networks security advisory (AV26-1056)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-109812",
+   "CVE-2026-109813"
+  ],
+  "id": "1606fd9a359d93e0",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/control-systems-moxa-security-advisory-av26-1055",
+  "published": "2026-10-16T13:16:21Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1055 Date: October 16, 2026 As of October 16, 2026, Moxa is affected by vulnerabilities in the following product: AIG-302 Series Prior to or equal to v1.4.1 The Cyber Centre encourages users and administrators to review the…",
+  "title": "[Control Systems] Moxa security advisory (AV26-1055)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-102764"
+  ],
+  "id": "ee6676da7ceb2211",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/beyondtrust-security-advisory-av26-1054",
+  "published": "2026-10-16T13:06:33Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1054 Date: October 16, 2026 As of October 15, 2026, BeyondTrust is affected by a vulnerability in the following product: Remote Support Prior to or equal to 26.2.3 Open-source reporting indicates that CVE-2026-102764 is being…",
+  "title": "BeyondTrust security advisory (AV26-1054)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "db4f64597defdf0f",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
@@ -10,6 +125,30 @@
   "summary": "Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]",
   "title": "Burger King Japan data breach exposes 11 million customer records",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "9a2a146516c7827e",
+  "kev": false,
+  "link": "https://www.cisa.gov/resources-tools/resources/cyber-threat-actors-use-variety-techniques-target-election-and-campaign-officials",
+  "published": "2026-10-16T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA and the Federal Bureau of Investigation (FBI) released a Public Service Announcement (PSA) warning election and campaign officials about cyber threats during the 2026 U.S. midterm elections.",
+  "title": "Cyber Threat Actors Use a Variety of Techniques to Target Election and Campaign Officials",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "3d291f5d77026d08",
+  "kev": false,
+  "link": "https://www.cisa.gov/resources-tools/resources/key-practices-incident-readiness-and-response-super-intelligence-training-and-evaluation",
+  "published": "2026-10-16T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "The National Institute of Standards and Technology (NIST), National Security Agency’s Super Intelligence Security Center (NSA SISC) and Cybersecurity and Infrastructure Security Agency (CISA) published Key Practices for Incident Readiness and…",
+  "title": "Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation",
+  "trust": "official"
  },
  {
   "category": "news",
