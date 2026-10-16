@@ -240,6 +240,20 @@
   "trust": "official"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-102764"
+  ],
+  "id": "3d007613a2fe9b1c",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
+  "published": "2026-10-16T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764 , affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier.",
+  "title": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "3f4b5bc8b8988ee2",
