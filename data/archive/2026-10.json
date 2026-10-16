@@ -1,5 +1,43 @@
 [
  {
+  "category": "news",
+  "cves": [],
+  "id": "a348b8c3d59363be",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+  "published": "2026-10-16T06:18:08Z",
+  "source": "BleepingComputer",
+  "summary": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]",
+  "title": "BeyondTrust patches zero-day exploited in attacks since August",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2025-61624"
+  ],
+  "id": "f1b4ed5844ffafa6",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+  "published": "2026-10-16T04:59:36Z",
+  "source": "The Hacker News",
+  "summary": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH.",
+  "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "b68f4961a8bc46d4",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33432",
+  "published": "2026-10-16T02:00:03Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "",
+  "title": "ISC Stormcast For Friday, October 16th, 2026 https://isc.sans.edu/podcastdetail/10140, (Fri, Oct 16th)",
+  "trust": "vendor"
+ },
+ {
   "category": "research",
   "cves": [],
   "id": "776940e8e7ec5d77",
