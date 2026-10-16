@@ -1,5 +1,67 @@
 [
  {
+  "category": "advisories",
+  "cves": [],
+  "id": "a2bbb323a72b365e",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/google-security-advisory-av26-1060",
+  "published": "2026-10-16T20:16:50Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1060 Date: October 16, 2026 As of October 15, 2026, Google is affected by vulnerabilities in the following product: Chrome Versions prior to 155.0.8059.84/.85 (Windows/Mac) and 155.0.8059.84 (Linux) The Cyber Centre encourages…",
+  "title": "Google security advisory (AV26-1060)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-103849"
+  ],
+  "id": "3658ea4873c600e8",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+  "published": "2026-10-16T20:00:59Z",
+  "source": "BleepingComputer",
+  "summary": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers. [...]",
+  "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "e32a30103aa3bbd2",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/bmc-helix-security-advisory-av26-1059",
+  "published": "2026-10-16T18:45:43Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1059 Date: October 16, 2026 As of October 15, 2026, BMC Helix is affected by a vulnerability in the following product: BMC Helix Network Management Prior to 26.3.01 The Cyber Centre encourages users and administrators to review…",
+  "title": "BMC Helix security advisory (AV26-1059)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "c83a8e4a677bb0ac",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/progress-security-advisory-av26-1058",
+  "published": "2026-10-16T17:50:47Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1058 Date: October 16, 2026 As of October 14, 2026, Progress is affected by vulnerabilities in the following product: MOVEit Transfer Prior to 2025.1.6 Prior to 2026.0.4 The Cyber Centre encourages users and administrators to…",
+  "title": "Progress security advisory (AV26-1058)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "53cf6b281896d2e3",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+  "published": "2026-10-16T17:48:45Z",
+  "source": "The Hacker News",
+  "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware…",
+  "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
+  "trust": "media"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "15e3db20a02645fa",
@@ -9,6 +71,18 @@
   "source": "BleepingComputer",
   "summary": "Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device. [...]",
   "title": "Zero-click attacks used targeted ads to deliver Candiru spyware",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "8cc62ce1aa5e32e8",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+  "published": "2026-10-16T16:43:39Z",
+  "source": "The Hacker News",
+  "summary": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of the Windows backup program that checked for an…",
+  "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
   "trust": "media"
  },
  {
@@ -125,6 +199,21 @@
   "summary": "Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]",
   "title": "Burger King Japan data breach exposes 11 million customer records",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2025-61624",
+   "CVE-2026-102764"
+  ],
+  "id": "cf94137d54dddbc5",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+  "published": "2026-10-16T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+  "trust": "official"
  },
  {
   "category": "advisories",
@@ -261,6 +350,34 @@
   "summary": "I believe the cybersecurity industry may be approaching AI security the wrong way.",
   "title": "Small Agents, Smaller Blast Radius: Controlling What AI Can Do, (Fri, Oct 16th)",
   "trust": "vendor"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-102764"
+  ],
+  "id": "92e0784712af7903",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764",
+  "published": "2026-10-16T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance.",
+  "title": "CVE-2026-102764: BeyondTrust Remote Support (BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2025-61624"
+  ],
+  "id": "3969bb3704d9b871",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624",
+  "published": "2026-10-16T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands.",
+  "title": "CVE-2025-61624: Fortinet Multiple Products (Fortinet Multiple Products Path Traversal Vulnerability)",
+  "trust": "official"
  },
  {
   "category": "news",
