@@ -1,5 +1,17 @@
 [
  {
+  "category": "research",
+  "cves": [],
+  "id": "776940e8e7ec5d77",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33430",
+  "published": "2026-10-16T00:46:35Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "I believe the cybersecurity industry may be approaching AI security the wrong way.",
+  "title": "Small Agents, Smaller Blast Radius: Controlling What AI Can Do, (Fri, Oct 16th)",
+  "trust": "vendor"
+ },
+ {
   "category": "news",
   "cves": [
    "CVE-2026-110447"
