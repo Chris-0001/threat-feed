@@ -1,5 +1,17 @@
 [
  {
+  "category": "news",
+  "cves": [],
+  "id": "b982e04808efb772",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+  "published": "2026-10-17T06:16:46Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized…",
+  "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+  "trust": "media"
+ },
+ {
   "category": "advisories",
   "cves": [],
   "id": "a2bbb323a72b365e",
