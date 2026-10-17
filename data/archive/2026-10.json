@@ -2,6 +2,30 @@
  {
   "category": "news",
   "cves": [],
+  "id": "5c748682e1f186ed",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+  "published": "2026-10-17T15:18:51Z",
+  "source": "BleepingComputer",
+  "summary": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
+  "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "bffb977bb4e10a8c",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+  "published": "2026-10-17T14:32:48Z",
+  "source": "BleepingComputer",
+  "summary": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
+  "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "ff1c23ec5a93528b",
   "kev": false,
   "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
