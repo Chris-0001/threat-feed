@@ -2,6 +2,18 @@
  {
   "category": "news",
   "cves": [],
+  "id": "ff1c23ec5a93528b",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+  "published": "2026-10-17T11:11:56Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX.",
+  "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "b982e04808efb772",
   "kev": false,
   "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
