@@ -2,6 +2,30 @@
  {
   "category": "news",
   "cves": [],
+  "id": "7dc225959769b150",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+  "published": "2026-10-18T14:23:16Z",
+  "source": "BleepingComputer",
+  "summary": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
+  "title": "Hackers exploit SiteGuard WAF flaw to run commands as SYSTEM, root",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "c59603d24942dadb",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33434",
+  "published": "2026-10-18T12:59:30Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "Here is the YARA rule I used to detect \"Orphaned VBA Projects Inside DWG Files\".",
+  "title": "Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "bdd917857544b301",
   "kev": false,
   "link": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
