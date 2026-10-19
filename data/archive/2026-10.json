@@ -2,6 +2,30 @@
  {
   "category": "news",
   "cves": [],
+  "id": "0b532bb13b2a37a6",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+  "published": "2026-10-19T06:29:44Z",
+  "source": "The Hacker News",
+  "summary": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser disclosed on October 16.",
+  "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "0feaefdbcc30c88e",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+  "published": "2026-10-19T06:07:08Z",
+  "source": "The Hacker News",
+  "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said.",
+  "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "7dc225959769b150",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
