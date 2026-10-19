@@ -1,5 +1,103 @@
 [
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-110936"
+  ],
+  "id": "19807d51476b6e56",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/siemens-security-advisory-av26-1063",
+  "published": "2026-10-19T20:37:35Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1063 Date: October 19, 2026 As of October 15, 2026, Siemens is affected by a vulnerability in the following product: Siemens Software Center Prior to V4.0.9.8 Siemens has reported that CVE-2026-110936 is being exploited in the…",
+  "title": "Siemens security advisory (AV26-1063)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "d6c6f47bb46cb96e",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/eptura-security-advisory-av26-1062",
+  "published": "2026-10-19T20:30:24Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1062 Date: October 19, 2026 As of October 19, 2026, Eptura is affected by a vulnerability in the following product: Archibus Prior to 2025.02 The Cyber Centre encourages users and administrators to review the provided web links…",
+  "title": "Eptura security advisory (AV26-1062)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "4d08154935ba61e3",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/red-hat-security-advisory-av26-1061",
+  "published": "2026-10-19T20:20:30Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1061 Date: October 19, 2026 As of October 19, 2026, Red Hat is affected by vulnerabilities in the following products: Fast Datapath for RHEL 10/8/9 All versions ManageIQ All versions Migration Toolkit for Applications 8 All…",
+  "title": "Red Hat security advisory (AV26-1061)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "1edca9c4a8447847",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
+  "published": "2026-10-19T19:40:58Z",
+  "source": "BleepingComputer",
+  "summary": "Hackers reportedly compromised AOMEI's servers to distribute malware through a built-in promotional feature in its backup software, briefly tampering with configuration files before restoring them to their original state to hide the attacks.a [...]",
+  "title": "Hackers hijack AOMEI update servers to secretly spread malware",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "5e4271918b704d15",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
+  "published": "2026-10-19T18:51:13Z",
+  "source": "BleepingComputer",
+  "summary": "Staffing software company Bullhorn has disabled access to its platform to contain a cyberattack that caused a system-wide outage. [...]",
+  "title": "Bullhorn takes staffing platform offline to contain cyberattack",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ef9df15414c478f7",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+  "published": "2026-10-19T17:32:13Z",
+  "source": "The Hacker News",
+  "summary": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public.",
+  "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "166603e25acc7b51",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
+  "published": "2026-10-19T17:27:15Z",
+  "source": "BleepingComputer",
+  "summary": "The open-source AI coding project OpenCode has notified a small number of users that API keys they used with external providers were exposed in a security breach. [...]",
+  "title": "OpenCode hack exposes API keys amid AI distillation attacks",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "8966f1c8a2d8257a",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
+  "published": "2026-10-19T16:28:47Z",
+  "source": "The Hacker News",
+  "summary": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a…",
+  "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
+  "trust": "media"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "c34fe3bbd6bba888",
