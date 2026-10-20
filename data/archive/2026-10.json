@@ -2,6 +2,80 @@
  {
   "category": "news",
   "cves": [],
+  "id": "e62a62f713434b27",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+  "published": "2026-10-20T11:31:22Z",
+  "source": "BleepingComputer",
+  "summary": "French cloud and hosting provider OVHcloud is warning users that attackers compromised its open-source command-line interface (CLI) tool to distribute information-stealing malware. [...]",
+  "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2bc0f926c60275c2",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
+  "published": "2026-10-20T11:18:35Z",
+  "source": "BleepingComputer",
+  "summary": "Ahold Delhaize, one of the world's largest food retail chains, confirmed that last week's cyberattack disrupted services at stores across Europe and the United States. [...]",
+  "title": "Ahold Delhaize: Cyberattack affects services across US and Europe",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "96296b52360e7c8f",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
+  "published": "2026-10-20T09:46:44Z",
+  "source": "BleepingComputer",
+  "summary": "Fintech company Revolut is working to resolve a massive outage that disrupted most of its services worldwide earlier today. [...]",
+  "title": "Revolut outage disrupts online banking operations worldwide",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "93fa3d3a30b6fb7d",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
+  "published": "2026-10-20T08:21:29Z",
+  "source": "The Hacker News",
+  "summary": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19.",
+  "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-110936"
+  ],
+  "id": "dd04b3aad0d41e25",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
+  "published": "2026-10-20T07:11:45Z",
+  "source": "The Hacker News",
+  "summary": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks.",
+  "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ef00dcfb88a6babd",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
+  "published": "2026-10-20T05:53:16Z",
+  "source": "The Hacker News",
+  "summary": "A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room at the company's San Francisco office to allegedly steal sensitive secrets.",
+  "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "257203c3cd270acc",
   "kev": false,
   "link": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
