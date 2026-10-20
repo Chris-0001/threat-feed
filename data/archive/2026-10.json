@@ -1,5 +1,68 @@
 [
  {
+  "category": "advisories",
+  "cves": [],
+  "id": "0b08056115c84c4f",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/craft-cms-security-advisory-av26-1067",
+  "published": "2026-10-20T20:04:46Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1067 Date: October 20, 2026 As of October 19, 2026, Craft CMS is affected by vulnerabilities in the following product: Craft CMS Prior to 4.18.8 Prior to 5.11.0 The Cyber Centre encourages users and administrators to review the…",
+  "title": "Craft CMS security advisory (AV26-1067)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "fa917431e7e71517",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+  "published": "2026-10-20T19:33:02Z",
+  "source": "BleepingComputer",
+  "summary": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environment variable records and…",
+  "title": "Zeabur shutting down after second security breach in two months",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "0e5f4b123cf88fc0",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
+  "published": "2026-10-20T18:11:03Z",
+  "source": "BleepingComputer",
+  "summary": "OpenAI confirmed that its newer models are much better at writing and migrating software in older programming languages. [...]",
+  "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20896",
+   "CVE-2026-60004"
+  ],
+  "id": "42e4188d4df93f7e",
+  "kev": true,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/gitea-security-advisory-av26-845",
+  "published": "2026-10-20T17:33:03Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-845 Date: August 25, 2026 Updated: October 20, 2026 As of August 14, 2026, Gitea is affected by vulnerabilities in the following product: Gitea Prior to 1.27.1 Update 1 Open-source reporting indicates that CVE-2026-20896 is being…",
+  "title": "Gitea security advisory (AV26-845) - Update 1",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2998053120e70e5e",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+  "published": "2026-10-20T17:09:53Z",
+  "source": "The Hacker News",
+  "summary": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised, Mozilla and Google's Chrome Root Program confirms on October 20.",
+  "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
+  "trust": "media"
+ },
+ {
   "category": "news",
   "cves": [
    "CVE-2026-106173"
@@ -210,6 +273,43 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2020-3259",
+   "CVE-2023-20269",
+   "CVE-2023-27532",
+   "CVE-2024-40711",
+   "CVE-2024-40766"
+  ],
+  "id": "8b4311b41b54d3f8",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a",
+  "published": "2026-10-20T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "Advisory at a Glance Title #StopRansomware: SafePay Ransomware Original Publication October 20, 2026 Executive Summary This advisory details recent activity by the SafePay ransomware group.",
+  "title": "#StopRansomware: SafePay Ransomware",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-106931",
+   "CVE-2026-110936",
+   "CVE-2026-96652",
+   "CVE-2026-96654",
+   "CVE-2026-96655",
+   "CVE-2026-96656"
+  ],
+  "id": "74f7350ecb6e83be",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/10/20/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+  "published": "2026-10-20T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-80466",
    "CVE-2026-88850"
   ],
@@ -379,6 +479,102 @@
   "summary": "",
   "title": "ISC Stormcast For Tuesday, October 20th, 2026 https://isc.sans.edu/podcastdetail/10142, (Tue, Oct 20th)",
   "trust": "vendor"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-96652",
+   "CVE-2026-96654",
+   "CVE-2026-96655",
+   "CVE-2026-96656"
+  ],
+  "id": "d9b75547a3ba55ca",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654",
+  "published": "2026-10-20T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Plex Media Server contains an improper neutralization of encoded URI schemes in a web page vulnerability that could allow an attacker to call other plugins' functions and supply their own parameters.",
+  "title": "CVE-2026-96654: Plex Media Server (Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-96652",
+   "CVE-2026-96654",
+   "CVE-2026-96655",
+   "CVE-2026-96656"
+  ],
+  "id": "a56462222c5f0492",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652",
+  "published": "2026-10-20T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen…",
+  "title": "CVE-2026-96652: Plex Media Server (Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-106931"
+  ],
+  "id": "9194cc7b23a50267",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931",
+  "published": "2026-10-20T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product.",
+  "title": "CVE-2026-106931: EG Secure Solutions SiteGuard Server Edition (EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-96652",
+   "CVE-2026-96654",
+   "CVE-2026-96655",
+   "CVE-2026-96656"
+  ],
+  "id": "66d038fa2d47b4f6",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655",
+  "published": "2026-10-20T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability that could allow an authenticated user to request arbitrary internal or external addresses via the '/video/:/transcode/universal' path parameter.",
+  "title": "CVE-2026-96655: Plex Media Server (Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-110936"
+  ],
+  "id": "3de5623378cc0f8c",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936",
+  "published": "2026-10-20T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Siemens Software Center contains an uncontrolled search path element vulnerability that could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution…",
+  "title": "CVE-2026-110936: Siemens Software Center (Siemens Software Center Uncontrolled Search Path Element Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-96652",
+   "CVE-2026-96654",
+   "CVE-2026-96655",
+   "CVE-2026-96656"
+  ],
+  "id": "32c18e9fbe7042dc",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656",
+  "published": "2026-10-20T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Plex Media Server contains an external control of file name or path vulnerability which can allow an admin user to write arbitrary files that may be executed on load.",
+  "title": "CVE-2026-96656: Plex Media Server (Plex Media Server External Control of File Name or Path Vulnerability)",
+  "trust": "official"
  },
  {
   "category": "news",
