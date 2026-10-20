@@ -1,5 +1,29 @@
 [
  {
+  "category": "news",
+  "cves": [],
+  "id": "46560cff6341e8a0",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
+  "published": "2026-10-19T21:49:48Z",
+  "source": "BleepingComputer",
+  "summary": "Nikkei Inc. disclosed a new data breach, the third in about a month, that exposed 1.83 million personal information records. [...]",
+  "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "812943731a5ecd9d",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
+  "published": "2026-10-19T21:24:51Z",
+  "source": "BleepingComputer",
+  "summary": "Some downloads of the Rank Math PRO WordPress plugin from the vendor's official website carried malware that planted hidden backdoors in a supply-chain attack last week. [...]",
+  "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
+  "trust": "media"
+ },
+ {
   "category": "advisories",
   "cves": [
    "CVE-2026-110936"
