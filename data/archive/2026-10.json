@@ -1,5 +1,17 @@
 [
  {
+  "category": "news",
+  "cves": [],
+  "id": "767cb3981a0c8d9a",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+  "published": "2026-10-20T20:56:43Z",
+  "source": "BleepingComputer",
+  "summary": "The PHP security team is warning administrators to prepare for emergency security updates tomorrow to address two critical vulnerabilities, as information about the flaws has reportedly leaked ahead of their scheduled disclosure. [...]",
+  "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
+  "trust": "media"
+ },
+ {
   "category": "advisories",
   "cves": [],
   "id": "0b08056115c84c4f",
@@ -37,6 +49,18 @@
  },
  {
   "category": "advisories",
+  "cves": [],
+  "id": "6cff202d5d428870",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8945-1",
+  "published": "2026-10-20T17:45:10Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that XZ Utils incorrectly handled certain memory allocation failures when reinitializing decoders for specific compressed file formats.",
+  "title": "USN-8945-1: XZ Utils vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
   "cves": [
    "CVE-2026-20896",
    "CVE-2026-60004"
@@ -61,6 +85,18 @@
   "summary": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised, Mozilla and Google's Chrome Root Program confirms on October 20.",
   "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "7bc5f993265f7cf1",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8944-1",
+  "published": "2026-10-20T15:52:06Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "This update removes the \"emSign ECC Root CA - G3\" CA certificate due to intermediate CA certificates being compromised. In addition, in Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, and Ubuntu 26.04 LTS, the ca-certificates package contained outdated CA…",
+  "title": "USN-8944-1: ca-certificates update",
+  "trust": "official"
  },
  {
   "category": "news",
@@ -91,6 +127,42 @@
   "trust": "media"
  },
  {
+  "category": "advisories",
+  "cves": [],
+  "id": "3dbb0afeee0fc011",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8942-1",
+  "published": "2026-10-20T15:15:07Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Multiple security issues were discovered in .NET and this update includes new upstream .NET versions to fix these issues. .NET 8 has been updated to 8.0.32 in Ubuntu 22.04 LTS and Ubuntu 24.04 LTS.",
+  "title": "USN-8942-1: .NET vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "8dbf16b4a82cf3ae",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8943-1",
+  "published": "2026-10-20T14:49:32Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that Protocol Buffers did not properly handle negative varint lengths or enforce recursion limits when parsing input in the PHP library.",
+  "title": "USN-8943-1: Protocol Buffers vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "47d81cac9ca4c06e",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8708-2",
+  "published": "2026-10-20T14:23:39Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "USN-8708-1 fixed a vulnerability in sudo-rs. This update provides the corresponding fix for Ubuntu 26.10. Original advisory details: It was discovered that sudo-rs incorrectly handled time-of-check vs time- of-use conditions in sudoedit.",
+  "title": "USN-8708-2: sudo-rs vulnerability",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "1967d5229730a3e7",
@@ -113,6 +185,25 @@
   "summary": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet.",
   "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-32748",
+   "CVE-2026-33515",
+   "CVE-2026-33526",
+   "CVE-2026-47729",
+   "CVE-2026-50012",
+   "CVE-2026-61642"
+  ],
+  "id": "f79966c6209c3440",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8941-1",
+  "published": "2026-10-20T13:59:52Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that Squid incorrectly handled certain HTTP Transfer- Encoding headers. An attacker could possibly use this issue to perform HTTP request smuggling attacks, bypass security mechanisms, or poison web caches.",
+  "title": "USN-8941-1: Squid vulnerabilities",
+  "trust": "official"
  },
  {
   "category": "news",
@@ -469,6 +560,18 @@
   "trust": "media"
  },
  {
+  "category": "advisories",
+  "cves": [],
+  "id": "522c9e57611ab1fb",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8940-1",
+  "published": "2026-10-20T03:21:29Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that the Perl XS::Parse::Keyword module did not correctly handle certain inputs. If a user or automated system were tricked into receiving specially crafted input, an attacker could cause a denial of service.",
+  "title": "USN-8940-1: Perl XS::Parse::Keyword module vulnerability",
+  "trust": "official"
+ },
+ {
   "category": "research",
   "cves": [],
   "id": "796920d7e79bc6b8",
@@ -687,6 +790,22 @@
   "trust": "media"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2016-7951",
+   "CVE-2016-7952",
+   "CVE-2026-94286"
+  ],
+  "id": "1f35607a8d114614",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8939-1",
+  "published": "2026-10-19T17:17:18Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that libXtst did not properly handle certain RECORD replies from the X server. A malicious X server could possibly use this issue to cause libXtst clients to crash, resulting in a denial of service.",
+  "title": "USN-8939-1: libXtst vulnerabilities",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "8966f1c8a2d8257a",
@@ -697,6 +816,29 @@
   "summary": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a…",
   "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-107928",
+   "CVE-2026-107929",
+   "CVE-2026-86409",
+   "CVE-2026-86410",
+   "CVE-2026-86412",
+   "CVE-2026-86414",
+   "CVE-2026-87862",
+   "CVE-2026-87863",
+   "CVE-2026-87864",
+   "CVE-2026-87865"
+  ],
+  "id": "b9717afb7bad653b",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8927-2",
+  "published": "2026-10-19T15:51:17Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "USN-8927-1 fixed vulnerabilities in curl. This update provides the corresponding fixes for Ubuntu 26.10. Original advisory details: It was discovered that curl, when built with GnuTLS support, had an out-of-bounds read in the WebSocket send path.",
+  "title": "USN-8927-2: curl vulnerabilities",
+  "trust": "official"
  },
  {
   "category": "news",
@@ -733,6 +875,18 @@
   "summary": "Cybercriminals are selling forged identity documents, deepfake videos, and live verification services to help buyers bypass Know Your Client (KYC) checks.",
   "title": "Inside the Underground Market for Know Your Client Services",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "038dc78208681c5f",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8938-1",
+  "published": "2026-10-19T13:56:50Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that cifs-utils incorrectly handled credentials files used by privileged mount.cifs invocations. A local attacker could possibly use this issue to inject arbitrary mount options into a privileged mount, resulting in a privilege…",
+  "title": "USN-8938-1: cifs-utils vulnerability",
+  "trust": "official"
  },
  {
   "category": "news",
