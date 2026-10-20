@@ -1,6 +1,265 @@
 [
  {
   "category": "news",
+  "cves": [
+   "CVE-2026-106173"
+  ],
+  "id": "bae17548848d0d82",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+  "published": "2026-10-20T15:38:52Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution.",
+  "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-0257"
+  ],
+  "id": "db680fea9d631f72",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+  "published": "2026-10-20T15:32:27Z",
+  "source": "The Hacker News",
+  "summary": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors.",
+  "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "1967d5229730a3e7",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
+  "published": "2026-10-20T14:19:05Z",
+  "source": "BleepingComputer",
+  "summary": "The U.S. Department of Homeland Security (DHS) is ordering federal civilian agencies to stop using DeepSeek products and remove them from government systems. [...]",
+  "title": "DHS bans DeepSeek products across US federal civilian agencies",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3ab53802e18fc604",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+  "published": "2026-10-20T14:07:17Z",
+  "source": "The Hacker News",
+  "summary": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet.",
+  "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "8183025e9ce900aa",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
+  "published": "2026-10-20T13:51:00Z",
+  "source": "BleepingComputer",
+  "summary": "CJIS v6.1 requires agencies to maintain strong authentication, account security, and audit controls while demonstrating ongoing compliance.",
+  "title": "CJIS v6.1 Compliance: 5 Practical Priorities for Agencies",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "b79b9dd173f642a0",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/control-systems-geovision-security-advisory-av26-1066",
+  "published": "2026-10-20T13:26:08Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1066 Date: October 20, 2026 As of October 19, 2026, GeoVision is affected by a vulnerability in the following product: GV-ASManager Versions prior to V6.3.0 The Cyber Centre encourages users and administrators to review the…",
+  "title": "[Control systems] GeoVision security advisory (AV26-1066)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "19aa751598caf564",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
+  "published": "2026-10-20T13:18:36Z",
+  "source": "BleepingComputer",
+  "summary": "A Nigerian national was sentenced to eight years in prison for his involvement in a series of spearphishing attacks targeting US tax preparation businesses since 2019. [...]",
+  "title": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "5059bbf00d524fcb",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/control-systems-advantech-security-advisory-av26-1065",
+  "published": "2026-10-20T13:10:55Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1065 Date: October 20, 2026 As of October 20, 2026, Advantech is affected by vulnerabilities in the following product: ADAM-3600 Versions prior to v2.8.5.0 The Cyber Centre encourages users and administrators to review the…",
+  "title": "[Control systems] Advantech security advisory (AV26-1065)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "a9e6b19b7c457f00",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/ibm-security-advisory-av26-1064",
+  "published": "2026-10-20T13:01:07Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1064 Date: October 20, 2026 As of October 19, 2026, IBM is affected by vulnerabilities in the following products: IBM Concert Prior to or equal to 3.0.0 IBM MQ Advanced container images Multiple versions IBM MQ Operator Multiples…",
+  "title": "IBM security advisory (AV26-1064)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "7df6e2fb39eeec76",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+  "published": "2026-10-20T12:59:44Z",
+  "source": "The Hacker News",
+  "summary": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the Citizen Lab said on October 19.",
+  "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "91cf0638b898710f",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/",
+  "published": "2026-10-20T12:16:32Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft announced that IT administrators can now use quick machine recovery on Windows Server 2025 after installing the October 2026 security update. [...]",
+  "title": "Windows Server 2025 gets support for quick machine recovery",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-9852",
+   "CVE-2026-9853",
+   "CVE-2026-9854"
+  ],
+  "id": "e78cca6e7c0bacd4",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-04",
+  "published": "2026-10-20T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Hitachi Energy is aware of multiple vulnerabilities that affect MicroSCADA X SYS600 product versions listed in this document. These vulnerabilities can be exploited to carry out various attacks on the product.",
+  "title": "Hitachi Energy MicroSCADA X SYS600 Product",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-11856",
+   "CVE-2026-17539",
+   "CVE-2026-28388",
+   "CVE-2026-6276",
+   "CVE-2026-6653",
+   "CVE-2026-6732",
+   "CVE-2026-8927",
+   "CVE-2026-8932",
+   "CVE-2026-9079"
+  ],
+  "id": "9cf930320b5ce3aa",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-05",
+  "published": "2026-10-20T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect RTU500 product versions listed in this document. These vulnerabilities if exploited can have impact on confidentiality, integrity and availability of the product.",
+  "title": "Hitachi Energy RTU500 Product",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-101103",
+   "CVE-2026-103672",
+   "CVE-2026-105960",
+   "CVE-2026-109576",
+   "CVE-2026-110322",
+   "CVE-2026-94188"
+  ],
+  "id": "99b7ff93bf9386bb",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-01",
+  "published": "2026-10-20T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could crash the Windows kernel. The following versions of HMS Networks PEAK-System PCAN Windows drivers are affected: PEAK-System Device Driver Setup <=5.1.2.1151 (CVE-2026-109576…",
+  "title": "HMS Networks PEAK-System PCAN Windows drivers",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-109812",
+   "CVE-2026-109813"
+  ],
+  "id": "8c35b9620e2ee683",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-03",
+  "published": "2026-10-20T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to obtain and disclose sensitive information.",
+  "title": "Moxa AIG-302 ThingsPro Edge",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-80466",
+   "CVE-2026-88850"
+  ],
+  "id": "58acc7224c8062dc",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-02",
+  "published": "2026-10-20T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Two vulnerabilities in the Web-Based Management (WBM) interface of WAGO CC100, PFC100 G2, PFC200 G2, TP600, Edge Controller and WP400 devices allow an authenticated low-privileged user to bypass intended privilege boundaries.",
+  "title": "WAGO OS Linux",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "fd8ad94948c9b63b",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
+  "published": "2026-10-20T11:41:06Z",
+  "source": "The Hacker News",
+  "summary": "WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer delete their accounts, even though WhatsApp's own privacy policy for Europe…",
+  "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "eacc3748bee480b7",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
+  "published": "2026-10-20T11:33:04Z",
+  "source": "The Hacker News",
+  "summary": "A sales manager builds an AI-assisted workflow to route leads. It connects to customer records, summarizes inbound requests, and posts updates to a shared channel.",
+  "title": "What Security Teams Can Do To Tame Wild Code",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "4cf516212e8f565d",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
+  "published": "2026-10-20T11:32:59Z",
+  "source": "The Hacker News",
+  "summary": "Go 1.27.3 and Go 1.26.10, released on October 20, make Go's certificate verifier reject any certificate chain that passes through one of eight intermediate certificate authority keys.",
+  "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
+  "trust": "media"
+ },
+ {
+  "category": "news",
   "cves": [],
   "id": "e62a62f713434b27",
   "kev": false,
@@ -21,6 +280,30 @@
   "source": "BleepingComputer",
   "summary": "Ahold Delhaize, one of the world's largest food retail chains, confirmed that last week's cyberattack disrupted services at stores across Europe and the United States. [...]",
   "title": "Ahold Delhaize: Cyberattack affects services across US and Europe",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "069f1fb56936ad42",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+  "published": "2026-10-20T11:06:25Z",
+  "source": "The Hacker News",
+  "summary": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty Organization (NATO).",
+  "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "4b1fa0ac3be08dc6",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
+  "published": "2026-10-20T10:56:08Z",
+  "source": "The Hacker News",
+  "summary": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to respond to a security incident that led to…",
+  "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
   "trust": "media"
  },
  {
