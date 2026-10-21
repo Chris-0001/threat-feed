@@ -1,5 +1,180 @@
 [
  {
+  "category": "advisories",
+  "cves": [],
+  "id": "33935326dedc8dae",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/cisco-security-advisory-av26-1073",
+  "published": "2026-10-21T19:09:38Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1073 Date: October 21, 2026 As of October 21, 2026, Cisco is affected by vulnerabilities in the following products: Cisco IOS XR Software Release Multiple versions Cisco Expressway Series Release Prior to X15.5.20 Snort 3 Release…",
+  "title": "Cisco security advisory (AV26-1073)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-19630",
+   "CVE-2026-94300",
+   "CVE-2026-96888",
+   "CVE-2026-97313"
+  ],
+  "id": "f2714ef271862cf2",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/isc-bind-security-advisory-av26-1072",
+  "published": "2026-10-21T18:48:12Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1072 Date: October 21, 2026 As of October 21, 2026, ISC is affected by a vulnerability in the following products: BIND 9 Versions 9.11.0 to 9.18.50 Versions 9.11.0 to 9.18.50 ◦ Versions 9.21.0 to 9.21.26 BIND Supported Preview…",
+  "title": "ISC BIND security advisory (AV26-1072)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "6e90031019c8e3df",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
+  "published": "2026-10-21T18:34:42Z",
+  "source": "BleepingComputer",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]",
+  "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "e8be2c8ea541a37f",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/oracle-corporation-security-advisory-av26-1071",
+  "published": "2026-10-21T18:28:37Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1071 Date: October 20, 2026 As of October 20, 2026, Oracle Corporation is affected by vulnerabilities in the following products: Helidon JD Edwards EnterpriseOne Configurator JD Edwards EnterpriseOne General Ledger JD Edwards…",
+  "title": "Oracle Corporation security advisory (AV26-1071)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "80a061e8462a61c1",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+  "published": "2026-10-21T18:01:57Z",
+  "source": "The Hacker News",
+  "summary": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind.",
+  "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "id": "7f57fa375dd8c42a",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/al26-026-critical-vulnerabilities-impacting-php-cve-2026-109618-cve-2026-109619",
+  "published": "2026-10-21T17:30:09Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Number: AL26-026 Date: October 21, 2026 Audience This Alert is intended for IT professionals and managers. Purpose An Alert is used to raise awareness of a recently identified cyber threat that may impact cyber information assets, and to provide…",
+  "title": "AL26-026 - Critical vulnerabilities impacting PHP - CVE-2026-109618 and CVE-2026-109619",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "ac0dbaca69638da3",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8950-1",
+  "published": "2026-10-21T16:53:02Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that poppler incorrectly handled the password length limit when decrypting certain encrypted PDF files. An attacker could possibly use this issue to cause a denial of service.",
+  "title": "USN-8950-1: poppler vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "b685ee8266a59162",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
+  "published": "2026-10-21T16:33:47Z",
+  "source": "The Hacker News",
+  "summary": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and one GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks.",
+  "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "c89a9b133c403239",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
+  "published": "2026-10-21T16:26:53Z",
+  "source": "BleepingComputer",
+  "summary": "OpenAI agents powered by the GPT-6.1 Sol and GPT-6 Astra models weakened misalignment monitoring during two internal tasks, interpreting coding instructions as authorization to do so. [...]",
+  "title": "OpenAI agents disabled safety monitoring, one lied about it",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-74220",
+   "CVE-2026-74221",
+   "CVE-2026-74222",
+   "CVE-2026-74225"
+  ],
+  "id": "3d8bcaaf6f21a244",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8930-2",
+  "published": "2026-10-21T15:57:11Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "USN-8930-1 fixed some vulnerabilities in U-Boot. This update provides the corresponding fix for U-Boot on Ubuntu 26.10. Original advisory details: Shahriyar Jalayeri and Mehrun P.",
+  "title": "USN-8930-2: U-Boot vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-101258",
+   "CVE-2026-103226"
+  ],
+  "id": "175e1c451e162b78",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8949-1",
+  "published": "2026-10-21T15:39:32Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Rick de Jager discovered that Ghostscript incorrectly handled memory under certain circumstances when processing PostScript documents.",
+  "title": "USN-8949-1: Ghostscript vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "id": "e920f8385d9fcc09",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8948-2",
+  "published": "2026-10-21T15:33:58Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "USN-8948-1 fixed vulnerabilities in Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, Ubuntu 26.04 LTS and Ubuntu 26.10. This provides the corrosponding updates in Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS and Ubuntu 20.04 LTS.",
+  "title": "USN-8948-2: PHP vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "316fc35124f15a8e",
+  "kev": false,
+  "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+  "published": "2026-10-21T15:26:07Z",
+  "source": "Krebs on Security",
+  "summary": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers.",
+  "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+  "trust": "media"
+ },
+ {
   "category": "research",
   "cves": [
    "CVE-2026-109618",
@@ -42,6 +217,18 @@
   "trust": "media"
  },
  {
+  "category": "news",
+  "cves": [],
+  "id": "348f4cca5dcee580",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+  "published": "2026-10-21T14:00:00Z",
+  "source": "The Hacker News",
+  "summary": "PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server.",
+  "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
+  "trust": "media"
+ },
+ {
   "category": "advisories",
   "cves": [
    "CVE-2026-109618",
@@ -57,6 +244,30 @@
   "trust": "official"
  },
  {
+  "category": "advisories",
+  "cves": [],
+  "id": "76d8e5eb6bfb9dd2",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/php-security-advisory-av26-1070",
+  "published": "2026-10-21T13:27:35Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1070 Date: October 21, 2026 As of October 21, 2026, PHP is affected by vulnerabilities in the following product: PHP 8.5.x versions prior to 8.5.12 8.4.x versions prior to 8.4.27 8.3.x versions prior to 8.3.36 8.2.x versions…",
+  "title": "PHP security advisory (AV26-1070)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "4e671bf0bcd381ed",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/google-chrome-security-advisory-av26-1069",
+  "published": "2026-10-21T13:19:21Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1069 Date: October 21, 2026 As of October 20, 2026, Google is affected by a vulnerability in the following product: Stable Channel Chrome for Desktop Versions prior to 56.0.8078.47/.48 (Windows/Mac), and 156.0.8078.47 (Linux) The…",
+  "title": "Google Chrome security advisory (AV26-1069)",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "84850e4cd88f335f",
@@ -67,6 +278,20 @@
   "summary": "Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled.",
   "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-28328"
+  ],
+  "id": "ddfcaacca07816d7",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/solarwinds-security-advisory-av26-1068",
+  "published": "2026-10-21T13:03:16Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1068 Date: October 21, 2026 As of October 20, 2026, SolarWinds is affected by vulnerabilities in the following product: SolarWinds Observability Self-Hosted Prior to 2026.4 The Cyber Centre encourages users and administrators to…",
+  "title": "SolarWinds security advisory (AV26-1068)",
+  "trust": "official"
  },
  {
   "category": "news",
@@ -91,6 +316,21 @@
   "summary": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025.",
   "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "id": "2a38000cb7c72da1",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
+  "published": "2026-10-21T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA strongly urges organizations to immediately patch the recently disclosed critical vulnerabilities in PHP, CVE-2026-109618 and CVE-2026-109619 .",
+  "title": "Critical Vulnerabilities in PHP Require Immediate Patching",
+  "trust": "official"
  },
  {
   "category": "news",
