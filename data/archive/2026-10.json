@@ -1,5 +1,91 @@
 [
  {
+  "category": "news",
+  "cves": [],
+  "id": "854623b23a6a9102",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+  "published": "2026-10-21T09:05:17Z",
+  "source": "The Hacker News",
+  "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory.",
+  "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "7af7dea92e676228",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
+  "published": "2026-10-21T09:01:12Z",
+  "source": "The Hacker News",
+  "summary": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites.",
+  "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "57e108c177803721",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
+  "published": "2026-10-21T08:36:24Z",
+  "source": "BleepingComputer",
+  "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]",
+  "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "b1630bb31f48f045",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
+  "published": "2026-10-21T08:04:17Z",
+  "source": "The Hacker News",
+  "summary": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order.",
+  "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2acfebfffb2d5c3a",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
+  "published": "2026-10-21T07:44:22Z",
+  "source": "The Hacker News",
+  "summary": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from.",
+  "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-96652"
+  ],
+  "id": "015232c1b2681ced",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
+  "published": "2026-10-21T07:26:49Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called…",
+  "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "97140c4ff19cffa1",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
+  "published": "2026-10-21T06:05:15Z",
+  "source": "The Hacker News",
+  "summary": "A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization. According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to a threat cluster dubbed…",
+  "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
+  "trust": "media"
+ },
+ {
   "category": "research",
   "cves": [],
   "id": "d687719b086bf4c0",
@@ -34,6 +120,18 @@
   "summary": "Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak that anyone could recover them almost instantly and use them to forge trusted certificates for legitimate…",
   "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "9ed953c90eac08cc",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8944-2",
+  "published": "2026-10-20T21:21:42Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "USN-8944-1 updated ca-certificates. This update provides the corresponding changes for Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, and Ubuntu 20.04 LTS by removing the \"emSign ECC Root CA - G3\" and \"Comodo AAA Services root\" CA…",
+  "title": "USN-8944-2: ca-certificates update",
+  "trust": "official"
  },
  {
   "category": "news",
