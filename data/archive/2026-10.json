@@ -1,5 +1,181 @@
 [
  {
+  "category": "research",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "id": "13b1cc939f7b42f7",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33440",
+  "published": "2026-10-21T15:12:02Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "PHP.net announced that it will release a critical update today. We decided to change the infoCon to YELLOW due to the widespread use of PHP, the expected severity of the flaw (CVSS 9.4), and the availability of early PoC exploits ahead of the patch…",
+  "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) [infocon yellow], (Wed, Oct 21st)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "id": "f668b93dda214458",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+  "published": "2026-10-21T14:07:05Z",
+  "source": "BleepingComputer",
+  "summary": "The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...]",
+  "title": "PHP ships emergency patches for critical PHP2Shell flaws",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "e851963792c8882f",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
+  "published": "2026-10-21T14:00:10Z",
+  "source": "BleepingComputer",
+  "summary": "ClickFix attacks are surging as cybercriminals use fake AI installers, malicious search results, and trusted chatbot platforms to trick users into executing malware.",
+  "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "id": "1dfb6d6fde8104e9",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8948-1",
+  "published": "2026-10-21T13:56:19Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that PHP incorrectly handled out-of-memory conditions while processing requests. A remote attacker could use this issue to execute arbitrary code.",
+  "title": "USN-8948-1: PHP vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "84850e4cd88f335f",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+  "published": "2026-10-21T13:15:09Z",
+  "source": "The Hacker News",
+  "summary": "Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled.",
+  "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "28253237e3e9478d",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
+  "published": "2026-10-21T12:20:34Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft has released PowerToys 0.102, with two new mouse utilities, new command-line tools, and Command Palette improvements. [...]",
+  "title": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "04c8b9698ca93dd1",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
+  "published": "2026-10-21T12:05:00Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025.",
+  "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "41497db048a2d24a",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
+  "published": "2026-10-21T11:53:34Z",
+  "source": "The Hacker News",
+  "summary": "Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized, and unique to each recipient, and the behavioral…",
+  "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "6adeed42274665ab",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
+  "published": "2026-10-21T10:36:53Z",
+  "source": "The Hacker News",
+  "summary": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says.",
+  "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3faf05bc5c0872e6",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
+  "published": "2026-10-21T10:32:40Z",
+  "source": "The Hacker News",
+  "summary": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks.",
+  "title": "The Harness Is the Hard Part of Agentic Pentesting",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "aeb1a7344a401b3f",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
+  "published": "2026-10-21T10:30:27Z",
+  "source": "The Hacker News",
+  "summary": "Attackers took control of more than 300 Tor exit relays in early October and used them to redirect SSH connections to servers that stole login passwords, a researcher found.",
+  "title": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "a76c597c3a0b4d57",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
+  "published": "2026-10-21T10:14:53Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft says it mistakenly flagged a bug causing Always On VPN connection issues as fixed in the October 2026 Windows 11 cumulative updates. [...]",
+  "title": "Microsoft says October updates didn’t actually fix VPN issues",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2023-50387",
+   "CVE-2023-50868",
+   "CVE-2026-32665",
+   "CVE-2026-40691",
+   "CVE-2026-44690",
+   "CVE-2026-50252",
+   "CVE-2026-55973",
+   "CVE-2026-80225",
+   "CVE-2026-81634",
+   "CVE-2026-85501"
+  ],
+  "id": "dfaffe366a8537aa",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8946-1",
+  "published": "2026-10-21T09:48:45Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that Unbound incorrectly handled certain TCP connections. A remote attacker could possibly use this issue to cause Unbound to consume resources, leading to a denial of service.",
+  "title": "USN-8946-1: Unbound vulnerabilities",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "854623b23a6a9102",
