@@ -1,5 +1,62 @@
 [
  {
+  "category": "news",
+  "cves": [],
+  "id": "585a925ae197fc70",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
+  "published": "2026-10-21T22:16:26Z",
+  "source": "BleepingComputer",
+  "summary": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]",
+  "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "979425b0f120b06e",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+  "published": "2026-10-21T21:43:27Z",
+  "source": "BleepingComputer",
+  "summary": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to 26,739 customers' servers. [...]",
+  "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-4271",
+   "CVE-2026-5119",
+   "CVE-2026-6324",
+   "CVE-2026-66339",
+   "CVE-2026-77014",
+   "CVE-2026-77680",
+   "CVE-2026-85197",
+   "CVE-2026-85534"
+  ],
+  "id": "45864ed61e39592f",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8890-2",
+  "published": "2026-10-21T21:36:06Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "USN-8890-1 fixed vulnerabilities in libsoup. This update provides the corresponding updates for libsoup3 on Ubuntu 26.10. Original advisory details: It was discovered that libsoup incorrectly handled certain HTTP/2 requests.",
+  "title": "USN-8890-2: libsoup vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "844e8198c1ce3fe1",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
+  "published": "2026-10-21T20:31:48Z",
+  "source": "BleepingComputer",
+  "summary": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]",
+  "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
+  "trust": "media"
+ },
+ {
   "category": "advisories",
   "cves": [],
   "id": "33935326dedc8dae",
@@ -10,6 +67,18 @@
   "summary": "Serial number: AV26-1073 Date: October 21, 2026 As of October 21, 2026, Cisco is affected by vulnerabilities in the following products: Cisco IOS XR Software Release Multiple versions Cisco Expressway Series Release Prior to X15.5.20 Snort 3 Release…",
   "title": "Cisco security advisory (AV26-1073)",
   "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2bbdf8bb07dee2ac",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+  "published": "2026-10-21T18:57:34Z",
+  "source": "The Hacker News",
+  "summary": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014.",
+  "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+  "trust": "media"
  },
  {
   "category": "advisories",
@@ -53,6 +122,23 @@
   "trust": "official"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2020-22217",
+   "CVE-2022-4904",
+   "CVE-2026-69184",
+   "CVE-2026-69186"
+  ],
+  "id": "4765625fa9113cdf",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8951-1",
+  "published": "2026-10-21T18:20:42Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that c-ares incorrectly parsed certain SOA replies. A remote attacker could possibly use this issue to cause c-ares to crash, resulting in a denial of service. This issue only affected Ubuntu 16.04 LTS and Ubuntu 18.04 LTS.",
+  "title": "USN-8951-1: c-ares vulnerabilities",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "80a061e8462a61c1",
@@ -63,6 +149,18 @@
   "summary": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind.",
   "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "709fb4be5eb00c75",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8947-1",
+  "published": "2026-10-21T17:40:27Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "This update removes the \"emSign ECC Root CA - G3\" and \"Comodo AAA Services root\" CA certificate due to intermediate CA certificates being compromised.",
+  "title": "USN-8947-1: NSS update",
+  "trust": "official"
  },
  {
   "category": "advisories",
