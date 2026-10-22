@@ -1,5 +1,41 @@
 [
  {
+  "category": "news",
+  "cves": [],
+  "id": "961ece136d113bb6",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+  "published": "2026-10-22T21:25:31Z",
+  "source": "BleepingComputer",
+  "summary": "Cloud platform Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environment variables earlier this week. [...]",
+  "title": "Railway warns devs to rotate secrets after potential breach",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "c0989aab9ce011f8",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+  "published": "2026-10-22T20:22:45Z",
+  "source": "BleepingComputer",
+  "summary": "Japanese gaming giant Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer email addresses and associated information. [...]",
+  "title": "Capcom confirms data breach affecting 11.7 million accounts",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "ab23fa484129c86b",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8954-1",
+  "published": "2026-10-22T19:54:53Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Ali Firas discovered that zlib incorrectly handled certain non-blocking write operations. An attacker could possibly use this issue to trigger a heap buffer overflow, resulting in a denial of service or arbitrary code execution.",
+  "title": "USN-8954-1: zlib vulnerability",
+  "trust": "official"
+ },
+ {
   "category": "advisories",
   "cves": [],
   "id": "5f510c710b0dc4e7",
