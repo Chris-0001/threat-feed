@@ -1,5 +1,77 @@
 [
  {
+  "category": "news",
+  "cves": [],
+  "id": "8af92fa4f5cfb03a",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+  "published": "2026-10-22T08:28:48Z",
+  "source": "The Hacker News",
+  "summary": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor.",
+  "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "d0740362c995f8f0",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
+  "published": "2026-10-22T08:27:11Z",
+  "source": "BleepingComputer",
+  "summary": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]",
+  "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "20b2dbba7d7e1083",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+  "published": "2026-10-22T07:47:22Z",
+  "source": "The Hacker News",
+  "summary": "Node.js released security updates on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote…",
+  "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f6e686cf4fdb31a0",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
+  "published": "2026-10-22T06:38:31Z",
+  "source": "The Hacker News",
+  "summary": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO disclosed, releasing working proof-of-concept code.",
+  "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f35fcdf5e836e8ca",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+  "published": "2026-10-22T06:34:10Z",
+  "source": "The Hacker News",
+  "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild…",
+  "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f0cb87fd97ca61ca",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+  "published": "2026-10-22T04:21:26Z",
+  "source": "The Hacker News",
+  "summary": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application.",
+  "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+  "trust": "media"
+ },
+ {
   "category": "research",
   "cves": [],
   "id": "37ee0b72bbe367d0",
