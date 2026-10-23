@@ -1,5 +1,155 @@
 [
  {
+  "category": "advisories",
+  "cves": [],
+  "id": "5dfbe2c9851cce60",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/fortinet-security-advisory-av26-1081",
+  "published": "2026-10-23T14:16:11Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1081 Date: October 23, 2026 As of October 21, 2026, Fortinet is affected by vulnerabilities in the following products: FortiAnalyzer 8.0 Versions prior to 8.0.2 FortiAnalyzer 7.6 Versions prior to 7.6.8 FortiAnalyzer 7.4 Versions…",
+  "title": "Fortinet security advisory (AV26-1081)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "161d79a646122798",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
+  "published": "2026-10-23T14:00:10Z",
+  "source": "BleepingComputer",
+  "summary": "AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using their legitimate permissions.",
+  "title": "You gave your AI agent access, but who is giving it orders?",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "d9b725e8d6316368",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+  "published": "2026-10-23T13:50:56Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls.",
+  "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114625"
+  ],
+  "id": "aebe56e8cc9a2ca9",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/arista-networks-security-advisory-av26-1080",
+  "published": "2026-10-23T13:43:50Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1080 Date: October 23, 2026 As of October 22, 2026, Arista Networks is affected by a vulnerability in the following product: VeloCloud Orchestrator (VCO) Prior to 5.2.3.18 Prior to 6.1.3.10 Prior to 6.4.2.12 Arista Networks…",
+  "title": "Arista Networks security advisory (AV26-1080)",
+  "trust": "official"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "61ca1bf4a9edf6d5",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33450",
+  "published": "2026-10-23T13:43:20Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "This morning, we returned to Infocon Green. As usual, we are raising the Infocon to alert you to emerging situations requiring immediate attention. PHP fit that description.",
+  "title": "PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "5e78ad1846692878",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/hpe-security-advisory-av26-1079",
+  "published": "2026-10-23T13:19:05Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1079 Date: October 22, 2026 As of October 22, 2026, Hewlett Packard Enterprise (HPE) is affected by vulnerabilities in the following product: HPE Networking Wireless Operating Systems - AOS Versions prior to 10.8.1.2 Versions…",
+  "title": "HPE security advisory (AV26-1079)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "3a1a54b79d510f5d",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/mongodb-security-advisory-av26-1078",
+  "published": "2026-10-23T13:00:17Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1078 Date: October 22, 2026 As of October 22, 2026, MongoDB is affected by vulnerabilities in the following product: C# Driver Prior to 3.13.0 The Cyber Centre encourages users and administrators to review the provided web links…",
+  "title": "MongoDB security advisory (AV26-1078)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "cab6ae1055eace4a",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+  "published": "2026-10-23T12:48:00Z",
+  "source": "BleepingComputer",
+  "summary": "Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues. [...]",
+  "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-115560"
+  ],
+  "id": "a54f4b2067ce2b3c",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+  "published": "2026-10-23T11:25:43Z",
+  "source": "The Hacker News",
+  "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.",
+  "title": "PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "44fb871690027f46",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+  "published": "2026-10-23T11:11:23Z",
+  "source": "The Hacker News",
+  "summary": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year.",
+  "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "0054ccc4a4cc4688",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33448",
+  "published": "2026-10-23T10:25:11Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "",
+  "title": "ISC Stormcast For Friday, October 23rd, 2026 https://isc.sans.edu/podcastdetail/10148, (Fri, Oct 23rd)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-112900"
+  ],
+  "id": "2d9fd92a0376a8d7",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+  "published": "2026-10-23T09:36:00Z",
+  "source": "The Hacker News",
+  "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open.",
+  "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+  "trust": "media"
+ },
+ {
   "category": "news",
   "cves": [
    "CVE-2026-111497"
