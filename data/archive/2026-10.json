@@ -2,6 +2,30 @@
  {
   "category": "news",
   "cves": [],
+  "id": "beb5f5726d2932e2",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+  "published": "2026-10-23T20:55:05Z",
+  "source": "BleepingComputer",
+  "summary": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute malicious code with elevated privileges on…",
+  "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "fc5c43c266ec6291",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33452",
+  "published": "2026-10-23T20:04:47Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "Yesterday everyone was running around like crazy (me included :) because of the php2shell vulnerability.",
+  "title": "(Reliable)? php2shell exploitability, (Fri, Oct 23rd)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "9949604f124902b7",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
@@ -286,6 +310,20 @@
   "source": "CISA KEV",
   "summary": "Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host.",
   "title": "CVE-2026-114625: Arista VeloCloud Orchestrator (Arista VeloCloud Orchestrator SQL Injection Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-110447"
+  ],
+  "id": "11b142fc9b4329b7",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110447",
+  "published": "2026-10-23T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Collabora Collabora Online – Built-in CODE Server when used within the NextCloud platform contains an OS command injection vulnerability that allows for remote code execution when the CODE server isn't running.",
+  "title": "CVE-2026-110447: Collabora Collabora Online – Built-in CODE Server (Collabora Online – Built-in CODE Server OS Command Injection Vulnerability)",
   "trust": "official"
  },
  {
