@@ -1,5 +1,89 @@
 [
  {
+  "category": "news",
+  "cves": [],
+  "id": "9949604f124902b7",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+  "published": "2026-10-23T18:54:41Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]",
+  "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "855aa05745e422e2",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+  "published": "2026-10-23T18:50:13Z",
+  "source": "The Hacker News",
+  "summary": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX.",
+  "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "57d552e5228ffdd9",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+  "published": "2026-10-23T17:54:08Z",
+  "source": "The Hacker News",
+  "summary": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month.",
+  "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "8ee5d69cd7aa8e37",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+  "published": "2026-10-23T17:50:47Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups.",
+  "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "bc8ef3d355077203",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
+  "published": "2026-10-23T17:05:07Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft says Windows Server 2016 will stop receiving security updates after it reaches the end of support in January 2027. [...]",
+  "title": "Microsoft: Windows Server 2016 reaches end of support in January",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "c7831267004a543c",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+  "published": "2026-10-23T16:40:07Z",
+  "source": "BleepingComputer",
+  "summary": "American clinical laboratory company Quest Diagnostics disclosed that patient records have been exposed after a threat actor gained unauthorized access to its Quanum LSM system. [...]",
+  "title": "Quest Diagnostics confirms data breach exposed patient records",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "d12619739d513634",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+  "published": "2026-10-23T15:38:05Z",
+  "source": "BleepingComputer",
+  "summary": "The PHP security team has shared mitigation measures for a new remote code execution vulnerability that affects systems with non-default configurations and has no patch. [...]",
+  "title": "PHP shares mitigation for new RCE vulnerability with no patch",
+  "trust": "media"
+ },
+ {
   "category": "advisories",
   "cves": [],
   "id": "5dfbe2c9851cce60",
@@ -189,6 +273,20 @@
   "summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than…",
   "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
   "trust": "media"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-114625"
+  ],
+  "id": "3f67bec6baeff5df",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114625",
+  "published": "2026-10-23T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host.",
+  "title": "CVE-2026-114625: Arista VeloCloud Orchestrator (Arista VeloCloud Orchestrator SQL Injection Vulnerability)",
+  "trust": "official"
  },
  {
   "category": "news",
