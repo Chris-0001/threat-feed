@@ -1,6 +1,47 @@
 [
  {
   "category": "news",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "id": "635174f81207419f",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+  "published": "2026-10-23T08:40:43Z",
+  "source": "The Hacker News",
+  "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated.",
+  "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "44e55da8ebdd48aa",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+  "published": "2026-10-23T08:35:45Z",
+  "source": "The Hacker News",
+  "summary": "AI agents paying for API calls with the x402 SDKs could sign a payment for their full balance of a supported token if a malicious API asked for it, security firm V12 said on October 22.",
+  "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "id": "4732b05fcd0143df",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+  "published": "2026-10-23T07:40:45Z",
+  "source": "The Hacker News",
+  "summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than…",
+  "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+  "trust": "media"
+ },
+ {
+  "category": "news",
   "cves": [],
   "id": "961ece136d113bb6",
   "kev": false,
