@@ -2,6 +2,46 @@
  {
   "category": "news",
   "cves": [],
+  "id": "437953ba0af53e2b",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+  "published": "2026-10-24T09:04:24Z",
+  "source": "The Hacker News",
+  "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine.",
+  "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "id": "3b8530f16ddf1d63",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+  "published": "2026-10-24T08:45:56Z",
+  "source": "The Hacker News",
+  "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli.",
+  "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-110447"
+  ],
+  "id": "9e28116657c98afc",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+  "published": "2026-10-24T06:25:57Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports…",
+  "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "beb5f5726d2932e2",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
