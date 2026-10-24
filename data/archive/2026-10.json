@@ -2,6 +2,42 @@
  {
   "category": "news",
   "cves": [],
+  "id": "d079224341261a25",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+  "published": "2026-10-24T14:17:32Z",
+  "source": "BleepingComputer",
+  "summary": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast.",
+  "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f6b4a9873327b7b8",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+  "published": "2026-10-24T11:03:33Z",
+  "source": "The Hacker News",
+  "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package.",
+  "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "b96da1c90472ac10",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+  "published": "2026-10-24T10:36:33Z",
+  "source": "The Hacker News",
+  "summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services.",
+  "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "437953ba0af53e2b",
   "kev": false,
   "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",

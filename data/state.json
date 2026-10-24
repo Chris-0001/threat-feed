@@ -1,8 +1,8 @@
 {
  "feeds": {
   "BleepingComputer": {
-   "etag": "31a212b0c5c272b7643957ff18abed77",
-   "last_modified": "Sat, 24 Oct 2026 10:53:34 GMT"
+   "etag": "670b3a9c5ae56b7c718456f96fa71584",
+   "last_modified": "Sat, 24 Oct 2026 14:23:40 GMT"
   },
   "CISA Advisories": {},
   "CISA KEV": {
@@ -14,11 +14,11 @@
    "last_modified": "Fri, 23 Oct 2026 19:10:35 GMT"
   },
   "SANS Internet Storm Center": {
-   "etag": "W/\"193c-65e93fbd6ecc0\"",
-   "last_modified": "Sat, 24 Oct 2026 10:58:58 GMT"
+   "etag": "W/\"193c-65e96ead0165f\"",
+   "last_modified": "Sat, 24 Oct 2026 14:28:57 GMT"
   },
   "The Hacker News": {
-   "last_modified": "Sat, 24 Oct 2026 10:17:51 GMT"
+   "last_modified": "Sat, 24 Oct 2026 14:28:02 GMT"
   },
   "Ubuntu Security Notices": {}
  },
@@ -2313,6 +2313,7 @@
   "b7371bbee9f2e884": "2026-10-14",
   "b79b9dd173f642a0": "2026-10-20",
   "b804814c0c26000f": "2026-10-08",
+  "b96da1c90472ac10": "2026-10-24",
   "b9717afb7bad653b": "2026-10-20",
   "b982e04808efb772": "2026-10-17",
   "b9e7b293f71bac00": "2026-10-08",
@@ -2387,6 +2388,7 @@
   "cffe0732e8d5e1dc": "2026-10-08",
   "d0495ea21814f959": "2026-10-15",
   "d0740362c995f8f0": "2026-10-22",
+  "d079224341261a25": "2026-10-24",
   "d0cbbd4a546d9488": "2026-10-08",
   "d0e567504051f2e0": "2026-10-10",
   "d108e3a9b992b0a1": "2026-10-13",
@@ -2497,6 +2499,7 @@
   "f5b72306349c6ed9": "2026-10-08",
   "f64e7dac9ab9b33b": "2026-10-08",
   "f668b93dda214458": "2026-10-21",
+  "f6b4a9873327b7b8": "2026-10-24",
   "f6e686cf4fdb31a0": "2026-10-22",
   "f6ff4cdcb8d2945e": "2026-10-08",
   "f79966c6209c3440": "2026-10-20",
