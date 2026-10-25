@@ -2,6 +2,33 @@
  {
   "category": "news",
   "cves": [],
+  "id": "f569879a45e4a817",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+  "published": "2026-10-25T17:44:09Z",
+  "source": "The Hacker News",
+  "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week.",
+  "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "id": "b5a95853e439769a",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+  "published": "2026-10-25T17:19:46Z",
+  "source": "The Hacker News",
+  "summary": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619.",
+  "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "eed1c94d3885ccc6",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
