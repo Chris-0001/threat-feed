@@ -2,6 +2,18 @@
  {
   "category": "news",
   "cves": [],
+  "id": "eed1c94d3885ccc6",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+  "published": "2026-10-25T15:49:38Z",
+  "source": "BleepingComputer",
+  "summary": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
+  "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "c2066cbc69cf0fbb",
   "kev": false,
   "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
