@@ -1,5 +1,17 @@
 [
  {
+  "category": "research",
+  "cves": [],
+  "id": "91dddaf44c9a3a38",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33454",
+  "published": "2026-10-25T19:57:53Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "YARA-X&#;x26;#;39;s 1.22.0 release brings 11 improvements and 9 bugfixes.",
+  "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
+  "trust": "vendor"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "f569879a45e4a817",
