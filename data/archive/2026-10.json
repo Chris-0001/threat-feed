@@ -2,6 +2,18 @@
  {
   "category": "news",
   "cves": [],
+  "id": "c2066cbc69cf0fbb",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+  "published": "2026-10-25T06:54:29Z",
+  "source": "The Hacker News",
+  "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models.",
+  "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "d079224341261a25",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
