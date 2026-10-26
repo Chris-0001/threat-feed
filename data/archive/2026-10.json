@@ -2,6 +2,18 @@
  {
   "category": "research",
   "cves": [],
+  "id": "f3d0a7d402a17141",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33456",
+  "published": "2026-10-26T03:30:12Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "",
+  "title": "ISC Stormcast For Monday, October 26th, 2026 https://isc.sans.edu/podcastdetail/10150, (Mon, Oct 26th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "research",
+  "cves": [],
   "id": "91dddaf44c9a3a38",
   "kev": false,
   "link": "https://isc.sans.edu/diary/rss/33454",
