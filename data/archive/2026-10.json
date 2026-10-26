@@ -1,5 +1,104 @@
 [
  {
+  "category": "news",
+  "cves": [],
+  "id": "0ef34242f7f14896",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
+  "published": "2026-10-26T11:23:56Z",
+  "source": "The Hacker News",
+  "summary": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual alerts into one timeline, and…",
+  "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "8c86c8044183e49e",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
+  "published": "2026-10-26T10:26:52Z",
+  "source": "BleepingComputer",
+  "summary": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more. [...]",
+  "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "110209c13668b140",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+  "published": "2026-10-26T09:54:02Z",
+  "source": "The Hacker News",
+  "summary": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found.",
+  "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "91eff696ff04f599",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33442",
+  "published": "2026-10-26T09:38:03Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "[This is a Guest Diary by Jeffray Spence, an ISC intern as part of the SANS.edu BACS program]",
+  "title": "Looking for a Language [Guest Diary], (Wed, Oct 21st)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "id": "454c41e4fdc1f680",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+  "published": "2026-10-26T09:19:57Z",
+  "source": "BleepingComputer",
+  "summary": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
+  "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "cf4cd45c572d6f89",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+  "published": "2026-10-26T08:35:51Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79…",
+  "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3b9d1be8db020bc8",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+  "published": "2026-10-26T07:49:46Z",
+  "source": "The Hacker News",
+  "summary": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs.",
+  "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2c10eb29bbde3f77",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+  "published": "2026-10-26T06:03:48Z",
+  "source": "The Hacker News",
+  "summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm Forever Security said in a report published last week.",
+  "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+  "trust": "media"
+ },
+ {
   "category": "research",
   "cves": [],
   "id": "f3d0a7d402a17141",
