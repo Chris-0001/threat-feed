@@ -1,5 +1,65 @@
 [
  {
+  "category": "research",
+  "cves": [],
+  "id": "9e317088456d851d",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33458",
+  "published": "2026-10-26T23:34:37Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "Apple today released patches for 304 vulnerabilties. This number is still in line with prior Apple updates, and comes just about a month after the last apple update.",
+  "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "315952af67c06d7a",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+  "published": "2026-10-26T22:20:36Z",
+  "source": "BleepingComputer",
+  "summary": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]",
+  "title": "University of Copenhagen data breach exposes data of 525,000 people",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "30bf9e4f0578f03e",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
+  "published": "2026-10-26T21:08:28Z",
+  "source": "BleepingComputer",
+  "summary": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks. [...]",
+  "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ac05c742086b0890",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+  "published": "2026-10-26T20:46:49Z",
+  "source": "BleepingComputer",
+  "summary": "OpenAI has launched GPT-6.1 Terra, a new model focused on computer use, visual reasoning, coding, and everyday work, while costing significantly less than its larger models. [...]",
+  "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "abc1aa8f6b9ffe06",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+  "published": "2026-10-26T19:26:20Z",
+  "source": "BleepingComputer",
+  "summary": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface. [...]",
+  "title": "DreamHost forces password resets in ongoing \"incident\"",
+  "trust": "media"
+ },
+ {
   "category": "advisories",
   "cves": [],
   "id": "9e807a2b7a119d0b",
@@ -10,6 +70,18 @@
   "summary": "Serial Number: AV26-1087 Date: October 26, 2026 As of October 26, 2026, HashiCorp is affected by a vulnerability in the following products: Consul Prior to 2.1.0 Consul Enterprise Prior to 1.21.19 Prior to 2.1.0 The Cyber Centre encourages users and…",
   "title": "HashiCorp security advisory (AV26-1087)",
   "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "fc948689d3898a1b",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+  "published": "2026-10-26T18:12:22Z",
+  "source": "The Hacker News",
+  "summary": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025.",
+  "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+  "trust": "media"
  },
  {
   "category": "news",
@@ -309,6 +381,34 @@
   "summary": "",
   "title": "ISC Stormcast For Monday, October 26th, 2026 https://isc.sans.edu/podcastdetail/10150, (Mon, Oct 26th)",
   "trust": "vendor"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-109618"
+  ],
+  "id": "e8f8c51801e30c34",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
+  "published": "2026-10-26T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
+  "title": "CVE-2026-109618: PHP Group PHP (PHP Memory Corruption Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-109619"
+  ],
+  "id": "6bc29647a7afa33e",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
+  "published": "2026-10-26T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution.",
+  "title": "CVE-2026-109619: PHP Group PHP (PHP Stale Internal Request-State Vulnerability)",
+  "trust": "official"
  },
  {
   "category": "research",
