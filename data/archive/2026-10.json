@@ -1,5 +1,55 @@
 [
  {
+  "category": "news",
+  "cves": [],
+  "id": "b80e3b2c7fe35ae6",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
+  "published": "2026-10-27T20:57:25Z",
+  "source": "BleepingComputer",
+  "summary": "A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers' payment data during checkout. [...]",
+  "title": "Hackers hijack Convertr analytics script to steal payment card data",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-48356"
+  ],
+  "id": "0e1ea7ec9daef557",
+  "kev": true,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/adobe-security-advisory-av26-697",
+  "published": "2026-10-27T20:41:21Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26–697 Date: July 14, 2026 Updated: October 27, 2026 On July 14, 2026, Adobe published security advisories to address critical vulnerabilities in the following products: Adobe After Effects - version 25.6.5 and prior Adobe After…",
+  "title": "Adobe security advisory (AV26-697) – Update 1",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2cea8b09dbd3a3a0",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+  "published": "2026-10-27T18:26:46Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator.",
+  "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "87992f7579743eb9",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
+  "published": "2026-10-27T18:20:28Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. [...]",
+  "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
+  "trust": "media"
+ },
+ {
   "category": "advisories",
   "cves": [],
   "id": "5da10aad6df4d3cc",
@@ -272,6 +322,34 @@
   "summary": "",
   "title": "ISC Stormcast For Tuesday, October 27th, 2026 https://isc.sans.edu/podcastdetail/10152, (Tue, Oct 27th)",
   "trust": "vendor"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-48356"
+  ],
+  "id": "f8504e3d2f92c785",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356",
+  "published": "2026-10-27T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's…",
+  "title": "CVE-2026-48356: Adobe Commerce and Magento (Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "id": "9728951a27ad1392",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
+  "published": "2026-10-27T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary…",
+  "title": "CVE-2026-111497: Google Brotli (Google Brotli Unchecked Return Value Vulnerability)",
+  "trust": "official"
  },
  {
   "category": "research",
