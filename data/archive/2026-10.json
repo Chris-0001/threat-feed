@@ -1,5 +1,193 @@
 [
  {
+  "category": "advisories",
+  "cves": [],
+  "id": "5da10aad6df4d3cc",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8957-1",
+  "published": "2026-10-27T16:23:37Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Ali Mashally discovered that authd did not properly validate user identities when matching accounts from identity providers. An attacker could possibly use this issue to gain access to another user's local account and files, resulting in…",
+  "title": "USN-8957-1: authd vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "f28cf911f10f0a67",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/control-systems-hitachi-security-advisory-av26-1091",
+  "published": "2026-10-27T16:21:17Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1091 Date: October 27, 2026 As of October 27, 2026, Hitachi is affected by vulnerabilities in the following products: HiRDB Server Version 10 Multiple versions HiRDB Server Version 9 Multiple versions HiRDB Server Version 9(32)…",
+  "title": "[Control systems] Hitachi security advisory (AV26-1091)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "b3f418954cc0cf87",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+  "published": "2026-10-27T16:15:39Z",
+  "source": "BleepingComputer",
+  "summary": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
+  "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "fd898f8d319dbdf9",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+  "published": "2026-10-27T14:09:46Z",
+  "source": "BleepingComputer",
+  "summary": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]",
+  "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "b655660ff6b26248",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/control-systems-johnson-controls-security-advisory-av26-1090",
+  "published": "2026-10-27T14:02:18Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1090 Date: October 27, 2026 As of October 26, 2026, Johnson Controls is affected by vulnerabilities in the following product: Kantech Entrapass Prior to 9.20 The Cyber Centre encourages users and administrators to review the…",
+  "title": "[Control systems] Johnson Controls security advisory (AV26-1090)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2e82a056dd8189f9",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+  "published": "2026-10-27T14:01:11Z",
+  "source": "BleepingComputer",
+  "summary": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses.",
+  "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "250a2d2bbc25d9d7",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+  "published": "2026-10-27T13:59:48Z",
+  "source": "The Hacker News",
+  "summary": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups.",
+  "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-86950"
+  ],
+  "id": "cdbb2e41810c5c62",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+  "published": "2026-10-27T13:59:09Z",
+  "source": "The Hacker News",
+  "summary": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices.",
+  "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111459",
+   "CVE-2026-111460",
+   "CVE-2026-111461"
+  ],
+  "id": "dc7afa840d9045ed",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/control-systems-moxa-security-advisory-av26-1089",
+  "published": "2026-10-27T13:24:14Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1089 Date: October 27, 2026 As of October 27, 2026, Moxa is affected by vulnerabilities in the following products: Moxa Remote Connect Suite (MRC Client) Prior to or equal to v4.2.0 OnCell G3150A-LTE Series All firmware versions…",
+  "title": "[Control Systems] Moxa security advisory (AV26-1089)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "2d28b043c990b5be",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/esri-security-advisory-av26-1088",
+  "published": "2026-10-27T13:10:25Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1088 Date: October 27, 2026 As of October 26, 2026, Esri is affected by vulnerabilities in the following product: ArcGIS Server Prior to 12.1 The Cyber Centre encourages users and administrators to review the provided web links…",
+  "title": "Esri security advisory (AV26-1088)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-80097"
+  ],
+  "id": "0f4282eab029dfdc",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+  "published": "2026-10-27T12:09:50Z",
+  "source": "The Hacker News",
+  "summary": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account.",
+  "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "fde0af7f3bef6cfa",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+  "published": "2026-10-27T11:46:00Z",
+  "source": "The Hacker News",
+  "summary": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a statement on October 26.",
+  "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f5c678871d6aeb79",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+  "published": "2026-10-27T11:32:46Z",
+  "source": "The Hacker News",
+  "summary": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific employees or organizations.",
+  "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "7ace5fcf7533ddd5",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+  "published": "2026-10-27T11:32:31Z",
+  "source": "The Hacker News",
+  "summary": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-communication equipment…",
+  "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "072623dddde6ef0a",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
+  "published": "2026-10-27T10:36:12Z",
+  "source": "BleepingComputer",
+  "summary": "​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
+  "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
+  "trust": "media"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "0bd6093ddc75e459",
