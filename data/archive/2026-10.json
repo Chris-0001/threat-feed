@@ -1,5 +1,79 @@
 [
  {
+  "category": "news",
+  "cves": [],
+  "id": "0bd6093ddc75e459",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+  "published": "2026-10-27T09:33:06Z",
+  "source": "The Hacker News",
+  "summary": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says.",
+  "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "8c0a45d112331e20",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
+  "published": "2026-10-27T09:25:50Z",
+  "source": "BleepingComputer",
+  "summary": "French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [...]",
+  "title": "Energy giant ENGIE discloses data breach affecting customers",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2f16bf7c74ae8ac3",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+  "published": "2026-10-27T08:22:43Z",
+  "source": "The Hacker News",
+  "summary": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text, security firm Xint has shown.",
+  "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "dad091f71410edf1",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+  "published": "2026-10-27T08:20:54Z",
+  "source": "BleepingComputer",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch their systems by Thursday. [...]",
+  "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ec4e55c25bd082a8",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+  "published": "2026-10-27T06:34:47Z",
+  "source": "The Hacker News",
+  "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua.",
+  "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-109618"
+  ],
+  "id": "726986af63d65ad4",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+  "published": "2026-10-27T04:37:59Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog.",
+  "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+  "trust": "media"
+ },
+ {
   "category": "research",
   "cves": [],
   "id": "a47fc4826c8d8535",
