@@ -2,6 +2,42 @@
  {
   "category": "news",
   "cves": [],
+  "id": "f5b0eb99675847e9",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
+  "published": "2026-10-27T23:35:51Z",
+  "source": "BleepingComputer",
+  "summary": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack today. [...]",
+  "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "7a5db041a33fc11b",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
+  "published": "2026-10-27T22:43:27Z",
+  "source": "BleepingComputer",
+  "summary": "OpenAI confirmed GPT-6.1 Terra is safer overall than some of its older models, but its safety testing also found other problems. [...]",
+  "title": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "93f6b71101fb0bc9",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
+  "published": "2026-10-27T22:07:34Z",
+  "source": "BleepingComputer",
+  "summary": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]",
+  "title": "UNM Health ransomware attack disrupts patient care, surgeries",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "b80e3b2c7fe35ae6",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
