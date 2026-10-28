@@ -1,5 +1,193 @@
 [
  {
+  "category": "news",
+  "cves": [],
+  "id": "010194d70f7b2510",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
+  "published": "2026-10-28T20:47:22Z",
+  "source": "BleepingComputer",
+  "summary": "U.S. law enforcement has seized the primary domain of Virtualine, a bulletproof hosting service advertised on cybercrime forums for facilitating illegal activities. [...]",
+  "title": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-41703",
+   "CVE-2026-41709",
+   "CVE-2026-47876",
+   "CVE-2026-59309",
+   "CVE-2026-59310"
+  ],
+  "id": "0b56978bcc341c47",
+  "kev": true,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/vmware-security-advisory-av26-763",
+  "published": "2026-10-28T19:53:28Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-763 Date: July 30, 2026 Updated: October 28, 2026 As of July 30, 2026, VMware is affected by vulnerabilities in the following products: Cloud Foundation 5.x 9.0.x.x 9.1.x.x Prior to 5.2.3 ESX Prior to ESXi-9.0.2.0100-25595025…",
+  "title": "VMware security advisory (AV26-763) – Update 2",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "207e2322cbfad938",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/juniper-networks-security-advisory-av26-1101",
+  "published": "2026-10-28T19:30:45Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1101 Date: October 28, 2026 As of October 28, 2026, Juniper Networks is affected by vulnerabilities in the following products: Session Smart Conductor Prior to 7.0.5 Prior to 7.1.7 Prior to 7.2.3 Session Smart Router Prior to…",
+  "title": "Juniper Networks security advisory (AV26-1101)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "6490a934c065a604",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/mozilla-security-advisory-av26-1100",
+  "published": "2026-10-28T19:17:01Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1100 Date: October 28, 2026 As of October 27, 2026, Mozilla is affected by vulnerabilities in the following products: Firefox Prior to 159 Firefox ESR Prior to 115.44 Prior to 153.6 Thunderbird Prior to 159 Prior to 153.6 The…",
+  "title": "Mozilla security advisory (AV26-1100)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "55e40325efeb7535",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/apple-security-advisory-av26-1099",
+  "published": "2026-10-28T19:05:56Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1099 Date: October 28, 2026 As of October 26, 2026, Apple is affected by vulnerabilities in the following products: iOS and iPadOS Prior to 18.7.11 Prior to 26.7.2 Prior to 27.2 MacOS (Golden Gate/Tahoe/Sequoia) Prior to 27.2…",
+  "title": "Apple security advisory (AV26-1099)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "44cce5931053130e",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/al26-028-ongoing-help-desk-voice-phishing-campaign-targeting-canadian-organizations",
+  "published": "2026-10-28T18:49:45Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-028 Date: October 28, 2026 Audience This Alert is intended for IT professionals and managers. Purpose An Alert is used to raise awareness of a recently identified cyber threat that may impact cyber information assets, and to…",
+  "title": "AL26-028 – Ongoing Help Desk Voice Phishing Campaign Targeting Canadian Organizations",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "72532a1ed4044505",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
+  "published": "2026-10-28T18:44:16Z",
+  "source": "BleepingComputer",
+  "summary": "Discord will allow search engines to index discussions in Discoverable Servers and make them accessible on the web to users outside the platform without an account or invitation. [...]",
+  "title": "Discord to let search engines index public server messages",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "4de5947696c3465d",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+  "published": "2026-10-28T18:08:33Z",
+  "source": "The Hacker News",
+  "summary": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access.",
+  "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118035"
+  ],
+  "id": "6dc1c37c424c2355",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/progress-security-advisory-av26-1098",
+  "published": "2026-10-28T17:29:48Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1098 Date: October 28, 2026 As of October 28, 2026, Progress is affected by a vulnerability in the following product: Telerik Document Processing Libraries Prior to 2026.3.1027 The Cyber Centre encourages users and administrators…",
+  "title": "Progress security advisory (AV26-1098)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "82ed7e801915a052",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+  "published": "2026-10-28T17:08:09Z",
+  "source": "The Hacker News",
+  "summary": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background.",
+  "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "79787d5ef37bcd73",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
+  "published": "2026-10-28T16:45:47Z",
+  "source": "BleepingComputer",
+  "summary": "Sony Network Communications has confirmed a data breach that compromised approximately 2.5 million records containing current and former customers' personal information. [...]",
+  "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "993ade02f488b8d3",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+  "published": "2026-10-28T16:23:34Z",
+  "source": "The Hacker News",
+  "summary": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown.",
+  "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "4deecf199831b70f",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33466",
+  "published": "2026-10-28T16:07:03Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "Introduction",
+  "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "a65203be8beb3507",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+  "published": "2026-10-28T16:02:45Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems.",
+  "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ee59cb2b0e8d8436",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+  "published": "2026-10-28T16:00:00Z",
+  "source": "BleepingComputer",
+  "summary": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]",
+  "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+  "trust": "media"
+ },
+ {
   "category": "advisories",
   "cves": [],
   "id": "ee6847840910e3d1",
@@ -310,6 +498,36 @@
   "trust": "vendor"
  },
  {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619",
+   "CVE-2026-46300"
+  ],
+  "id": "9ebf713e3a408c87",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300",
+  "published": "2026-10-28T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input…",
+  "title": "CVE-2026-46300: Linux Kernel (Linux Kernel Missing Initialization of a Variable Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-41709"
+  ],
+  "id": "59207cd29da879e3",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709",
+  "published": "2026-10-28T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.",
+  "title": "CVE-2026-41709: Broadcom VMware ESX (Broadcom VMWare ESX Insufficient Logging Vulnerability)",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "f5b0eb99675847e9",
@@ -344,6 +562,18 @@
   "summary": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]",
   "title": "UNM Health ransomware attack disrupts patient care, surgeries",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "17fb3f0756878ae1",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8956-2",
+  "published": "2026-10-27T21:14:45Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "USN-8956-1 fixed a vulnerability in Brotli. This update provides the corresponding fixes for Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, and Ubuntu 20.04 LTS.",
+  "title": "USN-8956-2: Brotli vulnerability",
+  "trust": "official"
  },
  {
   "category": "news",
