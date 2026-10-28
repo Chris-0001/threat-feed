@@ -1,5 +1,227 @@
 [
  {
+  "category": "advisories",
+  "cves": [],
+  "id": "ee6847840910e3d1",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/tanium-security-advisory-av26-1097",
+  "published": "2026-10-28T15:40:28Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1097 Date: October 28, 2026 As of October 27, 2026, Tanium is affected by vulnerabilities in the following products: Certificate Manager Prior to 1.17.417 Prior to 1.18.368 Prior to 1.22.119 Endpoint Configuration Toolset…",
+  "title": "Tanium security advisory (AV26-1097)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "2379b01e2c9d7026",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/veeam-security-advisory-av26-1096",
+  "published": "2026-10-28T15:28:22Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1096 Date: October 28, 2026 As of October 27, 2026, Veeam is affected by vulnerabilities in the following products: Veeam Agent for Linux Prior to 13.1.2 Veeam Backup and Replication Prior to 13.0.3 Prior to 13.1.2 Veeam Backup…",
+  "title": "Veeam security advisory (AV26-1096)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "9789b7475ba02bea",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/google-chrome-security-advisory-av26-1095",
+  "published": "2026-10-28T14:50:37Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1095 Date: October 28, 2026 As of October 27, 2026, Google is affected by vulnerabilities in the following product: Stable Channel Chrome for Desktop Versions prior to 156.0.8078.73/.74 (Windows/Mac), and 156.0.8078.73 (Linux)…",
+  "title": "Google Chrome security advisory (AV26-1095)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "8c6a1db4afec0402",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
+  "published": "2026-10-28T14:48:32Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft again asked Entra ID administrators to migrate users to phishing-resistant methods to avoid sign-in disruptions before it retires SMS and voice authentication in February 2027. [...]",
+  "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "e04a25b8580da15e",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/watchguard-security-advisory-av26-1094",
+  "published": "2026-10-28T14:41:15Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1094 Date: October 28, 2026 As of October 27, 2026, WatchGuard is affected by vulnerabilities in the following products: Fireware OS Multiple versions Mobile VPN with SSL Client Prior to 2026.4 Prior to 12.0 The Cyber Centre…",
+  "title": "WatchGuard security advisory (AV26-1094)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "b8b3d816f70f08f2",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/teamviewer-security-advisory-av26-1093",
+  "published": "2026-10-28T14:38:08Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1093 Date: October 28, 2026 As of October 27, 2026, TeamViewer is affected by vulnerabilities in the following products: TeamViewer Full Client & Host (Windows) Prior to 15.83 TeamViewer Full Client & Host (Linux) Prior to 15.83…",
+  "title": "TeamViewer security advisory (AV26-1093)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "4247c3ecdb8daec8",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/adobe-security-advisory-av26-1092",
+  "published": "2026-10-28T14:26:34Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1092 Date: October 28, 2026 As of October 27, 2026, Adobe is affected by vulnerabilities in the following products: Adobe Substance 3D Painter Prior to or equal to 12.1.5 Creative Cloud Desktop Application Prior to or equal to…",
+  "title": "Adobe security advisory (AV26-1092)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3b6fcda231592490",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+  "published": "2026-10-28T14:00:00Z",
+  "source": "BleepingComputer",
+  "summary": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web management interfaces of firewalls, VPNs, application delivery controllers, and other appliances at risk. [...]",
+  "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "6ddaf4f19dc5fb36",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+  "published": "2026-10-28T13:50:59Z",
+  "source": "BleepingComputer",
+  "summary": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is just as important as fixing…",
+  "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-101767"
+  ],
+  "id": "fdad8b74abadabfa",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+  "published": "2026-10-28T12:48:03Z",
+  "source": "The Hacker News",
+  "summary": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber.",
+  "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "id": "0ea3cf2b7f04f89c",
+  "kev": true,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/al26-027-critical-vulnerability-impacting-google-brotli-cve-2026-111497",
+  "published": "2026-10-28T12:46:09Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Number: AL26-027 Date: October 28, 2026 Audience This Alert is intended for IT professionals and managers. Purpose An Alert is used to raise awareness of a recently identified cyber threat that may impact cyber information assets, and to provide…",
+  "title": "AL26-027 - Critical vulnerability impacting Google Brotli – CVE-2026-111497",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "258775bb345ec4dc",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
+  "published": "2026-10-28T12:19:57Z",
+  "source": "BleepingComputer",
+  "summary": "Attackers have begun probing the Internet for systems unpatched against a recently disclosed critical Oracle E-Business Suite (EBS) vulnerability. [...]",
+  "title": "Hackers now scanning systems for recently-patched Oracle flaw",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3b555b83e2da4a77",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+  "published": "2026-10-28T11:50:00Z",
+  "source": "The Hacker News",
+  "summary": "A critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to run code on a machine before its operating system loads, but only while the machine is booting over the…",
+  "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "b41c2bc82e765682",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
+  "published": "2026-10-28T11:30:00Z",
+  "source": "The Hacker News",
+  "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large…",
+  "title": "Wazuh and AI for Enhanced SOC Workflows",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-104351"
+  ],
+  "id": "f8714959d5502bb4",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+  "published": "2026-10-28T11:15:51Z",
+  "source": "The Hacker News",
+  "summary": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation.",
+  "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "da778c9fbf7f5521",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+  "published": "2026-10-28T10:46:23Z",
+  "source": "BleepingComputer",
+  "summary": "On Tuesday, the US Cybersecurity and Infrastructure Security Agency (CISA) confirmed that hackers have begun exploiting a critical Brotli vulnerability known as Node2Shell, Broccoli2Shell, and HTTP2Shell. [...]",
+  "title": "CISA warns of hackers now exploiting critical Node2Shell flaw",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "88dbf7c89ca69839",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
+  "published": "2026-10-28T10:30:00Z",
+  "source": "The Hacker News",
+  "summary": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate…",
+  "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "259948bd738cbac6",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
+  "published": "2026-10-28T09:43:15Z",
+  "source": "BleepingComputer",
+  "summary": "A Ukrainian national was sentenced to 70 months in prison for his role in ransomware attacks targeting hospitals, government entities, and high-revenue businesses worldwide between 2018 and 2021. [...]",
+  "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
+  "trust": "media"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "2c787137c923ab6f",
