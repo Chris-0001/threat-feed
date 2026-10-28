@@ -2,6 +2,94 @@
  {
   "category": "news",
   "cves": [],
+  "id": "2c787137c923ab6f",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+  "published": "2026-10-28T08:15:07Z",
+  "source": "The Hacker News",
+  "summary": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report.",
+  "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "354d7e8699bd8aba",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
+  "published": "2026-10-28T07:37:50Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine.",
+  "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "5d66dd51b680fddd",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
+  "published": "2026-10-28T07:13:21Z",
+  "source": "The Hacker News",
+  "summary": "Japan's GMO Internet Group is offering up to $1 million in total for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand.",
+  "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "29c9e0979d5cb19c",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+  "published": "2026-10-28T06:20:37Z",
+  "source": "The Hacker News",
+  "summary": "Tailscale has released version 1.104.4 to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the root user should be able to touch.",
+  "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-35273"
+  ],
+  "id": "e4442983a002bb54",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+  "published": "2026-10-28T06:04:58Z",
+  "source": "The Hacker News",
+  "summary": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier, CVE-2026-35273, in June.",
+  "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "id": "d0d75488ee5e5c0f",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+  "published": "2026-10-28T05:42:26Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of…",
+  "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "d73963ebc207bcc4",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33464",
+  "published": "2026-10-28T02:30:11Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "",
+  "title": "ISC Stormcast For Wednesday, October 28th, 2026 https://isc.sans.edu/podcastdetail/10154, (Wed, Oct 28th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "f5b0eb99675847e9",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
