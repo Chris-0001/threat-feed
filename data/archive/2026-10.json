@@ -1,6 +1,56 @@
 [
  {
   "category": "news",
+  "cves": [
+   "CVE-2026-41709"
+  ],
+  "id": "b8655ace24660257",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+  "published": "2026-10-29T06:22:33Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a…",
+  "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "4f12e71df50258fb",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33470",
+  "published": "2026-10-29T06:17:41Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "Building your malware analysis lab is a key point before playing with malware. Today, thanks to virtualization, it&#;x26;#;39;s convenient to play with snapshots in your lab.",
+  "title": "Deploying a Local Ghidra Server for Your Malware Analysis Lab, (Thu, Oct 29th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "814956438bfc53db",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+  "published": "2026-10-29T05:50:17Z",
+  "source": "The Hacker News",
+  "summary": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces.",
+  "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "de967f2cc7f6c2f9",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33468",
+  "published": "2026-10-29T03:10:12Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "",
+  "title": "ISC Stormcast For Thursday, October 29th, 2026 https://isc.sans.edu/podcastdetail/10156, (Thu, Oct 29th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
   "cves": [],
   "id": "010194d70f7b2510",
   "kev": false,
