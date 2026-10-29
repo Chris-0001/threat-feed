@@ -1,5 +1,203 @@
 [
  {
+  "category": "advisories",
+  "cves": [],
+  "id": "2f04ff500dd3530b",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/mattermost-security-advisory-av26-1104",
+  "published": "2026-10-29T14:04:33Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1104 Date: October 29, 2026 As of October 28, 2026, Mattermost is affected by a vulnerability in the following product: Mattermost Prior to or equal to 11.10.0 Prior to or equal to 11.9.2 Prior to or equal to 11.8.6 Prior to or…",
+  "title": "Mattermost security advisory (AV26-1104)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "e02b3066f833d312",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
+  "published": "2026-10-29T14:00:10Z",
+  "source": "BleepingComputer",
+  "summary": "AI agents can control authenticated browsers, interact with corporate applications, and access sensitive data while appearing to act as legitimate employees.",
+  "title": "3 Ways AI Agents Already Operate in Your Browser",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "684dde441b6bdbcf",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
+  "published": "2026-10-29T13:59:48Z",
+  "source": "BleepingComputer",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies to patch a high-severity Linux kernel privilege escalation bug that attackers are chaining with the PHP2Shell flaws in the wild. [...]",
+  "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "fae68262eced7dad",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/n8n-security-advisory-av26-1103",
+  "published": "2026-10-29T13:55:57Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1103 Date: October 29, 2026 As of October 28, 2026, n8n is affected by vulnerabilities in the following product: n8n Prior to 2.44.1 Prior to 2.43.5 The Cyber Centre encourages users and administrators to review the provided web…",
+  "title": "n8n security advisory (AV26-1103)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "b4dfb3825b0b267b",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+  "published": "2026-10-29T13:42:40Z",
+  "source": "The Hacker News",
+  "summary": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities.",
+  "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76418"
+  ],
+  "id": "75302129632ec082",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/cisco-security-advisory-av26-1102",
+  "published": "2026-10-29T12:13:07Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1102 Date: October 29, 2026 As of October 28, 2026, Cisco is affected by a vulnerability in the following products: Cisco Secure Firewall Adaptive Security Appliance (ASA) Versions prior to 9.16.4.104, 9.18.4.96, 9.20.4.50…",
+  "title": "Cisco security advisory (AV26-1102)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2aca08f72bbb7ba3",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
+  "published": "2026-10-29T12:00:07Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft released the KB5127936 preview cumulative update for Windows 11 versions 25H2 and 26H2, with 41 changes, including File Explorer and Cloud rebuild improvements. [...]",
+  "title": "Windows 11 KB5127936 update released with 41 changes and fixes",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "70011f883bf5f9fb",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+  "published": "2026-10-29T11:39:41Z",
+  "source": "The Hacker News",
+  "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act.",
+  "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2f8b93303bcbce96",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+  "published": "2026-10-29T11:39:18Z",
+  "source": "The Hacker News",
+  "summary": "A flaw in Telegram for Android allowed an attacker to run code on a victim's phone via a voice call once the victim answered, according to security startup NebuSec. The attacker needed only an ordinary Telegram account.",
+  "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "e4073a4be756a677",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
+  "published": "2026-10-29T11:33:41Z",
+  "source": "The Hacker News",
+  "summary": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems…",
+  "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "472ce8262c963489",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
+  "published": "2026-10-29T11:33:15Z",
+  "source": "The Hacker News",
+  "summary": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it.",
+  "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "5930badc0aa7768d",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+  "published": "2026-10-29T11:10:13Z",
+  "source": "BleepingComputer",
+  "summary": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices. [...]",
+  "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-76418"
+  ],
+  "id": "e47142d6b718e141",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+  "published": "2026-10-29T10:44:46Z",
+  "source": "The Hacker News",
+  "summary": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild.",
+  "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "afae4d2e408d5547",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
+  "published": "2026-10-29T10:26:33Z",
+  "source": "The Hacker News",
+  "summary": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time.",
+  "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-97229"
+  ],
+  "id": "f5213486031c78d0",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+  "published": "2026-10-29T09:05:39Z",
+  "source": "The Hacker News",
+  "summary": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October.",
+  "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "eb79534b59ef382c",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+  "published": "2026-10-29T08:24:22Z",
+  "source": "The Hacker News",
+  "summary": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network.",
+  "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+  "trust": "media"
+ },
+ {
   "category": "news",
   "cves": [
    "CVE-2026-41709"
