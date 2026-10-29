@@ -1,5 +1,93 @@
 [
  {
+  "category": "news",
+  "cves": [],
+  "id": "53dfb09ba48aa290",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
+  "published": "2026-10-29T19:23:41Z",
+  "source": "BleepingComputer",
+  "summary": "A fake cryptocurrency trading app called Padre Terminal, previously available on the Apple App Store for iOS devices, has been linked to the theft of approximately $23,000 from 27 Solana wallets. [...]",
+  "title": "Fake crypto app on Apple App Store linked to $23K wallet theft",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "7987c47a3c2e09fd",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+  "published": "2026-10-29T19:11:58Z",
+  "source": "The Hacker News",
+  "summary": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't.",
+  "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-20127"
+  ],
+  "id": "cf5bc50086c5d47e",
+  "kev": true,
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
+  "published": "2026-10-29T18:38:26Z",
+  "source": "BleepingComputer",
+  "summary": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framework called KeyDrift. [...]",
+  "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "4880f1e80af574a5",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
+  "published": "2026-10-29T16:10:31Z",
+  "source": "BleepingComputer",
+  "summary": "A massive search-hijacking campaign involving 319 Chrome extensions with a combined 13.4 million reported installations redirected users' searches through tracking servers to generate advertising revenue from Bing and Yahoo. [...]",
+  "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-98432"
+  ],
+  "id": "2ea6143451829665",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+  "published": "2026-10-29T15:57:05Z",
+  "source": "The Hacker News",
+  "summary": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale.",
+  "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "48f09e096ed2a483",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+  "published": "2026-10-29T15:20:29Z",
+  "source": "The Hacker News",
+  "summary": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba.",
+  "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "73e22a6f27ec68b5",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
+  "published": "2026-10-29T14:35:40Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft has resolved a known issue that prevents non-admin users from connecting to devices via Remote Desktop when the \"Administrator protection\" security feature is enabled. [...]",
+  "title": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
+  "trust": "media"
+ },
+ {
   "category": "advisories",
   "cves": [],
   "id": "2f04ff500dd3530b",
@@ -246,6 +334,34 @@
   "summary": "",
   "title": "ISC Stormcast For Thursday, October 29th, 2026 https://isc.sans.edu/podcastdetail/10156, (Thu, Oct 29th)",
   "trust": "vendor"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-76418"
+  ],
+  "id": "972a8b447c1a702b",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
+  "published": "2026-10-29T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting…",
+  "title": "CVE-2026-76418: Cisco Secure Firewall ASA Software and Cisco Secure FTD Software (Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference…",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-97229"
+  ],
+  "id": "0c7af40fd7e4332c",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
+  "published": "2026-10-29T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD…",
+  "title": "CVE-2026-97229: GitLab Community Edition and Enterprise Edition (GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability)",
+  "trust": "official"
  },
  {
   "category": "news",
