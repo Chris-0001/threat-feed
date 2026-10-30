@@ -2,6 +2,66 @@
  {
   "category": "news",
   "cves": [],
+  "id": "7523da8ab24b0fb4",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
+  "published": "2026-10-29T23:35:52Z",
+  "source": "BleepingComputer",
+  "summary": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]",
+  "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "044075baaa296bca",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+  "published": "2026-10-29T22:45:23Z",
+  "source": "BleepingComputer",
+  "summary": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history. [...]",
+  "title": "Binance probes potential $5.8 billion crypto-theft hack",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "c0f9865ff4ad431f",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
+  "published": "2026-10-29T22:09:24Z",
+  "source": "BleepingComputer",
+  "summary": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors, with one model downloaded over 28,000 times.",
+  "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "5c883955aaa8e0fa",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
+  "published": "2026-10-29T22:08:04Z",
+  "source": "BleepingComputer",
+  "summary": "Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers. [...]",
+  "title": "Japan Airlines suffers third-party data breach exposing passenger info",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "1563c0f08771ffde",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
+  "published": "2026-10-29T21:47:25Z",
+  "source": "BleepingComputer",
+  "summary": "Prediction market platform Polymarket temporarily suspended trading on Thursday after hackers compromised a third-party service to distribute cryptocurrency-draining JavaScript, with approximately $2.5 million in assets traced to a suspected…",
+  "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "53dfb09ba48aa290",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
@@ -36,6 +96,22 @@
   "summary": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framework called KeyDrift. [...]",
   "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-102870",
+   "CVE-2026-111497",
+   "CVE-2026-114148"
+  ],
+  "id": "cf643077a6e86f37",
+  "kev": true,
+  "link": "https://ubuntu.com/security/notices/USN-8958-1",
+  "published": "2026-10-29T17:02:55Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that the .NET Blazor WebAssembly debug proxy did not properly escape certain values. An attacker could possibly use this issue to execute arbitrary code.",
+  "title": "USN-8958-1: .NET vulnerabilities",
+  "trust": "official"
  },
  {
   "category": "news",
