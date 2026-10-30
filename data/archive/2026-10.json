@@ -2,6 +2,104 @@
  {
   "category": "news",
   "cves": [],
+  "id": "563b6d67ee937d56",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+  "published": "2026-10-30T16:58:44Z",
+  "source": "The Hacker News",
+  "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously.",
+  "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "572b3df824e1e9f1",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+  "published": "2026-10-30T15:58:20Z",
+  "source": "BleepingComputer",
+  "summary": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. [...]",
+  "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "9b4690b0e3f6c267",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/mongodb-security-advisory-av26-1107",
+  "published": "2026-10-30T15:53:31Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1107 Date: October 30, 2026 As of October 28, 2026, MongoDB is affected by vulnerabilities in the following product: Laravel MongoDB Prior to 5.12.0 The Cyber Centre encourages users and administrators to review the provided web…",
+  "title": "MongoDB security advisory (AV26-1107)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "c1180e7f3e36bd8a",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/hashicorp-security-advisory-av26-1106",
+  "published": "2026-10-30T15:49:12Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1106 Date: October 30, 2026 As of October 29, 2026, HashiCorp is affected by vulnerabilities in the following products: Nomad Prior to 2.1.0 Nomad Enterprise Prior to 2.1.0 Prior to 1.11.12 Prior to 1.10.18 Boundary Prior to…",
+  "title": "HashiCorp security advisory (AV26-1106)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118539"
+  ],
+  "id": "4083c338f3b3fe30",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/drupal-security-advisory-av26-1105",
+  "published": "2026-10-30T15:43:17Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1105 Date: October 30, 2026 As of October 28, 2026, Drupal is affected by a vulnerability in the following product: Commerce Core Versions prior to 2.41 and 3.0.0 versions prior to 3.3.13 Open-source reporting indicates that…",
+  "title": "Drupal security advisory (AV26-1105)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "dfe9ed931e6a43a7",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+  "published": "2026-10-30T15:17:28Z",
+  "source": "The Hacker News",
+  "summary": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it.",
+  "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3ad3d39dc8062a68",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+  "published": "2026-10-30T14:36:54Z",
+  "source": "BleepingComputer",
+  "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH…",
+  "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "dbbd8901781f3da7",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+  "published": "2026-10-30T14:08:14Z",
+  "source": "The Hacker News",
+  "summary": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released.",
+  "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "eed8564feeb4f43d",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
@@ -158,6 +256,38 @@
   "summary": "",
   "title": "ISC Stormcast For Friday, October 30th, 2026 https://isc.sans.edu/podcastdetail/10158, (Fri, Oct 30th)",
   "trust": "vendor"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-104935",
+   "CVE-2026-111357",
+   "CVE-2026-118527"
+  ],
+  "id": "c4030e056e9efe21",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357",
+  "published": "2026-10-30T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
+  "title": "CVE-2026-111357: Ivanti Connect Secure (Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-104935",
+   "CVE-2026-111357",
+   "CVE-2026-118527"
+  ],
+  "id": "017f3e7c6208428f",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527",
+  "published": "2026-10-30T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk.",
+  "title": "CVE-2026-118527: Ivanti Connect Secure (Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability)",
+  "trust": "official"
  },
  {
   "category": "news",
