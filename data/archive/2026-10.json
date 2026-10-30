@@ -2,6 +2,30 @@
  {
   "category": "news",
   "cves": [],
+  "id": "0ee0c65213ef9916",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+  "published": "2026-10-30T04:14:59Z",
+  "source": "The Hacker News",
+  "summary": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets.",
+  "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "5e2fdd039353cb51",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33472",
+  "published": "2026-10-30T03:30:17Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "",
+  "title": "ISC Stormcast For Friday, October 30th, 2026 https://isc.sans.edu/podcastdetail/10158, (Fri, Oct 30th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "7523da8ab24b0fb4",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
