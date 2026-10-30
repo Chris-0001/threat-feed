@@ -1,5 +1,31 @@
 [
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-98432"
+  ],
+  "id": "7d64b7dcfd2dd41e",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/linux-security-advisory-av26-1108",
+  "published": "2026-10-30T21:34:05Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1108 Date: October 30, 2026 As of October 15, 2026, Linux is affected by a vulnerability in the following product: Linux Prior to 5.10.272 Prior 5.15.223 Prior to 6.1.190 Prior to 6.6.159 Prior to 6.12.113 Prior to 6.18.56 Prior…",
+  "title": "Linux security advisory (AV26-1108)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "9cfd183e52c4d8eb",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+  "published": "2026-10-30T21:09:46Z",
+  "source": "BleepingComputer",
+  "summary": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
+  "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+  "trust": "media"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "563b6d67ee937d56",
