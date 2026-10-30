@@ -2,6 +2,142 @@
  {
   "category": "news",
   "cves": [],
+  "id": "eed8564feeb4f43d",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+  "published": "2026-10-30T14:00:10Z",
+  "source": "BleepingComputer",
+  "summary": "Flaws in SS7 and Diameter signaling protocols can allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising their devices.",
+  "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "0c8ae4065b3996f6",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+  "published": "2026-10-30T13:00:32Z",
+  "source": "BleepingComputer",
+  "summary": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+  "title": "CISA says max severity GitLab flaw now exploited in the wild",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "301b1bfa506e6f41",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+  "published": "2026-10-30T12:21:56Z",
+  "source": "The Hacker News",
+  "summary": "A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported. Trezor has not yet examined the device.",
+  "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "25b8d8a9f5909796",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
+  "published": "2026-10-30T11:58:53Z",
+  "source": "The Hacker News",
+  "summary": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything. Their concerns are practical.",
+  "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "39ec414312ed2707",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
+  "published": "2026-10-30T11:20:26Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft has resolved Always On VPN connection failures triggered after installing the September 2026 Windows 11 security updates. [...]",
+  "title": "Microsoft finally fixes VPN issues caused by September updates",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "68ef7bf557e5c649",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
+  "published": "2026-10-30T10:40:45Z",
+  "source": "The Hacker News",
+  "summary": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been sentenced by a U.S. federal court to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets.",
+  "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "b70c464303d1cbef",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+  "published": "2026-10-30T10:16:07Z",
+  "source": "BleepingComputer",
+  "summary": "Drupal warned admins to patch a critical access bypass vulnerability in the Commerce Core module that attackers are exploiting in the wild. [...]",
+  "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "bfcf396bc9c773ce",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+  "published": "2026-10-30T09:18:13Z",
+  "source": "BleepingComputer",
+  "summary": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]",
+  "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "9f82666be5b4e51c",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+  "published": "2026-10-30T08:55:47Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected…",
+  "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-118539"
+  ],
+  "id": "95631b1325bfb510",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+  "published": "2026-10-30T07:45:30Z",
+  "source": "The Hacker News",
+  "summary": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core…",
+  "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-97229"
+  ],
+  "id": "ff49db4f08366f7f",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+  "published": "2026-10-30T07:27:05Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation.",
+  "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "0ee0c65213ef9916",
   "kev": false,
   "link": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
