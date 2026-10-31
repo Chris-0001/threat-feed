@@ -1,5 +1,79 @@
 [
  {
+  "category": "news",
+  "cves": [],
+  "id": "82ae7c05111dccd6",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+  "published": "2026-10-31T12:01:56Z",
+  "source": "The Hacker News",
+  "summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data.",
+  "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "b450d00f1fd0b390",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33476",
+  "published": "2026-10-31T10:52:53Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "Wireshark Release Candidate 5.0.0 was published: soon we can expect a new major version of Wireshark.",
+  "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
+  "trust": "vendor"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "0dc8ef1450630594",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33474",
+  "published": "2026-10-31T10:48:17Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "YARA-X&#;x26;#;39;s 1.22.1 is a bugfix version, it brings 2 bugfixes.",
+  "title": "YARA-X 1.22.1 Release, (Sat, Oct 31st)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-111357"
+  ],
+  "id": "148aa091c9613e8c",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+  "published": "2026-10-31T08:27:43Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild.",
+  "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "e89bf3fe608c9f1f",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+  "published": "2026-10-31T05:33:41Z",
+  "source": "The Hacker News",
+  "summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed.",
+  "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "c6bbba99031fca59",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+  "published": "2026-10-31T04:56:12Z",
+  "source": "The Hacker News",
+  "summary": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday.",
+  "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+  "trust": "media"
+ },
+ {
   "category": "advisories",
   "cves": [
    "CVE-2026-98432"
