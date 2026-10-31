@@ -1,6 +1,56 @@
 [
  {
   "category": "news",
+  "cves": [
+   "CVE-2026-58882"
+  ],
+  "id": "ca84b1be3d7fa1e1",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+  "published": "2026-10-31T15:35:11Z",
+  "source": "BleepingComputer",
+  "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a…",
+  "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "b60bddcd19cd83a5",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+  "published": "2026-10-31T14:05:15Z",
+  "source": "BleepingComputer",
+  "summary": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts. [...]",
+  "title": "Reddit to lock content behind logins to fight scrapers",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f7eaf3cb38fa4ea3",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+  "published": "2026-10-31T13:10:19Z",
+  "source": "BleepingComputer",
+  "summary": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start.",
+  "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "da2656096d4cc19d",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+  "published": "2026-10-31T12:50:09Z",
+  "source": "BleepingComputer",
+  "summary": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]",
+  "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+  "trust": "media"
+ },
+ {
+  "category": "news",
   "cves": [],
   "id": "82ae7c05111dccd6",
   "kev": false,
