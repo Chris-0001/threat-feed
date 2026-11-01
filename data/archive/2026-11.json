@@ -1,0 +1,74 @@
+[
+ {
+  "category": "news",
+  "cves": [],
+  "id": "367ccf664e8722db",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+  "published": "2026-11-01T13:53:11Z",
+  "source": "BleepingComputer",
+  "summary": "OpenAI has just confirmed that it's rolling out ChatGPT Work capabilities directly into regular Chat, while also combining usage allowances across ChatGPT and Codex. [...]",
+  "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "ac51a406c0030413",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33478",
+  "published": "2026-11-01T09:12:23Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "Recently, I had to extract embedded files from a set of OneNote files (extension .one).",
+  "title": "OneNote File Extraction, (Sun, Nov 1st)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f938211d0f882204",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+  "published": "2026-11-01T08:51:31Z",
+  "source": "The Hacker News",
+  "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key.",
+  "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f67468e6c9e93a01",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+  "published": "2026-11-01T07:25:40Z",
+  "source": "The Hacker News",
+  "summary": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company.",
+  "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f15b59df23c2d907",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+  "published": "2026-11-01T07:03:00Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow…",
+  "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "fefcf0126ff60bf9",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+  "published": "2026-11-01T07:02:58Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia.",
+  "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+  "trust": "media"
+ }
+]
