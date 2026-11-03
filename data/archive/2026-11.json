@@ -1,6 +1,397 @@
 [
  {
   "category": "news",
+  "cves": [],
+  "id": "ca2bd2221ef58187",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
+  "published": "2026-11-03T15:06:16Z",
+  "source": "BleepingComputer",
+  "summary": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges. [...]",
+  "title": "Barracuda warns of critical flaws allowing root access to devices",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "82278564cd3ddbd2",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+  "published": "2026-11-03T15:00:10Z",
+  "source": "BleepingComputer",
+  "summary": "Gartner predicts that security operations centers will have 50% more engineers than analysts by 2028 as AI agents take over routine alert handling.",
+  "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "048258e15962c05b",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/progress-software-security-advisory-av26-1116",
+  "published": "2026-11-03T14:46:33Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1116 Date: November 3, 2026 As of October 29, 2026, Progress Software is affected by a vulnerability in the following product: WS_FTP Server Prior to 2024.0.6 Prior to 2025.0.3 The Cyber Centre encourages users and administrators…",
+  "title": "Progress Software security advisory (AV26-1116)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-58115"
+  ],
+  "id": "9eaf91f522c39037",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/control-systems-siemens-security-advisory-av26-802",
+  "published": "2026-11-03T14:39:43Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-802 Date: August 11, 2026 Updated: November 3, 2026 As of August 11, 2026, Siemens is affected by vulnerabilities in the following products: Desigo DXR2 Prior to V01.21.233.16-7862 Desigo PXC3 Prior to V01.21.233.16-7862 Desigo…",
+  "title": "[Control systems] Siemens security advisory (AV26-802) – Update 1",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "48d95b2c24e7105e",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/postgresql-security-advisory-av26-1115",
+  "published": "2026-11-03T14:24:43Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1115 Date: November 3, 2026 As of November 2, 2026, PostgreSQL is affected by vulnerabilities in the following product: psqlODBC Prior to 18.00.0006 The Cyber Centre encourages users and administrators to review the provided web…",
+  "title": "PostgreSQL security advisory (AV26-1115)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "a2b3e4afe62a134a",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/zyxel-security-advisory-av26-1114",
+  "published": "2026-11-03T14:16:02Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1114 Date: November 3, 2026 As of November 3, 2026, Zyxel is affected by vulnerabilities in the following products: Zyxel GS1900 series switches Multiple versions and models Zyxel APs, FWA7, and Security Routers Multiple versions…",
+  "title": "Zyxel security advisory (AV26-1114)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "99921cb8d843e962",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+  "published": "2026-11-03T14:00:00Z",
+  "source": "BleepingComputer",
+  "summary": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
+  "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "e1cc8163bfb665f9",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/",
+  "published": "2026-11-03T13:33:49Z",
+  "source": "BleepingComputer",
+  "summary": "European law enforcement authorities arrested seven suspects and seized more than 100 servers in a joint action targeting an unnamed company suspected of providing fraudulent trading websites to criminal gangs. [...]",
+  "title": "Police seizes over 100 servers in investment scam crackdown",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2c23bd3e9c585c8b",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
+  "published": "2026-11-03T12:05:52Z",
+  "source": "BleepingComputer",
+  "summary": "Google has expanded its Cloud Vulnerability Reward Program (VRP) with a new top-tier reward for high-impact architectural security flaws. [...]",
+  "title": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-98432"
+  ],
+  "id": "483d04c3ad10f346",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+  "published": "2026-11-03T11:23:53Z",
+  "source": "The Hacker News",
+  "summary": "Fixed kernels for a use-after-free vulnerability in the Linux kernel's IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing…",
+  "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "44547058a2ff511f",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
+  "published": "2026-11-03T11:18:20Z",
+  "source": "The Hacker News",
+  "summary": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk exposures sit, waiting in the queue.",
+  "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2022-1205",
+   "CVE-2022-49234",
+   "CVE-2022-49359",
+   "CVE-2022-49562",
+   "CVE-2022-49651",
+   "CVE-2022-49858",
+   "CVE-2022-50071",
+   "CVE-2022-50303",
+   "CVE-2022-50406",
+   "CVE-2023-52676"
+  ],
+  "id": "4936d85237d6cf8a",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8961-1",
+  "published": "2026-11-03T11:05:15Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Duoming Zhou discovered race conditions in the AX.25 amateur radio protocol implementation in the Linux kernel, leading to use-after-free vulnerabilities. A local attacker could possibly use this to cause a denial of service (system crash).",
+  "title": "USN-8961-1: Linux kernel vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2022-1205",
+   "CVE-2022-3114",
+   "CVE-2022-49234",
+   "CVE-2022-49359",
+   "CVE-2022-49562",
+   "CVE-2022-49651",
+   "CVE-2022-49858",
+   "CVE-2022-50071",
+   "CVE-2022-50303",
+   "CVE-2022-50406"
+  ],
+  "id": "298489a51096a274",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8963-1",
+  "published": "2026-11-03T11:04:01Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Duoming Zhou discovered race conditions in the AX.25 amateur radio protocol implementation in the Linux kernel, leading to use-after-free vulnerabilities. A local attacker could possibly use this to cause a denial of service (system crash).",
+  "title": "USN-8963-1: Linux kernel (NVIDIA Tegra) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-100070",
+   "CVE-2026-100071",
+   "CVE-2026-100072",
+   "CVE-2026-100073",
+   "CVE-2026-100074",
+   "CVE-2026-100075",
+   "CVE-2026-100076",
+   "CVE-2026-100077",
+   "CVE-2026-100078",
+   "CVE-2026-100079"
+  ],
+  "id": "2ee546d48adcc7be",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8959-1",
+  "published": "2026-11-03T11:03:44Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - USB Gadget drivers; - Memory management; - Multiple devices driver…",
+  "title": "USN-8959-1: Linux kernel vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2021-3640",
+   "CVE-2022-49058"
+  ],
+  "id": "d54a73e7bcd23ec3",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8968-1",
+  "published": "2026-11-03T11:03:23Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that the Bluetooth subsystem in the Linux kernel contained a use-after-free vulnerability. A local attacker could use this to cause a denial of service (system crash) or possibly execute arbitrary code.",
+  "title": "USN-8968-1: Linux kernel vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "32bcd06f3bd5f36b",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8967-1",
+  "published": "2026-11-03T11:03:11Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Jürgen Groß discovered that the Xen network backend driver in the Linux kernel did not adequately limit the amount of queued packets when a guest did not process them.",
+  "title": "USN-8967-1: Linux kernel (AWS) vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-100070",
+   "CVE-2026-100071",
+   "CVE-2026-100072",
+   "CVE-2026-100073",
+   "CVE-2026-100074",
+   "CVE-2026-100075",
+   "CVE-2026-100076",
+   "CVE-2026-100077",
+   "CVE-2026-100078",
+   "CVE-2026-100079"
+  ],
+  "id": "9f04f0a07f2c1cc5",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8960-1",
+  "published": "2026-11-03T11:03:02Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - USB Gadget drivers; - Memory management; - Multiple devices driver…",
+  "title": "USN-8960-1: Linux kernel (OEM) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2021-28714",
+   "CVE-2021-3640"
+  ],
+  "id": "0673f7ed510ba5ac",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8966-1",
+  "published": "2026-11-03T11:02:59Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Jürgen Groß discovered that the Xen network backend driver in the Linux kernel did not adequately limit the amount of queued packets when a guest did not process them.",
+  "title": "USN-8966-1: Linux kernel vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2022-49082",
+   "CVE-2022-49149",
+   "CVE-2022-49170",
+   "CVE-2022-49182",
+   "CVE-2022-49201",
+   "CVE-2024-53187",
+   "CVE-2024-53210",
+   "CVE-2024-56763",
+   "CVE-2025-39730",
+   "CVE-2026-43456"
+  ],
+  "id": "53e4434f069e64df",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8965-1",
+  "published": "2026-11-03T11:02:50Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Ethernet bonding driver; - Network drivers; - SCSI subsystem; -…",
+  "title": "USN-8965-1: Linux kernel (BlueField) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2022-1205",
+   "CVE-2022-49234",
+   "CVE-2022-49359",
+   "CVE-2022-49562",
+   "CVE-2022-49651",
+   "CVE-2022-49858",
+   "CVE-2022-50071",
+   "CVE-2022-50303",
+   "CVE-2022-50406",
+   "CVE-2023-52676"
+  ],
+  "id": "baf71a4998282c1d",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8962-1",
+  "published": "2026-11-03T11:02:44Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Duoming Zhou discovered race conditions in the AX.25 amateur radio protocol implementation in the Linux kernel, leading to use-after-free vulnerabilities. A local attacker could possibly use this to cause a denial of service (system crash).",
+  "title": "USN-8962-1: Linux kernel (Azure CVM) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2022-49082",
+   "CVE-2025-39730"
+  ],
+  "id": "ebafb2c7d0e5f82d",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8964-1",
+  "published": "2026-11-03T11:02:41Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - SCSI subsystem; - Network file system (NFS) client…",
+  "title": "USN-8964-1: Linux kernel vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "6c2f2d17db09848b",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+  "published": "2026-11-03T11:00:45Z",
+  "source": "The Hacker News",
+  "summary": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations.",
+  "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3f33e36ca761c9f7",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
+  "published": "2026-11-03T10:53:25Z",
+  "source": "BleepingComputer",
+  "summary": "Hackers who breached Harvard University's Alumni Affairs and Development systems in November 2025 stole data linked to more than 850,000 unique email addresses, according to breach notification service Have I Been Pwned. [...]",
+  "title": "Harvard University data breach exposed info of 851,000 accounts",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f692f1084199b5bc",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+  "published": "2026-11-03T08:31:48Z",
+  "source": "The Hacker News",
+  "summary": "BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen from hot wallets on instances running older…",
+  "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "d03269199bf3cb25",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+  "published": "2026-11-03T07:43:07Z",
+  "source": "The Hacker News",
+  "summary": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks.",
+  "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "c5dc5545e748fece",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+  "published": "2026-11-03T07:27:07Z",
+  "source": "The Hacker News",
+  "summary": "Attackers remotely changed the settings on refrigeration controls at supermarkets in Belgium, Sweden, Estonia and other European countries overnight into Monday, November 2, warming fridges and freezers.",
+  "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
+  "trust": "media"
+ },
+ {
+  "category": "news",
   "cves": [
    "CVE-2026-58115"
   ],
