@@ -2,6 +2,237 @@
  {
   "category": "news",
   "cves": [],
+  "id": "146489e6eb7621b2",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+  "published": "2026-11-03T20:05:50Z",
+  "source": "BleepingComputer",
+  "summary": "Cryptocurrency exchange Binance says North Korean hackers used a fake job interview to trick an employee into installing malware that ultimately let them compromise the company's wallet infrastructure and steal about $6.34 billion in digital assets.",
+  "title": "Binance says fake job interview led to $6.3 billion crypto heist",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "0e9f35af90ed9274",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+  "published": "2026-11-03T18:51:04Z",
+  "source": "BleepingComputer",
+  "summary": "Large language model hijacking attacks, also known as LLMjacking, are generating large fraudulent cloud charges, with some organizations losing more than $100,000 per day. [...]",
+  "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "e9f561c38ce3f55e",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+  "published": "2026-11-03T18:46:38Z",
+  "source": "The Hacker News",
+  "summary": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing passkeys.",
+  "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2faada15b754e9eb",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+  "published": "2026-11-03T18:16:19Z",
+  "source": "The Hacker News",
+  "summary": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure.",
+  "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2025-59933",
+   "CVE-2026-33327",
+   "CVE-2026-33328",
+   "CVE-2026-35590",
+   "CVE-2026-35591",
+   "CVE-2026-69242",
+   "CVE-2026-70651",
+   "CVE-2026-70653",
+   "CVE-2026-70654"
+  ],
+  "id": "8794eb7f7538744f",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8994-1",
+  "published": "2026-11-03T17:39:43Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that libvips incorrectly handled certain PDF files with a page that defines a width but not a height. An attacker could possibly use this issue to cause libvips to crash, resulting in a denial of service, or obtain sensitive…",
+  "title": "USN-8994-1: libvips vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "8e9ec6b317b750b8",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8993-1",
+  "published": "2026-11-03T17:38:49Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that SOGo used the client-supplied Origin header when constructing password reset links. A remote attacker could possibly use this issue to obtain password reset tokens and take over user accounts.",
+  "title": "USN-8993-1: SOGo vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "08de99d664d53ab6",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8992-1",
+  "published": "2026-11-03T17:38:38Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that the shpsort utility in Shapelib incorrectly handled certain inputs, leading to a double free. An attacker could possibly use this issue to cause a denial of service, or possibly execute arbitrary code.",
+  "title": "USN-8992-1: Shapelib vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "b2c33eab9c73ad8d",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8991-1",
+  "published": "2026-11-03T17:37:49Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that rxvt-unicode incorrectly handled certain escape sequences. An attacker could possibly use this issue to execute arbitrary code if a user displayed specially crafted text in the terminal.",
+  "title": "USN-8991-1: rxvt-unicode vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "1cc34dc1c3b35c10",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8990-1",
+  "published": "2026-11-03T17:37:22Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that Sprockets incorrectly handled certain specially crafted requests when the Sprockets server was used in production. A remote attacker could possibly use this issue to access files outside of the application's root directory.",
+  "title": "USN-8990-1: Sprockets vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "a622654f4c4e537f",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8988-1",
+  "published": "2026-11-03T17:37:16Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that Relax-and-Recover created a world-readable initrd when GRUB_RESCUE was enabled. A local attacker could possibly use this issue to obtain sensitive information.",
+  "title": "USN-8988-1: Relax-and-Recover vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2015-3245",
+   "CVE-2015-3246"
+  ],
+  "id": "48b98b9b2aa84252",
+  "kev": true,
+  "link": "https://ubuntu.com/security/notices/USN-8987-1",
+  "published": "2026-11-03T17:36:51Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that libuser did not properly validate the GECOS field when changing user information. A local attacker could possibly use this issue to corrupt the passwd file, resulting in a denial of service.",
+  "title": "USN-8987-1: libuser vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "62eea5edf00d3294",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8986-1",
+  "published": "2026-11-03T17:36:26Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Dawid Golunski discovered that Swift Mailer did not properly sanitize e-mail addresses in the mail transport. A remote attacker could possibly use this issue to pass extra parameters to the mail command and execute arbitrary code.",
+  "title": "USN-8986-1: Swift Mailer vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "b34682d16654d470",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8985-1",
+  "published": "2026-11-03T17:36:13Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that Net::EasyTCP used the built-in Perl rand() function to generate encryption keys when no strong randomization module was present. An attacker could possibly use this issue to predict the keys and obtain sensitive information.",
+  "title": "USN-8985-1: Net::EasyTCP vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "abfb752f6d374de3",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8984-1",
+  "published": "2026-11-03T17:35:55Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that jabberd2 allowed SASL ANONYMOUS authentication even when it was not enabled in the configuration. A remote attacker could possibly use this issue to bypass authentication.",
+  "title": "USN-8984-1: jabberd2 vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "4020f5d213be44ca",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+  "published": "2026-11-03T16:55:58Z",
+  "source": "The Hacker News",
+  "summary": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and…",
+  "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-116606"
+  ],
+  "id": "e5c6a281fb54b949",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+  "published": "2026-11-03T15:59:19Z",
+  "source": "The Hacker News",
+  "summary": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device.",
+  "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "c44ec5d15d333c0e",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+  "published": "2026-11-03T15:41:53Z",
+  "source": "The Hacker News",
+  "summary": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services.",
+  "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "9488af96551c5a3d",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+  "published": "2026-11-03T15:16:32Z",
+  "source": "The Hacker News",
+  "summary": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers.",
+  "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "ca2bd2221ef58187",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
@@ -441,6 +672,20 @@
   "summary": "",
   "title": "ISC Stormcast For Tuesday, November 3rd, 2026 https://isc.sans.edu/podcastdetail/10162, (Tue, Nov 3rd)",
   "trust": "vendor"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-119977"
+  ],
+  "id": "3d1809c5f564ec2c",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
+  "published": "2026-11-03T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window.",
+  "title": "CVE-2026-119977: WordPress WordPress Core (WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability)",
+  "trust": "official"
  },
  {
   "category": "news",
