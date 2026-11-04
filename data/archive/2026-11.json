@@ -2,6 +2,181 @@
  {
   "category": "news",
   "cves": [],
+  "id": "67cffa8976cb34ca",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+  "published": "2026-11-04T21:31:18Z",
+  "source": "BleepingComputer",
+  "summary": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
+  "title": "Vercel rolls out new protection against stolen session cookie attacks",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "1ad6b269bea9f9df",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+  "published": "2026-11-04T20:58:19Z",
+  "source": "BleepingComputer",
+  "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
+  "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "bac17ff73eb98b45",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/android-security-advisory-november-2026-monthly-rollup-av26-1128",
+  "published": "2026-11-04T20:03:06Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1128 Date: Novembre 4, 2026 As of November 2, 2026, Android published a security bulletin to address vulnerabilities affecting Android devices.",
+  "title": "Android security advisory – November 2026 monthly rollup (AV26-1128)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "317d56ce4395dd84",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/cisco-security-advisory-av26-1127",
+  "published": "2026-11-04T19:57:39Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1127 Date: November 4, 2026 As of November 4, 2026, Cisco is affected by vulnerabilities in the following product: Cisco Unified Computing System (USC) Central Software Prior to 2.1(2c) The Cyber Centre encourages users and…",
+  "title": "Cisco security advisory (AV26-1127)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "5e3b36b4e7c81a0f",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/github-security-advisory-av26-1126",
+  "published": "2026-11-04T19:50:51Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1126 Date: November 4, 2026 As of November 3, 2026, GitHub is affected by vulnerabilities in the following product: Enterprise Server 3.19.0 Prior to 3.19.14 3.20.0 Prior to 3.20.10 3.21.0 Prior to 3.21.8 3.22.0 Prior to 3.22.3…",
+  "title": "GitHub security advisory (AV26-1126)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-121637",
+   "CVE-2026-121638",
+   "CVE-2026-121639",
+   "CVE-2026-121640"
+  ],
+  "id": "9f0f91f24dcbfda5",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/watchguard-security-advisory-av26-1125",
+  "published": "2026-11-04T19:39:34Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1125 Date: November 4, 2026 As of November 4, 2026, WatchGuard is affected by vulnerabilities in the following product: AuthPoint Authentication Gateway Prior to 7.6.0 The Cyber Centre encourages users and administrators to…",
+  "title": "WatchGuard security advisory (AV26-1125)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "bb00add37376006c",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/solarwinds-security-advisory-av26-1124",
+  "published": "2026-11-04T19:38:21Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1124 Date: November 4, 2026 As of November 3, 2026, SolarWinds is affected by vulnerabilities in the following product: Dameware Prior to or equal to 2026.3.1 The Cyber Centre encourages users and administrators to review the…",
+  "title": "SolarWinds security advisory (AV26-1124)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "a33d20d6cc6227e9",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/docker-security-advisory-av26-1123",
+  "published": "2026-11-04T19:36:26Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1123 Date: November 4, 2026 As of November 3, 2026, Docker is affected by vulnerabilities in the following products: Docker Buildx Prior to 0.37.2 Docker Desktop Prior to 4.98.0 The Cyber Centre encourages users and…",
+  "title": "Docker security advisory (AV26-1123)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "8239bd8ac9d31a27",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/mongodb-security-advisory-av26-1122",
+  "published": "2026-11-04T19:26:51Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1122 Date: November 4, 2026 As of November 3, 2026, MongoDB is affected by vulnerabilities in the following product: C Driver Prior to 1.30.15 Prior to 2.5.8 The Cyber Centre encourages users and administrators to review the…",
+  "title": "MongoDB security advisory (AV26-1122)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "cb837b2296b4738c",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/tanium-security-advisory-av26-1120",
+  "published": "2026-11-04T19:12:46Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1120 Date: November 4, 2026 As of November 3, 2026, Tanium is affected by vulnerabilities in the following product: Threat Response Prior to 4.12.353 Prior to 4.17.333 Prior to 4.9.480 The Cyber Centre encourages users and…",
+  "title": "Tanium security advisory (AV26-1120)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f4acdb037668b7fa",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+  "published": "2026-11-04T19:05:19Z",
+  "source": "BleepingComputer",
+  "summary": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]",
+  "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ff8385f7f9f3d51b",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+  "published": "2026-11-04T18:02:56Z",
+  "source": "BleepingComputer",
+  "summary": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products. [...]",
+  "title": "Cyberattack disrupts blood storage refrigeration systems in France",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ca57a8eee17bd169",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+  "published": "2026-11-04T17:00:46Z",
+  "source": "The Hacker News",
+  "summary": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own.",
+  "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-109593"
+  ],
+  "id": "390d00998282055f",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+  "published": "2026-11-04T17:00:38Z",
+  "source": "The Hacker News",
+  "summary": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched.",
+  "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "6a53e0a2ef396e6c",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
@@ -9,6 +184,30 @@
   "source": "BleepingComputer",
   "summary": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]",
   "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "0be3ebb62ef7a56a",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9000-1",
+  "published": "2026-11-04T16:24:47Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that Twisted's IMAP server mishandled wildcard patterns in mailbox list commands. An authenticated remote attacker could possibly use this issue to cause Twisted to use excessive resources, leading to a denial of service.",
+  "title": "USN-9000-1: Twisted vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "d7423e7b87f24c1b",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+  "published": "2026-11-04T16:06:43Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway.",
+  "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
   "trust": "media"
  },
  {
@@ -22,6 +221,53 @@
   "summary": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. [...]",
   "title": "mSecure password manager hack prompts password reset warnings",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-54058",
+   "CVE-2026-54059",
+   "CVE-2026-54060",
+   "CVE-2026-55379",
+   "CVE-2026-55380",
+   "CVE-2026-59197",
+   "CVE-2026-59199",
+   "CVE-2026-59200",
+   "CVE-2026-59203",
+   "CVE-2026-59204"
+  ],
+  "id": "c5f990a45c3b9691",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8999-1",
+  "published": "2026-11-04T15:49:54Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that Pillow incorrectly handled map stride values when loading certain McIdas AREA images. An attacker could possibly use this issue to obtain sensitive information or cause a denial of service.",
+  "title": "USN-8999-1: Pillow vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "4f3db1ef79b64618",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8998-1",
+  "published": "2026-11-04T15:32:22Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that Squid incorrectly handled certain HTTP Transfer- Encoding headers. An attacker could possibly use this issue to perform HTTP request smuggling attacks, bypass security mechanisms, or poison web caches.",
+  "title": "USN-8998-1: Squid vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "9035a0ac0740c36b",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8997-1",
+  "published": "2026-11-04T15:25:21Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that Net-SNMP incorrectly handled newly accepted connections in the SMUX module. An unauthenticated remote attacker could possibly use this issue to cause Net-SNMP to block indefinitely, resulting in a denial of service.",
+  "title": "USN-8997-1: Net-SNMP vulnerability",
+  "trust": "official"
  },
  {
   "category": "advisories",
@@ -106,6 +352,18 @@
   "summary": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service…",
   "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "45faf8babea80c57",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8996-1",
+  "published": "2026-11-04T13:37:00Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Max Justicz discovered that APT incorrectly handled hard links when encountering redirects and retrying package downloads. A remote on-path attacker could possibly use this issue to trick APT into installing an unverified package and achieve remote…",
+  "title": "USN-8996-1: APT vulnerability",
+  "trust": "official"
  },
  {
   "category": "research",
@@ -256,6 +514,20 @@
   "summary": "",
   "title": "ISC Stormcast For Wednesday, November 4th, 2026 https://isc.sans.edu/podcastdetail/10164, (Wed, Nov 4th)",
   "trust": "vendor"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2024-27834"
+  ],
+  "id": "54c04eacd3c653a4",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834",
+  "published": "2026-11-04T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication.",
+  "title": "CVE-2024-27834: Apple Multiple Products (Apple Multiple Products Improper Authentication Vulnerability)",
+  "trust": "official"
  },
  {
   "category": "news",
