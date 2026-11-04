@@ -2,6 +2,58 @@
  {
   "category": "news",
   "cves": [],
+  "id": "63694852797a5fdf",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
+  "published": "2026-11-04T08:17:11Z",
+  "source": "The Hacker News",
+  "summary": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure.",
+  "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-58868"
+  ],
+  "id": "6b34cfde34af96cb",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+  "published": "2026-11-04T07:46:15Z",
+  "source": "The Hacker News",
+  "summary": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17.",
+  "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-119977"
+  ],
+  "id": "6b0c0f3dd553994c",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+  "published": "2026-11-04T05:43:11Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.",
+  "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "778cd34193118368",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33486",
+  "published": "2026-11-04T02:10:02Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "",
+  "title": "ISC Stormcast For Wednesday, November 4th, 2026 https://isc.sans.edu/podcastdetail/10164, (Wed, Nov 4th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "97ec4e47e104947b",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
