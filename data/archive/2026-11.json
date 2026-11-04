@@ -2,6 +2,44 @@
  {
   "category": "news",
   "cves": [],
+  "id": "97ec4e47e104947b",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
+  "published": "2026-11-03T22:18:50Z",
+  "source": "BleepingComputer",
+  "summary": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]",
+  "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-119977"
+  ],
+  "id": "e1afb5835c81c7c1",
+  "kev": true,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/wordpress-security-advisory-av26-1117",
+  "published": "2026-11-03T21:36:07Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1117 Date: November 3, 2026 As of October 31, 2026, WordPress is affected by a vulnerability in the following product: WordPress Core Prior to 7.1.4 On November 3, 2026, Cybersecurity and Infrastructure Security Agency (CISA)…",
+  "title": "WordPress security advisory (AV26-1117)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "92e2701b1352dfa6",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+  "published": "2026-11-03T21:28:44Z",
+  "source": "BleepingComputer",
+  "summary": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]",
+  "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "146489e6eb7621b2",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
