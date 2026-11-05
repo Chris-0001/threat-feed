@@ -2,6 +2,201 @@
  {
   "category": "news",
   "cves": [],
+  "id": "7eb3ac58512c97a8",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
+  "published": "2026-11-05T20:15:08Z",
+  "source": "BleepingComputer",
+  "summary": "Truffle Security has launched the Secrets Revocation Program, a free initiative that helps API key issuers revoke 1.4 million publicly exposed secrets that remain valid. [...]",
+  "title": "Truffle Security launches program to revoke 1.4 million live secrets",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "78346d90c5af98a1",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
+  "published": "2026-11-05T19:24:26Z",
+  "source": "BleepingComputer",
+  "summary": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]",
+  "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "625356621cc531d7",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/openbsd-security-advisory-av26-1130",
+  "published": "2026-11-05T19:00:54Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1130 Date: November 5, 2026 As of November 5, 2026, OpenBSD is affected by a vulnerability in the following product: OpenSSH Prior to 10.6p2 The Cyber Centre encourages users and administrators to review the provided web links…",
+  "title": "OpenBSD security advisory (AV26-1130)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "7f6c9ec8ce102deb",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+  "published": "2026-11-05T17:45:29Z",
+  "source": "BleepingComputer",
+  "summary": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configured to block password authentication, simply by entering an oversized password. [...]",
+  "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "0da7c5ff7bd49c98",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+  "published": "2026-11-05T16:24:26Z",
+  "source": "BleepingComputer",
+  "summary": "A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management interface. [...]",
+  "title": "Hackers backdoor Linux servers using trojanized CWP web server",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "5a81a8b9fb326dec",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+  "published": "2026-11-05T16:12:46Z",
+  "source": "BleepingComputer",
+  "summary": "DigiCert warns it suffered a data breach after a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity documents. [...]",
+  "title": "DigiCert data breach exposes customer information, identity documents",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "527138673aad3ef1",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/rubyonrails-security-advisory-av26-1129",
+  "published": "2026-11-05T15:41:50Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1129 Date: November 5, 2026 As of November 4, 2026, Rubyonrails is affected by a vulnerability in the following product: Active Storage Prior to 8.0.5.2 Prior to 8.1.4.1 The Cyber Centre encourages users and administrators to…",
+  "title": "Rubyonrails security advisory (AV26-1129)",
+  "trust": "official"
+ },
+ {
+  "category": "research",
+  "cves": [
+   "CVE-2023-20198"
+  ],
+  "id": "2f412c5f5f6373bb",
+  "kev": true,
+  "link": "https://isc.sans.edu/diary/rss/33492",
+  "published": "2026-11-05T15:29:08Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "This morning, I was browsing our honeypot data for any new and existing PHP exploit attempts. Instead, I first ran into some GeoServer exploits, but found them to be too boring to write up. This Cisco IOS exploit attempt was a bit more interesting.",
+  "title": "Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "6184df30ed4cccc8",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
+  "published": "2026-11-05T15:00:10Z",
+  "source": "BleepingComputer",
+  "summary": "Attackers target IT service desks to bypass MFA by impersonating employees and convincing staff to reset passwords or register new authentication devices.",
+  "title": "Closing the Identity Gap at the Service Desk",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "8d898db7ebe4977b",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9001-1",
+  "published": "2026-11-05T14:46:13Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that the ca-certificates JKS integration was not working properly, resulting in CA certificates removed from the system bundle not being removed from the JKS keystore.",
+  "title": "USN-9001-1: ca-certificates update",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "4adbbf69dab1dacf",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+  "published": "2026-11-05T14:41:10Z",
+  "source": "The Hacker News",
+  "summary": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn't.",
+  "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-15176",
+   "CVE-2026-42533",
+   "CVE-2026-93479",
+   "CVE-2026-95101",
+   "CVE-2026-97205",
+   "CVE-2026-97629"
+  ],
+  "id": "00146aac53f9c0d6",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8955-2",
+  "published": "2026-11-05T14:40:26Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "USN-8955-1 fixed vulnerabilities in nginx in Ubuntu 26.10, Ubuntu 26.04 LTS, Ubuntu 24.04 LTS, and Ubuntu 22.04 LTS. This update provides the corresponding update for Ubuntu 20.04 LTS, Ubuntu 18.04 LTS, Ubuntu 16.04 LTS, and Ubuntu 14.04 LTS.",
+  "title": "USN-8955-2: nginx vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2024-44070",
+   "CVE-2024-55553"
+  ],
+  "id": "414087a59aacf50f",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-7230-3",
+  "published": "2026-11-05T13:39:13Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "USN-7230-2 fixed vulnerabilities in FRR. Unfortunately, the fix for CVE-2024-55553 introduced a regression in RPKI support, causing FRR to stop processing RPKI updates after the first one, so routes were not revalidated when RPKI data changed.",
+  "title": "USN-7230-3: FRR regression",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-110353",
+   "CVE-2026-110354"
+  ],
+  "id": "0d8c4a2ffd4eb306",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8972-2",
+  "published": "2026-11-05T12:52:52Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "USN-8972-1 fixed vulnerabilities in HAProxy. On Ubuntu 22.04 LTS, the update caused a regression when processing certain chunked requests. This update fixes the problem. We apologize for the inconvenience.",
+  "title": "USN-8972-2: HAProxy regression",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "4faeed86c24cebbc",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
+  "published": "2026-11-05T12:25:00Z",
+  "source": "The Hacker News",
+  "summary": "A critical finding can move through several security tools and still leave the organization exposed. The vulnerability has a severity score, and a ticket has reached the queue.",
+  "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "a11de597839d522e",
   "kev": false,
   "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
