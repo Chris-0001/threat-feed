@@ -2,6 +2,68 @@
  {
   "category": "news",
   "cves": [],
+  "id": "49cad43238972701",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
+  "published": "2026-11-06T09:22:28Z",
+  "source": "BleepingComputer",
+  "summary": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]",
+  "title": "MetaMask says recent attack didn't affect wallet infrastructure",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "178c9fc01d063728",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+  "published": "2026-11-06T08:04:49Z",
+  "source": "The Hacker News",
+  "summary": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users.",
+  "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "a0199ecb2c55b0e2",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+  "published": "2026-11-06T05:58:54Z",
+  "source": "The Hacker News",
+  "summary": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week.",
+  "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-116606"
+  ],
+  "id": "fd4f68aa2d76b7c2",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+  "published": "2026-11-06T05:39:10Z",
+  "source": "The Hacker News",
+  "summary": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required.",
+  "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "84f3837307a2d887",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33494",
+  "published": "2026-11-06T02:00:02Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "",
+  "title": "ISC Stormcast For Friday, November 6th, 2026 https://isc.sans.edu/podcastdetail/10168, (Fri, Nov 6th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "39db3482a6f50bbc",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
