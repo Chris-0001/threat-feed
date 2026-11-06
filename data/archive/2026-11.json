@@ -2,6 +2,30 @@
  {
   "category": "news",
   "cves": [],
+  "id": "39db3482a6f50bbc",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+  "published": "2026-11-06T00:56:44Z",
+  "source": "BleepingComputer",
+  "summary": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [...]",
+  "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "05494616ac5e9859",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+  "published": "2026-11-05T21:30:30Z",
+  "source": "BleepingComputer",
+  "summary": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and authentication sessions. [...]",
+  "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "7eb3ac58512c97a8",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
@@ -45,6 +69,30 @@
   "source": "BleepingComputer",
   "summary": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configured to block password authentication, simply by entering an oversized password. [...]",
   "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "a1e93c7cd86c2792",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+  "published": "2026-11-05T16:42:46Z",
+  "source": "The Hacker News",
+  "summary": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package.",
+  "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "72152210d8a9a538",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+  "published": "2026-11-05T16:42:32Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT.",
+  "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
   "trust": "media"
  },
  {
@@ -205,6 +253,30 @@
   "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs.",
   "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "cc996de6bcf58aa2",
+  "kev": false,
+  "link": "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
+  "published": "2026-11-05T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "Overview The Cybersecurity and Infrastructure Security Agency (CISA), Federal Bureau of Investigation (FBI), Health and Human Services (HHS), U.S.",
+  "title": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "56ec96206ff7038e",
+  "kev": false,
+  "link": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
+  "published": "2026-11-05T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA, the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and the National Security Agency (NSA) released joint guidance and an accompanying quick-reference list to help organizations assess vendor readiness for…",
+  "title": "Post-Quantum Questions to Ask Your Vendors",
+  "trust": "official"
  },
  {
   "category": "research",
@@ -721,6 +793,20 @@
   "trust": "media"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2024-27834"
+  ],
+  "id": "753f6f3c5e26eb0b",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+  "published": "2026-11-04T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "c8ee375949c06833",
@@ -1212,6 +1298,35 @@
   "summary": "Google has expanded its Cloud Vulnerability Reward Program (VRP) with a new top-tier reward for high-impact architectural security flaws. [...]",
   "title": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-119977"
+  ],
+  "id": "24a338da112042d5",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog",
+  "published": "2026-11-03T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-63017",
+   "CVE-2026-63774"
+  ],
+  "id": "18d0f26dc5163287",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-307-01",
+  "published": "2026-11-03T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute unauthorized SQL commands and gain access to unauthorized resources.",
+  "title": "Subnet Solutions PowerSYSTEM Center",
+  "trust": "official"
  },
  {
   "category": "news",
@@ -1957,5 +2072,412 @@
   "summary": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia.",
   "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111357",
+   "CVE-2026-118527"
+  ],
+  "id": "9bcb241099a63921",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+  "published": "2026-10-30T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-13162",
+   "CVE-2026-43284"
+  ],
+  "id": "9bf67c7ea2bb904b",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03",
+  "published": "2026-10-29T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product versions listed in this document.",
+  "title": "Hitachi Energy CoreTec Product",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76418",
+   "CVE-2026-97229"
+  ],
+  "id": "5d6b472101144313",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+  "published": "2026-10-29T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-106087",
+   "CVE-2026-10756"
+  ],
+  "id": "232a10e211260f8c",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02",
+  "published": "2026-10-29T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Hitachi Energy is aware of multiple vulnerabilities that affect the TRO600 series product versions listed in this document.",
+  "title": "Hitachi Energy TRO600 series products",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-89209"
+  ],
+  "id": "0918d0b7f8aa8dc7",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
+  "published": "2026-10-29T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by replaying a valid SAML assertion in IdP-initiated authentication flows.",
+  "title": "Siemens Mendix SAML Module",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-41709",
+   "CVE-2026-46300"
+  ],
+  "id": "168a7c484ffa2e73",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+  "published": "2026-10-28T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2023-4863",
+   "CVE-2026-16436",
+   "CVE-2026-16437",
+   "CVE-2026-16438"
+  ],
+  "id": "a56e924f354ef941",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02",
+  "published": "2026-10-27T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code (CVE-2023-4863), bypass authentication (CVE-2026-16436 and CVE-2026-16437), or perform arbitrary operations (CVE-2026-16438)…",
+  "title": "Mitsubishi Electric and Mitsubishi Electric Iconics Digital Solutions GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114595",
+   "CVE-2026-114596",
+   "CVE-2026-114597",
+   "CVE-2026-114598"
+  ],
+  "id": "9c1fdc9b548efc1b",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01",
+  "published": "2026-10-27T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, corrupt memory, disclose sensitive information, or potentially execute arbitrary code.",
+  "title": "EPICS Base",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111497",
+   "CVE-2026-48356"
+  ],
+  "id": "964de350f471fec2",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+  "published": "2026-10-27T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "id": "ddc4fc30e426de55",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+  "published": "2026-10-26T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog and updated the PHP Alert, Critical Vulnerabilities in PHP Require Immediate Patching : CVE-2026-109618 – PHP Memory Corruption Vulnerability CVE-2026-109619…",
+  "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-110447"
+  ],
+  "id": "d62bb675bdc12cdd",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0",
+  "published": "2026-10-23T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114625"
+  ],
+  "id": "b0381385886e4e35",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog",
+  "published": "2026-10-23T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2024-7322"
+  ],
+  "id": "f8dbebf3965032fc",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-05",
+  "published": "2026-10-22T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary SENTRON 3NA COM Fuse contains a Denial-of-Service vulnerability. Improper handling of a network management message could allow an attacker to trigger a denial-of-service (DoS) condition.",
+  "title": "Siemens SENTRON 3NA COM Fuse",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-105265",
+   "CVE-2026-107861",
+   "CVE-2026-109122",
+   "CVE-2026-110243",
+   "CVE-2026-110491",
+   "CVE-2026-110825",
+   "CVE-2026-111100",
+   "CVE-2026-92450",
+   "CVE-2026-96616"
+  ],
+  "id": "e90d40e7b7885226",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-01",
+  "published": "2026-10-22T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of this these vulnerabilities could allow an attacker to fully compromise the device.",
+  "title": "Kiloview E3 NDI Encoder",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-89208"
+  ],
+  "id": "e1e52270b99b9d3b",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-04",
+  "published": "2026-10-22T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary The products listed below contain an out-of-bounds read vulnerability that could allow an attacker to cause abnormal product behavior, instability, or denial of service.",
+  "title": "Siemens Capital Embedded AR Classic",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2021-41617",
+   "CVE-2023-28531",
+   "CVE-2023-51384",
+   "CVE-2023-52927",
+   "CVE-2023-53292",
+   "CVE-2024-26783",
+   "CVE-2024-27056",
+   "CVE-2024-28956",
+   "CVE-2024-36903",
+   "CVE-2024-36927"
+  ],
+  "id": "d86da4a210f9a545",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-11",
+  "published": "2026-10-22T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the firmware version V3.1.7 for the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (incl. SIPLUS variant).",
+  "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-33387",
+   "CVE-2026-33388",
+   "CVE-2026-33389",
+   "CVE-2026-33391",
+   "CVE-2026-33920"
+  ],
+  "id": "d20cb967c55eb4f8",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-18",
+  "published": "2026-10-22T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Nozomi Networks has published information on vulnerabilities in Nozomi Guardian/CMC. This advisory lists the related Siemens Industrial products affected by these vulnerabilities.",
+  "title": "Siemens RUGGEDCOM APE1808 Devices",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-72895"
+  ],
+  "id": "b5a23093ca896b65",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-07",
+  "published": "2026-10-22T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary The products listed below contain a vulnerability that could allow an attacker to boot an operating system or UEFI application signed with that test key, bypassing UEFI Secure Boot protections even when Secure Boot is enabled.",
+  "title": "Siemens SIMATIC IPCs",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-59241"
+  ],
+  "id": "a41ab0403bfa1e67",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-13",
+  "published": "2026-10-22T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Multiple SIMATIC WinCC versions are affected by a database privilege escalation vulnerability that could allow an authenticated user with access to the database to execute commands on the underlying host system.",
+  "title": "Siemens WinCC",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111594"
+  ],
+  "id": "8ca45e43be3bebaf",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-295-01",
+  "published": "2026-10-22T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to view transmitted data and use that data to log into the device.",
+  "title": "InterSystems Corporation InterSystems IRIS for Health",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2025-6965",
+   "CVE-2025-70873",
+   "CVE-2025-71316",
+   "CVE-2026-11822",
+   "CVE-2026-11824"
+  ],
+  "id": "7aae0a46e022630a",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-15",
+  "published": "2026-10-22T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary RUGGEDCOM CROSSBOW Station Access Controller (SAC) contains multiple vulnerabilities in the integrated SQLite component that could allow an attacker to execute arbitrary code, cause a denial of service, or obtain sensitive…",
+  "title": "Siemens RUGGEDCOM CROSSBOW Station Access Controller",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-44414",
+   "CVE-2026-44415"
+  ],
+  "id": "6c4b0b75cdc3033b",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-09",
+  "published": "2026-10-22T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Users of Industrial Edge Devices are advised to consult the respective Security Advisories for their devices (for Siemens Industrial Edge devices see Additional Information).",
+  "title": "Siemens Industrial Edge Device Kit",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2023-52927",
+   "CVE-2023-53292",
+   "CVE-2023-54271",
+   "CVE-2024-26982",
+   "CVE-2024-36922",
+   "CVE-2024-40945",
+   "CVE-2024-47809",
+   "CVE-2024-49998",
+   "CVE-2024-53166",
+   "CVE-2024-56647"
+  ],
+  "id": "4651a6500efeb4e4",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-16",
+  "published": "2026-10-22T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the SIMATIC S7-1500 TM MFP V1.1.1.",
+  "title": "Siemens SIMATIC S7-1500 TM MFP",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-110936"
+  ],
+  "id": "45b9db94c2eec339",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-03",
+  "published": "2026-10-22T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary The affected application loads dynamic-link libraries (DLLs) from an uncontrolled search path. This could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading…",
+  "title": "Siemens Software Center",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-89196",
+   "CVE-2026-89197",
+   "CVE-2026-89198",
+   "CVE-2026-89199",
+   "CVE-2026-89200",
+   "CVE-2026-89201",
+   "CVE-2026-89202",
+   "CVE-2026-89203",
+   "CVE-2026-89204",
+   "CVE-2026-89205"
+  ],
+  "id": "23702f36a90c1a05",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-12",
+  "published": "2026-10-22T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary RUGGEDCOM CROSSBOW contains multiple vulnerabilities that could allow an attacker to execute arbitrary SQL commands on the underlying database, retrieve sensitive administrative credentials, escalate privileges, and perform…",
+  "title": "Siemens RUGGEDCOM CROSSBOW",
+  "trust": "official"
  }
 ]
