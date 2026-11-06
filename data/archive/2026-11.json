@@ -2,6 +2,68 @@
  {
   "category": "news",
   "cves": [],
+  "id": "19779c40ba34b890",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+  "published": "2026-11-06T22:27:25Z",
+  "source": "BleepingComputer",
+  "summary": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the…",
+  "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-19868"
+  ],
+  "id": "b0c7d397769c9545",
+  "kev": true,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/sonicwall-security-advisory-av26-1133",
+  "published": "2026-11-06T21:00:51Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1133 Date: November 6, 2026 As of November 6, 2026, SonicWall is affected by a vulnerability in the following product: SonicOS prior to 7.3.4-7013 prior to 8.2.2-8015 SonicWall indicates that CVE-2026-19868 is being exploited.",
+  "title": "SonicWall security advisory (AV26-1133)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "4ad3ed8f1adc1384",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+  "published": "2026-11-06T20:24:19Z",
+  "source": "BleepingComputer",
+  "summary": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]",
+  "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "fcdce44c72d05d7d",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/jetbrains-security-advisory-av26-1132",
+  "published": "2026-11-06T19:23:12Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1132 Date: November 6, 2026 As of November 6, 2026, JetBrains is affected by vulnerabilities in the following products: CLion Prior to 2026.3 Prior to 2026.2.4.1 Datalore Prior to 2026.4 Prior to 2026.2.4 Hub Prior to…",
+  "title": "JetBrains security advisory (AV26-1132)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "e19a946b3ffce586",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+  "published": "2026-11-06T18:46:52Z",
+  "source": "BleepingComputer",
+  "summary": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]",
+  "title": "Fake security tools on GitHub push backdoors and infostealers",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "c65428665bcf8c05",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
@@ -285,6 +347,20 @@
   "summary": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [...]",
   "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
   "trust": "media"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-19868"
+  ],
+  "id": "2f2068a706babf99",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
+  "published": "2026-11-06T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls.",
+  "title": "CVE-2026-19868: SonicWall SonicOS SSLVPN (SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability)",
+  "trust": "official"
  },
  {
   "category": "news",
