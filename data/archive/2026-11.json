@@ -2,6 +2,18 @@
  {
   "category": "news",
   "cves": [],
+  "id": "4a69f136ccf95a67",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+  "published": "2026-11-07T06:44:17Z",
+  "source": "The Hacker News",
+  "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them.",
+  "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "8a0dfa4695f609ef",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
