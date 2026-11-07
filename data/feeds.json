@@ -3,8 +3,18 @@
   {"name": "CISA Advisories", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml", "category": "advisories", "trust": "official", "link_domains": ["cisa.gov"]},
   {"name": "Ubuntu Security Notices", "url": "https://ubuntu.com/security/notices/rss.xml", "category": "advisories", "trust": "official", "link_domains": ["ubuntu.com"]},
   {"name": "Canadian Cyber Centre", "url": "https://www.cyber.gc.ca/api/cccs/atom/v1/get?feed=alerts_advisories&lang=en", "category": "advisories", "trust": "official", "link_domains": ["cyber.gc.ca"]},
+  {"name": "UK NCSC", "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml", "category": "advisories", "trust": "official", "link_domains": ["ncsc.gov.uk"]},
+  {"name": "CERT-EU", "url": "https://www.cert.europa.eu/publications/security-advisories-rss", "category": "advisories", "trust": "official", "link_domains": ["cert.europa.eu"]},
+  {"name": "Microsoft MSRC", "url": "https://api.msrc.microsoft.com/update-guide/rss", "category": "advisories", "trust": "vendor", "link_domains": ["msrc.microsoft.com"]},
+  {"name": "Cisco Security Advisories", "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml", "category": "advisories", "trust": "vendor", "link_domains": ["cisco.com"]},
+  {"name": "Zero Day Initiative", "url": "https://www.zerodayinitiative.com/rss/published/", "category": "advisories", "trust": "vendor", "link_domains": ["zerodayinitiative.com"]},
   {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/", "category": "news", "trust": "media", "link_domains": ["bleepingcomputer.com"]},
   {"name": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews", "category": "news", "trust": "media", "link_domains": ["thehackernews.com"]},
   {"name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/", "category": "news", "trust": "media", "link_domains": ["krebsonsecurity.com"]},
-  {"name": "SANS Internet Storm Center", "url": "https://isc.sans.edu/rssfeed.xml", "category": "research", "trust": "vendor", "link_domains": ["isc.sans.edu"]}
+  {"name": "SecurityWeek", "url": "https://feeds.feedburner.com/securityweek", "category": "news", "trust": "media", "link_domains": ["securityweek.com"]},
+  {"name": "The Record", "url": "https://therecord.media/feed", "category": "news", "trust": "media", "link_domains": ["therecord.media"]},
+  {"name": "SANS Internet Storm Center", "url": "https://isc.sans.edu/rssfeed.xml", "category": "research", "trust": "vendor", "link_domains": ["isc.sans.edu"]},
+  {"name": "Cisco Talos", "url": "https://blog.talosintelligence.com/rss/", "category": "research", "trust": "vendor", "link_domains": ["blog.talosintelligence.com"]},
+  {"name": "Google Project Zero", "url": "https://googleprojectzero.blogspot.com/feeds/posts/default", "category": "research", "trust": "vendor", "link_domains": ["googleprojectzero.blogspot.com"]},
+  {"name": "Google Threat Intelligence", "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/", "category": "research", "trust": "vendor", "link_domains": ["cloud.google.com", "cloudblog.withgoogle.com"]}
 ]
