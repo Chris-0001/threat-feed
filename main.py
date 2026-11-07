@@ -50,6 +50,7 @@ SEEN_TTL_DAYS = 120
 TITLE_MAX, SUMMARY_MAX = 200, 250
 PAGE_ITEMS, RSS_ITEMS = 200, 100
 UA = "threat-feed/1.0 (personal open-source aggregator)"
+MAX_MB_CAP = 25                  # hard ceiling for a feed's own max_mb setting
 ANOMALY_FRESH = 40               # more new items than this in one run => feed skipped
 REJECT_MIN, REJECT_RATIO = 5, 0.5  # >50% of entries failing link checks => feed skipped
 # shared-hosting domains anyone can publish on: never allowed as a whole
@@ -124,6 +125,10 @@ def load_feeds():
             require(u and u.scheme == "https" and u.path.startswith("/") and not u.username
                     and any(host == d or host.endswith("." + d) for d in domains),
                     f"{f['name']}: bad link_prefix {pre!r} (HTTPS, on link_domains, with a path)")
+        mb = f.setdefault("max_mb", MAX_BYTES // (1024 * 1024))
+        require(isinstance(mb, (int, float)) and not isinstance(mb, bool) and 1 <= mb <= MAX_MB_CAP,
+                f"{f['name']}: max_mb must be between 1 and {MAX_MB_CAP}")
+        require(isinstance(f.setdefault("upgrade_http", False), bool), f"{f['name']}: upgrade_http must be true/false")
         f.setdefault("type", "rss")
     return feeds
 
@@ -177,6 +182,9 @@ def safe_link(link, domains, prefixes=()):
 
 def build_item(feed, title, link, summary_html, published, key):
     title = shorten(clean_text(title), TITLE_MAX)
+    link = str(link or "").strip()
+    if feed["upgrade_http"] and link.startswith("http://"):  # scheme only; allowlist checks still apply
+        link = "https://" + link[len("http://"):]
     link = safe_link(link, feed["link_domains"], feed["link_prefix"])
     if not title or not link:
         return None
@@ -216,7 +224,7 @@ def fetch(feed, fs):
         body = bytearray()
         for chunk in r.iter_content(65536):
             body += chunk
-            if len(body) > MAX_BYTES:
+            if len(body) > int(feed["max_mb"] * 1024 * 1024):
                 raise ValueError("response too large")
             if time.monotonic() > deadline:
                 raise TimeoutError("feed download too slow")
