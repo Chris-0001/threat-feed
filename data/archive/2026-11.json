@@ -25,6 +25,20 @@
  },
  {
   "category": "news",
+  "cves": [
+   "CVE-2026-19868"
+  ],
+  "id": "d6f6f3e5687552db",
+  "kev": true,
+  "link": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+  "published": "2026-11-07T10:16:23Z",
+  "source": "SecurityWeek",
+  "summary": "CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek .",
+  "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+  "trust": "media"
+ },
+ {
+  "category": "news",
   "cves": [],
   "id": "4a69f136ccf95a67",
   "kev": false,
@@ -74,6 +88,18 @@
   "trust": "official"
  },
  {
+  "category": "advisories",
+  "cves": [],
+  "id": "04085acf53a9df13",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
+  "published": "2026-11-06T20:40:06Z",
+  "source": "Cisco Security Advisories",
+  "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by eMudhra was uncovered.",
+  "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
+  "trust": "vendor"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "4ad3ed8f1adc1384",
@@ -84,6 +110,23 @@
   "summary": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]",
   "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-105482",
+   "CVE-2026-105483",
+   "CVE-2026-106069",
+   "CVE-2026-111497"
+  ],
+  "id": "fc3fcdd2f6196fa3",
+  "kev": true,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+  "published": "2026-11-06T20:17:59Z",
+  "source": "Cisco Security Advisories",
+  "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x.",
+  "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
+  "trust": "vendor"
  },
  {
   "category": "advisories",
@@ -100,6 +143,30 @@
  {
   "category": "news",
   "cves": [],
+  "id": "bda92e419c9100f4",
+  "kev": false,
+  "link": "https://therecord.media/medical-services-company-settles-with-4-state-ags",
+  "published": "2026-11-06T19:06:00Z",
+  "source": "The Record",
+  "summary": "The case, brought by AGs in Connecticut, New Jersey, New York and Michigan, targeted the medical transcription, coding and imaging subsidiaries of the Nevada-based Perry Johnson Companies.",
+  "title": "Medical services company settles with 4 states over 2023 hack of sensitive patient records",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "60ec08e5c14fd091",
+  "kev": false,
+  "link": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+  "published": "2026-11-06T18:56:00Z",
+  "source": "The Record",
+  "summary": "DigiCert explained that over the summer, an internal business system was \"externally accessible when that was not intended,\" and someone had created an unauthorized account.",
+  "title": "Certificate authority DigiCert reports data breach involving business customer info",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "e19a946b3ffce586",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
@@ -112,6 +179,18 @@
  {
   "category": "news",
   "cves": [],
+  "id": "180eb3d4ee82acc4",
+  "kev": false,
+  "link": "https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/",
+  "published": "2026-11-06T18:28:41Z",
+  "source": "SecurityWeek",
+  "summary": "The emergency package comes after dozens of companies and government agencies were hit by unauthorized access to their systems and leaks of client data, prompting uneasiness across Japan.",
+  "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "c65428665bcf8c05",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
@@ -119,6 +198,18 @@
   "source": "BleepingComputer",
   "summary": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
   "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3923f958b7d8a18e",
+  "kev": false,
+  "link": "https://therecord.media/fbi-agent-pleads-guilty-to-stealing-from-nation-state-hackers",
+  "published": "2026-11-06T16:53:00Z",
+  "source": "The Record",
+  "summary": "Patrick Steven Yaroch, 37, is facing up to 20 years in prison on wire fraud and money laundering charges after admitting to using his position on an FBI investigative squad to steal more than $2.4 million in cryptocurrency to cover his debts.",
+  "title": "FBI agent pleads guilty to stealing $2.4 million in crypto from nation-state hackers",
   "trust": "media"
  },
  {
@@ -205,6 +296,45 @@
  {
   "category": "news",
   "cves": [],
+  "id": "67c59eab13524619",
+  "kev": false,
+  "link": "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/",
+  "published": "2026-11-06T14:40:09Z",
+  "source": "SecurityWeek",
+  "summary": "Noteworthy stories that might have slipped under the radar: Synology warns about NAS ransomware attacks, Flowise ‘hello’ attacks, Chainalysis breach impact expands.",
+  "title": "In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "d3ed56c0006bc57d",
+  "kev": false,
+  "link": "https://therecord.media/ceo-spoofing-scammers-charged",
+  "published": "2026-11-06T14:30:00Z",
+  "source": "The Record",
+  "summary": "The U.S. is working on extraditing three suspects from Europe in a case involving more than $100 million in fraud from CEO impersonations.",
+  "title": "CEO-spoofing scammers used AI to help steal more than $100 million, feds say",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "id": "70358ce37714d290",
+  "kev": true,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20PHP%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+  "published": "2026-11-06T14:21:13Z",
+  "source": "Cisco Security Advisories",
+  "summary": "On October 21, the PHP Foundation announced the availability of a Critical PHP Security release addressing two critical vulnerabilities: CVE-2026-109618 - RCE via OOM corruption CVE-2026-109619 - RCE via stale global state For information about…",
+  "title": "Vulnerabilities in PHP Affecting Cisco Products: October 2026",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "8e6cc9f31b727336",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
@@ -212,6 +342,18 @@
   "source": "BleepingComputer",
   "summary": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
   "title": "Chainalysis says breach exposed credentials for all customers",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "20d98d98e81f4395",
+  "kev": false,
+  "link": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
+  "published": "2026-11-06T14:00:07Z",
+  "source": "SecurityWeek",
+  "summary": "Hackers created an account on an internal system and accessed names, email addresses, phone numbers, and business addresses. The post DigiCert Data Breach Impacts Business Customer Information appeared first on SecurityWeek .",
+  "title": "DigiCert Data Breach Impacts Business Customer Information",
   "trust": "media"
  },
  {
@@ -229,6 +371,42 @@
  {
   "category": "news",
   "cves": [],
+  "id": "f22c1a512cb3fea7",
+  "kev": false,
+  "link": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
+  "published": "2026-11-06T13:19:52Z",
+  "source": "SecurityWeek",
+  "summary": "Rated Critical for cybersecurity, OpenAI’s new model beats GPT-5.6 Cyber at exploitation while staying in scope more reliably. The post OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line appeared first on SecurityWeek .",
+  "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "41f825b4b4b75264",
+  "kev": false,
+  "link": "https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/",
+  "published": "2026-11-06T13:02:26Z",
+  "source": "SecurityWeek",
+  "summary": "The recommendations come amid attacks targeting fridges and freezers in supermarkets and blood banks in Europe. The post US Agencies Urge Organizations to Harden Refrigeration Controllers appeared first on SecurityWeek .",
+  "title": "US Agencies Urge Organizations to Harden Refrigeration Controllers",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f5dc5143b5f321d9",
+  "kev": false,
+  "link": "https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack/",
+  "published": "2026-11-06T12:47:55Z",
+  "source": "SecurityWeek",
+  "summary": "The October incident will cut fourth-quarter sales by up to €250 million and has led Ahold Delhaize to lower its 2026 outlook. The post Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack appeared first on SecurityWeek .",
+  "title": "Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "96836a2502d97c5b",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
@@ -236,6 +414,30 @@
   "source": "BleepingComputer",
   "summary": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
   "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "377681001f5d836a",
+  "kev": false,
+  "link": "https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/",
+  "published": "2026-11-06T12:16:13Z",
+  "source": "SecurityWeek",
+  "summary": "In a month, 28 residential proxy services used 6 addresses, mainly between 5 p.m. and midnight, Eastern Time. The post Researchers Find Residential Proxies on White House Network appeared first on SecurityWeek .",
+  "title": "Researchers Find Residential Proxies on White House Network",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "5b3be6910bad8fe6",
+  "kev": false,
+  "link": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
+  "published": "2026-11-06T12:07:42Z",
+  "source": "SecurityWeek",
+  "summary": "On Linux distributions using musl libc without PAM, some accounts accept any password between 257 and 1024 characters. The post OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass appeared first on SecurityWeek .",
+  "title": "OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass",
   "trust": "media"
  },
  {
@@ -321,6 +523,18 @@
   "summary": "It was discovered that the io_uring subsystem in the Linux kernel did not properly handle canceled task work when processing certain wait operations, leading to the operation being performed in the wrong task context.",
   "title": "USN-9002-1: Linux kernel (NVIDIA Tegra) vulnerabilities",
   "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "28ee1e7e01eeb725",
+  "kev": false,
+  "link": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
+  "published": "2026-11-06T09:33:51Z",
+  "source": "SecurityWeek",
+  "summary": "After its sandbox proxy failed, an internal OpenAI model crafted raw packets and probed AWS services trying to reach the internet. The post OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions appeared first on SecurityWeek .",
+  "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
+  "trust": "media"
  },
  {
   "category": "news",
@@ -413,6 +627,18 @@
  {
   "category": "news",
   "cves": [],
+  "id": "13d2718625541b59",
+  "kev": false,
+  "link": "https://therecord.media/eu-accuses-tiktok-of-rabbit-hole-DSA-violation",
+  "published": "2026-11-06T00:00:00Z",
+  "source": "The Record",
+  "summary": "The European Commission accused TikTok on Friday of failing to prevent its recommendation algorithm from drawing users into “rabbit holes” of content about sadness, self-harm and body image.",
+  "title": "EU accuses TikTok of trapping users in harmful ‘rabbit holes’",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "05494616ac5e9859",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
@@ -457,6 +683,18 @@
   "summary": "Serial number: AV26-1130 Date: November 5, 2026 As of November 5, 2026, OpenBSD is affected by a vulnerability in the following product: OpenSSH Prior to 10.6p2 The Cyber Centre encourages users and administrators to review the provided web links…",
   "title": "OpenBSD security advisory (AV26-1130)",
   "trust": "official"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "13da8c30c4466e3d",
+  "kev": false,
+  "link": "https://blog.talosintelligence.com/bring-a-tent-ive-got-the-coffee-lessons-from-it-sa/",
+  "published": "2026-11-05T19:00:00Z",
+  "source": "Cisco Talos",
+  "summary": "Thorsten may have had to camp out in Nuremberg to attend it-sa, but the real story is the initiative to add a formal IT Security apprenticeship program in Germany for the thousands of young hackers ready to join our side.",
+  "title": "Bring a tent, I've got the coffee: Lessons from it-sa",
+  "trust": "vendor"
  },
  {
   "category": "news",
@@ -825,6 +1063,20 @@
  },
  {
   "category": "advisories",
+  "cves": [
+   "CVE-2026-20241"
+  ],
+  "id": "5ec6b776d6e8c24e",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-cert-mE9BD5GO?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Authorization%20Bypass%20Vulnerability%26vs_k=1",
+  "published": "2026-11-04T19:56:22Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the authorization mechanism of Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow an unauthenticated, remote attacker to obtain an endpoint identity certificate.",
+  "title": "Cisco Identity Services Engine Authorization Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
   "cves": [],
   "id": "5e3b36b4e7c81a0f",
   "kev": false,
@@ -987,6 +1239,22 @@
   "trust": "media"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20241",
+   "CVE-2026-76419",
+   "CVE-2026-76506"
+  ],
+  "id": "db3a9e2932064d1e",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-I8z3n6lK?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20November%204,%202026,%20Security%20Advisories%26vs_k=1",
+  "published": "2026-11-04T16:01:02Z",
+  "source": "Cisco Security Advisories",
+  "summary": "On November 4, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories: Cisco Security Advisory CVE ID Security Impact Rating CVSS Base Score Cisco UCS Central Software Remote Code Execution Vulnerability…",
+  "title": "Cisco Advance Notification for Publication of November 4, 2026, Security Advisories",
+  "trust": "vendor"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "33bb65e81c9b849a",
@@ -997,6 +1265,314 @@
   "summary": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. [...]",
   "title": "mSecure password manager hack prompts password reset warnings",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-119268"
+  ],
+  "id": "fe1ce61e0f6a75dc",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119268",
+  "published": "2026-11-04T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-119268: Integer overflow",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-119266"
+  ],
+  "id": "faa67d91d3923eb8",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119266",
+  "published": "2026-11-04T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-119266: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118314"
+  ],
+  "id": "f2e5fcbd0bd428fd",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118314",
+  "published": "2026-11-04T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-118314: Incorrect reference resolution",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-119262"
+  ],
+  "id": "f2cc5c64b58b0e82",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119262",
+  "published": "2026-11-04T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-119262: Improper input validation",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-119261"
+  ],
+  "id": "dbf361b5482a652c",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119261",
+  "published": "2026-11-04T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-119261: Improper input validation",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76506"
+  ],
+  "id": "d0053ae0ebc9b22c",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucs-rce-LzHSFRDQ?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20UCS%20Central%20Software%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
+  "published": "2026-11-04T16:00:00Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the web-based management interface of Cisco UCS Central Software could allow an authenticated, remote attacker to achieve remote code execution or conduct information disclosure attacks on an affected device.",
+  "title": "Cisco UCS Central Software Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76025"
+  ],
+  "id": "bea99836799f4c69",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-76025",
+  "published": "2026-11-04T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-76025: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76027"
+  ],
+  "id": "ba8a59deda906165",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-76027",
+  "published": "2026-11-04T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-76027: Memory corruption",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-119270"
+  ],
+  "id": "b31d31ede115ef2f",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119270",
+  "published": "2026-11-04T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-119270: Improper input validation",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-119265"
+  ],
+  "id": "b27f8ff2613f2835",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119265",
+  "published": "2026-11-04T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-119265: Memory corruption",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76024"
+  ],
+  "id": "ad18ef27cd872821",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-76024",
+  "published": "2026-11-04T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-76024: Memory corruption",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-119263"
+  ],
+  "id": "a0a9a7008592398b",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119263",
+  "published": "2026-11-04T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-119263: Memory corruption",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-119271"
+  ],
+  "id": "9bd083ace22416a7",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119271",
+  "published": "2026-11-04T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-119271: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-119260"
+  ],
+  "id": "8be9cfd922dfbac0",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119260",
+  "published": "2026-11-04T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-119260: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118321"
+  ],
+  "id": "6eb085d5120279cc",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118321",
+  "published": "2026-11-04T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-118321: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-119267"
+  ],
+  "id": "6b1dd3445f56cb50",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119267",
+  "published": "2026-11-04T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-119267: Memory corruption",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76419"
+  ],
+  "id": "5ef1704d3344b63a",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-xss-5mQn2U5z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Communications%20Manager%20Cross-Site%20Scripting%20Vulnerability%26vs_k=1",
+  "published": "2026-11-04T16:00:00Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the web-based management interface of Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) could allow an unauthenticated, remote attacker to…",
+  "title": "Cisco Unified Communications Manager Cross-Site Scripting Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118309"
+  ],
+  "id": "3d50390f1b74b985",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118309",
+  "published": "2026-11-04T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-118309: Incorrect reference resolution",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76026"
+  ],
+  "id": "32f9d698df04bc7a",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-76026",
+  "published": "2026-11-04T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-76026: Memory corruption",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-119264"
+  ],
+  "id": "2cbf4e9552ed649f",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119264",
+  "published": "2026-11-04T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-119264: Memory corruption",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-119272"
+  ],
+  "id": "21c583aa6c60262d",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119272",
+  "published": "2026-11-04T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-119272: Out of bounds read",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-119269"
+  ],
+  "id": "1545f90168d8f3f9",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119269",
+  "published": "2026-11-04T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-119269: Use after free",
+  "trust": "vendor"
  },
  {
   "category": "advisories",
@@ -1539,6 +2115,20 @@
   "trust": "official"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76461"
+  ],
+  "id": "9a98f4691cb3d0ef",
+  "kev": true,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-inj-2bLVGmhX?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Email%20Gateway%20SQL%20Injection%20Vulnerability%26vs_k=1",
+  "published": "2026-11-03T17:05:12Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the email parsing of Cisco AsyncOS Software for Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system.",
+  "title": "Cisco Secure Email Gateway SQL Injection Vulnerability",
+  "trust": "vendor"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "4020f5d213be44ca",
@@ -1700,6 +2290,18 @@
  },
  {
   "category": "advisories",
+  "cves": [],
+  "id": "5b6c14106d9c6753",
+  "kev": false,
+  "link": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",
+  "published": "2026-11-03T12:00:00Z",
+  "source": "UK NCSC",
+  "summary": "The NCSC warns that ‘tech on the cheap’ has left UK organisations exposed to AI uncovering and exploiting longstanding cyber security weaknesses and calls for urgent investment in resilience.",
+  "title": "Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
   "cves": [
    "CVE-2026-119977"
   ],
@@ -1725,6 +2327,18 @@
   "source": "CISA Advisories",
   "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute unauthorized SQL commands and gain access to unauthorized resources.",
   "title": "Subnet Solutions PowerSYSTEM Center",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "186e408f6afede20",
+  "kev": false,
+  "link": "https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion",
+  "published": "2026-11-03T12:00:00Z",
+  "source": "UK NCSC",
+  "summary": "An NCSC assessment that examines current AI-enabled threat trends and projections of the threat landscape to 2028.",
+  "title": "Artificial intelligence and cyber intrusion",
   "trust": "official"
  },
  {
@@ -2257,6 +2871,32 @@
   "trust": "official"
  },
  {
+  "category": "research",
+  "cves": [],
+  "id": "eb92b35c1adb3ca7",
+  "kev": false,
+  "link": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+  "published": "2026-11-02T14:00:00Z",
+  "source": "Google Threat Intelligence",
+  "summary": "Introduction Last week, Google and industry partners dismantled the XCPE backdoor which enrolled more than 1.3 million set-top boxes into a botnet.",
+  "title": "Shutting the Door on the XCPE Botnet",
+  "trust": "vendor"
+ },
+ {
+  "category": "research",
+  "cves": [
+   "CVE-2026-40217"
+  ],
+  "id": "dcc87aa905deeb3c",
+  "kev": false,
+  "link": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
+  "published": "2026-11-02T14:00:00Z",
+  "source": "Google Threat Intelligence",
+  "summary": "Written by: Christopher Romano, Codi Starks, Garrett Mahoney, John Wolfram, Josh Murchie, K Singh, Mathew Potaczek, Mike Lombardi, Rik Dolfing Introduction Mandiant responded to multiple incidents in 2026 in which threat actors hijacked enterprise…",
+  "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
+  "trust": "vendor"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "9f064d800f3a2383",
@@ -2473,6 +3113,30 @@
   "trust": "media"
  },
  {
+  "category": "research",
+  "cves": [],
+  "id": "52abb78c878642d4",
+  "kev": false,
+  "link": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+  "published": "2026-10-31T12:00:00Z",
+  "source": "Cisco Talos",
+  "summary": "The self-deleting VOLTA infostealer steals credentials, sessions, and cryptocurrency wallets. Then, it uses LLMs to profile victims and rank their most valuable assets.",
+  "title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
+  "trust": "vendor"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "8614ab1ce4a43617",
+  "kev": false,
+  "link": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks/",
+  "published": "2026-10-30T14:00:00Z",
+  "source": "Google Threat Intelligence",
+  "summary": "Written by: Aurora Blum, David Mainor, Rohit Nambiar, Omar ElAhdan, Matthew McWhirt, Will Silverstone, Bhavesh Dhake, Chris Busse Introduction Recent intrusions in which threat actors have been observed weaponizing agentic frameworks to execute…",
+  "title": "ARTEX and Friends: Enter Agentic Offensive Frameworks",
+  "trust": "vendor"
+ },
+ {
   "category": "advisories",
   "cves": [
    "CVE-2026-111357",
@@ -2486,6 +3150,44 @@
   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
   "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20362"
+  ],
+  "id": "f3a032aa949b3468",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-finesse-ssrf-mmSuyugS?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Finesse%20Server-Side%20Request%20Forgery%20Vulnerability%26vs_k=1",
+  "published": "2026-10-29T21:22:28Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the web-based management interface of Cisco Finesse could allow an unauthenticated, remote attacker to conduct server-side request forgery (SSRF) attacks through an affected device.",
+  "title": "Cisco Finesse Server-Side Request Forgery Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "a425a2e832e93ea3",
+  "kev": false,
+  "link": "https://blog.talosintelligence.com/a-quiet-week-in-infosec/",
+  "published": "2026-10-29T18:00:00Z",
+  "source": "Cisco Talos",
+  "summary": "In this edition of the Threat Source newsletter, William explores how PHP has taken over the conversation, Node.js has joined in, but underneath it all, there are still good people doing good work.",
+  "title": "A quiet week in infosec <.<",
+  "trust": "vendor"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "eac07d15f328d0bc",
+  "kev": false,
+  "link": "https://blog.talosintelligence.com/ir-trends-q3-2026/",
+  "published": "2026-10-29T14:00:00Z",
+  "source": "Cisco Talos",
+  "summary": "Phishing remained the leading initial access technique, while percentage of ransomware and pre-ransomware cases increased. Finance and public administration tied as the top-targeted industries.",
+  "title": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases",
+  "trust": "vendor"
  },
  {
   "category": "advisories",
@@ -2547,6 +3249,60 @@
   "trust": "official"
  },
  {
+  "category": "research",
+  "cves": [],
+  "id": "1593e59eb5edbd90",
+  "kev": false,
+  "link": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/",
+  "published": "2026-10-29T10:00:00Z",
+  "source": "Cisco Talos",
+  "summary": "Cisco Talos observed a new AI-integrated command-and-control (C2) framework in the wild called “NIK C2.”",
+  "title": "NIK C2: The new AI-enabled command-and-control framework",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20127"
+  ],
+  "id": "91edada6a4ad6d5c",
+  "kev": true,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa-EHchtZk?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
+  "published": "2026-10-28T21:54:35Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Cisco Catalyst SD-WAN Validator, formerly SD-WAN vBond, could allow an…",
+  "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "research",
+  "cves": [
+   "CVE-2026-20127"
+  ],
+  "id": "adf73b5062a20615",
+  "kev": true,
+  "link": "https://blog.talosintelligence.com/uat-11473-keydrift/",
+  "published": "2026-10-28T21:32:02Z",
+  "source": "Cisco Talos",
+  "summary": "Talos has identified UAT-11473, a highly sophisticated APT, who exploited CVE-2026-20127, an authentication bypass vulnerability in Cisco SD-WAN Catalyst Controller instances to bypass authentication and gain unauthorized access to affected systems…",
+  "title": "Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76418"
+  ],
+  "id": "2113357f9b72a922",
+  "kev": true,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20Remote%20Access%20SSL%20VPN%20Tunnel%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+  "published": "2026-10-28T19:15:00Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the Remote Access SSL VPN service of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the device to…",
+  "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Tunnel Denial of Service Vulnerability",
+  "trust": "vendor"
+ },
+ {
   "category": "advisories",
   "cves": [
    "CVE-2026-41709",
@@ -2559,6 +3315,60 @@
   "source": "CISA Advisories",
   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76473",
+   "CVE-2026-76474",
+   "CVE-2026-76475",
+   "CVE-2026-76476",
+   "CVE-2026-76477",
+   "CVE-2026-76478",
+   "CVE-2026-76479",
+   "CVE-2026-76481"
+  ],
+  "id": "b04ed9e8a1b35a3c",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-voice-hardening-twgbH9e3?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Communications%20Products%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
+  "published": "2026-10-27T14:46:44Z",
+  "source": "Cisco Security Advisories",
+  "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications…",
+  "title": "Cisco Unified Communications Products Security Hardening Release: October 2026",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76490",
+   "CVE-2026-76491",
+   "CVE-2026-76492",
+   "CVE-2026-76493",
+   "CVE-2026-76494",
+   "CVE-2026-76495",
+   "CVE-2026-76496",
+   "CVE-2026-76497"
+  ],
+  "id": "96e73bfe15eb6435",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-exwy-hardening-FhcqBVcs?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Expressway%20Series%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
+  "published": "2026-10-27T14:45:16Z",
+  "source": "Cisco Security Advisories",
+  "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Expressway Series software engineering team has conducted a comprehensive internal security review.",
+  "title": "Cisco Expressway Series Security Hardening Release: October 2026",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "e0d2bac0091b767d",
+  "kev": false,
+  "link": "https://www.ncsc.gov.uk/blogs/industry-concern-practical-action-value-working-regulators",
+  "published": "2026-10-27T12:00:00Z",
+  "source": "UK NCSC",
+  "summary": "How industry, the NCSC and the FCA worked together to help organisations share information while protecting market integrity",
+  "title": "From industry concern to practical action: the value of working with regulators",
   "trust": "official"
  },
  {
@@ -2611,6 +3421,18 @@
   "trust": "official"
  },
  {
+  "category": "research",
+  "cves": [],
+  "id": "1deaf6a19cb41512",
+  "kev": false,
+  "link": "https://blog.talosintelligence.com/from-federal-socs-to-talos-ryan-fetterman-on-practical-security-research/",
+  "published": "2026-10-27T10:00:21Z",
+  "source": "Cisco Talos",
+  "summary": "What does it mean to be \"blue collar\" for the blue team? Ryan Fetterman discusses the realities of detection engineering, and shares his philosophy on building a career in security without burning out.",
+  "title": "From federal SOCs to Talos: Ryan Fetterman on practical security research",
+  "trust": "vendor"
+ },
+ {
   "category": "advisories",
   "cves": [
    "CVE-2026-109618",
@@ -2623,6 +3445,18 @@
   "source": "CISA Advisories",
   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog and updated the PHP Alert, Critical Vulnerabilities in PHP Require Immediate Patching : CVE-2026-109618 – PHP Memory Corruption Vulnerability CVE-2026-109619…",
   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "d85c0adce4d3218a",
+  "kev": false,
+  "link": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+  "published": "2026-10-23T16:36:26Z",
+  "source": "CERT-EU",
+  "summary": "On 20 October 2026, the PHP project announced an upcoming security release addressing two critical vulnerabilities in PHP. Public reports indicated that these vulnerabilities could lead to remote code execution (RCE).",
+  "title": "2026-018: Critical Vulnerabilities in PHP",
   "trust": "official"
  },
  {
@@ -2652,6 +3486,108 @@
   "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
   "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20011"
+  ],
+  "id": "831f084b1b592f28",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-mime-vulns-bkXjcKkt?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Multiple%20Cisco%20Products%20Snort%203%20SMTP%20MIME%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+  "published": "2026-10-22T19:03:31Z",
+  "source": "Cisco Security Advisories",
+  "summary": "Multiple Cisco products are affected by a vulnerability in the Snort 3 SMTP MIME Decoder that could allow an unauthenticated, remote attacker to cause the Snort 3 Detection Engine to restart.",
+  "title": "Multiple Cisco Products Snort 3 SMTP MIME Denial of Service Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20043",
+   "CVE-2026-20236",
+   "CVE-2026-20291",
+   "CVE-2026-20356"
+  ],
+  "id": "de4fa19dd35c30fa",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-snort3-ybgmhTQe?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Multiple%20Cisco%20Products%20Snort%203%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
+  "published": "2026-10-22T19:03:30Z",
+  "source": "Cisco Security Advisories",
+  "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco owned Open Source Snort 3 Software engineering team has conducted a comprehensive internal security review.",
+  "title": "Multiple Cisco Products Snort 3 Security Hardening Release: October 2026",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20019",
+   "CVE-2026-20179",
+   "CVE-2026-20197",
+   "CVE-2026-76489"
+  ],
+  "id": "263949c66814f613",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-misc-dos-6mB22qAK?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Multiple%20Cisco%20Products%20Snort%203%20Denial%20of%20Service%20Vulnerabilities%26vs_k=1",
+  "published": "2026-10-22T19:03:28Z",
+  "source": "Cisco Security Advisories",
+  "summary": "Multiple Cisco products are affected by vulnerabilities in the Snort 3 Detection Engine that could allow an unauthenticated, remote attacker to cause the Snort 3 Detection Engine to restart unexpectedly, resulting in a denial of service (DoS)…",
+  "title": "Multiple Cisco Products Snort 3 Denial of Service Vulnerabilities",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20221"
+  ],
+  "id": "aa1b583bfc14bb0a",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-gre-JNpMHrTv?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Multiple%20Cisco%20Products%20Snort%203%20Generic%20Routing%20Encapsulation%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+  "published": "2026-10-22T19:03:27Z",
+  "source": "Cisco Security Advisories",
+  "summary": "Multiple Cisco products are affected by a vulnerability in the generic routing encapsulation (GRE) tunnel decapsulation feature of the Snort 3 Detection Engine that could allow an unauthenticated, remote attacker to cause an unexpected restart of…",
+  "title": "Multiple Cisco Products Snort 3 Generic Routing Encapsulation Denial of Service Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76445"
+  ],
+  "id": "a5de7504718e3096",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-gtpcodec-dos-Rmecfepz?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Multiple%20Cisco%20Products%20Snort%203%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+  "published": "2026-10-22T19:03:26Z",
+  "source": "Cisco Security Advisories",
+  "summary": "Multiple Cisco products are affected by a vulnerability in the Snort 3 Detection Engine that could allow an unauthenticated, remote attacker to cause the detection engine to unexpectedly restart, resulting in a denial of service (DoS) condition.",
+  "title": "Multiple Cisco Products Snort 3 Denial of Service Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20218"
+  ],
+  "id": "f1a23465320b75c8",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-vba-bufdos-jAuFdvn9?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Multiple%20Cisco%20Products%20Snort%203%20Visual%20Basic%20for%20Applications%20Buffer%20Overflow%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+  "published": "2026-10-22T19:03:25Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the Snort 3 Visual Basic for Applications (VBA) Decompression Engine of multiple Cisco products could allow an unauthenticated, remote attacker to cause the Snort 3 Detection Engine to restart unexpectedly, resulting in a denial…",
+  "title": "Multiple Cisco Products Snort 3 Visual Basic for Applications Buffer Overflow Denial of Service Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "b208bce3bbf0ac1b",
+  "kev": false,
+  "link": "https://blog.talosintelligence.com/i-had-plans-for-that-second/",
+  "published": "2026-10-22T18:04:32Z",
+  "source": "Cisco Talos",
+  "summary": "The Earth is speeding up, the leap second is being abolished, oh, and there's critical vulnerabilities in PHP.",
+  "title": "I had plans for that second",
+  "trust": "vendor"
  },
  {
   "category": "advisories",
@@ -2877,6 +3813,568 @@
   "source": "CISA Advisories",
   "summary": "View CSAF Summary RUGGEDCOM CROSSBOW contains multiple vulnerabilities that could allow an attacker to execute arbitrary SQL commands on the underlying database, retrieve sensitive administrative credentials, escalate privileges, and perform…",
   "title": "Siemens RUGGEDCOM CROSSBOW",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "1a913c969b78c0c5",
+  "kev": false,
+  "link": "https://cert.europa.eu/publications/security-advisories/2026-019/",
+  "published": "2026-10-22T11:14:22Z",
+  "source": "CERT-EU",
+  "summary": "On 21 October 2026, GitLab published a security advisory addressing several vulnerabilities among which a critical flaw that could allow an unauthenticated user to execute arbitrary code on a GitLab server.",
+  "title": "2026-019: Critical Vulnerability in GitLab Community and Enterprise Editions",
+  "trust": "official"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "52bff77e908f1246",
+  "kev": false,
+  "link": "https://blog.talosintelligence.com/compromised-intermediate-certificates/",
+  "published": "2026-10-21T20:43:29Z",
+  "source": "Cisco Talos",
+  "summary": "Cisco Talos is aware of eight intermediate certificates belonging to the intermediate certificate authority, eMudhra.",
+  "title": "Compromised eMudhra intermediate certificates",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20011",
+   "CVE-2026-20019",
+   "CVE-2026-20043",
+   "CVE-2026-20179",
+   "CVE-2026-20197",
+   "CVE-2026-20218",
+   "CVE-2026-20221",
+   "CVE-2026-20236",
+   "CVE-2026-20291",
+   "CVE-2026-20356"
+  ],
+  "id": "852e6391b8bda0e3",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-QGwHnJ6k?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20October%2021,%202026,%20Security%20Advisories%26vs_k=1",
+  "published": "2026-10-21T16:09:19Z",
+  "source": "Cisco Security Advisories",
+  "summary": "On October 21, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories. To remediate the vulnerabilities that were disclosed on October 21, 2026, Cisco strongly recommends that customers upgrade to the…",
+  "title": "Cisco Advance Notification for Publication of October 21, 2026, Security Advisories",
+  "trust": "vendor"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "2391322698657e4b",
+  "kev": false,
+  "link": "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
+  "published": "2026-10-21T15:10:53Z",
+  "source": "Cisco Talos",
+  "summary": "Two critical remote code execution vulnerabilities in PHP core could have implications across its wider ecosystem. Talos has published a blog to explain what we know so far, and details the Snort coverage available, including rules in the Community…",
+  "title": "Two critical RCEs in PHP core",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "id": "c6cfb736b57fbe2c",
+  "kev": true,
+  "link": "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
+  "published": "2026-10-21T12:00:00Z",
+  "source": "UK NCSC",
+  "summary": "Updated: The NCSC is encouraging UK organisations to take immediate action to mitigate a security issue affecting PHP (CVE-2026-109618 and CVE-2026-109619).",
+  "title": "Critical security issue affecting PHP",
+  "trust": "official"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "af97af0cff2ec97d",
+  "kev": false,
+  "link": "https://blog.talosintelligence.com/parasitizing-trust-how-legitimate-infrastructure-becomes-a-delivery-pipeline-for-attackers/",
+  "published": "2026-10-21T10:00:00Z",
+  "source": "Cisco Talos",
+  "summary": "Adversaries are turning the tools businesses trust into delivery mechanisms for malicious activity. Cisco Talos observed abuse of more than 25 legitimate platforms over the past year, exploiting the built-in trust of collaboration, file-sharing…",
+  "title": "Parasitizing trust: How legitimate infrastructure becomes a delivery pipeline for attackers",
+  "trust": "vendor"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "bdeb6895ef3509dd",
+  "kev": false,
+  "link": "https://blog.talosintelligence.com/theres-only-so-much-code-the-rise-in-vulnerability-numbers/",
+  "published": "2026-10-20T15:31:22Z",
+  "source": "Cisco Talos",
+  "summary": "The September Microsoft Patch Tuesday release included 975 vulnerability advisories. This month, 1,415 vulnerabilities were just dropped. Compared to a pre-June average of 100 a month, that increase is staggering. Where did they come from?",
+  "title": "There's only so much code: the rise in vulnerability numbers",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "446ec58b999f6299",
+  "kev": false,
+  "link": "https://www.ncsc.gov.uk/blogs/introducing-new-ai-chapter-ncsc-research-problem-book",
+  "published": "2026-10-20T12:00:00Z",
+  "source": "UK NCSC",
+  "summary": "A revolution is underway at the intersection of AI and cyber security.",
+  "title": "Introducing a new AI chapter in the NCSC research problem book",
+  "trust": "official"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "1e977dde9acd06ae",
+  "kev": false,
+  "link": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/",
+  "published": "2026-10-15T18:00:00Z",
+  "source": "Cisco Talos",
+  "summary": "Is the cybersecurity world really facing a \"Bugmageddon?\" Thor breaks down the latest CVE and KEV trends in the latest Threat Source newsletter.",
+  "title": "The Q3 Vulnerability Pulse: Discovery ≠ Exploitation",
+  "trust": "vendor"
+ },
+ {
+  "category": "research",
+  "cves": [
+   "CVE-2023-46805",
+   "CVE-2024-21887",
+   "CVE-2026-102764"
+  ],
+  "id": "d6d5e037b65ae23f",
+  "kev": true,
+  "link": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust/",
+  "published": "2026-10-15T14:00:00Z",
+  "source": "Google Threat Intelligence",
+  "summary": "Written by: Jayson Frost, Bryce Greathouse, Brian Meyer, John Palmisano, Rajesh Rajeshirke, Steve Rasch, John Wolfram Introduction On October 15, BeyondTrust disclosed a vulnerability, CVE-2026-102764, impacting BeyondTrust Remote Support (formerly…",
+  "title": "ARMORY CASTLE Exploits BeyondTrust",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "c0caca794e118de8",
+  "kev": false,
+  "link": "https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance",
+  "published": "2026-10-15T12:00:00Z",
+  "source": "UK NCSC",
+  "summary": "The NCSC publishes its recommendations for configuring post-quantum cryptography in TLS. Now is time to migrate.",
+  "title": "Post-quantum updates to our TLS guidance",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "4d7aeca437df268c",
+  "kev": false,
+  "link": "https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data",
+  "published": "2026-10-15T12:00:00Z",
+  "source": "UK NCSC",
+  "summary": "Recommended profiles to securely configure TLS for the most common versions and scenarios, with additional guidance for managing older versions.",
+  "title": "Using TLS to protect data",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "9e2c5aacdc569e78",
+  "kev": false,
+  "link": "https://cert.europa.eu/publications/security-advisories/2026-017/",
+  "published": "2026-10-15T11:38:20Z",
+  "source": "CERT-EU",
+  "summary": "On 14 October 2026, Cisco published a security advisory addressing a critical vulnerability affecting the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway.",
+  "title": "2026-017: Critical Vulnerability in Cisco Secure Email Gateway",
+  "trust": "official"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "e17c29eca4ba9287",
+  "kev": false,
+  "link": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering/",
+  "published": "2026-10-15T11:00:00Z",
+  "source": "Google Threat Intelligence",
+  "summary": "Written by: Tyler McLellan Introduction Google Threat Intelligence Group (GTIG) and Mandiant investigated a software supply chain compromise campaign targeting the update infrastructure belonging to AOMEI Technology between April 2026 and July 2026.",
+  "title": "Investigating Ephemeral Supply Chain Tampering",
+  "trust": "vendor"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "2a6ff44c55a29daf",
+  "kev": false,
+  "link": "https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations/",
+  "published": "2026-10-14T14:00:00Z",
+  "source": "Cisco Talos",
+  "summary": "Talos and Recorded Future identified UAT-6275 activity targeting government organizations across the Commonwealth of Independent States. Recovered artifacts show additional interest in water resources and energy.",
+  "title": "Break the silence: Kazakhstan-nexus UAT-6275 targets CIS government organizations",
+  "trust": "vendor"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "ea2f3dd1277160c4",
+  "kev": false,
+  "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/",
+  "published": "2026-10-13T20:37:58Z",
+  "source": "Cisco Talos",
+  "summary": "Microsoft has released its monthly security update for October 2026, which includes 1415 vulnerabilities affecting a range of products, including 85 that Microsoft marked as \"critical.\"",
+  "title": "Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "2181f64e4beabeab",
+  "kev": false,
+  "link": "https://cert.europa.eu/publications/security-advisories/2026-016/",
+  "published": "2026-10-12T14:57:02Z",
+  "source": "CERT-EU",
+  "summary": "On 12 October 2026, GitLab released versions 19.4.2, 19.3.4 and 19.2.8 of GitLab Community Edition (CE) and Enterprise Edition (EE), fixing 24 security issues among which a critical vulnerability that could allow an unauthenticated attacker to…",
+  "title": "2026-016: Critical Vulnerability in GitLab CE and EE",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "bacaf74c16aab7e3",
+  "kev": false,
+  "link": "https://www.ncsc.gov.uk/blogs/help-ncsc-understand-how-organisations-approach-external-attack-surface-risk",
+  "published": "2026-10-12T12:00:00Z",
+  "source": "UK NCSC",
+  "summary": "We're looking to hear from people involved in evaluating, selecting or adopting EASM.",
+  "title": "Help the NCSC understand how organisations approach external attack surface risk",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "4935e8a4b5e74ac6",
+  "kev": false,
+  "link": "https://www.ncsc.gov.uk/news/china-linked-actors-called-out-by-uk-and-international-partners-for-targeting-sensitive-data",
+  "published": "2026-10-08T12:00:00Z",
+  "source": "UK NCSC",
+  "summary": "Joint advisory with international partners highlights malicious targeting of organisations from a range of sectors across the globe.",
+  "title": "China-linked malicious actors called out by UK and international partners for targeting sensitive data globally",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "1f3f23d66f54e4bf",
+  "kev": false,
+  "link": "https://cert.europa.eu/publications/security-advisories/2026-015/",
+  "published": "2026-10-07T09:52:48Z",
+  "source": "CERT-EU",
+  "summary": "On 5 October 2026, Atlassian published a security advisory addressing a critical arbitrary file access vulnerability. It affects Bitbucket Data Center, Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo…",
+  "title": "2026-015: Critical Vulnerability in Multiple Atlassian Products",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "9d0f188b37275b94",
+  "kev": false,
+  "link": "https://www.ncsc.gov.uk/news/incident-affecting-asos-customers",
+  "published": "2026-10-06T12:00:00Z",
+  "source": "UK NCSC",
+  "summary": "ASOS has said it is investigating a cyber incident and that some customer personal information may have been accessed.",
+  "title": "Incident affecting ASOS customers",
+  "trust": "official"
+ },
+ {
+  "category": "research",
+  "cves": [
+   "CVE-2025-3248",
+   "CVE-2026-1731",
+   "CVE-2026-42271",
+   "CVE-2026-5027"
+  ],
+  "id": "d683cc8c13486ee6",
+  "kev": true,
+  "link": "https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era/",
+  "published": "2026-09-30T14:00:00Z",
+  "source": "Google Threat Intelligence",
+  "summary": "Written by: Robin Grunewald, Supriya Mazumdar, Kelli Vanderlee Introduction Google Threat Intelligence Group (GTIG) examines vulnerability disclosure and exploitation statistics to evaluate the impact of artificial intelligence (AI) on the…",
+  "title": "Vulnerability Discovery and Exploitation Trends in the AI Era",
+  "trust": "vendor"
+ },
+ {
+  "category": "research",
+  "cves": [
+   "CVE-2026-88771",
+   "CVE-2026-88772"
+  ],
+  "id": "6c437dc31db18ecf",
+  "kev": true,
+  "link": "https://cloud.google.com/blog/topics/threat-intelligence/defending-against-active-exploitation-of-citrix-netscaler-adc-and-gateway-appliances/",
+  "published": "2026-09-29T14:00:00Z",
+  "source": "Google Threat Intelligence",
+  "summary": "Introduction In late September 2026, Mandiant Consulting and Google Threat Intelligence Group (GTIG) identified active, in-the-wild exploitation of a zero-day vulnerability (CVE-2026-88772) affecting Citrix NetScaler ADC and NetScaler Gateway…",
+  "title": "Defending Against Active Exploitation of Citrix NetScaler ADC and Gateway Appliances",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "f8d0ccede6818efe",
+  "kev": false,
+  "link": "https://www.ncsc.gov.uk/news/exploitation-of-vulnerabilities-affecting-citrix-netscaler-adc-and-citrix-netscaler-gateway",
+  "published": "2026-09-28T12:00:00Z",
+  "source": "UK NCSC",
+  "summary": "The NCSC is urging UK organisations to promptly mitigate vulnerabilities affecting Citrix NetScaler ADC and Gateway, two of which are being actively exploited.",
+  "title": "Exploitation of vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "d3d087b79e8ceb29",
+  "kev": false,
+  "link": "https://cert.europa.eu/publications/security-advisories/2026-014/",
+  "published": "2026-09-27T19:40:52Z",
+  "source": "CERT-EU",
+  "summary": "On 27 September 2026, Citrix published a security bulletin addressing 8 vulnerabilities affecting customer-managed Citrix NetScaler ADC and Citrix NetScaler Gateway, among which 2 critical unauthenticated Remote Code Execution (RCE) vulnerabilities.",
+  "title": "2026-014: Critical Vulnerabilities in Citrix NetScaler ADC and Gateway",
+  "trust": "official"
+ },
+ {
+  "category": "research",
+  "cves": [
+   "CVE-2026-35273"
+  ],
+  "id": "e1c6f3d532a46bda",
+  "kev": true,
+  "link": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-renewed-mass-exploitation-campaign-targeting-oracle-peoplesoft/",
+  "published": "2026-09-25T14:00:00Z",
+  "source": "Google Threat Intelligence",
+  "summary": "Introduction As an update to the June 2026 post, ShinyHunters Targets Education Sector with Oracle PeopleSoft Exploit , Mandiant and Google Threat Intelligence Group (GTIG) have identified renewed mass exploitation of CVE-2026-35273 by UNC6240…",
+  "title": "ShinyHunters Renewed Mass Exploitation Campaign Targeting Oracle PeopleSoft",
+  "trust": "vendor"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "fb7d8207e819afa7",
+  "kev": false,
+  "link": "https://cloud.google.com/blog/topics/threat-intelligence/hardening-code-pipelines-and-ci-cd-infrastructure/",
+  "published": "2026-09-24T14:00:00Z",
+  "source": "Google Threat Intelligence",
+  "summary": "Introduction The landscape of software supply chain security has undergone a significant shift. Recent campaigns demonstrate that sophisticated threat actors are systematically targeting the engineering lifecycle by compromising trusted security and…",
+  "title": "Proactive Defense: Hardening Code Pipelines and CI/CD Infrastructure",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "3158714e6b8977db",
+  "kev": false,
+  "link": "https://cert.europa.eu/publications/security-advisories/2026-013/",
+  "published": "2026-09-22T18:52:36Z",
+  "source": "CERT-EU",
+  "summary": "On 22 September 2026, F5 published an advisory addressing a critical vulnerability affecting its BIG-IP APM product. The vendor confirmed active exploitation in the wild. CERT-EU recommends taking appropriate actions as soon as possible.",
+  "title": "2026-013: Critical Vulnerability in F5 BIG-IP APM",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "29cc0d58ab4552d7",
+  "kev": false,
+  "link": "https://www.ncsc.gov.uk/blogs/one-does-not-simply-defend-agentically",
+  "published": "2026-09-21T12:00:00Z",
+  "source": "UK NCSC",
+  "summary": "Defenders can’t use AI in the same way attackers can, but there’s much they can do to unlock the potential of agentic cyber defence.",
+  "title": "One does not simply defend agentically",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "a22739840d8d8393",
+  "kev": false,
+  "link": "https://www.ncsc.gov.uk/blogs/cyber-adversary-simulation-cyas-scheme-documents-now-available",
+  "published": "2026-09-17T12:00:00Z",
+  "source": "UK NCSC",
+  "summary": "Our view of good cyber adversary simulation – and how assured providers can deliver it.",
+  "title": "Cyber Adversary Simulation (CyAS): scheme documents now available",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "1c09a2972a8f962b",
+  "kev": false,
+  "link": "https://www.ncsc.gov.uk/guidance/adversary-simulation-what-you-need-to-know",
+  "published": "2026-09-17T12:00:00Z",
+  "source": "UK NCSC",
+  "summary": "Adversary simulation ('red teaming') tests your ability to prevent, detect and respond to cyber attacks.",
+  "title": "Adversary simulation: what you need to know",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "aa4098221e7eb9bd",
+  "kev": false,
+  "link": "https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists",
+  "published": "2026-09-15T12:00:00Z",
+  "source": "UK NCSC",
+  "summary": "Advisory on CHOSEN BRICK malware, including technical analysis and advice to help individuals and organisations protect themselves.",
+  "title": "Iranian cyber targeting of dissidents, activists and journalists",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "51e7949890eaf2ec",
+  "kev": false,
+  "link": "https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists",
+  "published": "2026-09-15T12:00:00Z",
+  "source": "UK NCSC",
+  "summary": "UK and allies provide advice to help organisations and individuals at risk detect and counter the threat from CHOSEN BRICK malware.",
+  "title": "UK and allies expose spyware used by Iranian state actors to target dissidents, activists and journalists",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "0cd2da7c5fcad49e",
+  "kev": false,
+  "link": "https://cert.europa.eu/publications/security-advisories/2026-012/",
+  "published": "2026-09-10T10:20:06Z",
+  "source": "CERT-EU",
+  "summary": "On 9 September 2026, Check Point released emergency security updates addressing two critical vulnerabilities affecting Check Point Security Gateway, Security Management Server, and Spark Firewall deployments configured to use Remote Access VPN or…",
+  "title": "2026-012: Critical Vulnerabilities in Check Point Products",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-44756",
+   "CVE-2026-58240"
+  ],
+  "id": "d3b03a776e63ff7d",
+  "kev": false,
+  "link": "https://cert.europa.eu/publications/security-advisories/2026-011/",
+  "published": "2026-09-09T15:07:59Z",
+  "source": "CERT-EU",
+  "summary": "On 8 September 2026, as part of its September Security Patch Day, SAP released Security Notes addressing two critical vulnerabilities affecting a broad range of SAP products[3].",
+  "title": "2026-011: Critical Vulnerabilities in SAP Kernel and NetWeaver Message Server",
+  "trust": "official"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "722e5615eee29541",
+  "kev": false,
+  "link": "https://cloud.google.com/blog/topics/threat-intelligence/from-prompting-to-autonomy-the-evolution-of-adversarial-ai/",
+  "published": "2026-09-08T14:00:00Z",
+  "source": "Google Threat Intelligence",
+  "summary": "Executive Summary Since the release of our May 2026 report detailing adversarial misuse of artificial intelligence (AI), Google Threat Intelligence Group (GTIG) has observed forward leaning adversaries transition from basic prompting to agentic AI…",
+  "title": "GTIG AI Threat Tracker: From Prompting to Autonomy – The Evolution of Adversarial AI",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "b1bbc67fa2955f8c",
+  "kev": false,
+  "link": "https://www.ncsc.gov.uk/blogs/the-hidden-risks-of-shadow-ai",
+  "published": "2026-09-07T12:00:00Z",
+  "source": "UK NCSC",
+  "summary": "Understanding why staff use unapproved AI tools is key to managing the security challenges they can create.",
+  "title": "The hidden risks of shadow AI",
+  "trust": "official"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "734d22269dd37967",
+  "kev": false,
+  "link": "https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/",
+  "published": "2026-09-01T14:00:00Z",
+  "source": "Google Threat Intelligence",
+  "summary": "Introduction Beginning in 2024 Mandiant investigated a string of compromises affecting Brazilian financial services, retail, and eCommerce organizations.",
+  "title": "Financially Motivated Threat Actor BREEZE COMET Targets Brazil",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "a40aacc4a9ad016d",
+  "kev": false,
+  "link": "https://www.ncsc.gov.uk/news/disruptive-cyber-activity-highlights-risk-from-internet-exposed-systems-and-edge-devices",
+  "published": "2026-08-27T12:00:00Z",
+  "source": "UK NCSC",
+  "summary": "Owners of operational technology encouraged to address avoidable vulnerabilities, and build long-term cyber resilience.",
+  "title": "Disruptive cyber activity highlights risk from internet-exposed systems and edge devices",
+  "trust": "official"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "abc857efe2a259db",
+  "kev": false,
+  "link": "https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia/",
+  "published": "2026-08-20T14:00:00Z",
+  "source": "Google Threat Intelligence",
+  "summary": "Written by: Gabby Roncone, Wesley Shields Overview Google Threat Intelligence Group (GTIG) is tracking three distinct suspected Russian cyber espionage threat clusters abusing legitimate authentication flows to target individuals working in…",
+  "title": "Going with the Flow(s): Distinct Clusters Target Individuals of Interest to Russia",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "282f7401acaf239d",
+  "kev": false,
+  "link": "https://www.ncsc.gov.uk/blogs/managing-the-cyber-risk-of-agentic-ai",
+  "published": "2026-08-20T12:00:00Z",
+  "source": "UK NCSC",
+  "summary": "Use safeguards, sandboxing and active oversight to realise the benefits of autonomous systems while limiting the unintended activity.",
+  "title": "Managing the cyber risk of agentic AI",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "97abfe1fe4d6dd13",
+  "kev": false,
+  "link": "https://cert.europa.eu/publications/security-advisories/2026-010/",
+  "published": "2026-08-19T18:13:47Z",
+  "source": "CERT-EU",
+  "summary": "On 19 August 2026, Citrix published a security advisory addressing multiple critical vulnerabilities in NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix Gateway).",
+  "title": "2026-010: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
+  "trust": "official"
+ },
+ {
+  "category": "research",
+  "cves": [
+   "CVE-2026-13242",
+   "CVE-2026-55803"
+  ],
+  "id": "ed141c71b9bf0663",
+  "kev": false,
+  "link": "https://cloud.google.com/blog/topics/threat-intelligence/staying-ahead-of-adversarial-ai-through-agentic-source-code-review/",
+  "published": "2026-08-18T14:00:00Z",
+  "source": "Google Threat Intelligence",
+  "summary": "Written by: Alex Tselevich, Michael Maturi Introduction Adversarial misuse of AI has increased the risk of data theft and extortion events, because when proprietary source code is exposed, defenders must scramble to identify and patch…",
+  "title": "Staying Ahead of Adversarial AI Through Agentic Source Code Review",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "3db1aa6b17fa7fb0",
+  "kev": false,
+  "link": "https://www.ncsc.gov.uk/blogs/how-bitlocker-pins-help-protect-your-data-and-devices",
+  "published": "2026-08-13T12:00:00Z",
+  "source": "UK NCSC",
+  "summary": "Using a PIN mitigates many BitLocker vulnerabilities. Make sure you’re ready for the next one...",
+  "title": "How BitLocker PINs help protect your data and devices",
   "trust": "official"
  }
 ]
