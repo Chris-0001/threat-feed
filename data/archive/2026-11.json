@@ -469,6 +469,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-19868"
+  ],
+  "id": "fc23a483d172de91",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+  "published": "2026-11-06T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2023-20585",
    "CVE-2026-64349",
    "CVE-2026-64530",
@@ -559,6 +573,286 @@
   "summary": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users.",
   "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118631"
+  ],
+  "id": "f8610bd3f465bac5",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-890/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to modify files on affected installations of Philips Hue Bridge Pro. An attacker must first obtain the ability to execute low-privileged code within a container on the target system, in order to exploit this…",
+  "title": "ZDI-26-890: Philips Hue Bridge Pro Argument Injection Restricted File Write Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114567"
+  ],
+  "id": "d654a3eb8ed48409",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-884/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-884: OriginLab Origin Viewer OGWU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-13270"
+  ],
+  "id": "c774e064dcdee7fc",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-889/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Quest NetVault Backup. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5.",
+  "title": "ZDI-26-889: Quest NetVault Backup nvpmgr Integer Underflow Denial-of-Service Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114561"
+  ],
+  "id": "bf6c0a09b4f86000",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-878/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-878: OriginLab Origin Viewer OPJU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-122044"
+  ],
+  "id": "a80428a08a8b2bf8",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-892/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Philips Hue Bridge Pro. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8.",
+  "title": "ZDI-26-892: Philips Hue Bridge Pro Protection Mechanism Failure Authentication Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114564"
+  ],
+  "id": "a64bf66b3fb4d545",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-881/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-881: OriginLab Origin Viewer OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-121614"
+  ],
+  "id": "86ee47df3df17bbb",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-894/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to execute arbitrary code on affected installations of Docker Sandboxes. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-894: Docker Sandboxes Inclusion of Functionality from Untrusted Control Sphere Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-91131"
+  ],
+  "id": "7629262f40307e68",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-896/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Home Assistant Green. An attacker must first obtain the ability to execute low-privileged code within a container on the target system in order to exploit…",
+  "title": "ZDI-26-896: (Pwn2Own) Home Assistant Green Cleartext Storage of Credentials Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114568"
+  ],
+  "id": "751492b16b69557b",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-885/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-885: OriginLab Origin Viewer OPJ File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114562"
+  ],
+  "id": "70d830e61dd1eb00",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-879/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-879: OriginLab Origin Viewer OGWU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76181"
+  ],
+  "id": "517cd19af4e3904d",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-895/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of LibreOffice. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-895: LibreOffice dBase File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114566"
+  ],
+  "id": "4d6f4193b5b49bcc",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-883/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-883: OriginLab Origin Viewer OGM File Parsing Memory Corruption Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118632"
+  ],
+  "id": "4591a23767b2e23b",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-891/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Philips Hue Bridge Pro.",
+  "title": "ZDI-26-891: Philips Hue Bridge Pro SQL Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-13269"
+  ],
+  "id": "44e1461528b9fff2",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-888/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Quest NetVault Backup. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5.",
+  "title": "ZDI-26-888: Quest NetVault Backup StnzCreateKey Numeric Truncation Error Denial-of-Service Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114563"
+  ],
+  "id": "4360023662863cc1",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-880/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-880: OriginLab Origin Viewer OGWU File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114565"
+  ],
+  "id": "360ddd0eec3ab51f",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-882/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-882: OriginLab Origin Viewer OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2025-10935"
+  ],
+  "id": "237b72ea2f9389bb",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-887/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of libilbm. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-887: libilbm ILBM File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-121741"
+  ],
+  "id": "1dd796c6fb4fe887",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-893/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Trimble SketchUp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-893: Trimble SketchUp SKP File Parsing Use-After-Free Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-91131"
+  ],
+  "id": "0e275a3b37b078dd",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-897/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows network-adjacent attackers to initiate arbitrary server-side requests on affected installations of Home Assistant Green. Authentication is not required to exploit this vulnerability.",
+  "title": "ZDI-26-897: (Pwn2Own) Home Assistant Green aiohttp_client Server-Side Request Forgery Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114558"
+  ],
+  "id": "03e9aad49aa0224d",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-886/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-886: OriginLab Origin Viewer OPJU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "trust": "vendor"
  },
  {
   "category": "news",
@@ -3433,6 +3727,18 @@
   "trust": "vendor"
  },
  {
+  "category": "research",
+  "cves": [],
+  "id": "2e00cd0dd3f13e12",
+  "kev": false,
+  "link": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
+  "published": "2026-10-27T07:00:00Z",
+  "source": "Google Project Zero",
+  "summary": "Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system.",
+  "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
+  "trust": "vendor"
+ },
+ {
   "category": "advisories",
   "cves": [
    "CVE-2026-109618",
@@ -3588,6 +3894,27 @@
   "summary": "The Earth is speeding up, the leap second is being abolished, oh, and there's critical vulnerabilities in PHP.",
   "title": "I had plans for that second",
   "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-63350",
+   "CVE-2026-63351",
+   "CVE-2026-63352",
+   "CVE-2026-63353",
+   "CVE-2026-63354",
+   "CVE-2026-63355",
+   "CVE-2026-63356",
+   "CVE-2026-63357"
+  ],
+  "id": "fb32ece5be912498",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-14",
+  "published": "2026-10-22T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary SIMATIC S7-1500 devices contain multiple vulnerabilities in the web server that could allow an attacker to execute malicious code in an authorized user’s browser session and perform PLC operations within the scope of that user’s…",
+  "title": "Siemens SIMATIC S7 PLCs Web Server",
+  "trust": "official"
  },
  {
   "category": "advisories",
@@ -4087,6 +4414,18 @@
  },
  {
   "category": "research",
+  "cves": [],
+  "id": "e9649c44e6b72e3e",
+  "kev": false,
+  "link": "https://projectzero.google/2026/10/emergency-patching.html",
+  "published": "2026-10-06T07:00:00Z",
+  "source": "Google Project Zero",
+  "summary": "Project Zero often works with software vendors to remediate the vulnerabilities we report and provide broader guidance on making software more secure.",
+  "title": "How to fix a bug in a fix",
+  "trust": "vendor"
+ },
+ {
+  "category": "research",
   "cves": [
    "CVE-2025-3248",
    "CVE-2026-1731",
@@ -4192,6 +4531,21 @@
   "trust": "official"
  },
  {
+  "category": "research",
+  "cves": [
+   "CVE-2026-50343",
+   "CVE-2026-66804"
+  ],
+  "id": "9dadd01c66e26a9e",
+  "kev": false,
+  "link": "https://projectzero.google/2026/09/windows-dangling-com.html",
+  "published": "2026-09-21T07:00:00Z",
+  "source": "Google Project Zero",
+  "summary": "This short blog post is about abusing a privilege escalation bug that Microsoft recently fixed in Windows, CVE-2026-66804, that I and 14 others reported. This issue is an incomplete fix for CVE-2026-50343, a bug dubbed “Dark Elevator” by Calif.",
+  "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
+  "trust": "vendor"
+ },
+ {
   "category": "advisories",
   "cves": [],
   "id": "a22739840d8d8393",
@@ -4276,6 +4630,18 @@
   "source": "Google Threat Intelligence",
   "summary": "Executive Summary Since the release of our May 2026 report detailing adversarial misuse of artificial intelligence (AI), Google Threat Intelligence Group (GTIG) has observed forward leaning adversaries transition from basic prompting to agentic AI…",
   "title": "GTIG AI Threat Tracker: From Prompting to Autonomy – The Evolution of Adversarial AI",
+  "trust": "vendor"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "1b3bcfb21532956f",
+  "kev": false,
+  "link": "https://projectzero.google/2026/09/maccconc-race-condition.html",
+  "published": "2026-09-08T07:00:00Z",
+  "source": "Google Project Zero",
+  "summary": "Many security bugs are race conditions, where multi-threaded execution has to occur with the right interleaving for a negative effect to appear.",
+  "title": "Testing race conditions with memory access tracing and stack-based delay injection",
   "trust": "vendor"
  },
  {
