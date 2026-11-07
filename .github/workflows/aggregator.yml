@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '17 * * * *'   # hourly, off the :00 rush
   workflow_dispatch:
+    inputs:
+      accept_spike:
+        description: 'Feed names (comma-separated) allowed to exceed the new-items-per-run limit'
+        required: false
+        default: ''
 
 concurrency:
   group: threat-feed
@@ -27,6 +32,8 @@ jobs:
           cache: pip
       - run: pip install --require-hashes -r requirements.txt
       - id: collect
+        env:
+          ACCEPT_SPIKE: ${{ inputs.accept_spike }}   # passed via env, never interpolated into the shell
         run: python main.py collect
       - name: Commit data
         env:
