@@ -2,6 +2,18 @@
  {
   "category": "news",
   "cves": [],
+  "id": "8a0dfa4695f609ef",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+  "published": "2026-11-07T00:00:55Z",
+  "source": "BleepingComputer",
+  "summary": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
+  "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "19779c40ba34b890",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
