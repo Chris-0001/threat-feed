@@ -50,6 +50,13 @@ SEEN_TTL_DAYS = 120
 TITLE_MAX, SUMMARY_MAX = 200, 250
 PAGE_ITEMS, RSS_ITEMS = 200, 100
 UA = "threat-feed/1.0 (personal open-source aggregator)"
+ANOMALY_FRESH = 40               # more new items than this in one run => feed skipped
+REJECT_MIN, REJECT_RATIO = 5, 0.5  # >50% of entries failing link checks => feed skipped
+# shared-hosting domains anyone can publish on: never allowed as a whole
+SHARED_HOSTS = {"blogspot.com", "feedburner.com", "github.io", "githubusercontent.com", "medium.com",
+                "wordpress.com", "googleusercontent.com", "amazonaws.com", "cloudfront.net",
+                "pages.dev", "netlify.app", "herokuapp.com", "vercel.app", "substack.com"}
+DOMAIN_RE = re.compile(r"[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+")
 
 CATEGORIES = {  # slug: (label, description)
     "exploited": ("Exploited", "Vulnerabilities confirmed as exploited in the wild."),
@@ -104,7 +111,19 @@ def load_feeds():
         require(f["trust"] in TRUST, f"{f['name']}: unknown trust tier")
         require(f.get("type", "rss") in ("rss", "kev"), f"{f['name']}: unknown type")
         require(f["url"].startswith("https://"), f"{f['name']}: feed URL must be HTTPS")
-        require(f["link_domains"], f"{f['name']}: link_domains required")
+        domains = f["link_domains"]
+        require(isinstance(domains, list) and domains, f"{f['name']}: link_domains required")
+        for d in domains:
+            require(isinstance(d, str) and DOMAIN_RE.fullmatch(d), f"{f['name']}: bad domain {d!r}")
+            require(d not in SHARED_HOSTS, f"{f['name']}: {d} is shared hosting, use a specific host")
+        prefixes = f.setdefault("link_prefix", [])
+        require(isinstance(prefixes, list), f"{f['name']}: link_prefix must be a list")
+        for pre in prefixes:
+            u = urlparse(pre) if isinstance(pre, str) else None
+            host = (u.hostname or "") if u else ""
+            require(u and u.scheme == "https" and u.path.startswith("/") and not u.username
+                    and any(host == d or host.endswith("." + d) for d in domains),
+                    f"{f['name']}: bad link_prefix {pre!r} (HTTPS, on link_domains, with a path)")
         f.setdefault("type", "rss")
     return feeds
 
@@ -136,8 +155,9 @@ def shorten(text, limit):
     return cut.rsplit(" ", 1)[0].rstrip(",;:") + "…"
 
 
-def safe_link(link, domains):
-    """Return the link only if it is plain HTTPS on an allowlisted domain."""
+def safe_link(link, domains, prefixes=()):
+    """Return the link only if it is plain HTTPS on an allowlisted domain
+    (and, when the feed defines link_prefix, starts with one of the prefixes)."""
     try:
         u = urlparse(str(link or "").strip())
         host = (u.hostname or "").lower()
@@ -150,12 +170,14 @@ def safe_link(link, domains):
     url = u.geturl()
     if len(url) > 500 or CTRL_RE.search(url) or re.search(r"\s", url):
         return None
+    if prefixes and not any(url.startswith(p) for p in prefixes):
+        return None
     return url
 
 
 def build_item(feed, title, link, summary_html, published, key):
     title = shorten(clean_text(title), TITLE_MAX)
-    link = safe_link(link, feed["link_domains"])
+    link = safe_link(link, feed["link_domains"], feed["link_prefix"])
     if not title or not link:
         return None
     summary_full = clean_text(summary_html)
@@ -225,7 +247,7 @@ def parse_rss(body, feed):
         item = build_item(feed, e.get("title"), e.get("link"), summary, parse_published(e), e.get("id"))
         if item:
             items.append(item)
-    return items
+    return items, len(parsed.entries)
 
 
 def parse_kev(body, feed):
@@ -234,6 +256,8 @@ def parse_kev(body, feed):
         raise ValueError("unexpected KEV format")
     cves, items = set(), []
     for v in vulns:
+        if not isinstance(v, dict):
+            continue
         cve = str(v.get("cveID", "")).upper()
         if not CVE_FULL.fullmatch(cve):
             continue
@@ -248,7 +272,7 @@ def parse_kev(body, feed):
         if item:
             item["kev"] = True
             items.append(item)
-    return cves, items
+    return cves, items, len(vulns)
 
 
 # ----------------------------------------------------------------------- collect
@@ -258,6 +282,7 @@ def collect():
     cutoff = iso(now - timedelta(days=MAX_AGE_DAYS))
     new, to_mark, new_meta, failed = [], [], {}, 0
     kev_set = set(state["kev_cves"])
+    accept = {n.strip() for n in os.environ.get("ACCEPT_SPIKE", "").split(",") if n.strip()}
 
     for feed in feeds:
         name = feed["name"]
@@ -267,18 +292,35 @@ def collect():
             if body is None:
                 log(f"{name}: not modified")
                 continue
+            kev_new = None
             if feed["type"] == "kev":
-                kev_set, entries = parse_kev(body, feed)
+                kev_new, entries, total = parse_kev(body, feed)
             else:
-                entries = parse_rss(body, feed)
+                entries, total = parse_rss(body, feed)
         except Exception as exc:  # one bad feed must not stop the others
             failed += 1
             warn(f"{name}: {type(exc).__name__}: {exc}")
             continue
 
+        # Guard 1: links suddenly failing the allowlist (domain change / hijack / format change)
+        rejected = total - len(entries)
+        if total >= REJECT_MIN and rejected / total > REJECT_RATIO:
+            failed += 1
+            warn(f"{name}: SKIPPED, {rejected}/{total} entries failed title/link validation")
+            continue
+
         fresh = {i["id"]: i for i in entries
                  if i["id"] not in state["seen"] and i["published"] >= cutoff}
         fresh = sorted(fresh.values(), key=lambda i: i["published"], reverse=True)
+
+        # Guard 2: sudden flood of new items. Re-run manually with accept_spike=<feed name> if legitimate.
+        if not first and len(fresh) > ANOMALY_FRESH and name not in accept:
+            failed += 1
+            warn(f"{name}: SKIPPED, {len(fresh)} new items in one run (limit {ANOMALY_FRESH})")
+            continue
+
+        if kev_new is not None:
+            kev_set = kev_new
         if first:  # mark the whole backlog as seen, but only show the newest few
             to_mark += [i["id"] for i in fresh]
             fresh = fresh[:BACKFILL]
@@ -320,7 +362,7 @@ def collect():
 
 
 # ------------------------------------------------------------------------- build
-def valid_item(it, allowed):
+def valid_item(it, by_source):
     """Schema check on archived data. Anything odd is dropped, never rendered."""
     try:
         strs = all(isinstance(it[k], str) for k in ("title", "summary", "source", "id", "published"))
@@ -332,7 +374,9 @@ def valid_item(it, allowed):
             and isinstance(it["cves"], list) and len(it["cves"]) <= 10
             and all(isinstance(c, str) and CVE_FULL.fullmatch(c) for c in it["cves"])
             and isinstance(it["kev"], bool)
-            and safe_link(it["link"], allowed) is not None
+            and it["source"] in by_source
+            and safe_link(it["link"], by_source[it["source"]]["link_domains"],
+                          by_source[it["source"]]["link_prefix"]) is not None
         )
     except (KeyError, TypeError):
         return False
@@ -340,7 +384,7 @@ def valid_item(it, allowed):
 
 def build():
     feeds = load_feeds()
-    allowed = {d for f in feeds for d in f["link_domains"]}
+    by_source = {f["name"]: f for f in feeds}
     owner, _, repo = os.environ.get("GITHUB_REPOSITORY", "you/threat-feed").partition("/")
     require(re.fullmatch(r"[\w.-]+", owner) and re.fullmatch(r"[\w.-]+", repo), "bad GITHUB_REPOSITORY")
     site_url = f"https://{owner.lower()}.github.io/{repo}/"
@@ -350,7 +394,7 @@ def build():
         if not MONTH_RE.fullmatch(p.stem):
             continue
         raw = json.loads(p.read_text("utf-8"))
-        good = [i for i in raw if valid_item(i, allowed)]
+        good = [i for i in raw if valid_item(i, by_source)]
         dropped += len(raw) - len(good)
         months[p.stem] = sorted(good, key=lambda i: (i["published"], i["id"]), reverse=True)
     if dropped:
