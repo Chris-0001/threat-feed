@@ -2,8 +2,8 @@
  "empty": {},
  "feeds": {
   "BleepingComputer": {
-   "etag": "521fa0e0027dc1b73455018374af6633",
-   "last_modified": "Sun, 08 Nov 2026 20:53:19 GMT"
+   "etag": "d69dbeb8eecfc7c2c7e82ee21dae0a16",
+   "last_modified": "Sun, 08 Nov 2026 22:33:22 GMT"
   },
   "CERT-EU": {},
   "CISA Advisories": {},
@@ -18,12 +18,13 @@
   },
   "Diavgeia: IT posts": {},
   "Diavgeia: cybersecurity posts": {},
+  "Diavgeia: infosec posts": {},
   "ENISA Opportunities": {
    "etag": "\"16pr5oyreph2no6\""
   },
   "ENISA Vacancies": {
-   "etag": "\"1794160944-gzip\"",
-   "last_modified": "Sun, 08 Nov 2026 18:02:24 GMT"
+   "etag": "\"1794163962-gzip\"",
+   "last_modified": "Sun, 08 Nov 2026 18:52:42 GMT"
   },
   "FOSS Jobs: Consultants": {},
   "FOSS Jobs: Programmers": {},
@@ -35,22 +36,22 @@
   },
   "Google Threat Intelligence": {},
   "Krebs on Security": {
-   "last_modified": "Sun, 08 Nov 2026 20:52:15 GMT"
+   "last_modified": "Sun, 08 Nov 2026 22:35:41 GMT"
   },
   "Microsoft MSRC": {
    "etag": "\"0x8DF3D2693359370\"",
    "last_modified": "Sat, 07 Nov 2026 23:26:39 GMT"
   },
   "SANS Internet Storm Center": {
-   "etag": "W/\"1f0b-65fca0b409c3b\"",
-   "last_modified": "Sun, 08 Nov 2026 20:53:57 GMT"
+   "etag": "W/\"1f0b-65fcb82bf9e49\"",
+   "last_modified": "Sun, 08 Nov 2026 22:38:56 GMT"
   },
   "SecurityWeek": {
    "etag": "\"e29887b61a21c90975f0fe2eda79050c\"",
    "last_modified": "Sun, 08 Nov 2026 12:14:00 GMT"
   },
   "The Hacker News": {
-   "last_modified": "Sun, 8 Nov 2026 20:44:26 GMT"
+   "last_modified": "Sun, 8 Nov 2026 22:25:59 GMT"
   },
   "The Record": {},
   "UK NCSC": {
@@ -3063,6 +3064,7 @@
   "33d94c15a4721f5b": "2026-11-07",
   "33e4d109151d1e97": "2026-11-07",
   "33ecbc7f638d3642": "2026-11-07",
+  "33f89d1877c6d91f": "2026-11-08",
   "3420bea6592952af": "2026-11-07",
   "342a90eabe314b7d": "2026-11-07",
   "342b99bbc52fb3cd": "2026-11-07",
@@ -4868,6 +4870,7 @@
   "812f96c0c3f349d2": "2026-11-07",
   "814956438bfc53db": "2026-10-29",
   "814b6afa94b855a1": "2026-10-08",
+  "814de349c8eda488": "2026-11-08",
   "814f31752c44b632": "2026-11-07",
   "815543409af23295": "2026-11-07",
   "8168341c0ad3be48": "2026-10-08",

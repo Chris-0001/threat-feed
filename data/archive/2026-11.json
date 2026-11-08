@@ -4775,6 +4775,18 @@
   "trust": "official"
  },
  {
+  "category": "jobs",
+  "cves": [],
+  "id": "814de349c8eda488",
+  "kev": false,
+  "link": "https://www.fossjobs.net/job/11646/software-engineer-devops-wdm-at-allerleih-ev/",
+  "published": "2026-10-07T22:22:49Z",
+  "source": "FOSS Jobs: Programmers",
+  "summary": "Location: Lüneburg, Germany URL: https://www.greenjobs.de/stellenanzeige/software-engineer-devops--100155170/?s=allerleih Description: AllerLeih e.V., a non-profit from Lüneburg, Germany, builds a decentralised open-source platform that makes…",
+  "title": "[Part-time] Software-Engineer (DevOps) (w/d/m) at AllerLeih e.V.",
+  "trust": "community"
+ },
+ {
   "category": "advisories",
   "cves": [],
   "id": "1f3f23d66f54e4bf",
@@ -5077,6 +5089,18 @@
   "summary": "Owners of operational technology encouraged to address avoidable vulnerabilities, and build long-term cyber resilience.",
   "title": "Disruptive cyber activity highlights risk from internet-exposed systems and edge devices",
   "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "33f89d1877c6d91f",
+  "kev": false,
+  "link": "https://www.fossjobs.net/job/11639/fsf-job-opportunity-systems-integration-administrator-at-free-software-foundation/",
+  "published": "2026-08-26T20:00:50Z",
+  "source": "FOSS Jobs: Programmers",
+  "summary": "Location: Worldwide URL: https://www.fsf.org/news/2026-job-opportunity-fsf-systems-integration-administrator Description: FSF job opportunity: Systems Integration Administrator The Free Software Foundation ( FSF ), a Massachusetts 501©(3) charity…",
+  "title": "[Full-time] FSF job opportunity: Systems Integration Administrator at Free Software Foundation",
+  "trust": "community"
  },
  {
   "category": "research",
