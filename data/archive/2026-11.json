@@ -1,5 +1,101 @@
 [
  {
+  "category": "jobs",
+  "cves": [],
+  "id": "d9615bf42453f2d4",
+  "kev": false,
+  "link": "https://www.enisa.europa.eu/recruitment/vacancies/administrative-coordinator",
+  "published": "2026-11-08T20:58:03Z",
+  "source": "ENISA Vacancies",
+  "summary": "",
+  "title": "Administrative Coordinator",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "b7661147cd4c28b4",
+  "kev": false,
+  "link": "https://www.enisa.europa.eu/recruitment/vacancies/administrative-assistant-0",
+  "published": "2026-11-08T20:58:03Z",
+  "source": "ENISA Vacancies",
+  "summary": "",
+  "title": "Administrative Assistant",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "b656f08726684a9c",
+  "kev": false,
+  "link": "https://www.enisa.europa.eu/recruitment/vacancies/hr-coordinator-0",
+  "published": "2026-11-08T20:58:03Z",
+  "source": "ENISA Vacancies",
+  "summary": "",
+  "title": "HR Coordinator",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "62bb63879da2bc87",
+  "kev": false,
+  "link": "https://www.enisa.europa.eu/recruitment/vacancies/seconded-national-experts-sne",
+  "published": "2026-11-08T20:58:03Z",
+  "source": "ENISA Vacancies",
+  "summary": "",
+  "title": "Seconded National Experts (SNE)",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "217a5fd90e12957f",
+  "kev": false,
+  "link": "https://www.enisa.europa.eu/recruitment/vacancies/senior-cybersecurity-expert",
+  "published": "2026-11-08T20:58:03Z",
+  "source": "ENISA Vacancies",
+  "summary": "",
+  "title": "Senior Cybersecurity Expert",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "1e13d0d70527a24e",
+  "kev": false,
+  "link": "https://www.enisa.europa.eu/recruitment/vacancies/ict-security-coordinator-0",
+  "published": "2026-11-08T20:58:03Z",
+  "source": "ENISA Vacancies",
+  "summary": "",
+  "title": "ICT & Security Coordinator",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "fa1a045b2c8e3da0",
+  "kev": false,
+  "link": "https://opportunities.enisa.europa.eu/en/our-offers/administrative-coordinator-22",
+  "published": "2026-11-08T20:58:02Z",
+  "source": "ENISA Opportunities",
+  "summary": "",
+  "title": "Administrative Coordinator",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "192be82630264738",
+  "kev": false,
+  "link": "https://opportunities.enisa.europa.eu/en/our-offers/administrative-assistant-23",
+  "published": "2026-11-08T20:58:02Z",
+  "source": "ENISA Opportunities",
+  "summary": "",
+  "title": "Administrative Assistant",
+  "trust": "official"
+ },
+ {
   "category": "research",
   "cves": [
    "CVE-2026-123158"
@@ -1346,6 +1442,42 @@
   "trust": "media"
  },
  {
+  "category": "jobs",
+  "cves": [],
+  "id": "e2e0c2ecbf82a866",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/9%CE%A1%CE%99%CE%9A7%CE%9B%CE%A1-%CE%A37%CE%91",
+  "published": "2026-11-05T00:00:00Z",
+  "source": "Diavgeia: IT posts",
+  "summary": "ΑΔΑ: 9ΡΙΚ7ΛΡ-Σ7Α",
+  "title": "Πρόσληψη προσωπικού με σύμβαση εργασίας ιδιωτικού δικαίου ορισμένου χρόνου για την κάλυψη αναγκών του Τμήματος Πληροφορικής Περιφερειακής Ενότητας Τρικάλων της Περιφέρειας Θεσσαλίας.",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "82b43ff19c1b1824",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/%CE%A8%CE%A1%CE%A7%CE%9B46%CE%A8%CE%963%CE%A0-1%CE%A8%CE%94",
+  "published": "2026-11-05T00:00:00Z",
+  "source": "Diavgeia: IT posts",
+  "summary": "ΑΔΑ: ΨΡΧΛ46ΨΖ3Π-1ΨΔ",
+  "title": "Πράξη πρόσληψης του κ. Δημητρίου Μηνά, ως Ακαδημαϊκού Υποτρόφου με σύμβαση εργασίας ιδιωτικού δικαίου ορισμένου χρόνου στο Τμήμα Μηχανικών Πληροφορικής και Ηλεκτρονικών Συστημάτων της Πολυτεχνικής…",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "04d3723c3c929e6b",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/%CE%A83%CE%95%CE%A546906%CE%9A-%CE%95%CE%A8%CE%98",
+  "published": "2026-11-05T00:00:00Z",
+  "source": "Diavgeia: IT posts",
+  "summary": "ΑΔΑ: Ψ3ΕΥ46906Κ-ΕΨΘ",
+  "title": "ΘΕΜΑ2ο: Αίτημα πρόσληψης ενός (1) επικουρικού υπαλλήλου κλάδου ΠΕ Πληροφορικής, ειδικότητας Πληροφορικής (software- hardware) και εν ελλείψει αυτού ΤΕ Πληροφορικής, ειδικότητας Πληροφορικής (software…",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "67cffa8976cb34ca",
@@ -2214,6 +2346,30 @@
   "trust": "vendor"
  },
  {
+  "category": "jobs",
+  "cves": [],
+  "id": "ddbf18adabc44ad7",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/%CE%A858%CE%954691%CE%92%CE%A3-%CE%95%CE%94%CE%96",
+  "published": "2026-11-04T00:00:00Z",
+  "source": "Diavgeia: IT posts",
+  "summary": "ΑΔΑ: Ψ58Ε4691ΒΣ-ΕΔΖ",
+  "title": "Πρόσληψη Εντεταλμένων Διδασκόντων για το χειμερινό εξάμηνο 2026-2027 στο Τμήμα Γεωγραφίας της Σχολής Περιβάλλοντος, Γεωγραφίας και Εφαρμοσμένων Οικονομικών, στο Τμήμα Επιστήμης Διαιτολογίας -…",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "c073a7ceea0296da",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/%CE%A11%CE%9B%CE%A546%CE%9C9%CE%9E%CE%97-3%CE%9E%CE%A8",
+  "published": "2026-11-04T00:00:00Z",
+  "source": "Diavgeia: IT posts",
+  "summary": "ΑΔΑ: Ρ1ΛΥ46Μ9ΞΗ-3ΞΨ",
+  "title": "Αποδοχή αποτελεσμάτων αξιολόγησης υποψηφιοτήτων για το Τμήμα Μηχανικών Πληροφορικής και Υπολογιστών του Πανεπιστημίου Δυτικής Αττικής στο πλαίσιο της πρόσκλησης εκδήλωσης ενδιαφέροντος (αρ.",
+  "trust": "official"
+ },
+ {
   "category": "exploited",
   "cves": [
    "CVE-2024-27834"
@@ -2225,6 +2381,18 @@
   "source": "CISA KEV",
   "summary": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication.",
   "title": "CVE-2024-27834: Apple Multiple Products (Apple Multiple Products Improper Authentication Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "342dd1a83f32ec33",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/9%CE%996%CE%9546%CE%A8%CE%A7%CE%9E5-6%CE%98%CE%A1",
+  "published": "2026-11-04T00:00:00Z",
+  "source": "Diavgeia: IT posts",
+  "summary": "ΑΔΑ: 9Ι6Ε46ΨΧΞ5-6ΘΡ",
+  "title": "Πρόσληψη υπαλλήλων του κλάδου/ειδικότητας ΤΕ Πληροφορικής (software-hardware) για την πρόσληψη προσωπικού με σύναψη Σύμβασης εργασίας Ορισμένου Χρόνου",
   "trust": "official"
  },
  {
@@ -3021,6 +3189,18 @@
   "trust": "official"
  },
  {
+  "category": "jobs",
+  "cves": [],
+  "id": "1598934220e218b6",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/6%CE%9D4%CE%92469%CE%927%CE%9E-%CE%978%CE%A8",
+  "published": "2026-11-03T00:00:00Z",
+  "source": "Diavgeia: IT posts",
+  "summary": "ΑΔΑ: 6Ν4Β469Β7Ξ-Η8Ψ",
+  "title": "Ανανέωση σύμβασης - πρόσληψη ακαδημαϊκών υποτρόφων με σχέση εργασίας ιδιωτικού δικαίου ορισμένου χρόνου για διεξαγωγή διδακτικού, ερευνητικού και κλινικού έργου, για το χειμερινό εξάμηνο του ακαδ.",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "a1b448a158d30754",
@@ -3484,6 +3664,138 @@
   "trust": "official"
  },
  {
+  "category": "jobs",
+  "cves": [],
+  "id": "fa42258fea6f10c3",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/9%CE%A4%CE%920469%CE%97%CE%A18-39%CE%97",
+  "published": "2026-10-30T00:00:00Z",
+  "source": "Diavgeia: IT posts",
+  "summary": "ΑΔΑ: 9ΤΒ0469ΗΡ8-39Η",
+  "title": "Απόφαση αποδοχής αποτελεσμάτων του πρακτικού αξιολόγησης και επιλογής υποψηφίων της υπ’ αριθμόν 49940/16-10-2026 Πρόσκλησης Εκδήλωσης Ενδιαφέροντος @ ΕΚΕΤΑ/Ινστιτούτο Τεχνολογιών Πληροφορικής και…",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "f5b539b2aa9e2025",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/%CE%95%CE%A019469%CE%97%CE%A18-%CE%943%CE%9E",
+  "published": "2026-10-30T00:00:00Z",
+  "source": "Diavgeia: IT posts",
+  "summary": "ΑΔΑ: ΕΠ19469ΗΡ8-Δ3Ξ",
+  "title": "Απόφαση αποδοχής αποτελεσμάτων του πρακτικού αξιολόγησης και επιλογής υποψηφίων της υπ’ αριθμόν 49947/16-10-2026 Πρόσκλησης Εκδήλωσης Ενδιαφέροντος @ ΕΚΕΤΑ/Ινστιτούτο Τεχνολογιών Πληροφορικής και…",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "e2fe81b70f7ce180",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/%CE%A87%CE%A4%CE%95469%CE%97%CE%A18-%CE%94%CE%A8%CE%A4",
+  "published": "2026-10-30T00:00:00Z",
+  "source": "Diavgeia: IT posts",
+  "summary": "ΑΔΑ: Ψ7ΤΕ469ΗΡ8-ΔΨΤ",
+  "title": "Απόφαση αποδοχής αποτελεσμάτων του πρακτικού αξιολόγησης και επιλογής υποψηφίων της υπ’ αριθμόν 49955/19-10-2026 Πρόσκλησης Εκδήλωσης Ενδιαφέροντος @ ΕΚΕΤΑ/Ινστιτούτο Τεχνολογιών Πληροφορικής και…",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "bffb29be87fa8956",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/99%CE%92%CE%9E469%CE%97%CE%A18-%CE%93%CE%95%CE%92",
+  "published": "2026-10-30T00:00:00Z",
+  "source": "Diavgeia: IT posts",
+  "summary": "ΑΔΑ: 99ΒΞ469ΗΡ8-ΓΕΒ",
+  "title": "Απόφαση αποδοχής αποτελεσμάτων του πρακτικού αξιολόγησης και επιλογής υποψηφίων της υπ’ αριθμόν 49956/19-10-2026 Πρόσκλησης Εκδήλωσης Ενδιαφέροντος @ ΕΚΕΤΑ/Ινστιτούτο Τεχνολογιών Πληροφορικής και…",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "aed7799063877c84",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/%CE%A8%CE%92%CE%A7146%CE%A8%CE%963%CE%A0-%CE%A70%CE%9E",
+  "published": "2026-10-30T00:00:00Z",
+  "source": "Diavgeia: IT posts",
+  "summary": "ΑΔΑ: ΨΒΧ146ΨΖ3Π-Χ0Ξ",
+  "title": "Πράξη πρόσληψης του κ. Ιωάννη Καραγιάννη, ως Ακαδημαϊκού Υποτρόφου με σύμβαση εργασίας ιδιωτικού δικαίου ορισμένου χρόνου στο Τμήμα Μηχανικών Πληροφορικής και Ηλεκτρονικών Συστημάτων της Πολυτεχνικής…",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "ab36117dee0cbf1d",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/68%CE%994%CE%A91%CE%A7-%CE%A5%CE%98%CE%91",
+  "published": "2026-10-30T00:00:00Z",
+  "source": "Diavgeia: IT posts",
+  "summary": "ΑΔΑ: 68Ι4Ω1Χ-ΥΘΑ",
+  "title": "ΑΠΟΦΑΣΗ ΔΗΜΟΤΙΚΗΣ ΕΠΙΤΡΟΠΗΣ ΑΡ. 654/2026_Λήψη απόφασης για την έγκριση κατ’ εξαίρεση οδήγησης υπηρεσιακών οχημάτων του Δήμου από μόνιμους υπαλλήλους που δεν κατέχουν οργανική θέση οδηγού, για την…",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "8c5720089879a7f6",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/9%CE%92%CE%A0646%CE%A8%CE%963%CE%A0-%CE%956%CE%A3",
+  "published": "2026-10-30T00:00:00Z",
+  "source": "Diavgeia: IT posts",
+  "summary": "ΑΔΑ: 9ΒΠ646ΨΖ3Π-Ε6Σ",
+  "title": "Πράξη πρόσληψης της κας Μαρίνας Δελιανίδη, ως Ακαδημαϊκής Υποτρόφου με σύμβαση εργασίας ιδιωτικού δικαίου ορισμένου χρόνου στο Τμήμα Μηχανικών Πληροφορικής και Ηλεκτρονικών Συστημάτων της…",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "86a84ec1d916bcda",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/%CE%A8%CE%93%CE%A41469%CE%97%CE%A18-559",
+  "published": "2026-10-30T00:00:00Z",
+  "source": "Diavgeia: IT posts",
+  "summary": "ΑΔΑ: ΨΓΤ1469ΗΡ8-559",
+  "title": "Απόφαση αποδοχής αποτελεσμάτων του πρακτικού αξιολόγησης και επιλογής υποψηφίων της υπ’ αριθμόν 49945/16-10-2026 Πρόσκλησης Εκδήλωσης Ενδιαφέροντος @ ΕΚΕΤΑ/Ινστιτούτο Τεχνολογιών Πληροφορικής και…",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "696da1682e10dd7b",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/%CE%A1%CE%A6%CE%98%CE%99469%CE%97%CE%A18-%CE%A8%CE%A7%CE%94",
+  "published": "2026-10-30T00:00:00Z",
+  "source": "Diavgeia: IT posts",
+  "summary": "ΑΔΑ: ΡΦΘΙ469ΗΡ8-ΨΧΔ",
+  "title": "Απόφαση αποδοχής αποτελεσμάτων του πρακτικού αξιολόγησης και επιλογής υποψηφίων της υπ’ αριθμόν 49944/16-10-2026 Πρόσκλησης Εκδήλωσης Ενδιαφέροντος @ ΕΚΕΤΑ/Ινστιτούτο Τεχνολογιών Πληροφορικής και…",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "3522362cf3ef8364",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/9%CE%A53046%CE%A8%CE%963%CE%A0-6%CE%93%CE%95",
+  "published": "2026-10-30T00:00:00Z",
+  "source": "Diavgeia: IT posts",
+  "summary": "ΑΔΑ: 9Υ3046ΨΖ3Π-6ΓΕ",
+  "title": "Πράξη πρόσληψης της κας Ελένης Καματέρη, ως Ακαδημαϊκής Υποτρόφου με σύμβαση εργασίας ιδιωτικού δικαίου ορισμένου χρόνου στο Τμήμα Μηχανικών Πληροφορικής και Ηλεκτρονικών Συστημάτων της Πολυτεχνικής…",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "30908a21f8a3ba7c",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/%CE%957%CE%98%CE%99469%CE%97%CE%A18-03%CE%9A",
+  "published": "2026-10-30T00:00:00Z",
+  "source": "Diavgeia: IT posts",
+  "summary": "ΑΔΑ: Ε7ΘΙ469ΗΡ8-03Κ",
+  "title": "Απόφαση αποδοχής αποτελεσμάτων του πρακτικού αξιολόγησης και επιλογής υποψηφίων της υπ’ αριθμόν 49948/16-10-2026 Πρόσκλησης Εκδήλωσης Ενδιαφέροντος @ ΕΚΕΤΑ/Ινστιτούτο Τεχνολογιών Πληροφορικής και…",
+  "trust": "official"
+ },
+ {
   "category": "advisories",
   "cves": [
    "CVE-2026-20362"
@@ -3591,6 +3903,30 @@
   "summary": "Cisco Talos observed a new AI-integrated command-and-control (C2) framework in the wild called “NIK C2.”",
   "title": "NIK C2: The new AI-enabled command-and-control framework",
   "trust": "vendor"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "cfb92f082554b4ec",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/%CE%A8%CE%99%CE%A5%CE%9C46%CE%A8%CE%963%CE%A0-%CE%99%CE%A1%CE%A5",
+  "published": "2026-10-29T00:00:00Z",
+  "source": "Diavgeia: IT posts",
+  "summary": "ΑΔΑ: ΨΙΥΜ46ΨΖ3Π-ΙΡΥ",
+  "title": "Πράξη πρόσληψης του κ. Βασιλείου Δελημαρά, ως Ακαδημαϊκού Υποτρόφου με σύμβαση εργασίας ιδιωτικού δικαίου ορισμένου χρόνου στο Τμήμα Μηχανικών Πληροφορικής και Ηλεκτρονικών Συστημάτων της…",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "9c994bc0851ec3af",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/9%CE%9D%CE%A5546%CE%A8%CE%963%CE%A0-%CE%A57%CE%A5",
+  "published": "2026-10-29T00:00:00Z",
+  "source": "Diavgeia: IT posts",
+  "summary": "ΑΔΑ: 9ΝΥ546ΨΖ3Π-Υ7Υ",
+  "title": "Πράξη πρόσληψης της κας Χάιδους Μιζέλη, ως Ακαδημαϊκής Υποτρόφου με σύμβαση εργασίας ιδιωτικού δικαίου ορισμένου χρόνου στο Τμήμα Μηχανικών Πληροφορικής και Ηλεκτρονικών Συστημάτων της Πολυτεχνικής…",
+  "trust": "official"
  },
  {
   "category": "advisories",
@@ -4415,6 +4751,18 @@
   "trust": "official"
  },
  {
+  "category": "jobs",
+  "cves": [],
+  "id": "ad23dcdb8d5023ef",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/65%CE%9714690%CE%925-8%CE%927",
+  "published": "2026-10-12T00:00:00Z",
+  "source": "Diavgeia: cybersecurity posts",
+  "summary": "ΑΔΑ: 65Η14690Β5-8Β7",
+  "title": "ΘΕΜΑ 5ο: Έγκριση του αρ.πρ.22567/02-10-2026 πρακτικού επιτροπής αξιολόγησης της αρ.πρ.21710/23-09-2026 πρόσκλησης εκδήλωσης ενδιαφέροντος προς τις εταιρείες NIGICO ΑΕΒΕ, SIMA Security και Computer…",
+  "trust": "official"
+ },
+ {
   "category": "advisories",
   "cves": [],
   "id": "4935e8a4b5e74ac6",
@@ -4461,6 +4809,18 @@
   "summary": "Project Zero often works with software vendors to remediate the vulnerabilities we report and provide broader guidance on making software more secure.",
   "title": "How to fix a bug in a fix",
   "trust": "vendor"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "4df8ecb9e9b7b7c1",
+  "kev": false,
+  "link": "https://apply.workable.com/grnet-sa/j/23E3BD0CA7/",
+  "published": "2026-10-05T00:00:00Z",
+  "source": "GRNET Careers",
+  "summary": "Athens, Greece. GRNET S.A. provides Internet connectivity, high-quality e-Infrastructures (HPC, cloud and storage resources), and advanced services to the Greek Educational, Academic and Research community, with strong links with European and…",
+  "title": "HPC Project Manager: Electronic Infrastructures",
+  "trust": "official"
  },
  {
   "category": "research",
@@ -4779,6 +5139,42 @@
   "source": "UK NCSC",
   "summary": "Using a PIN mitigates many BitLocker vulnerabilities. Make sure you’re ready for the next one...",
   "title": "How BitLocker PINs help protect your data and devices",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "2e34b726251f8624",
+  "kev": false,
+  "link": "https://apply.workable.com/grnet-sa/j/3B66B63EB6/",
+  "published": "2026-02-13T00:00:00Z",
+  "source": "GRNET Careers",
+  "summary": "Athens, Greece. GRNET S.A. provides Internet connectivity, high‑quality e‑Infrastructures and advanced services to the Greek Educational, Academic and Research community, aiming at minimizing the digital divide and ensuring equal participation of…",
+  "title": "HPC User Support Specialist",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "f1513828fcfb58ab",
+  "kev": false,
+  "link": "https://apply.workable.com/grnet-sa/j/A9625A85DC/",
+  "published": "2026-01-13T00:00:00Z",
+  "source": "GRNET Careers",
+  "summary": "Athens, Greece. Why Join Us GRNET S.A. provides Internet connectivity, high-quality e-Infrastructures and advanced services to the Greek Educational, Academic and Research community, aiming at minimizing the digital divide and at ensuring equal…",
+  "title": "Distributed AI Support Engineer",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "487d28b0c5bc9c7d",
+  "kev": false,
+  "link": "https://apply.workable.com/grnet-sa/j/5F38B55A0D/",
+  "published": "2025-06-02T00:00:00Z",
+  "source": "GRNET Careers",
+  "summary": "Athens, Greece. GRNET S.A. provides Internet connectivity, high-quality e-Infrastructures and advanced services to the Greek Educational, Academic and Research community, aiming at minimizing the digital divide and at ensuring equal participation of…",
+  "title": "Junior HPC System Administrator",
   "trust": "official"
  }
 ]
