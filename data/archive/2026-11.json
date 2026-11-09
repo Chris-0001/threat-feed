@@ -1,5 +1,31 @@
 [
  {
+  "category": "news",
+  "cves": [
+   "CVE-2026-19868"
+  ],
+  "id": "d8e188b81758a771",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+  "published": "2026-11-09T06:05:24Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports that it said may have been exploited in…",
+  "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "35b1a4ff2d13bca5",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33500",
+  "published": "2026-11-09T02:05:10Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "",
+  "title": "ISC Stormcast For Monday, November 9th, 2026 https://isc.sans.edu/podcastdetail/10170, (Mon, Nov 9th)",
+  "trust": "vendor"
+ },
+ {
   "category": "jobs",
   "cves": [],
   "id": "d9615bf42453f2d4",

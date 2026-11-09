@@ -2,8 +2,8 @@
  "empty": {},
  "feeds": {
   "BleepingComputer": {
-   "etag": "d69dbeb8eecfc7c2c7e82ee21dae0a16",
-   "last_modified": "Sun, 08 Nov 2026 22:33:22 GMT"
+   "etag": "abd4408ed21c65384dd1984903e96a1c",
+   "last_modified": "Mon, 09 Nov 2026 06:23:36 GMT"
   },
   "CERT-EU": {},
   "CISA Advisories": {},
@@ -23,8 +23,8 @@
    "etag": "\"16pr5oyreph2no6\""
   },
   "ENISA Vacancies": {
-   "etag": "\"1794163962-gzip\"",
-   "last_modified": "Sun, 08 Nov 2026 18:52:42 GMT"
+   "etag": "\"1794160944-gzip\"",
+   "last_modified": "Sun, 08 Nov 2026 18:02:24 GMT"
   },
   "FOSS Jobs: Consultants": {},
   "FOSS Jobs: Programmers": {},
@@ -43,15 +43,15 @@
    "last_modified": "Sat, 07 Nov 2026 23:26:39 GMT"
   },
   "SANS Internet Storm Center": {
-   "etag": "W/\"1f0b-65fcb82bf9e49\"",
-   "last_modified": "Sun, 08 Nov 2026 22:38:56 GMT"
+   "etag": "W/\"1e3f-65fd201b14dcf\"",
+   "last_modified": "Mon, 09 Nov 2026 06:23:56 GMT"
   },
   "SecurityWeek": {
    "etag": "\"e29887b61a21c90975f0fe2eda79050c\"",
    "last_modified": "Sun, 08 Nov 2026 12:14:00 GMT"
   },
   "The Hacker News": {
-   "last_modified": "Sun, 8 Nov 2026 22:25:59 GMT"
+   "last_modified": "Mon, 9 Nov 2026 06:06:37 GMT"
   },
   "The Record": {},
   "UK NCSC": {
@@ -3103,6 +3103,7 @@
   "357caa2fd9d2c293": "2026-10-15",
   "3582a8536c38b450": "2026-11-07",
   "358b996220357483": "2026-11-07",
+  "35b1a4ff2d13bca5": "2026-11-09",
   "35b6ed7fcb66070f": "2026-11-07",
   "35b8aceef7792239": "2026-11-07",
   "35be0be08d479858": "2026-11-07",
@@ -6851,6 +6852,7 @@
   "d8bfd072a6c1b288": "2026-11-07",
   "d8c19ac5ad8eb13a": "2026-11-07",
   "d8c29e633d3a27ba": "2026-11-07",
+  "d8e188b81758a771": "2026-11-09",
   "d8faef2be6812d16": "2026-11-07",
   "d9003a959cc8af31": "2026-11-07",
   "d9010cd4585b0cae": "2026-11-07",
