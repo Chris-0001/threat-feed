@@ -1,6 +1,383 @@
 [
  {
   "category": "news",
+  "cves": [],
+  "id": "0ae9d1fc881b366e",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+  "published": "2026-11-09T16:12:39Z",
+  "source": "BleepingComputer",
+  "summary": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]",
+  "title": "Binance denies data breach after alleged ShinyHunters claims",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-123158"
+  ],
+  "id": "5590852c94bcb225",
+  "kev": true,
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+  "published": "2026-11-09T16:04:57Z",
+  "source": "BleepingComputer",
+  "summary": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access. [...]",
+  "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "19c59421f80f07db",
+  "kev": false,
+  "link": "https://therecord.media/ukraine-arrests-scam-call-centers-germany",
+  "published": "2026-11-09T15:24:00Z",
+  "source": "The Record",
+  "summary": "Ukraine's cyber police said the four arrested men included the alleged leader of the scam call centers.",
+  "title": "Ukraine arrests four in $5 million crypto scam targeting Germans",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "0ee313b39173c7de",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
+  "published": "2026-11-09T15:05:15Z",
+  "source": "BleepingComputer",
+  "summary": "AI agents are taking over routine governance, risk, and compliance tasks, forcing GRC professionals to rethink the skills needed to stay relevant.",
+  "title": "The Biggest Threat to Your GRC Job Isn’t AI. It’s Ignoring AI.",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "09f73e7151ec9f58",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
+  "published": "2026-11-09T14:34:03Z",
+  "source": "BleepingComputer",
+  "summary": "A former FBI agent has pleaded guilty to stealing nearly $2.5 million from the wallets of fraud victims and nation-state hackers under investigation. [...]",
+  "title": "FBI agent stole $2.5 million in crypto from hackers under investigation",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "f5f37d1be93e3f4f",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/red-hat-security-advisory-av26-1136",
+  "published": "2026-11-09T14:33:03Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1136 Date: November 9, 2026 As of November 4, 2026, Red Hat is affected by vulnerabilities in the following products: Exploit Intelligence All version OpenShift Serverless All version Red Hat AMQ Broker 7 All version Red Hat…",
+  "title": "Red Hat security advisory (AV26-1136)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "1ea0b30eec4bc71a",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+  "published": "2026-11-09T14:31:29Z",
+  "source": "The Hacker News",
+  "summary": "The South Asian cyber espionage group known as Bitter (aka APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, and TA397) has been observed targeting South Asian organizations with a previously unreported remote access trojan called PapRAT.",
+  "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f3b1665596151fac",
+  "kev": false,
+  "link": "https://therecord.media/cyberattack-germany-ai-mittwald",
+  "published": "2026-11-09T14:15:00Z",
+  "source": "The Record",
+  "summary": "Hackers allegedly assisted by AI breached a German web hosting company through a tool designed to allow customers to connect AI assistants to their accounts, the company disclosed.",
+  "title": "Alleged AI-aided cyberattack exploits assistant interface to breach German web host",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "159407a67bb08c89",
+  "kev": false,
+  "link": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
+  "published": "2026-11-09T14:08:08Z",
+  "source": "SecurityWeek",
+  "summary": "Online fashion retailer Revolve has told regulators that the September cyberattack affected more than 1.5 million individuals. The post Revolve Puts Data Breach Victim Count at 1.5 Million appeared first on SecurityWeek .",
+  "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-11724",
+   "CVE-2026-17493"
+  ],
+  "id": "e6ee9ba4526585dc",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/ibm-security-advisory-av26-1135",
+  "published": "2026-11-09T14:07:01Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1135 Date: November 9, 2026 As of November 4, 2026, IBM is affected by vulnerabilities in the following products: IBM MQ Prior to or equal to 10.0.0.5 LTS and CD Prior to or equal to 9.2.0.44 LTS Prior to or equal to 9.3.0.42 LTS…",
+  "title": "IBM security advisory (AV26-1135)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "eb303777958a0135",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/dell-security-advisory-av26-1134",
+  "published": "2026-11-09T13:54:39Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1134 Date: November 9, 2026 As of November 2, 2026, Dell is affected by vulnerabilities in the following products: Alienware Command Center (AWCC) Prior to 6.14.54.0 Wyse Management Suite Prior to 2609.0.0.155 The Cyber Centre…",
+  "title": "Dell security advisory (AV26-1134)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "24277d708cb529b0",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9008-1",
+  "published": "2026-11-09T13:29:36Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that libnfs did not properly enforce the maximum size bound during ZDR decoding, resulting in an out-of-bounds write.",
+  "title": "USN-9008-1: libnfs vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "701b5586b380b224",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/",
+  "published": "2026-11-09T13:28:56Z",
+  "source": "BleepingComputer",
+  "summary": "The US Department of the Treasury has cut off the MEXC Global crypto exchange from the US financial system over sanctions evasion and links with cybercrime gangs. [...]",
+  "title": "US bans MEXC crypto exchange over sanctions evasion, cybercrime links",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "264e9e2d352f439b",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
+  "published": "2026-11-09T13:28:25Z",
+  "source": "The Hacker News",
+  "summary": "A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week.",
+  "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "d7dc50851f15c253",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9007-1",
+  "published": "2026-11-09T13:21:41Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that FreeRDP contained multiple security issues. An attacker could possibly use these issues to obtain sensitive information, cause FreeRDP to crash, resulting in a denial of service, or execute arbitrary code.",
+  "title": "USN-9007-1: FreeRDP vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "215d180ede6f2e08",
+  "kev": false,
+  "link": "https://therecord.media/hackers-russia-italy-noname",
+  "published": "2026-11-09T13:15:00Z",
+  "source": "The Record",
+  "summary": "Pro-Russian hackers published the personal information of Italian Foreign Minister Antonio Tajani and other senior European officials on the dark web, offering cryptocurrency rewards for additional details about them and their families.",
+  "title": "Pro-Russian hackers target European officials, offer rewards for personal information",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "6851496224bdf2d4",
+  "kev": false,
+  "link": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
+  "published": "2026-11-09T13:13:28Z",
+  "source": "SecurityWeek",
+  "summary": "Threat actors are exploiting the four-flaw chain to hack the Plex Media Server application on QNAP NAS devices. The post Plex2Shell Exploited Against QNAP NAS Users appeared first on SecurityWeek .",
+  "title": "Plex2Shell Exploited Against QNAP NAS Users",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ba70d08aac2cdc25",
+  "kev": false,
+  "link": "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/",
+  "published": "2026-11-09T12:41:27Z",
+  "source": "SecurityWeek",
+  "summary": "Hackers compromised an external cloud service used by the shopping platform and may have stolen personal information from it. The post Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers appeared first on SecurityWeek .",
+  "title": "Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "c2fcf2e49d2fc2d2",
+  "kev": false,
+  "link": "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/",
+  "published": "2026-11-09T12:22:12Z",
+  "source": "SecurityWeek",
+  "summary": "Italian Foreign Minister Antonio Tajani said Saturday that his personal data had been disseminated on the dark web. The post Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web appeared first on SecurityWeek…",
+  "title": "Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "621dadc064276a2b",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/",
+  "published": "2026-11-09T12:16:13Z",
+  "source": "BleepingComputer",
+  "summary": "Ukrainian law enforcement arrested four suspects in a case involving the theft of more than €4.3 million using a network of cryptocurrency investment scam call centers. [...]",
+  "title": "Ukraine dismantles crypto scam network that stole €4.3 million",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3d4723ea8777534f",
+  "kev": false,
+  "link": "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/",
+  "published": "2026-11-09T12:13:32Z",
+  "source": "SecurityWeek",
+  "summary": "The initial exploitation attempts are attributed to botnets and crypto miners, but other threat actors are expected to follow suit. The post Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH appeared first on SecurityWeek .",
+  "title": "Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "ad5676c1f0fcef80",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9001-2",
+  "published": "2026-11-09T12:01:46Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "USN-9001-1 fixed a vulnerability in ca-certificates, ca-certificates-java. This update provides the corresponding fix for Ubuntu 18.04 LTS and Ubuntu 20.04 LTS.",
+  "title": "USN-9001-2: ca-certificates update",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "d091cb0375eb4236",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
+  "published": "2026-11-09T11:27:53Z",
+  "source": "The Hacker News",
+  "summary": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the doors and start the engine.",
+  "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "4cb40367364298c1",
+  "kev": false,
+  "link": "https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/",
+  "published": "2026-11-09T11:20:09Z",
+  "source": "SecurityWeek",
+  "summary": "Hackers stole personal, health, and insurance information, including Social Security numbers, from the company’s internal systems. The post Amplifon Americas Data Breach Impacts 1.3 Million appeared first on SecurityWeek .",
+  "title": "Amplifon Americas Data Breach Impacts 1.3 Million",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3151afb00c942d72",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
+  "published": "2026-11-09T10:56:25Z",
+  "source": "The Hacker News",
+  "summary": "Some people who set up a Keplr crypto wallet with their Google or Apple account have had money stolen by an attacker. Keplr uses a company called Web3Auth to run that Google and Apple sign-in.",
+  "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "5c8572c1db51c328",
+  "kev": false,
+  "link": "https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/",
+  "published": "2026-11-09T10:09:02Z",
+  "source": "SecurityWeek",
+  "summary": "Frontline Education told Indiana regulators that its August data breach affected over 3 million school district staff and students. The post Over 3 Million People Hit by Frontline Education Data Breach appeared first on SecurityWeek .",
+  "title": "Over 3 Million People Hit by Frontline Education Data Breach",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "51d34498afca76c7",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
+  "published": "2026-11-09T10:01:21Z",
+  "source": "The Hacker News",
+  "summary": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday.",
+  "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "a082da6160ec9c55",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
+  "published": "2026-11-09T09:01:50Z",
+  "source": "The Hacker News",
+  "summary": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week.",
+  "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "d1effb3061965bee",
+  "kev": false,
+  "link": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
+  "published": "2026-11-09T08:35:50Z",
+  "source": "SecurityWeek",
+  "summary": "Working with cryptographers, DeepMind’s AI agents cut the cost of forging RSA-1024 signatures and found a cheaper way to factor keys. The post Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack appeared first on SecurityWeek .",
+  "title": "Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "62fe27b4e227d185",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
+  "published": "2026-11-09T07:05:48Z",
+  "source": "The Hacker News",
+  "summary": "The OpenAI engineer who was arrested and charged last month for planting a covert audio recording device in the company's office has pleaded not guilty.",
+  "title": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "28bdf6db6c62498b",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
+  "published": "2026-11-09T06:15:10Z",
+  "source": "The Hacker News",
+  "summary": "U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory.",
+  "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
+  "trust": "media"
+ },
+ {
+  "category": "news",
   "cves": [
    "CVE-2026-19868"
   ],
@@ -24,6 +401,48 @@
   "summary": "",
   "title": "ISC Stormcast For Monday, November 9th, 2026 https://isc.sans.edu/podcastdetail/10170, (Mon, Nov 9th)",
   "trust": "vendor"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-116779"
+  ],
+  "id": "b400357e4884c169",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779",
+  "published": "2026-11-09T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
+  "title": "CVE-2026-116779: SignalWire FreeSwitch (SignalWire FreeSwitch Code Injection Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-102895"
+  ],
+  "id": "5a724386e366841a",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895",
+  "published": "2026-11-09T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and…",
+  "title": "CVE-2026-102895: GPUStack GPUStack (GPUStack Improper Authentication Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-123158"
+  ],
+  "id": "0e2f6aa656ec8f83",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158",
+  "published": "2026-11-09T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
+  "title": "CVE-2026-123158: OpenBSD OpenSSH (OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability)",
+  "trust": "official"
  },
  {
   "category": "jobs",
