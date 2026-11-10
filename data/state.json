@@ -1,12 +1,12 @@
 {
  "daily_errors": {
-  "2026-11-10": 5
+  "2026-11-10": 7
  },
  "empty": {},
  "feeds": {
   "BleepingComputer": {
-   "etag": "3501f564dd15efbac56221608470aa65",
-   "last_modified": "Tue, 10 Nov 2026 21:54:57 GMT"
+   "etag": "325fbb6825ce57173886350ee3baa3f0",
+   "last_modified": "Tue, 10 Nov 2026 23:20:22 GMT"
   },
   "CERT-EU": {},
   "CISA Advisories": {},
@@ -23,12 +23,12 @@
   "Diavgeia: cybersecurity posts": {},
   "Diavgeia: infosec posts": {},
   "ENISA Opportunities": {
-   "etag": "\"1794347860-gzip\"",
-   "last_modified": "Tue, 10 Nov 2026 21:57:40 GMT"
+   "etag": "\"1794348050-gzip\"",
+   "last_modified": "Tue, 10 Nov 2026 22:00:50 GMT"
   },
   "ENISA Vacancies": {
-   "etag": "\"1794347860-gzip\"",
-   "last_modified": "Tue, 10 Nov 2026 21:57:40 GMT"
+   "etag": "\"1794348050-gzip\"",
+   "last_modified": "Tue, 10 Nov 2026 22:00:50 GMT"
   },
   "FOSS Jobs: Consultants": {},
   "FOSS Jobs: Programmers": {},
@@ -41,22 +41,22 @@
   },
   "Google Threat Intelligence": {},
   "Krebs on Security": {
-   "last_modified": "Tue, 10 Nov 2026 21:37:33 GMT"
+   "last_modified": "Tue, 10 Nov 2026 23:18:58 GMT"
   },
   "Microsoft MSRC": {
    "etag": "\"0x8DF3F71A1443FCF\"",
    "last_modified": "Tue, 10 Nov 2026 21:28:57 GMT"
   },
   "SANS Internet Storm Center": {
-   "etag": "W/\"1e8c-65ff31d826f2f\"",
-   "last_modified": "Tue, 10 Nov 2026 21:53:57 GMT"
+   "etag": "W/\"1e8c-65ff44d74f5ce\"",
+   "last_modified": "Tue, 10 Nov 2026 23:18:56 GMT"
   },
   "SecurityWeek": {
    "etag": "\"c85d7bfa840a277f8a6b47a5e13de351\"",
    "last_modified": "Tue, 10 Nov 2026 19:19:53 GMT"
   },
   "The Hacker News": {
-   "last_modified": "Tue, 10 Nov 2026 21:44:19 GMT"
+   "last_modified": "Tue, 10 Nov 2026 22:45:36 GMT"
   },
   "The Record": {},
   "UK NCSC": {
@@ -2179,6 +2179,7 @@
   "0d2d2e8f24d3bd1b": "2026-11-07",
   "0d3772bb85870c9b": "2026-11-07",
   "0d3dd14abddf294f": "2026-11-07",
+  "0d449d3f865f6eaa": "2026-11-10",
   "0d47aeffa2af1e9b": "2026-10-08",
   "0d4b2a5bb3399fa6": "2026-11-07",
   "0d547989dd77718a": "2026-11-07",
@@ -4851,6 +4852,7 @@
   "75ac62658cd9ec45": "2026-11-07",
   "75b1737b03f003ca": "2026-11-07",
   "75bb922f8a2ed52b": "2026-11-07",
+  "75bc7585bfcaa683": "2026-11-10",
   "76012548484adbb8": "2026-11-07",
   "760a7343e187ba68": "2026-11-07",
   "7626c9c1c2db5580": "2026-11-07",
@@ -5487,6 +5489,7 @@
   "8f34917c5bcda18c": "2026-10-09",
   "8f3e07c1398c49c4": "2026-10-08",
   "8f715569f2077d48": "2026-11-07",
+  "8f85b39e5cb63198": "2026-11-10",
   "8f8a985b2fb71db2": "2026-11-07",
   "8f910838d994144d": "2026-11-07",
   "8f977e5adfed7111": "2026-11-07",
