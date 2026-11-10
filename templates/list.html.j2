@@ -6,10 +6,8 @@
 <article class="item cat-{{ it.category }}">
 <p class="meta"><span class="cat">{{ categories[it.category] }}</span><span>{{ it.source }}</span><span>{{ it.trust }} source</span><time datetime="{{ it.published }}">{{ it.published[:10] }}</time></p>
 <h2>
-  {% if it.scanned %}
-    <span title="URL Scanned by VirusTotal" style="font-size: 0.9em;">✅</span>
-  {% else %}
-    <span title="URL Not Scanned" style="font-size: 0.9em; opacity: 0.5;">❌</span>
+  {% if it.scanned and not it.malicious %}
+    <span title="URL Scanned by VirusTotal" class="scan-ok">✅</span>
   {% endif %}
   
   {% if it.get('score', 0) >= 60 %}<span class="top">Top match</span> {% endif %}
@@ -17,8 +15,8 @@
 </h2>
 
 <p class="tags">
-  {% if it.malicious %}<span class="kev" style="background: red;">Malicious URL Flagged</span>{% endif %}
-  {% if it.new_domain %}<span class="kev" style="background: orange;">Newly Registered Domain (&lt;30 days)</span>{% endif %}
+  {% if it.malicious %}<span class="kev flag-malicious">Malicious URL Flagged</span>{% endif %}
+  {% if it.get('new_domain') %}<span class="kev flag-new-domain">Newly Registered Domain (&lt;30 days)</span>{% endif %}
   {% if it.kev %}<span class="kev">Exploited in the wild</span>{% endif %}
   {% for c in it.cves %}<a href="https://nvd.nist.gov/vuln/detail/{{ c }}" rel="noopener noreferrer nofollow">{{ c }}</a>{% endfor %}
 </p>

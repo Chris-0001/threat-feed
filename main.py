@@ -124,7 +124,7 @@ def load_feeds():
         names.add(f["name"])
         require(f["category"] in CATEGORIES, f"{f['name']}: unknown category")
         require(f["trust"] in TRUST, f"{f['name']}: unknown trust tier")
-        require(f.get("type", "rss") in ("rss", "kev", "watch", "workable", "diavgeia"),
+        require(f.get("type", "rss") in ("rss", "kev", "watch", "workable", "diavgeia", "static"),
                 f"{f['name']}: unknown type")
         require(f["url"].startswith("https://"), f"{f['name']}: feed URL must be HTTPS")
         domains = f["link_domains"]
@@ -450,6 +450,17 @@ def parse_kev(body, feed):
     return cves, items, len(vulns)
 
 
+def parse_static(body, feed):
+    raw_items = feed.get("items", [])
+    now = now_utc()
+    items = []
+    for it in raw_items:
+        if not isinstance(it, dict):
+            continue
+        item = build_item(feed, it.get("title"), it.get("link"), it.get("summary", ""), now, it.get("link"))
+        if item:
+            items.append(item)
+    return items, len(raw_items)
 # ----------------------------------------------------------------------- collect
 def archived_ids():
     ids = set()
@@ -476,9 +487,12 @@ def collect():
         name = feed["name"]
         first = name not in state["feeds"]
         try:
-            dynamic = feed["type"] in SNAPSHOT_TYPES or feed["type"] == "diavgeia"
+            dynamic = feed["type"] in SNAPSHOT_TYPES or feed["type"] in ("diavgeia", "static")
             src = dict(feed, url=diavgeia_url(feed, now)) if feed["type"] == "diavgeia" else feed
-            body, meta = fetch(src, {} if dynamic else state["feeds"].get(name, {}))
+            if feed["type"] == "static":
+                body, meta = b"", {}
+            else:
+                body, meta = fetch(src, {} if dynamic else state["feeds"].get(name, {}))
             if body is None:
                 log(f"{name}: not modified")
                 continue
@@ -491,6 +505,8 @@ def collect():
                 entries, total = parse_workable(body, feed)
             elif feed["type"] == "diavgeia":
                 entries, total = parse_diavgeia(body, feed)
+            elif feed["type"] == "static":
+                entries, total = parse_static(body, feed)
             else:
                 entries, total = parse_rss(body, feed)
         except Exception as exc:  # one bad feed must not stop the others
