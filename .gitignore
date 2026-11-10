@@ -3,5 +3,4 @@ __pycache__/
 *.tmp
 .venv/
 venv/
-_site/
-__pycache__/
+.env
