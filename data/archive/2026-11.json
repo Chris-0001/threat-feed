@@ -1,6 +1,354 @@
 [
  {
   "category": "news",
+  "cves": [],
+  "id": "0df29ef9d3b1be1c",
+  "kev": false,
+  "link": "https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/",
+  "published": "2026-11-10T16:45:00Z",
+  "source": "SecurityWeek",
+  "summary": "SBOM pioneer Allan Friedman joined the SecurityWeek Podcast to discuss why knowing what is inside software is only the beginning, how AI is complicating software supply chain visibility, and what organizations should be doing with SBOM data once…",
+  "title": "Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "b4af1e0c7b965140",
+  "kev": false,
+  "link": "https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/",
+  "published": "2026-11-10T16:42:02Z",
+  "source": "SecurityWeek",
+  "summary": "Google opened Carbon to paying developers and businesses as DeepMind used agents built on it to prove libsignal security guarantees. The post Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code appeared first on SecurityWeek .",
+  "title": "Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-32665",
+   "CVE-2026-40691",
+   "CVE-2026-44690",
+   "CVE-2026-50252",
+   "CVE-2026-55973",
+   "CVE-2026-80225",
+   "CVE-2026-81634",
+   "CVE-2026-85501"
+  ],
+  "id": "f00fc3fd2a4b6f65",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8946-2",
+  "published": "2026-11-10T16:28:27Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "USN-8946-1 fixed vulnerabilities in Unbound in Ubuntu 26.04 LTS, Ubuntu 24.04 LTS, Ubuntu 22.04 LTS, Ubuntu 20.04 LTS, Ubuntu 18.04 LTS, Ubuntu 16.04 LTS, and Ubuntu 14.04 LTS. This update provides the corresponding update for Ubuntu 26.10.",
+  "title": "USN-8946-2: Unbound vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f6254c1ebdbe585f",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+  "published": "2026-11-10T16:17:16Z",
+  "source": "BleepingComputer",
+  "summary": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]",
+  "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f7c40b072db4b62a",
+  "kev": false,
+  "link": "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks",
+  "published": "2026-11-10T16:08:00Z",
+  "source": "The Record",
+  "summary": "Fireworks said the incident affected a “limited number of customer accounts” — all of whom were notified of the attack.",
+  "title": "AI company Fireworks says hackers stole data, billing info during October breaches",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-105133",
+   "CVE-2026-105134"
+  ],
+  "id": "ea3ef86c904cfc36",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+  "published": "2026-11-10T16:00:55Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant.",
+  "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3413d07ad45d0696",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
+  "published": "2026-11-10T15:59:19Z",
+  "source": "BleepingComputer",
+  "summary": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, including cryptocurrency seed phrases, secret keys, and login credentials. [...]",
+  "title": "Binance warns of iOS flaw that could leak crypto wallet secrets",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3c41136bdf10072d",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+  "published": "2026-11-10T15:58:44Z",
+  "source": "The Hacker News",
+  "summary": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT…",
+  "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "5a3e249f99216ea5",
+  "kev": false,
+  "link": "https://therecord.media/spyware-cyber-crime-iverify",
+  "published": "2026-11-10T15:45:00Z",
+  "source": "The Record",
+  "summary": "Cybercriminals are infecting devices on a large scale with spyware, increasingly compromising systems belonging to average people, according to a new report.",
+  "title": "Cybercriminals are increasingly infecting regular people with spyware",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "e990eeaa0528a2e8",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+  "published": "2026-11-10T15:33:59Z",
+  "source": "The Hacker News",
+  "summary": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for…",
+  "title": "Fireworks AI Breach Widens to Expose Customer Billing Data and Incomplete Model Weights",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3e879422c333e5fe",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
+  "published": "2026-11-10T15:01:11Z",
+  "source": "BleepingComputer",
+  "summary": "Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust.",
+  "title": "Ransomware recovery is now a client retention metric",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "eb8c5e4086e89d7b",
+  "kev": false,
+  "link": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
+  "published": "2026-11-10T15:00:00Z",
+  "source": "SecurityWeek",
+  "summary": "Designed for cybersecurity leaders, this immersive two-day virtual event is your premier destination to discuss, share, and learn innovative risk management and defense strategies defining the modern enterprise.",
+  "title": "Today: CISO Forum Virtual Summit 2026 – Join Global Cybersecurity Leaders",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "590fdc56ffe0d484",
+  "kev": false,
+  "link": "https://www.securityweek.com/whitematter-raises-20-million-in-series-a-funding/",
+  "published": "2026-11-10T14:58:19Z",
+  "source": "SecurityWeek",
+  "summary": "The cybersecurity startup deploys a dedicated guardian agent for every AI agent in an organization’s environment. The post WhiteMatter Raises $20 Million in Series A Funding appeared first on SecurityWeek .",
+  "title": "WhiteMatter Raises $20 Million in Series A Funding",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "c5ab120374eefe52",
+  "kev": false,
+  "link": "https://www.securityweek.com/sap-patches-critical-icm2shell-proxygate-vulnerabilities/",
+  "published": "2026-11-10T14:46:28Z",
+  "source": "SecurityWeek",
+  "summary": "SAP has published 42 new and updated security advisories, including nine that address critical-severity vulnerabilities. The post SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities appeared first on SecurityWeek .",
+  "title": "SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "93832353a0009a87",
+  "kev": false,
+  "link": "https://therecord.media/michael-losapio-cisa-director-nomination",
+  "published": "2026-11-10T14:31:00Z",
+  "source": "The Record",
+  "summary": "Michael LoSapio, Palantir's chief information security officer, is officially President Donald Trump's pick to lead the Cybersecurity and Infrastructure Security Agency.",
+  "title": "Palantir exec nominated to lead CISA; lame-duck Senate vote is uncertain",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3929e41bd6d0cb66",
+  "kev": false,
+  "link": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/",
+  "published": "2026-11-10T13:27:44Z",
+  "source": "SecurityWeek",
+  "summary": "Hackers used compromised Qubole IAM credentials to steal customer files, secrets, keys, environment variables, and credentials. The post Over a Dozen Organizations Hit in Qubole Supply Chain Attack appeared first on SecurityWeek .",
+  "title": "Over a Dozen Organizations Hit in Qubole Supply Chain Attack",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "a2602cc751fce978",
+  "kev": false,
+  "link": "https://therecord.media/russia-hackers-espionage-romania-kazakhstan",
+  "published": "2026-11-10T13:00:00Z",
+  "source": "The Record",
+  "summary": "Russian state-linked hackers have compromised government email servers in Romania and Kazakhstan to secretly intercept messages exchanged with NATO and European Union officials, researchers said.",
+  "title": "Russian hackers compromised government email servers to steal NATO, EU correspondence",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "dd1a85cf8e48ea7f",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33506",
+  "published": "2026-11-10T12:48:55Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "",
+  "title": "Apple Patches Everyting: November 2026 Edition, (Tue, Nov 10th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f806b9ac8aa67a5e",
+  "kev": false,
+  "link": "https://www.securityweek.com/anthropic-rolls-out-mythos-5-2-with-improved-bug-hunting-fewer-sandbox-escapes/",
+  "published": "2026-11-10T12:17:13Z",
+  "source": "SecurityWeek",
+  "summary": "Anthropic says Mythos 5.2 improves vulnerability discovery while showing a lower tendency to escape sandboxes in controlled tests.",
+  "title": "Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "77ef148814c71aab",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+  "published": "2026-11-10T12:15:31Z",
+  "source": "The Hacker News",
+  "summary": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance warned today.",
+  "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "19a0f8f7380c7389",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/",
+  "published": "2026-11-10T12:07:03Z",
+  "source": "BleepingComputer",
+  "summary": "SAP patched 35 vulnerabilities in its November 2026 security updates, including four maximum-severity issues affecting its NetWeaver, Web Dispatcher, and Gateway software. [...]",
+  "title": "SAP patches ICM2SHELL and PROXYGATE maximum severity flaws",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "e938ec0fd2a5d579",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html",
+  "published": "2026-11-10T11:38:13Z",
+  "source": "The Hacker News",
+  "summary": "At some point your security will fail. This isn’t pessimism. It’s not because your team and tools aren’t sophisticated enough. It’s the reason we have detections in the first place.",
+  "title": "Beyond the Alert: The Case for Rich Network Data",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "0c6b8d89ebf39147",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
+  "published": "2026-11-10T10:16:51Z",
+  "source": "The Hacker News",
+  "summary": "An iMessage flaw could let a remote attacker join a group chat and receive its messages, Apple said yesterday, and it released updates to fix it.",
+  "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "b4ca0b256770ee6f",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
+  "published": "2026-11-10T10:10:20Z",
+  "source": "BleepingComputer",
+  "summary": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. [...]",
+  "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "136a1c6b52ea2ec5",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+  "published": "2026-11-10T10:07:29Z",
+  "source": "The Hacker News",
+  "summary": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously…",
+  "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "bb7f40a49b2f499c",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
+  "published": "2026-11-10T10:04:32Z",
+  "source": "BleepingComputer",
+  "summary": "The Russian state-backed threat group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange servers at government organizations. [...]",
+  "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "265e839e47ba3a0a",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+  "published": "2026-11-10T10:02:40Z",
+  "source": "The Hacker News",
+  "summary": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score.",
+  "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "459ed38fa50bc6f5",
+  "kev": false,
+  "link": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/",
+  "published": "2026-11-10T09:56:28Z",
+  "source": "SecurityWeek",
+  "summary": "Attackers could exploit the flaws for remote code execution, credential theft, and administrator account creation. The post N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days appeared first on SecurityWeek .",
+  "title": "N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days",
+  "trust": "media"
+ },
+ {
+  "category": "news",
   "cves": [
    "CVE-2026-116779",
    "CVE-2026-123218"
@@ -13,6 +361,29 @@
   "summary": "CISA has added CVE-2026-123218 and CVE-2026-116779 to KEV, urging federal agencies to patch them within three days. The post IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks appeared first on SecurityWeek .",
   "title": "IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2024-52560",
+   "CVE-2024-53056",
+   "CVE-2024-58094",
+   "CVE-2024-58095",
+   "CVE-2025-22104",
+   "CVE-2025-22108",
+   "CVE-2025-22127",
+   "CVE-2025-37807",
+   "CVE-2025-37833",
+   "CVE-2025-38203"
+  ],
+  "id": "cb2a61ca674eefc9",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9022-1",
+  "published": "2026-11-10T09:09:50Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - USB Gadget drivers; - Memory management; - Network file systems…",
+  "title": "USN-9022-1: Linux kernel vulnerabilities",
+  "trust": "official"
  },
  {
   "category": "news",
@@ -37,6 +408,187 @@
   "summary": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
   "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2023-20585",
+   "CVE-2024-52560",
+   "CVE-2024-53056",
+   "CVE-2024-56552",
+   "CVE-2024-58094",
+   "CVE-2024-58095",
+   "CVE-2025-21687",
+   "CVE-2025-21985",
+   "CVE-2025-22104",
+   "CVE-2025-22108"
+  ],
+  "id": "80941877c23d3b84",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9024-1",
+  "published": "2026-11-10T08:47:04Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that some AMD processors did not properly perform Reverse Map Table (RMP) checks when the IOMMU accessed certain host buffers.",
+  "title": "USN-9024-1: Linux kernel vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2023-20585",
+   "CVE-2024-52560",
+   "CVE-2024-53056",
+   "CVE-2024-56552",
+   "CVE-2024-58094",
+   "CVE-2024-58095",
+   "CVE-2025-21687",
+   "CVE-2025-21985",
+   "CVE-2025-22104",
+   "CVE-2025-22108"
+  ],
+  "id": "20b73a05f9fb19f0",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9025-1",
+  "published": "2026-11-10T08:47:02Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that some AMD processors did not properly perform Reverse Map Table (RMP) checks when the IOMMU accessed certain host buffers.",
+  "title": "USN-9025-1: Linux kernel vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2023-20585",
+   "CVE-2024-52560",
+   "CVE-2024-53056",
+   "CVE-2024-56552",
+   "CVE-2024-58094",
+   "CVE-2024-58095",
+   "CVE-2025-21687",
+   "CVE-2025-21985",
+   "CVE-2025-22104",
+   "CVE-2025-22108"
+  ],
+  "id": "ab00ecd64172e921",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9026-1",
+  "published": "2026-11-10T08:46:54Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that some AMD processors did not properly perform Reverse Map Table (RMP) checks when the IOMMU accessed certain host buffers.",
+  "title": "USN-9026-1: Linux kernel (Azure) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2017-9986",
+   "CVE-2022-49114",
+   "CVE-2023-52784",
+   "CVE-2024-53194",
+   "CVE-2024-53210",
+   "CVE-2024-56763",
+   "CVE-2026-31657",
+   "CVE-2026-43456"
+  ],
+  "id": "9f0717f1f20ae727",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9035-1",
+  "published": "2026-11-10T08:46:39Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Pengfei Wang discovered that the Turtle Beach MultiSound audio device driver in the Linux kernel contained race conditions when fetching from the ring-buffer, leading to an out-of-bounds access.",
+  "title": "USN-9035-1: Linux kernel vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2022-1205",
+   "CVE-2022-3114",
+   "CVE-2022-49234",
+   "CVE-2022-49359",
+   "CVE-2022-49562",
+   "CVE-2022-49651",
+   "CVE-2022-49858",
+   "CVE-2022-50071",
+   "CVE-2022-50303",
+   "CVE-2022-50406"
+  ],
+  "id": "99a51fe91396e3fd",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9029-1",
+  "published": "2026-11-10T08:46:37Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Duoming Zhou discovered race conditions in the AX.25 amateur radio protocol implementation in the Linux kernel, leading to use-after-free vulnerabilities. A local attacker could possibly use this to cause a denial of service (system crash).",
+  "title": "USN-9029-1: Linux kernel (Raspberry Pi) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2021-47633",
+   "CVE-2022-23037",
+   "CVE-2022-49058",
+   "CVE-2022-49170",
+   "CVE-2023-52784",
+   "CVE-2024-53194",
+   "CVE-2024-53210",
+   "CVE-2024-53214",
+   "CVE-2024-56570",
+   "CVE-2024-56616"
+  ],
+  "id": "70e8f273362c9aa7",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9034-1",
+  "published": "2026-11-10T08:46:28Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Demi Marie Obenour and Simon Gaiser discovered that several Xen para- virtualization device frontends did not properly restrict the access rights of device backends.",
+  "title": "USN-9034-1: Linux kernel (AWS) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2022-49149",
+   "CVE-2022-49170",
+   "CVE-2023-52784",
+   "CVE-2024-53210",
+   "CVE-2024-56616",
+   "CVE-2024-56763",
+   "CVE-2026-43456",
+   "CVE-2026-52910",
+   "CVE-2026-53086"
+  ],
+  "id": "c70ddce2f28d6465",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9032-1",
+  "published": "2026-11-10T08:46:16Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - GPU drivers; - Ethernet bonding driver; - Network drivers; - F2FS…",
+  "title": "USN-9032-1: Linux kernel vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2021-47633",
+   "CVE-2022-23036",
+   "CVE-2022-23037",
+   "CVE-2022-49058",
+   "CVE-2022-49170",
+   "CVE-2023-52784",
+   "CVE-2024-53194",
+   "CVE-2024-53210",
+   "CVE-2024-53214",
+   "CVE-2024-56570"
+  ],
+  "id": "ebcbd4bbac5be244",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9033-1",
+  "published": "2026-11-10T08:46:13Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Demi Marie Obenour and Simon Gaiser discovered that several Xen para- virtualization device frontends did not properly restrict the access rights of device backends.",
+  "title": "USN-9033-1: Linux kernel vulnerabilities",
+  "trust": "official"
  },
  {
   "category": "advisories",
@@ -148,6 +700,126 @@
   "summary": "The high-severity use-after-free in Chrome’s XML component was reported anonymously on November 6 and is already exploited in attacks. The post Chrome Update Patches Exploited XML Zero-Day, Eighth This Year appeared first on SecurityWeek .",
   "title": "Chrome Update Patches Exploited XML Zero-Day, Eighth This Year",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-65110"
+  ],
+  "id": "f74d3e7e2fe4fe7e",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-904/",
+  "published": "2026-11-10T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA Megatron-LM. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-904: NVIDIA Megatron-LM Checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-50258"
+  ],
+  "id": "d8a9105dd0ce9b87",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-902/",
+  "published": "2026-11-10T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
+  "title": "ZDI-26-902: X.Org Server XkbResizeKeySyms Integer Overflow Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "d7e3fc8aafd633e0",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-898/",
+  "published": "2026-11-10T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Wireshark. Authentication is not required to exploit this vulnerability.",
+  "title": "ZDI-26-898: Wireshark LoRaWAN Decryption Numeric Truncation Error Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-50264"
+  ],
+  "id": "c819bff19f57af7b",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-901/",
+  "published": "2026-11-10T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
+  "title": "ZDI-26-901: X.Org Server ProcDRI2GetBuffers Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "9d14776433a9528b",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-899/",
+  "published": "2026-11-10T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Wireshark. Authentication is not required to exploit this vulnerability. However, only instances with LBMC fragment reassembly enabled are vulnerable.",
+  "title": "ZDI-26-899: Wireshark LBMC Fragment Reassembly Integer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "93482f07dc3b5af5",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-900/",
+  "published": "2026-11-10T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Wireshark. User interaction is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8.",
+  "title": "ZDI-26-900: Wireshark SMB Object Export Integer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-50256"
+  ],
+  "id": "752037d7725983d9",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-903/",
+  "published": "2026-11-10T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
+  "title": "ZDI-26-903: X.Org Server Font Alias Resolution Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-88806"
+  ],
+  "id": "58d73b3e956a5570",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-906/",
+  "published": "2026-11-10T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of X.Org Server. User interaction is required to exploit this vulnerability in that the target must connect to a malicious X11 server.",
+  "title": "ZDI-26-906: X.Org Server libX11 XkbGetMap Reply Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-88807"
+  ],
+  "id": "1e241bc872203f4a",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-905/",
+  "published": "2026-11-10T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of X.Org Server. User interaction is required to exploit this vulnerability in that the target must connect to a malicious X11 server.",
+  "title": "ZDI-26-905: X.Org Server libXrender RenderQueryPictFormats Reply Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
  },
  {
   "category": "advisories",
