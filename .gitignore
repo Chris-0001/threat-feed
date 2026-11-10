@@ -2,3 +2,6 @@ _site/
 __pycache__/
 *.tmp
 .venv/
+venv/
+_site/
+__pycache__/
