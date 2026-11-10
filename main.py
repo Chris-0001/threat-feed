@@ -124,7 +124,7 @@ def load_feeds():
         names.add(f["name"])
         require(f["category"] in CATEGORIES, f"{f['name']}: unknown category")
         require(f["trust"] in TRUST, f"{f['name']}: unknown trust tier")
-        require(f.get("type", "rss") in ("rss", "kev", "watch", "workable", "diavgeia"),
+        require(f.get("type", "rss") in ("rss", "kev", "watch", "workable", "diavgeia", "static"),
                 f"{f['name']}: unknown type")
         require(f["url"].startswith("https://"), f"{f['name']}: feed URL must be HTTPS")
         domains = f["link_domains"]
@@ -181,7 +181,7 @@ def load_state():
     state.setdefault("seen", {})       # item id -> first-seen date
     state.setdefault("kev_cves", [])   # CVEs currently in CISA KEV
     state.setdefault("live", {})       # snapshot source name -> item ids listed as open right now
-    state.setdefault("empty", {})      # snapshot source name -> when its listing first came back empty
+    state.setdefault("daily_errors", {}) # YYYY-MM-DD -> error count
     return state
 
 
@@ -317,6 +317,8 @@ def parse_published(entry):
 
 
 def parse_rss(body, feed):
+    if b"<!DOCTYPE" in body and b"<!ENTITY" in body:
+        raise ValueError("potential XML entity expansion attack detected")
     parsed = feedparser.parse(body)
     if parsed.bozo and not parsed.entries:
         raise ValueError(f"unparseable feed: {parsed.bozo_exception!r}")
@@ -450,6 +452,17 @@ def parse_kev(body, feed):
     return cves, items, len(vulns)
 
 
+def parse_static(body, feed):
+    raw_items = feed.get("items", [])
+    now = now_utc()
+    items = []
+    for it in raw_items:
+        if not isinstance(it, dict):
+            continue
+        item = build_item(feed, it.get("title"), it.get("link"), it.get("summary", ""), now, it.get("link"))
+        if item:
+            items.append(item)
+    return items, len(raw_items)
 # ----------------------------------------------------------------------- collect
 def archived_ids():
     ids = set()
@@ -476,9 +489,12 @@ def collect():
         name = feed["name"]
         first = name not in state["feeds"]
         try:
-            dynamic = feed["type"] in SNAPSHOT_TYPES or feed["type"] == "diavgeia"
+            dynamic = feed["type"] in SNAPSHOT_TYPES or feed["type"] in ("diavgeia", "static")
             src = dict(feed, url=diavgeia_url(feed, now)) if feed["type"] == "diavgeia" else feed
-            body, meta = fetch(src, {} if dynamic else state["feeds"].get(name, {}))
+            if feed["type"] == "static":
+                body, meta = b"", {}
+            else:
+                body, meta = fetch(src, {} if dynamic else state["feeds"].get(name, {}))
             if body is None:
                 log(f"{name}: not modified")
                 continue
@@ -491,6 +507,8 @@ def collect():
                 entries, total = parse_workable(body, feed)
             elif feed["type"] == "diavgeia":
                 entries, total = parse_diavgeia(body, feed)
+            elif feed["type"] == "static":
+                entries, total = parse_static(body, feed)
             else:
                 entries, total = parse_rss(body, feed)
         except Exception as exc:  # one bad feed must not stop the others
@@ -545,6 +563,15 @@ def collect():
         log(f"{name}: {len(fresh)} new")
         time.sleep(1)
 
+    today_str = now.strftime("%Y-%m-%d")
+    scan_err_count = len(errors)
+    total_errs = failed + scan_err_count
+    if total_errs > 0:
+        daily_errs = state.setdefault("daily_errors", {})
+        daily_errs[today_str] = daily_errs.get(today_str, 0) + total_errs
+        dirty = True
+        cutoff_90 = (now - timedelta(days=90)).strftime("%Y-%m-%d")
+        state["daily_errors"] = {d: c for d, c in daily_errs.items() if d >= cutoff_90}
     if failed == len(feeds):
         set_output("new_items", 0)
         raise SystemExit("error: every feed failed")
@@ -677,6 +704,34 @@ def build():
         render(f"archive/{m}.html", "list.html.j2", root="../", title=m, heading=m,
                intro=f"{len(subset)} items first seen in {m}.", items=subset, current="archive")
     render("subscribe.html", "subscribe.html.j2", title="Subscribe", current="subscribe")
+    from stats import generate_graphs
+    from collections import defaultdict
+    date_counts = defaultdict(int)
+    for m, subset in months.items():
+        for i in subset:
+            d = i["published"][:10]
+            date_counts[d] += 1
+    
+    # Last 30 calendar days
+    end_d = built.date()
+    sorted_dates = [(end_d - timedelta(days=i)).strftime("%Y-%m-%d") for i in range(29, -1, -1)]
+    items_scanned_vals = [date_counts[d] for d in sorted_dates]
+    
+    daily_errs_map = state.get("daily_errors", {}) if 'state' in locals() else {}
+    if not daily_errs_map:
+        try:
+            daily_errs_map = json.loads(STATE_FILE.read_text("utf-8")).get("daily_errors", {})
+        except Exception:
+            daily_errs_map = {}
+    error_counts_vals = [daily_errs_map.get(d, 0) for d in sorted_dates]
+    
+    try:
+        generate_graphs(sorted_dates, items_scanned_vals, error_counts_vals)
+    except Exception as e:
+        warn(f"Failed to generate stats graphs: {e}")
+
+    render("stats.html", "stats.html.j2", title="Statistics", heading="Statistics & System Health",
+           intro="Hand-drawn performance and error metrics for the threat feed aggregator.", current="stats")
     shutil.copy(ROOT / "static" / "style.css", SITE_DIR / "style.css")
     log(f"Built site with {len(items)} items in {len(months)} month(s).")
 

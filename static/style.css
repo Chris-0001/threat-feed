@@ -28,3 +28,4 @@ h1{font-size:1.6rem;line-height:1.2;margin:0 0 .25rem;letter-spacing:-.01em}
 .count,.empty{color:var(--mute)}
 code{font-size:.85rem;overflow-wrap:anywhere}
 footer{color:var(--mute);font-size:.85rem;padding-bottom:2rem;margin-top:1.5rem}
+.top{background:var(--c-research);color:var(--on);padding:0 .5rem;border-radius:2px;font-weight:700}
