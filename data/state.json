@@ -1,12 +1,12 @@
 {
  "daily_errors": {
-  "2026-11-10": 3
+  "2026-11-10": 5
  },
  "empty": {},
  "feeds": {
   "BleepingComputer": {
-   "etag": "4d76743aff20574fbad70ed053c36ec4",
-   "last_modified": "Tue, 10 Nov 2026 21:44:57 GMT"
+   "etag": "3501f564dd15efbac56221608470aa65",
+   "last_modified": "Tue, 10 Nov 2026 21:54:57 GMT"
   },
   "CERT-EU": {},
   "CISA Advisories": {},
@@ -23,12 +23,12 @@
   "Diavgeia: cybersecurity posts": {},
   "Diavgeia: infosec posts": {},
   "ENISA Opportunities": {
-   "etag": "\"1794332764-gzip\"",
-   "last_modified": "Tue, 10 Nov 2026 17:46:04 GMT"
+   "etag": "\"1794347860-gzip\"",
+   "last_modified": "Tue, 10 Nov 2026 21:57:40 GMT"
   },
   "ENISA Vacancies": {
-   "etag": "\"1794332764-gzip\"",
-   "last_modified": "Tue, 10 Nov 2026 17:46:04 GMT"
+   "etag": "\"1794347860-gzip\"",
+   "last_modified": "Tue, 10 Nov 2026 21:57:40 GMT"
   },
   "FOSS Jobs: Consultants": {},
   "FOSS Jobs: Programmers": {},
@@ -48,8 +48,8 @@
    "last_modified": "Tue, 10 Nov 2026 21:28:57 GMT"
   },
   "SANS Internet Storm Center": {
-   "etag": "W/\"1e8c-65ff2f9b9aef8\"",
-   "last_modified": "Tue, 10 Nov 2026 21:43:56 GMT"
+   "etag": "W/\"1e8c-65ff31d826f2f\"",
+   "last_modified": "Tue, 10 Nov 2026 21:53:57 GMT"
   },
   "SecurityWeek": {
    "etag": "\"c85d7bfa840a277f8a6b47a5e13de351\"",
