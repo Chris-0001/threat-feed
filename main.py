@@ -30,9 +30,7 @@ from urllib.parse import quote, urldefrag, urlencode, urljoin, urlparse
 import feedparser
 import requests
 from bs4 import BeautifulSoup
-from scanner import scan_url
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
-from collections import Counter
 
 warnings.filterwarnings("ignore", module="bs4")
 
@@ -71,7 +69,6 @@ CATEGORIES = {  # slug: (label, description)
     "research": ("Research", "Technical write-ups from researchers."),
     "jobs": ("Jobs", "Currently open positions. Closed or expired postings disappear automatically."),
     "training": ("Training", "Free training and certification programmes from trusted organisations."),
-    "warning": ("Warnings", "Suspicious or potentially malicious posts flagged by VirusTotal.")
 }
 TRUST = {"official", "vendor", "media", "community"}
 SNAPSHOT_TYPES = {"watch", "workable"}   # sources that list what is open right now
@@ -91,66 +88,7 @@ DATE_RE = re.compile(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z")
 MONTH_RE = re.compile(r"\d{4}-\d{2}")
 # control chars, bidi overrides (trojan-source), and chars illegal in XML
 CTRL_RE = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f-\x9f\u202a-\u202e\u2066-\u2069\ufffe\uffff]")
-# ---- job relevance and priority (jobs only; matched on folded text)
-JOB_BLOCK = ["human resources", "hr", "recruit", "talent", "sales", "marketing", "account executive",
-             "accountant", "accounting", "finance", "payroll", "legal", "lawyer", "customer support",
-             "customer success", "receptionist", "office manager", "administrative", "driver",
-             "business development", "procurement", "secretary", "ανθρωπιν", "λογιστ", "γραμματει"]
-JOB_SENIOR = ["senior", "sr.", "lead", "principal", "staff", "director", "head of", "manager",
-              "architect", "vp", "chief"]
-JOB_TECH = ["security", "cyber", "infosec", "soc", "siem", "pentest", "penetration", "vulnerab",
-            "malware", "forensic", "cryptograph", "threat", "devsecops", "appsec", "ai",
-            "machine learning", "deep learning", "llm", "artificial intelligence", "data scien",
-            "research", "scientist", "rf", "radio", "wireless", "sdr", "signal", "dsp", "antenna",
-            "5g", "telecom", "spectrum", "hpc", "supercomput", "quantum", "engineer", "developer",
-            "devops", "sysadmin", "system administrator", "network", "cloud", "linux", "software",
-            "ict", "computer", "informatics", "πληροφορικ", "κυβερνοασφ", "μηχανικ", "ερευνητ",
-            "προγραμματιστ"]
-SC_DAEDALUS = ["daedalus", "δαιδαλ", "lavrio", "lavrion", "λαυριο"]
-SC_HPC = ["eurohpc", "hpc", "supercomput", "quantum", "κβαντικ"]
-SC_JUNIOR = ["junior", "entry", "graduate", "trainee", "internship", "apprentice", "αποφοιτ",
-             "πρακτικη ασκηση"]
-SC_SEC = ["security", "cyber", "infosec", "κυβερνοασφαλ", "ασφαλεια"]
-SC_AI = ["ai", "machine learning", "deep learning", "llm", "artificial intelligence"]
-SC_RES = ["research", "scientist", "ερευνητ"]
-SC_RF = ["rf", "radio", "wireless", "sdr", "antenna", "spectrum", "5g", "dsp", "signal"]
-SC_GR = ["greece", "athens", "hellas", "attica", "αθηνα", "ελλαδα"]
-SCORED = {"jobs", "training"}
 
-# Diavgeia: only hiring calls with a recognisable technical role survive
-DIA_POST = ["προκηρυξ", "προσκληση", "ανακοινωση", "πληρωση", "προσληψ", "στελεχωση",
-            "εκδηλωση ενδιαφεροντος", "εκδηλωσης ενδιαφεροντος"]
-DIA_NOISE = ["πρακτικ", "αποτελεσμ", "ματαιωσ", "αναθεση", "προμηθει", "προμηθευτ", "πληρωμ", "δαπαν",
-             "εξοφληση", "διακηρυξ", "ανακληση", "τροποποιηση", "παρατασ", "πινακ", "εγκριση",
-             "θεμα", "εταιρει", "προσφορ", "παροχη υπηρεσιων", "αναδοχ"]
-DIA_SENIOR = ["διευθυντ", "προισταμεν", "συντονιστ", "επικεφαλ", "senior", "lead"]
-DIA_FIELDS = [("κυβερνοασφαλ", "Cybersecurity"), ("ασφαλειας πληροφορ", "Information Security"),
-              ("πληροφορικ", "IT / Informatics"), ("μηχανικων η/υ", "Computer Engineering"),
-              ("μηχανικων υπολογιστ", "Computer Engineering"), ("ηλεκτρονικων", "Electronics Engineering"),
-              ("ηλεκτρολογων", "Electrical Engineering"), ("τηλεπικοινων", "Telecommunications Engineering"),
-              ("δικτυων", "Networks"), ("μαθηματικ", "Mathematics / Data"),
-              ("στατιστικ", "Statistics / Data"), ("φυσικ", "Physics / Research")]
-DIA_LEVEL_RE = re.compile(r"(?<!\w)(πε|τε|δε)(?!\w)[\s/-]+([^,.;:()]{3,60})")
-
-
-def job_ok(item):
-    title = fold(item["title"])
-    text = fold(f"{item['title']} {item['summary']}")
-    return not kw_hit(title, JOB_BLOCK) and not kw_hit(title, JOB_SENIOR) and kw_hit(text, JOB_TECH)
-
-
-def job_score(source, title, summary):
-    t = fold(f"{title} {summary}")
-    s = 0
-    s += 40 if kw_hit(t, SC_DAEDALUS) else 0
-    s += 15 if ("grnet" in source.lower() or kw_hit(t, SC_HPC)) else 0
-    s += 25 if kw_hit(t, SC_JUNIOR) else 0
-    s += 20 if kw_hit(t, SC_SEC) else 0
-    s += 15 if (kw_hit(t, SC_AI) and kw_hit(t, SC_RES)) else 0
-    s += 15 if kw_hit(t, SC_RF) else 0
-    s += 10 if kw_hit(t, SC_GR) else 0
-    s += 5 if kw_hit(t, ["free", "δωρεαν"]) else 0
-    return min(s, 100)
 
 def log(msg): print(msg, flush=True)
 def warn(msg): print(f"::warning::{msg}", flush=True)
@@ -186,7 +124,7 @@ def load_feeds():
         names.add(f["name"])
         require(f["category"] in CATEGORIES, f"{f['name']}: unknown category")
         require(f["trust"] in TRUST, f"{f['name']}: unknown trust tier")
-        require(f.get("type", "rss") in ("rss", "kev", "watch", "workable", "diavgeia", "static"),
+        require(f.get("type", "rss") in ("rss", "kev", "watch", "workable", "diavgeia"),
                 f"{f['name']}: unknown type")
         require(f["url"].startswith("https://"), f"{f['name']}: feed URL must be HTTPS")
         domains = f["link_domains"]
@@ -207,11 +145,6 @@ def load_feeds():
                 f"{f['name']}: max_mb must be between 1 and {MAX_MB_CAP}")
         require(isinstance(f.setdefault("upgrade_http", False), bool), f"{f['name']}: upgrade_http must be true/false")
         f.setdefault("type", "rss")
-        if f["type"] == "static":
-            its = f.get("items")
-            require(isinstance(its, list) and 0 < len(its) <= 100 and all(
-                isinstance(e, dict) and isinstance(e.get("title"), str) and isinstance(e.get("link"), str)
-                for e in its), f"{f['name']}: static feeds need an items list of {{title, link}}")
         require(f["type"] not in ("watch", "workable", "diavgeia") or prefixes,
                 f"{f['name']}: {f['type']} feeds require link_prefix")
         for key in ("include", "require", "exclude", "exclude_title", "row_exclude"):
@@ -258,11 +191,6 @@ def clean_text(raw):
     for tag in soup(["script", "style", "iframe", "object", "embed"]):
         tag.decompose()
     text = CTRL_RE.sub("", soup.get_text(" ", strip=True))
-def sanitize_text(html_content):
-    """Strips all HTML tags to ensure safe, easily digestible plain text."""
-    if not html_content:
-        return ""
-    return BeautifulSoup(html_content, "html.parser").get_text(separator=" ", strip=True)
     return " ".join(text.split())
 
 
@@ -320,13 +248,10 @@ def matches(item, feed):
         and (not feed["require"] or kw_hit(text, feed["require"]))
         and not kw_hit(text, feed["exclude"])
         and not kw_hit(fold(item["title"]), feed["exclude_title"])
-        and (item["category"] != "jobs" or job_ok(item))
     )
 
 
 def build_item(feed, title, link, summary_html, published, key):
-    if urlparse(link).scheme not in ("http", "https"):
-        return None
     title = shorten(clean_text(title), TITLE_MAX)
     link = str(link or "").strip()
     if feed["upgrade_http"] and link.startswith("http://"):  # scheme only; allowlist checks still apply
@@ -335,26 +260,16 @@ def build_item(feed, title, link, summary_html, published, key):
     if not title or not link:
         return None
     summary_full = clean_text(summary_html)
-    summary = shorten(sanitize_text(summary_full), SUMMARY_MAX)
+    summary = shorten(summary_full, SUMMARY_MAX)
     if summary.lower() == title.lower():
         summary = ""
     cves = sorted({c.upper() for c in CVE_RE.findall(f"{title} {summary_full}")})[:10]
     key = key or f"{title}|{link}|{iso(published)}"
     item_id = hashlib.sha256(f"{feed['name']}|{key}".encode()).hexdigest()[:16]
-    
-    vt_data = scan_url(link) if feed["category"] in ["jobs", "training"] else {"scanned": False}
-    
-    if vt_data.get("malicious") or vt_data.get("new"):
-        feed["category"] = "warning"
-
     return {
         "id": item_id, "title": title, "link": link, "summary": summary,
         "source": feed["name"], "category": feed["category"], "trust": feed["trust"],
         "published": iso(published), "cves": cves, "kev": False,
-        "score": job_score(feed["name"], title, summary_full) if feed["category"] in SCORED else 0,
-        "scanned": vt_data.get("scanned", False),
-        "malicious": vt_data.get("malicious", False),
-        "new_domain": vt_data.get("new", False)
     }
 
 
@@ -367,10 +282,10 @@ def fetch(feed, fs):
     if fs.get("last_modified"):
         headers["If-Modified-Since"] = fs["last_modified"]
     session = requests.Session()
-    session.max_redirects = 3
+    session.max_redirects = MAX_REDIRECTS
     session.trust_env = False
     deadline = time.monotonic() + TOTAL_TIMEOUT
-    with session.get(feed["url"], headers=headers, timeout=10, stream=True) as r:
+    with session.get(feed["url"], headers=headers, timeout=TIMEOUT, stream=True) as r:
         if r.status_code == 304:
             return None, fs
         r.raise_for_status()
@@ -487,63 +402,27 @@ def diavgeia_url(feed, now):
     return f"{DIAVGEIA_SEARCH}?{urlencode(q)}"
 
 
-def diavgeia_role(subject):
-    """Readable role label for a hiring call, or None if the decision is not one."""
-    f = fold(subject)
-    if not kw_hit(f, DIA_POST) or kw_hit(f, DIA_NOISE) or kw_hit(f, DIA_SENIOR):
-        return None
-    level = field = None
-    for m in DIA_LEVEL_RE.finditer(f):
-        for key, label in DIA_FIELDS:
-            if fold(key) in m.group(2):
-                level, field = m.group(1).upper(), label
-                break
-        if field:
-            break
-    if not field and kw_hit(f, ["θεση", "θεσεις", "θεσεων", "προσληψ"]) \
-            and kw_hit(f, ["κυβερνοασφαλ", "ασφαλεια πληροφορ"]):
-        field = "Cybersecurity"
-    if not field:
-        return None
-    return f"Public sector: {field}" + (f" ({level})" if level else "") + " – hiring call"
-
-
 def parse_diavgeia(body, feed):
     data = json.loads(body)
     decisions = data.get("decisions") if isinstance(data, dict) else None
     if not isinstance(decisions, list):
         raise ValueError("unexpected Diavgeia format")
-    decisions, now, items, considered = decisions[:500], now_utc(), [], 0
+    decisions, now, items = decisions[:500], now_utc(), []
     for d in decisions:
         if not isinstance(d, dict):
             continue
         ada = str(d.get("ada", "")).strip()
         if not ADA_RE.fullmatch(ada):
             continue
-        subject = clean_text(d.get("subject"))
-        role = diavgeia_role(subject)
-        if not role:
-            continue          # not a hiring call: silently ignored, not counted as "rejected"
-        considered += 1
         try:
             published = min(datetime.fromtimestamp(int(d.get("issueDate")) / 1000, tz=timezone.utc), now)
         except (TypeError, ValueError, OverflowError, OSError):
             published = now
-        item = build_item(feed, role, "https://diavgeia.gov.gr/decision/view/" + quote(ada, safe=""),
-                          f"{subject} (ΑΔΑ: {ada})", published, ada)
+        item = build_item(feed, d.get("subject"), "https://diavgeia.gov.gr/decision/view/" + quote(ada, safe=""),
+                          f"ΑΔΑ: {ada}", published, ada)
         if item:
             items.append(item)
-    return items, considered
-
-
-def parse_static(body, feed):
-    """Hand-curated links (free training programmes etc.), validated like everything else."""
-    now, items = now_utc(), []
-    for e in feed["items"]:
-        item = build_item(feed, e.get("title"), e.get("link"), e.get("summary", ""), now, e.get("link"))
-        if item:
-            items.append(item)
-    return items, len(feed["items"])
+    return items, len(decisions)
 
 
 def parse_kev(body, feed):
@@ -593,17 +472,13 @@ def collect():
     live_changed = dirty = False
     accept = {n.strip() for n in os.environ.get("ACCEPT_SPIKE", "").split(",") if n.strip()}
 
-    errors = []
     for feed in feeds:
         name = feed["name"]
         first = name not in state["feeds"]
         try:
-            dynamic = feed["type"] in SNAPSHOT_TYPES or feed["type"] in ("diavgeia", "static")
+            dynamic = feed["type"] in SNAPSHOT_TYPES or feed["type"] == "diavgeia"
             src = dict(feed, url=diavgeia_url(feed, now)) if feed["type"] == "diavgeia" else feed
-            if feed["type"] == "static":
-                body, meta = b"", {}
-            else:
-                body, meta = fetch(src, {} if dynamic else state["feeds"].get(name, {}))
+            body, meta = fetch(src, {} if dynamic else state["feeds"].get(name, {}))
             if body is None:
                 log(f"{name}: not modified")
                 continue
@@ -616,8 +491,6 @@ def collect():
                 entries, total = parse_workable(body, feed)
             elif feed["type"] == "diavgeia":
                 entries, total = parse_diavgeia(body, feed)
-            elif feed["type"] == "static":
-                entries, total = parse_static(body, feed)
             else:
                 entries, total = parse_rss(body, feed)
         except Exception as exc:  # one bad feed must not stop the others
@@ -637,12 +510,6 @@ def collect():
         fresh = {i["id"]: i for i in entries
                  if i["id"] not in known and (snap or i["published"] >= cutoff) and matches(i, feed)}
         fresh = sorted(fresh.values(), key=lambda i: i["published"], reverse=True)
-
-        for item in fresh:
-            if feed["category"] in ("jobs", "training"):
-                vt_data = scan_url(item["link"], errors)
-                if vt_data.get("malicious") or vt_data.get("new"):
-                    item["category"] = "warning"
 
         # Guard 2: sudden flood of new items. Re-run manually with accept_spike=<feed name> if legitimate.
         if not first and len(fresh) > ANOMALY_FRESH and name not in accept:
@@ -700,7 +567,6 @@ def collect():
     today = now.strftime("%Y-%m-%d")
     keep_after = (now - timedelta(days=SEEN_TTL_DAYS)).strftime("%Y-%m-%d")
     live_ids = {i for ids in state["live"].values() for i in ids}
-    write_json(ROOT / "data" / "errors.json", errors)
     seen = {k: v for k, v in state["seen"].items() if v >= keep_after or k in live_ids}
     seen.update({i: today for i in to_mark})
     state["seen"], state["kev_cves"] = seen, sorted(kev_set)
@@ -722,12 +588,8 @@ def valid_item(it, by_source):
             and 0 < len(it["title"]) <= TITLE_MAX + 1 and len(it["summary"]) <= SUMMARY_MAX + 1
             and isinstance(it["cves"], list) and len(it["cves"]) <= 10
             and all(isinstance(c, str) and CVE_FULL.fullmatch(c) for c in it["cves"])
+            and isinstance(it["kev"], bool)
             and it["source"] in by_source
-            and isinstance(it.get("score", 0), int)
-            and (by_source[it["source"]]["type"] != "diavgeia" or it["title"].startswith("Public sector:"))
-            and isinstance(it.get("scanned", False), bool)
-            and isinstance(it.get("malicious", False), bool)
-            and isinstance(it.get("new_domain", False), bool)
             and safe_link(it["link"], by_source[it["source"]]["link_domains"],
                           by_source[it["source"]]["link_prefix"]) is not None
         )
@@ -762,23 +624,16 @@ def build():
     require(re.fullmatch(r"[\w.-]+", owner) and re.fullmatch(r"[\w.-]+", repo), "bad GITHUB_REPOSITORY")
     site_url = f"https://{owner.lower()}.github.io/{repo}/"
 
-    months, dropped, bad = {}, 0, Counter()
+    months, dropped = {}, 0
     for p in sorted(ARCHIVE_DIR.glob("*.json"), reverse=True):
         if not MONTH_RE.fullmatch(p.stem):
             continue
         raw = json.loads(p.read_text("utf-8"))
-        good = []
-        for i in raw:
-            if valid_item(i, by_source):
-                good.append(i)
-            else:
-                bad[i.get("source", "?") if isinstance(i, dict) else "?"] += 1
+        good = [i for i in raw if valid_item(i, by_source)]
         dropped += len(raw) - len(good)
         months[p.stem] = sorted(good, key=lambda i: (i["published"], i["id"]), reverse=True)
     if dropped:
         warn(f"{dropped} archived items failed validation and were left out")
-        for src, n in bad.items():
-            warn(f"  {n} dropped from source: {src}")
     items = sorted((i for m in months.values() for i in m),
                    key=lambda i: (i["published"], i["id"]), reverse=True)
 
@@ -809,13 +664,10 @@ def build():
     render("index.html", "list.html.j2", title="Latest", heading="Latest",
            intro="Newest security items from every trusted source (jobs and training have their own pages).",
            items=[i for i in open_items if i["category"] not in NOT_IN_LATEST][:PAGE_ITEMS], current="all")
-
     rss("all", "Threat feed: all", "Every security category.",
         [i for i in open_items if i["category"] not in NOT_IN_LATEST])
     for slug, (label, desc) in CATEGORIES.items():
         subset = [i for i in open_items if i["category"] == slug]
-        if slug in NOT_IN_LATEST:
-            subset = sorted(subset, key=lambda i: (i.get("score", 0), i["published"], i["id"]), reverse=True)
         render(f"{slug}.html", "list.html.j2", title=label, heading=label, intro=desc,
                items=subset[:PAGE_ITEMS], current=slug)
         rss(slug, f"Threat feed: {label}", desc, subset)
@@ -824,27 +676,7 @@ def build():
     for m, subset in months.items():
         render(f"archive/{m}.html", "list.html.j2", root="../", title=m, heading=m,
                intro=f"{len(subset)} items first seen in {m}.", items=subset, current="archive")
-    from stats import generate_graphs
-    from collections import defaultdict
-    # Compute stats for graphs over last 30 days
-    date_counts = defaultdict(int)
-    for m, subset in months.items():
-        for i in subset:
-            d = i["published"][:10]
-            date_counts[d] += 1
-    sorted_dates = sorted(date_counts.keys())[-30:] if date_counts else [built.strftime("%Y-%m-%d")]
-    items_scanned_vals = [date_counts[d] for d in sorted_dates]
-    
-    errors_file = ROOT / "data" / "errors.json"
-    err_list = json.loads(errors_file.read_text("utf-8")) if errors_file.exists() else []
-    error_counts_vals = [len(err_list)] * len(sorted_dates) if sorted_dates else [0]
-    try:
-        generate_graphs(sorted_dates, items_scanned_vals, error_counts_vals)
-    except Exception as e:
-        warn(f"Failed to generate stats graphs: {e}")
-
-    render("stats.html", "stats.html.j2", title="Statistics", heading="Statistics & System Health",
-           intro="Hand-drawn performance and error metrics for the threat feed aggregator.", current="stats")
+    render("subscribe.html", "subscribe.html.j2", title="Subscribe", current="subscribe")
     shutil.copy(ROOT / "static" / "style.css", SITE_DIR / "style.css")
     log(f"Built site with {len(items)} items in {len(months)} month(s).")
 
