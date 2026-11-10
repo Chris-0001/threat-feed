@@ -479,7 +479,7 @@ def collect():
     feeds, state = load_feeds(), load_state()
     now = now_utc()
     cutoff = iso(now - timedelta(days=MAX_AGE_DAYS))
-    new, to_mark, new_meta, failed = [], [], {}, 0
+    new, to_mark, new_meta, failed, errors = [], [], {}, 0, []
     kev_set = set(state["kev_cves"])
     archived = archived_ids()
     live_changed = dirty = False
