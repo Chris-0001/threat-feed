@@ -33,7 +33,7 @@ jobs:
       - run: pip install --require-hashes -r requirements.txt
       - id: collect
         env:
-          ACCEPT_SPIKE: "true"   # passed via env, never interpolated into the shell
+          ACCEPT_SPIKE: "Microsoft MSRC, Diavgeia: cybersecurity posts"   # passed via env, never interpolated into the shell
         run: python main.py collect
       - name: Commit data
         env:
