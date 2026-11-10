@@ -1,6 +1,3 @@
-import whois
-from urllib.parse import urlparse
-from datetime import datetime
 import time
 import requests
 import json
@@ -24,21 +21,7 @@ def save_cache(cache):
 def scan_url(url, error_log=None):
     cache = load_cache()
     if url in cache:
-        return cache[url] # Returns dict: {"malicious": bool, "new": bool, "scanned": True}
-
-    domain = urlparse(url).netloc
-    is_new = False
-    
-    # 1. Local WHOIS check for new domains (Free, no API)
-    try:
-        w = whois.whois(domain)
-        creation = w.creation_date
-        if isinstance(creation, list):
-            creation = creation[0]
-        if creation and (datetime.now() - creation).days < 30:
-            is_new = True
-    except:
-        pass # WHOIS failed, proceed to VT
+        return cache[url]
 
     headers = {"x-apikey": VT_API_KEY}
     is_malicious = False
@@ -62,7 +45,7 @@ def scan_url(url, error_log=None):
         if error_log is not None:
             error_log.append(error_msg)
 
-    result = {"malicious": is_malicious, "new": is_new, "scanned": True}
+    result = {"malicious": is_malicious, "scanned": True}
     cache[url] = result
     save_cache(cache)
     return result
