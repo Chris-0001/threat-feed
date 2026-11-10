@@ -2,6 +2,265 @@
  {
   "category": "news",
   "cves": [],
+  "id": "03c62698a8c4247d",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+  "published": "2026-11-09T23:52:12Z",
+  "source": "BleepingComputer",
+  "summary": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]",
+  "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-4271",
+   "CVE-2026-5119",
+   "CVE-2026-6324",
+   "CVE-2026-66339",
+   "CVE-2026-77014",
+   "CVE-2026-77680",
+   "CVE-2026-85197",
+   "CVE-2026-85534"
+  ],
+  "id": "01c3135dbd5cabfa",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8890-3",
+  "published": "2026-11-09T23:12:32Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "USN-8890-1 fixed vulnerabilities in libsoup. Unfortunately, that update introduced a memory leak in the cookie jar and could introduce a regression. This update fixes the problem. We apologize for the inconvenience.",
+  "title": "USN-8890-3: libsoup regression",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "a6aee9ac6edae2ff",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+  "published": "2026-11-09T22:09:33Z",
+  "source": "BleepingComputer",
+  "summary": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]",
+  "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "8e48e8021fb85d2d",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+  "published": "2026-11-09T21:26:25Z",
+  "source": "BleepingComputer",
+  "summary": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let…",
+  "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "bcb898182168f039",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+  "published": "2026-11-09T21:22:31Z",
+  "source": "BleepingComputer",
+  "summary": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted through online forms. [...]",
+  "title": "York University breach exposed personal information dating to 2007",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f0ecadf999f56544",
+  "kev": false,
+  "link": "https://therecord.media/amplifon-hearing-aid-company-data-breach",
+  "published": "2026-11-09T20:44:00Z",
+  "source": "The Record",
+  "summary": "The U.S arm of international hearing aid company Amplifon has been notifying customers about a data breach early this year that included medical information.",
+  "title": "Data breach at hearing aid giant Amplifon impacts thousands",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "1bf8bb1f5688d3b5",
+  "kev": false,
+  "link": "https://therecord.media/france-blames-iran-for-fridge-cyberattacks",
+  "published": "2026-11-09T18:45:00Z",
+  "source": "The Record",
+  "summary": "In the first attribution since the October attacks, the French authorities identified the perpetrators as part of Shahid Kaveh, an IRGC cyber unit previously linked to attacks on industrial controllers at U.S. water utilities.",
+  "title": "France blames Iran for fridge cyberattacks, says some caused fires",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "26d3eb464074c9d5",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+  "published": "2026-11-09T18:32:42Z",
+  "source": "BleepingComputer",
+  "summary": "France has linked October cyberattacks that disrupted refrigeration systems at more than 700 supermarkets and other retail locations to Iranian state-backed hackers, saying the attacks caused food losses and sparked at least 15 fires. [...]",
+  "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "35c4b77a5070a9a8",
+  "kev": false,
+  "link": "https://therecord.media/vanderbilt-cyberattack-ransomware-alert",
+  "published": "2026-11-09T18:30:00Z",
+  "source": "The Record",
+  "summary": "Vanderbilt University announced a cyberattack, warning students and employees that campus devices and systems may be impacted by the incident.",
+  "title": "Vanderbilt cybersecurity incident impacting campus devices and systems",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "f1f08918574449a4",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33502",
+  "published": "2026-11-09T18:18:15Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "Just saw a new (to me) URL in our honeypot data today:",
+  "title": "Attackers Searching for SAP Netweaver Webshells, (Mon, Nov 9th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-101516",
+   "CVE-2026-114820",
+   "CVE-2026-83374",
+   "CVE-2026-83376",
+   "CVE-2026-83378",
+   "CVE-2026-83380",
+   "CVE-2026-83381",
+   "CVE-2026-83387",
+   "CVE-2026-83395",
+   "CVE-2026-83400"
+  ],
+  "id": "30a9fd0a7c90a85e",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9015-1",
+  "published": "2026-11-09T18:01:03Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that the Security component of OpenJDK 21 did not correctly authenticate users. A remote attacker could possibly use this issue to modify sensitive data.",
+  "title": "USN-9015-1: OpenJDK 21 vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "04610a07d687786f",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+  "published": "2026-11-09T17:51:21Z",
+  "source": "The Hacker News",
+  "summary": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today.",
+  "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "bbe2aedc12dd6d97",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
+  "published": "2026-11-09T17:50:32Z",
+  "source": "BleepingComputer",
+  "summary": "A data-wiping malware attack has forced Russian cloud services provider Beget to rebuild its cloud infrastructure from scratch, the company said. [...]",
+  "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "8a822b63923e3237",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+  "published": "2026-11-09T17:36:28Z",
+  "source": "The Hacker News",
+  "summary": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2.",
+  "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-101516",
+   "CVE-2026-114820",
+   "CVE-2026-83374",
+   "CVE-2026-83376",
+   "CVE-2026-83380",
+   "CVE-2026-83381",
+   "CVE-2026-83387",
+   "CVE-2026-83395",
+   "CVE-2026-83400",
+   "CVE-2026-87290"
+  ],
+  "id": "ddd31957506ba517",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9014-1",
+  "published": "2026-11-09T17:27:36Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that the Security component of OpenJDK 17 did not correctly authenticate users. A remote attacker could possibly use this issue to modify sensitive data.",
+  "title": "USN-9014-1: OpenJDK 17 vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2021-36386",
+   "CVE-2025-61962",
+   "CVE-2026-94184"
+  ],
+  "id": "b5dd9d05a2eef9d2",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9013-1",
+  "published": "2026-11-09T17:17:55Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Christian Herdtweck discovered that Fetchmail incorrectly handled certain long log messages. A remote attacker could possibly use this issue to cause Fetchmail to crash, resulting in a denial of service.",
+  "title": "USN-9013-1: Fetchmail vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "34e2ed5a4ab3bd4a",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9012-1",
+  "published": "2026-11-09T16:44:41Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Alex Thomas discovered that libheif incorrectly handled certain HEIF images. An attacker could possibly use this issue to execute arbitrary code if a user or automated system were tricked into opening a specially crafted file.",
+  "title": "USN-9012-1: libheif vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-119194",
+   "CVE-2026-119195",
+   "CVE-2026-119196",
+   "CVE-2026-119197",
+   "CVE-2026-59884",
+   "CVE-2026-59885",
+   "CVE-2026-59886"
+  ],
+  "id": "87374e37ff0ed4e1",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9011-1",
+  "published": "2026-11-09T16:15:14Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that pyasn1 did not properly bound the size of long-form tag identifiers when parsing BER, CER, or DER encoded data.",
+  "title": "USN-9011-1: pyasn1 vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "0ae9d1fc881b366e",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
@@ -24,6 +283,52 @@
   "summary": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access. [...]",
   "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114820",
+   "CVE-2026-83374",
+   "CVE-2026-83376",
+   "CVE-2026-83380",
+   "CVE-2026-83381",
+   "CVE-2026-83387",
+   "CVE-2026-83395",
+   "CVE-2026-83400",
+   "CVE-2026-87290",
+   "CVE-2026-87292"
+  ],
+  "id": "111c82395c9be574",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9009-1",
+  "published": "2026-11-09T16:04:44Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that the Security component of OpenJDK 8 did not correctly authenticate users. A remote attacker could possibly use this issue to modify sensitive data.",
+  "title": "USN-9009-1: OpenJDK 8 vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114820",
+   "CVE-2026-83374",
+   "CVE-2026-83376",
+   "CVE-2026-83380",
+   "CVE-2026-83381",
+   "CVE-2026-83387",
+   "CVE-2026-83395",
+   "CVE-2026-83400",
+   "CVE-2026-87290",
+   "CVE-2026-87292"
+  ],
+  "id": "1557e599b64ceed1",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9010-1",
+  "published": "2026-11-09T15:35:24Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that the Security component of OpenJDK 11 did not correctly authenticate users. A remote attacker could possibly use this issue to modify sensitive data.",
+  "title": "USN-9010-1: OpenJDK 11 vulnerabilities",
+  "trust": "official"
  },
  {
   "category": "news",
@@ -269,6 +574,23 @@
   "trust": "official"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-102895",
+   "CVE-2026-116779",
+   "CVE-2026-123158",
+   "CVE-2026-123218"
+  ],
+  "id": "148e7162290c9728",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+  "published": "2026-11-09T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "d091cb0375eb4236",
@@ -442,6 +764,20 @@
   "source": "CISA KEV",
   "summary": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
   "title": "CVE-2026-123158: OpenBSD OpenSSH (OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-123218"
+  ],
+  "id": "0c2276e66c675348",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218",
+  "published": "2026-11-09T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations.",
+  "title": "CVE-2026-123218: IBM Aspera Faspex (IBM Aspera Faspex Incorrect Authorization Vulnerability)",
   "trust": "official"
  },
  {
