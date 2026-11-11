@@ -1,5 +1,43 @@
 [
  {
+  "category": "news",
+  "cves": [
+   "CVE-2026-20320"
+  ],
+  "id": "f8f60c105e3607d2",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+  "published": "2026-11-11T06:04:02Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of…",
+  "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "d05fbccf1b1de7ab",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33510",
+  "published": "2026-11-11T02:00:03Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "",
+  "title": "ISC Stormcast For Wednesday, November 11th, 2026 https://isc.sans.edu/podcastdetail/10174, (Wed, Nov 11th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "7bd01542a478db3a",
+  "kev": false,
+  "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
+  "published": "2026-11-11T01:41:17Z",
+  "source": "Cisco Talos",
+  "summary": "Microsoft has released its monthly security update for November 2026, which includes 1328 vulnerabilities affecting a range of products, including 60 that Microsoft marked as \"critical.\" Out of 60 \"critical\" vulnerabilities, 45 are remote code…",
+  "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities",
+  "trust": "vendor"
+ },
+ {
   "category": "advisories",
   "cves": [
    "CVE-2026-20183",
@@ -4257,6 +4295,18 @@
   "trust": "official"
  },
  {
+  "category": "jobs",
+  "cves": [],
+  "id": "d733fab5e00a94fa",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/%CE%A801%CE%9D46%CE%9D%CE%987%CE%94-%CE%97%CE%A5%CE%91",
+  "published": "2026-11-10T00:00:00Z",
+  "source": "Diavgeia: cybersecurity posts",
+  "summary": "ΑΔΑ: Ψ01Ν46ΝΘ7Δ-ΗΥΑ",
+  "title": "ΑΠΟΦΑΣΗ ΔΙΕΝΕΡΓΕΙΑΣ ΔΙΑΓΩΝΙΣΜΟΥ ΜΕ ΠΡΟΣΦΥΓΗ ΣΤΗ ΔΙΑΔΙΚΑΣΙΑ ΤΗΣ ΑΠΕΥΘΕΙΑΣ ΑΝΑΘΕΣΗΣ ΓΙΑ ΠΡΟΜΗΘΕΙΑ ΣΥΣΤΗΜΑΤΟΣ ΕΣΩΤΕΡΙΚΗΣ ΣΚΙΑΣΗΣ (ΡΟΛΟΚΟΥΡΤΙΝΕΣ) ΓΙΑ ΤΙΣ ΑΝΑΓΚΕΣ ΤΗΣ ΕΘΝΙΚΗΣ ΑΡΧΗΣ ΚΥΒΕΡΝΟΑΣΦΑΛΕΙΑΣ…",
+  "trust": "official"
+ },
+ {
   "category": "exploited",
   "cves": [
    "CVE-2026-124194"
@@ -4282,6 +4332,18 @@
   "source": "CISA KEV",
   "summary": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
   "title": "CVE-2026-20320: Cisco BroadWorks (Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "55807efd67697c2d",
+  "kev": false,
+  "link": "https://diavgeia.gov.gr/decision/view/970%CE%9B46%CE%9D%CE%987%CE%94-%CE%9D1%CE%95",
+  "published": "2026-11-10T00:00:00Z",
+  "source": "Diavgeia: cybersecurity posts",
+  "summary": "ΑΔΑ: 970Λ46ΝΘ7Δ-Ν1Ε",
+  "title": "«Αποδοχή μέρους του 13ου Πρακτικού της Επιτροπής Παρακολούθησης και Παραλαβής, της υπ’ αριθμ. 21/2026 (ΑΔΑΜ: 26SYMV018977542) Σύμβασης, όπως έχει τροποποιηθεί και ισχύει, για την παροχή…",
   "trust": "official"
  },
  {

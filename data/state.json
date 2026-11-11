@@ -1,12 +1,13 @@
 {
  "daily_errors": {
-  "2026-11-10": 7
+  "2026-11-10": 7,
+  "2026-11-11": 2
  },
  "empty": {},
  "feeds": {
   "BleepingComputer": {
-   "etag": "325fbb6825ce57173886350ee3baa3f0",
-   "last_modified": "Tue, 10 Nov 2026 23:20:22 GMT"
+   "etag": "05f707795b3977ad8d8db906eeeabe7c",
+   "last_modified": "Wed, 11 Nov 2026 06:20:22 GMT"
   },
   "CERT-EU": {},
   "CISA Advisories": {},
@@ -17,18 +18,18 @@
   "Canadian Cyber Centre": {},
   "Cisco Security Advisories": {},
   "Cisco Talos": {
-   "etag": "W/\"fb554-ZuWfQG8ksdeS1Bkhi4JbPCNJrtw\""
+   "etag": "W/\"f7806-RkUsV6TsCC9nF8XVKjEelOLeL5k\""
   },
   "Diavgeia: IT posts": {},
   "Diavgeia: cybersecurity posts": {},
   "Diavgeia: infosec posts": {},
   "ENISA Opportunities": {
-   "etag": "\"1794348050-gzip\"",
-   "last_modified": "Tue, 10 Nov 2026 22:00:50 GMT"
+   "etag": "\"1794363325-gzip\"",
+   "last_modified": "Wed, 11 Nov 2026 02:15:25 GMT"
   },
   "ENISA Vacancies": {
-   "etag": "\"1794348050-gzip\"",
-   "last_modified": "Tue, 10 Nov 2026 22:00:50 GMT"
+   "etag": "\"1794363325-gzip\"",
+   "last_modified": "Wed, 11 Nov 2026 02:15:25 GMT"
   },
   "FOSS Jobs: Consultants": {},
   "FOSS Jobs: Programmers": {},
@@ -37,7 +38,7 @@
   "Free training (curated)": {},
   "GRNET Careers": {},
   "Google Project Zero": {
-   "last_modified": "Tue, 03 Nov 2026 22:31:07 GMT"
+   "last_modified": "Wed, 11 Nov 2026 00:07:29 GMT"
   },
   "Google Threat Intelligence": {},
   "Krebs on Security": {
@@ -48,15 +49,15 @@
    "last_modified": "Tue, 10 Nov 2026 21:28:57 GMT"
   },
   "SANS Internet Storm Center": {
-   "etag": "W/\"1e8c-65ff44d74f5ce\"",
-   "last_modified": "Tue, 10 Nov 2026 23:18:56 GMT"
+   "etag": "W/\"1a6f-65ffa2b817473\"",
+   "last_modified": "Wed, 11 Nov 2026 06:18:56 GMT"
   },
   "SecurityWeek": {
-   "etag": "\"c85d7bfa840a277f8a6b47a5e13de351\"",
-   "last_modified": "Tue, 10 Nov 2026 19:19:53 GMT"
+   "etag": "W/\"dd8d93ec513220cc6d18a074dc89e2eb\"",
+   "last_modified": "Wed, 11 Nov 2026 06:08:26 GMT"
   },
   "The Hacker News": {
-   "last_modified": "Tue, 10 Nov 2026 22:45:36 GMT"
+   "last_modified": "Wed, 11 Nov 2026 06:15:21 GMT"
   },
   "The Record": {},
   "UK NCSC": {
@@ -4046,6 +4047,7 @@
   "55706c4d681d1e7d": "2026-11-07",
   "5574fef5f91a23a6": "2026-11-07",
   "557509a96569c4d3": "2026-11-07",
+  "55807efd67697c2d": "2026-11-11",
   "5589429bea225ff9": "2026-11-07",
   "558f157292d676b7": "2026-11-07",
   "5590852c94bcb225": "2026-11-09",
@@ -5007,6 +5009,7 @@
   "7bc9583ce1d9efb2": "2026-11-07",
   "7bcb60eca93cb26a": "2026-11-03",
   "7bccf9a2cdb90c69": "2026-10-08",
+  "7bd01542a478db3a": "2026-11-11",
   "7bdca12328ac4659": "2026-11-07",
   "7be5bbea35e76b0f": "2026-11-07",
   "7bef635014408d26": "2026-11-07",
@@ -7097,6 +7100,7 @@
   "d0495ea21814f959": "2026-10-15",
   "d04a44a8f818230c": "2026-11-07",
   "d04c257f497f4147": "2026-11-07",
+  "d05fbccf1b1de7ab": "2026-11-11",
   "d061d44d7cc2d841": "2026-11-07",
   "d064f95214acedb8": "2026-11-07",
   "d0740362c995f8f0": "2026-10-22",
@@ -7267,6 +7271,7 @@
   "d720d31bfbb4da0b": "2026-11-07",
   "d72445c142be7e91": "2026-11-07",
   "d72f569b7133510a": "2026-11-07",
+  "d733fab5e00a94fa": "2026-11-11",
   "d73963ebc207bcc4": "2026-10-28",
   "d7423e7b87f24c1b": "2026-11-04",
   "d74d4c1fd4e4ca56": "2026-11-10",
@@ -8109,6 +8114,7 @@
   "f8e13397a3f588bd": "2026-11-07",
   "f8e5f816c91e36eb": "2026-11-07",
   "f8ee5d62c211b777": "2026-11-07",
+  "f8f60c105e3607d2": "2026-11-11",
   "f9064383a0dfd8ee": "2026-11-07",
   "f90991d59172e433": "2026-11-07",
   "f9123a1c36f61d41": "2026-11-07",
