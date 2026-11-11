@@ -2,6 +2,116 @@
  {
   "category": "news",
   "cves": [],
+  "id": "5a45cd786a572b33",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+  "published": "2026-11-11T21:27:40Z",
+  "source": "BleepingComputer",
+  "summary": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the certificate-generation process. [...]",
+  "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "63f59204bbb91b5d",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+  "published": "2026-11-11T20:54:20Z",
+  "source": "BleepingComputer",
+  "summary": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]",
+  "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f1a7613532afb3ec",
+  "kev": false,
+  "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+  "published": "2026-11-11T18:06:01Z",
+  "source": "Krebs on Security",
+  "summary": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone.",
+  "title": "Who Runs the Ransomware Group Qilin?",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "1d696928694b18aa",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9046-1",
+  "published": "2026-11-11T17:42:27Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Multiple security issues were discovered in MySQL. MySQL has been updated to 8.4.13 in Ubuntu 26.04 LTS. Ubuntu 26.10 has been updated to MySQL 9.7.4. Ubuntu 22.04 LTS and Ubuntu 24.04 LTS packages have been updated with backported patches.",
+  "title": "USN-9046-1: MySQL vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3ae8091dec8539df",
+  "kev": false,
+  "link": "https://therecord.media/iran-backed-network-directed-london-attacks-over-facetime",
+  "published": "2026-11-11T16:57:00Z",
+  "source": "The Record",
+  "summary": "An indictment unsealed Tuesday says the broader campaign, targeting Jewish and American sites, included attacks on synagogues in Belgium, the Netherlands and London, and U.S. bank buildings in Amsterdam and Paris.",
+  "title": "Iran-backed network directed London attacks over FaceTime, US prosecutors say",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "e1f267876aeb7ee7",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+  "published": "2026-11-11T16:24:18Z",
+  "source": "BleepingComputer",
+  "summary": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
+  "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-108186"
+  ],
+  "id": "57473097906c2f4e",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+  "published": "2026-11-11T16:12:46Z",
+  "source": "The Hacker News",
+  "summary": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems.",
+  "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "5c252487ede6c873",
+  "kev": false,
+  "link": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
+  "published": "2026-11-11T15:42:47Z",
+  "source": "SecurityWeek",
+  "summary": "A critical authentication bypass allows attackers to execute arbitrary code as admin and take over XCP-ng nodes. The post Critical Xen Orchestra Flaws Exploited in Attacks appeared first on SecurityWeek .",
+  "title": "Critical Xen Orchestra Flaws Exploited in Attacks",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "eaddf99f3660f074",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+  "published": "2026-11-11T15:34:27Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments.",
+  "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "c2552f12bf009c56",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
@@ -204,6 +314,79 @@
   "trust": "media"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-35341",
+   "CVE-2026-35344",
+   "CVE-2026-35345",
+   "CVE-2026-35348",
+   "CVE-2026-35350",
+   "CVE-2026-35351",
+   "CVE-2026-35354",
+   "CVE-2026-35357",
+   "CVE-2026-35359",
+   "CVE-2026-35360"
+  ],
+  "id": "c3c667634781224b",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9041-1",
+  "published": "2026-11-11T10:45:28Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that uutils coreutils mkfifo incorrectly continued processing when a target file already existed, applying default permissions to the existing file.",
+  "title": "USN-9041-1: uutils coreutils vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2023-20585",
+   "CVE-2026-64349",
+   "CVE-2026-64530",
+   "CVE-2026-64532",
+   "CVE-2026-64533",
+   "CVE-2026-64534",
+   "CVE-2026-64535",
+   "CVE-2026-64537",
+   "CVE-2026-64538",
+   "CVE-2026-64539"
+  ],
+  "id": "61b93fc45a8634d0",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9043-1",
+  "published": "2026-11-11T10:40:18Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that some AMD processors did not properly perform Reverse Map Table (RMP) checks when the IOMMU accessed certain host buffers.",
+  "title": "USN-9043-1: Linux kernel (NVIDIA) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "0252536cede3b900",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9045-1",
+  "published": "2026-11-11T10:40:10Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "A security issue was discovered in the Linux kernel. An attacker could possibly use this to compromise the system. This update corrects flaws in the following subsystems: - IPv4 networking;",
+  "title": "USN-9045-1: Linux kernel (NVIDIA) vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-98239",
+   "CVE-2026-98432"
+  ],
+  "id": "69c73cc6d837b315",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9044-1",
+  "published": "2026-11-11T10:40:04Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Network drivers; - IPv4 networking; (CVE-2026-98239, CVE-2026-98432)",
+  "title": "USN-9044-1: Linux kernel (NVIDIA BaseOS) vulnerabilities",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "60fe7a47de24952c",
@@ -267,6 +450,29 @@
   "trust": "media"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2023-20585",
+   "CVE-2024-52560",
+   "CVE-2024-53056",
+   "CVE-2024-56552",
+   "CVE-2024-58094",
+   "CVE-2024-58095",
+   "CVE-2025-21687",
+   "CVE-2025-21985",
+   "CVE-2025-22104",
+   "CVE-2025-22108"
+  ],
+  "id": "8eb7066c0fb4cc4f",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9040-1",
+  "published": "2026-11-11T08:27:44Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that some AMD processors did not properly perform Reverse Map Table (RMP) checks when the IOMMU accessed certain host buffers.",
+  "title": "USN-9040-1: Linux kernel (Low Latency NVIDIA) vulnerabilities",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "98673cb69a449a65",
@@ -277,6 +483,48 @@
   "summary": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws.",
   "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2023-54397",
+   "CVE-2024-14029",
+   "CVE-2026-103262",
+   "CVE-2026-103263",
+   "CVE-2026-91990",
+   "CVE-2026-91992"
+  ],
+  "id": "d2e63dffd641791e",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8952-3",
+  "published": "2026-11-11T08:15:26Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "USN-8952-2 fixed a regression in Tornado that broke static file serving for applications that subclass Tornado's StaticFileHandler, such as Jupyter.",
+  "title": "USN-8952-3: Tornado regression",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2024-52560",
+   "CVE-2024-53056",
+   "CVE-2024-58094",
+   "CVE-2024-58095",
+   "CVE-2025-22104",
+   "CVE-2025-22108",
+   "CVE-2025-22127",
+   "CVE-2025-37807",
+   "CVE-2025-37833",
+   "CVE-2025-38203"
+  ],
+  "id": "eb4f579fc34bccb5",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9039-1",
+  "published": "2026-11-11T08:12:23Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - USB Gadget drivers; - Memory management; - Network file systems…",
+  "title": "USN-9039-1: Linux kernel (Azure CVM) vulnerabilities",
+  "trust": "official"
  },
  {
   "category": "news",
