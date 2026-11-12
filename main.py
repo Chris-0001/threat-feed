@@ -179,9 +179,24 @@ def load_feeds():
 
 
 def load_state():
-    state = json.loads(STATE_FILE.read_text("utf-8")) if STATE_FILE.exists() else {}
-    state.setdefault("skips", {})
-    state.setdefault("empty", [])  # This line prevents the KeyError
+    try:
+        state = json.loads(STATE_FILE.read_text("utf-8")) if STATE_FILE.exists() else {}
+    except (OSError, ValueError):
+        warn("state.json unreadable, starting from empty state")
+        state = {}
+        
+    if not isinstance(state, dict):
+        state = {}
+        
+    defaults = {
+        "feeds": {}, "seen": {}, "kev_cves": [], "live": {}, "empty": {},
+        "skips": {},
+    }
+    
+    for key, default in defaults.items():
+        if not isinstance(state.get(key), type(default)):
+            state[key] = default
+            
     return state
 
 
