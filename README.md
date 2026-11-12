@@ -19,7 +19,7 @@ flowchart TD
         B --> B1[Fetch: HTTPS-only, size cap, redirect limits]
         B1 --> B2[Parse RSS / KEV / Watch / Workable / Static with defusedxml]
         B2 --> B3[Sanitize HTML summaries & Validate allowlist]
-        B3 --> B4[Deduplicate & Optional VirusTotal Scan\n(VT_API_KEY secret)]
+        B3 --> B4["Deduplicate & Optional VirusTotal Scan<br>(VT_API_KEY secret)"]
         B4 --> B5[Commit data/ to repo]
     end
     B5 --> C[build job]

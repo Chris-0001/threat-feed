@@ -5,4 +5,26 @@
 <div style="text-align: center; margin-top: 2rem;">
     <img src="assets/stats.svg" alt="Statistics Graphs" style="max-width: 100%; height: auto;">
 </div>
+<section class="architecture-diagram" style="margin-top: 3rem;">
+  <h2>System Architecture</h2>
+  <div class="mermaid">
+    flowchart TD
+        A[Hourly Schedule / Manual Run] --> B[collect job]
+        subgraph collect job
+            B --> B1[Fetch: HTTPS-only, size cap, redirect limits]
+            B1 --> B2[Parse RSS / KEV / Watch / Workable / Static with defusedxml]
+            B2 --> B3[Sanitize HTML summaries & Validate allowlist]
+            B3 --> B4["Deduplicate & Optional VirusTotal Scan<br>(VT_API_KEY secret)"]
+            B4 --> B5[Commit data/ to repo]
+        end
+        B5 --> C[build job]
+        subgraph build job
+            C --> C1[Validate archive data schema]
+            C1 --> C2[Render HTML pages, RSS feeds & stats.svg]
+        end
+        C2 --> D[deploy job]
+        D --> E[GitHub Pages Site & RSS Feeds]
+        E --> F[Reader / RSS App / Browser]
+  </div>
+</section>
 {% endblock %}
