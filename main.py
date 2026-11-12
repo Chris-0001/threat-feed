@@ -180,12 +180,8 @@ def load_feeds():
 
 def load_state():
     state = json.loads(STATE_FILE.read_text("utf-8")) if STATE_FILE.exists() else {}
-    state.setdefault("feeds", {})      # name -> {etag, last_modified}
-    state.setdefault("seen", {})       # item id -> first-seen date
-    state.setdefault("kev_cves", [])   # CVEs currently in CISA KEV
-    state.setdefault("live", {})       # snapshot source name -> item ids listed as open right now
-    state.setdefault("daily_errors", {}) # YYYY-MM-DD -> error count
     state.setdefault("skips", {})
+    state.setdefault("empty", [])  # This line prevents the KeyError
     return state
 
 
