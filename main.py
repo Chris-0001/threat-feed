@@ -143,6 +143,10 @@ def load_feeds():
             require(u and u.scheme == "https" and u.path.startswith("/") and not u.username
                     and any(host == d or host.endswith("." + d) for d in domains),
                     f"{f['name']}: bad link_prefix {pre!r} (HTTPS, on link_domains, with a path)")
+        contains = f.setdefault("link_contains", [])
+        require(isinstance(contains, list) and len(contains) <= 10
+                and all(isinstance(value, str) and 2 <= len(value) <= 100 for value in contains),
+                f"{f['name']}: link_contains must be a list of up to 10 strings")
         mb = f.setdefault("max_mb", MAX_BYTES // (1024 * 1024))
         require(isinstance(mb, (int, float)) and not isinstance(mb, bool) and 1 <= mb <= MAX_MB_CAP,
                 f"{f['name']}: max_mb must be between 1 and {MAX_MB_CAP}")
@@ -363,7 +367,7 @@ def parse_rss(body, feed):
 
 
 def parse_watch(body, feed):
-    """Watch a listing page (HTML or markdown): every link under link_prefix is an item."""
+    """Watch a listing page or a JobPosting page for currently advertised roles."""
     text = body.decode("utf-8", "replace")
     pairs, anchors = [], BeautifulSoup(text, "html.parser").find_all("a", href=True)
     for a in anchors:
@@ -381,14 +385,49 @@ def parse_watch(body, feed):
             continue
         if not any(url.startswith(p) for p in feed["link_prefix"]):
             continue
+        if feed["link_contains"] and not any(part in url for part in feed["link_contains"]):
+            continue
         title = clean_text(title)
         if url not in found or (title and not found[url]):
             found[url] = title
+    soup = BeautifulSoup(text, "html.parser")
+    for script in soup.find_all("script", type="application/ld+json"):
+        try:
+            data = json.loads(script.string or script.get_text())
+        except (TypeError, ValueError):
+            continue
+        objects = data if isinstance(data, list) else [data]
+        for obj in objects:
+            if not isinstance(obj, dict) or obj.get("@type") != "JobPosting":
+                continue
+            title = clean_text(obj.get("title"))
+            url = urldefrag(urljoin(feed["url"], str(obj.get("url") or feed["url"])))[0]
+            if not any(url.startswith(p) for p in feed["link_prefix"]):
+                continue
+            location = obj.get("jobLocation")
+            if isinstance(location, list):
+                location = location[0] if location else {}
+            address = location.get("address", {}) if isinstance(location, dict) else {}
+            place = " ".join(str(address.get(k, "")) for k in ("addressLocality", "addressRegion", "addressCountry"))
+            summary = " | ".join(x for x in (place, obj.get("employmentType"), obj.get("description")) if x)
+            found[url] = (title, summary, obj.get("datePosted"))
+    if not found and any(feed["url"].startswith(p) for p in feed["link_prefix"]):
+        found[feed["url"]] = (clean_text(soup.title.get_text() if soup.title else ""), "", None)
     if not found:
         warn(f"{feed['name']}: no matching links (no openings right now, or the page layout changed)")
     now, items = now_utc(), []
-    for url, title in list(found.items())[:WATCH_MAX_LINKS]:
-        item = build_item(feed, title, url, "", now, url)
+    for url, value in list(found.items())[:WATCH_MAX_LINKS]:
+        if isinstance(value, tuple):
+            title, summary, posted = value
+        else:
+            title, summary, posted = value, "", None
+        published = now
+        if isinstance(posted, str):
+            try:
+                published = min(datetime.fromisoformat(posted.replace("Z", "+00:00")), now)
+            except ValueError:
+                pass
+        item = build_item(feed, title, url, summary, published, url)
         if item:
             items.append(item)
     return items, min(len(found), WATCH_MAX_LINKS)
