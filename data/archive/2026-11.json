@@ -2,11 +2,83 @@
  {
   "category": "jobs",
   "cves": [],
+  "id": "a4488723e46ca761",
+  "kev": false,
+  "link": "https://www.enisa.europa.eu/recruitment/vacancies/lead-cybersecurity-digital-trust-expert",
+  "published": "2026-11-12T08:39:31Z",
+  "source": "ENISA Careers",
+  "summary": "",
+  "title": "Lead Cybersecurity Digital Trust Expert",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "8989abe03459b010",
+  "kev": false,
+  "link": "https://www.enisa.europa.eu/recruitment/vacancies/threat-and-vulnerability-analyst",
+  "published": "2026-11-12T08:39:31Z",
+  "source": "ENISA Careers",
+  "summary": "",
+  "title": "Threat and Vulnerability Analyst",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "825e6563114727cb",
+  "kev": false,
+  "link": "https://www.enisa.europa.eu/recruitment/vacancies/senior-cybersecurity-expert",
+  "published": "2026-11-12T08:39:31Z",
+  "source": "ENISA Careers",
+  "summary": "",
+  "title": "Senior Cybersecurity Expert",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "454ba8c8c3fda95e",
+  "kev": false,
+  "link": "https://www.enisa.europa.eu/recruitment/vacancies/ict-security-coordinator-0",
+  "published": "2026-11-12T08:39:31Z",
+  "source": "ENISA Careers",
+  "summary": "",
+  "title": "ICT & Security Coordinator",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "12966b59435ec1ff",
+  "kev": false,
+  "link": "https://www.enisa.europa.eu/recruitment/vacancies/ict-security-coordinator",
+  "published": "2026-11-12T08:39:31Z",
+  "source": "ENISA Careers",
+  "summary": "",
+  "title": "ICT & Security Coordinator",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "05b3bf42a22e4364",
+  "kev": false,
+  "link": "https://www.enisa.europa.eu/recruitment/vacancies/seconded-national-experts-sne",
+  "published": "2026-11-12T08:39:31Z",
+  "source": "ENISA Careers",
+  "summary": "",
+  "title": "Seconded National Experts (SNE)",
+  "trust": "official"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
   "id": "fe3147ed189beb69",
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/ict-security-coordinator",
   "published": "2026-11-12T07:14:19Z",
-  "source": "ENISA Vacancies",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "ICT & Security Coordinator",
   "trust": "official"
@@ -18,7 +90,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/?page=14",
   "published": "2026-11-12T07:14:19Z",
-  "source": "ENISA Vacancies",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Last page Last »",
   "trust": "official"
@@ -30,7 +102,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/?page=7",
   "published": "2026-11-12T07:14:19Z",
-  "source": "ENISA Vacancies",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Page 8",
   "trust": "official"
@@ -42,7 +114,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/?page=2",
   "published": "2026-11-12T07:14:19Z",
-  "source": "ENISA Vacancies",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Page 3",
   "trust": "official"
@@ -54,7 +126,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/?page=6",
   "published": "2026-11-12T07:14:19Z",
-  "source": "ENISA Vacancies",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Page 7",
   "trust": "official"
@@ -66,7 +138,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/",
   "published": "2026-11-12T07:14:19Z",
-  "source": "ENISA Vacancies",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Go to the main content",
   "trust": "official"
@@ -78,7 +150,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/?page=4",
   "published": "2026-11-12T07:14:19Z",
-  "source": "ENISA Vacancies",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Page 5",
   "trust": "official"
@@ -90,7 +162,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/threat-and-vulnerability-analyst",
   "published": "2026-11-12T07:14:19Z",
-  "source": "ENISA Vacancies",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Threat and Vulnerability Analyst",
   "trust": "official"
@@ -102,7 +174,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/?page=8",
   "published": "2026-11-12T07:14:19Z",
-  "source": "ENISA Vacancies",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Page 9",
   "trust": "official"
@@ -114,7 +186,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/?page=0",
   "published": "2026-11-12T07:14:19Z",
-  "source": "ENISA Vacancies",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Current page 1",
   "trust": "official"
@@ -126,7 +198,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/?page=5",
   "published": "2026-11-12T07:14:19Z",
-  "source": "ENISA Vacancies",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Page 6",
   "trust": "official"
@@ -138,7 +210,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/lead-cybersecurity-digital-trust-expert",
   "published": "2026-11-12T07:14:19Z",
-  "source": "ENISA Vacancies",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Lead Cybersecurity Digital Trust Expert",
   "trust": "official"
@@ -150,7 +222,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/?page=3",
   "published": "2026-11-12T07:14:19Z",
-  "source": "ENISA Vacancies",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Page 4",
   "trust": "official"
@@ -162,7 +234,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/?page=1",
   "published": "2026-11-12T07:14:19Z",
-  "source": "ENISA Vacancies",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Page 2",
   "trust": "official"
@@ -174,7 +246,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/",
   "published": "2026-11-12T07:14:18Z",
-  "source": "ENISA Opportunities",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Go to the main content",
   "trust": "official"
@@ -186,7 +258,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/?page=3",
   "published": "2026-11-12T07:14:18Z",
-  "source": "ENISA Opportunities",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Page 4",
   "trust": "official"
@@ -198,7 +270,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/?page=7",
   "published": "2026-11-12T07:14:18Z",
-  "source": "ENISA Opportunities",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Page 8",
   "trust": "official"
@@ -210,7 +282,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/?page=0",
   "published": "2026-11-12T07:14:18Z",
-  "source": "ENISA Opportunities",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Current page 1",
   "trust": "official"
@@ -222,7 +294,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/seconded-national-experts-sne",
   "published": "2026-11-12T07:14:18Z",
-  "source": "ENISA Opportunities",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Seconded National Experts (SNE)",
   "trust": "official"
@@ -234,7 +306,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/?page=14",
   "published": "2026-11-12T07:14:18Z",
-  "source": "ENISA Opportunities",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Last page Last »",
   "trust": "official"
@@ -246,7 +318,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/?page=4",
   "published": "2026-11-12T07:14:18Z",
-  "source": "ENISA Opportunities",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Page 5",
   "trust": "official"
@@ -258,7 +330,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/?page=5",
   "published": "2026-11-12T07:14:18Z",
-  "source": "ENISA Opportunities",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Page 6",
   "trust": "official"
@@ -270,7 +342,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/?page=8",
   "published": "2026-11-12T07:14:18Z",
-  "source": "ENISA Opportunities",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Page 9",
   "trust": "official"
@@ -282,7 +354,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/?page=6",
   "published": "2026-11-12T07:14:18Z",
-  "source": "ENISA Opportunities",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Page 7",
   "trust": "official"
@@ -294,7 +366,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/?page=1",
   "published": "2026-11-12T07:14:18Z",
-  "source": "ENISA Opportunities",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Page 2",
   "trust": "official"
@@ -306,7 +378,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/?page=2",
   "published": "2026-11-12T07:14:18Z",
-  "source": "ENISA Opportunities",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Page 3",
   "trust": "official"
@@ -1441,7 +1513,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/ict-security-coordinator",
   "published": "2026-11-10T21:29:23Z",
-  "source": "ENISA Opportunities",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "ICT & Security Coordinator",
   "trust": "official"
@@ -1453,7 +1525,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/threat-and-vulnerability-analyst",
   "published": "2026-11-10T21:29:23Z",
-  "source": "ENISA Opportunities",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Threat and Vulnerability Analyst",
   "trust": "official"
@@ -1465,7 +1537,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/senior-cybersecurity-expert",
   "published": "2026-11-10T21:29:23Z",
-  "source": "ENISA Opportunities",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Senior Cybersecurity Expert",
   "trust": "official"
@@ -1477,7 +1549,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/ict-security-coordinator-0",
   "published": "2026-11-10T21:29:23Z",
-  "source": "ENISA Opportunities",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "ICT & Security Coordinator",
   "trust": "official"
@@ -1489,7 +1561,7 @@
   "kev": false,
   "link": "https://www.enisa.europa.eu/recruitment/vacancies/lead-cybersecurity-digital-trust-expert",
   "published": "2026-11-10T21:29:23Z",
-  "source": "ENISA Opportunities",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Lead Cybersecurity Digital Trust Expert",
   "trust": "official"
@@ -6966,7 +7038,7 @@
   "malicious": false,
   "published": "2026-11-08T20:58:03Z",
   "scanned": false,
-  "source": "ENISA Vacancies",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Administrative Coordinator",
   "trust": "official"
@@ -6980,7 +7052,7 @@
   "malicious": false,
   "published": "2026-11-08T20:58:03Z",
   "scanned": false,
-  "source": "ENISA Vacancies",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Administrative Assistant",
   "trust": "official"
@@ -6994,7 +7066,7 @@
   "malicious": false,
   "published": "2026-11-08T20:58:03Z",
   "scanned": false,
-  "source": "ENISA Vacancies",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "HR Coordinator",
   "trust": "official"
@@ -7008,7 +7080,7 @@
   "malicious": false,
   "published": "2026-11-08T20:58:03Z",
   "scanned": false,
-  "source": "ENISA Vacancies",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Seconded National Experts (SNE)",
   "trust": "official"
@@ -7022,7 +7094,7 @@
   "malicious": false,
   "published": "2026-11-08T20:58:03Z",
   "scanned": false,
-  "source": "ENISA Vacancies",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Senior Cybersecurity Expert",
   "trust": "official"
@@ -7036,7 +7108,7 @@
   "malicious": false,
   "published": "2026-11-08T20:58:03Z",
   "scanned": false,
-  "source": "ENISA Vacancies",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "ICT & Security Coordinator",
   "trust": "official"
@@ -7050,7 +7122,7 @@
   "malicious": false,
   "published": "2026-11-08T20:58:02Z",
   "scanned": false,
-  "source": "ENISA Opportunities",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Administrative Coordinator",
   "trust": "official"
@@ -7064,7 +7136,7 @@
   "malicious": false,
   "published": "2026-11-08T20:58:02Z",
   "scanned": false,
-  "source": "ENISA Opportunities",
+  "source": "ENISA Careers",
   "summary": "",
   "title": "Administrative Assistant",
   "trust": "official"
