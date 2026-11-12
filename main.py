@@ -547,7 +547,7 @@ def collect():
         if snap:  # remember what is open right now, so closed postings can be hidden
             ids = sorted(i["id"] for i in entries)
             if ids:
-                if name in state["empty"]:
+                if name in state.get("empty", []):
                     del state["empty"][name]
                     dirty = True
                 if state["live"].get(name) != ids:
