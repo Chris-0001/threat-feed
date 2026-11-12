@@ -480,7 +480,7 @@ def collect():
     now = now_utc()
     cutoff = iso(now - timedelta(days=MAX_AGE_DAYS))
     new, to_mark, new_meta, failed, errors = [], [], {}, 0, []
-    kev_set = set(state["kev_cves"])
+    kev_set = set(state.get("kev_cves", []))
     archived = archived_ids()
     live_changed = dirty = False
     accept = {n.strip() for n in os.environ.get("ACCEPT_SPIKE", "").split(",") if n.strip()}
