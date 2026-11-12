@@ -1,5 +1,603 @@
 [
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-120868"
+  ],
+  "id": "2dac95cc4a2d2c76",
+  "kev": false,
+  "link": "https://cert.europa.eu/publications/security-advisories/2026-020/",
+  "published": "2026-11-12T17:51:56Z",
+  "source": "CERT-EU",
+  "summary": "On 12 November 2026, the Cloud Software Group published security bulletins for its Citrix products addressing 28 memory flaws in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+  "title": "2026-020: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20320"
+  ],
+  "id": "3168e7d0fe0ba73f",
+  "kev": true,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20BroadWorks%20Out-of-Band%20Blind%20XML%20External%20Entity%20Injection%20Vulnerability%26vs_k=1",
+  "published": "2026-11-12T17:25:12Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the Open Client Interface (OCI) XML Parser of Cisco BroadWorks could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
+  "title": "Cisco BroadWorks Out-of-Band Blind XML External Entity Injection Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-106137",
+   "CVE-2026-106140",
+   "CVE-2026-106152",
+   "CVE-2026-124699",
+   "CVE-2026-124703"
+  ],
+  "id": "4eecd7368f0dc72a",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/progress-software-security-advisory-av26-1148",
+  "published": "2026-11-12T17:01:14Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1148 Date: November 12, 2026 As of November 12, 2026, Progress Software is affected by vulnerabilities in the following products: Telerik Report Server Prior to 12.3.26.1110 Telerik Reporting Prior to 20.3.26.1110 Telerik UI for…",
+  "title": "Progress Software security advisory (AV26-1148)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2023-20585",
+   "CVE-2024-52560",
+   "CVE-2024-53056",
+   "CVE-2024-56552",
+   "CVE-2024-58094",
+   "CVE-2024-58095",
+   "CVE-2025-10263",
+   "CVE-2025-21687",
+   "CVE-2025-21985",
+   "CVE-2025-22104"
+  ],
+  "id": "389c72b5571a876a",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9066-1",
+  "published": "2026-11-12T16:34:04Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that some AMD processors did not properly perform Reverse Map Table (RMP) checks when the IOMMU accessed certain host buffers.",
+  "title": "USN-9066-1: Linux kernel (HWE) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-68305",
+   "CVE-2026-72404",
+   "CVE-2026-72497",
+   "CVE-2026-74527",
+   "CVE-2026-74568",
+   "CVE-2026-89568",
+   "CVE-2026-89764",
+   "CVE-2026-89907",
+   "CVE-2026-90144",
+   "CVE-2026-90155"
+  ],
+  "id": "b6b8c0b8c3c1fa91",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9018-2",
+  "published": "2026-11-12T16:32:50Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Network file systems library; - Stream parser; - ARM64…",
+  "title": "USN-9018-2: Linux kernel (HWE) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "90416e4cc802dc40",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
+  "published": "2026-11-12T16:27:01Z",
+  "source": "The Hacker News",
+  "summary": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository. Quay enables anonymous access by default, and while it is enabled, the attacker needs no account.",
+  "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "0081e0435e745371",
+  "kev": false,
+  "link": "https://therecord.media/european-authorities-take-down-stealic-malware-second-time",
+  "published": "2026-11-12T16:21:00Z",
+  "source": "The Record",
+  "summary": "German authorities on Thursday said investigators traced the rebuilt network to the Virtualine bulletproof hosting provider, seized by the FBI in October, with the assistance of police in Frankfurt and the Dutch National High Tech Crime Unit.",
+  "title": "European authorities take down SteaIC malware servers for second time this year",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118268",
+   "CVE-2026-118269",
+   "CVE-2026-120869"
+  ],
+  "id": "bd2c09af8b5a176d",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/citrix-security-advisory-av26-1150",
+  "published": "2026-11-12T16:17:02Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1150 Date: November 12, 2026 As of November 12, 2026, Citrix is affected by vulnerabilities in the following products: NetScaler ADC and NetScaler Gateway Prior to 13.1-64.39 Prior to 14.1-73.57 NetScaler ADC FIPS Prior to…",
+  "title": "Citrix security advisory (AV26-1150)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "e126e334b738e343",
+  "kev": false,
+  "link": "https://therecord.media/connectwise-screenconnect-breaches-third-party-tool",
+  "published": "2026-11-12T16:16:00Z",
+  "source": "The Record",
+  "summary": "Abuse of an independent third-party tool led to breaches at ScreenConnect customers, confirmed the software's maker, ConnectWise. Cybersecurity researchers had spotted intrusions at nearly 50.",
+  "title": "ConnectWise investigates ScreenConnect breaches after reports of incidents at nearly 50 organizations",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f6a9d17222deca27",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
+  "published": "2026-11-12T16:04:00Z",
+  "source": "BleepingComputer",
+  "summary": "Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges. [...]",
+  "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-123488"
+  ],
+  "id": "991a60bdb2302f62",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/craft-cms-security-advisory-av26-1086",
+  "published": "2026-11-12T15:54:21Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1086 Date: October 26, 2026 Updated: November 12, 2026 As of October 23, 2026, Craft CMS is affected by vulnerabilities in the following products: CMS Prior to 4.18.9 Prior to 5.11.2 Commerce-mollie Prior to 4.4.3 Update 1 Open…",
+  "title": "Craft CMS security advisory (AV26-1086) - Update 1",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-57907"
+  ],
+  "id": "11b64a1aec813606",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/watchguard-security-advisory-av26-1147",
+  "published": "2026-11-12T15:52:53Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1147 Date: November 12, 2026 As of November 10, 2026, WatchGuard is affected by a vulnerability in the following product: Endpoint Security Prior to 8.00.26.0011 The Cyber Centre encourages users and administrators to review the…",
+  "title": "WatchGuard security advisory (AV26-1147)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "99ba532ccaaf5cdc",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/adobe-security-advisory-av26-1146",
+  "published": "2026-11-12T15:45:47Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1146 Date: November 12, 2026 As of November 10, 2026, Adobe is affected by vulnerabilities in the following products: Adobe Experience Manager (AEM) Cloud Service (CS) Prior to or equal to 2026.10.29251 Adobe Experience Manager…",
+  "title": "Adobe security advisory (AV26-1146)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-120868"
+  ],
+  "id": "28bd95cd30f6498d",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+  "published": "2026-11-12T15:38:49Z",
+  "source": "The Hacker News",
+  "summary": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass.",
+  "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-119618"
+  ],
+  "id": "197eea624e2c08ab",
+  "kev": false,
+  "link": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
+  "published": "2026-11-12T15:38:31Z",
+  "source": "SecurityWeek",
+  "summary": "The mod_http2 race condition, CVE-2026-119618, could let unauthenticated attackers execute code on servers with HTTP/2 enabled. The post Apache Patches Critical HTTP Server RCE Found by Anthropic, Google appeared first on SecurityWeek .",
+  "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "ff06ce03217dc261",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/fortinet-security-advisory-av26-1145",
+  "published": "2026-11-12T15:26:42Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1145 Date: November 12, 2026 As of November 11, 2026, Fortinet is affected by vulnerabilities in the following products: FortiAnalyzer Prior to 8.0.3 Prior to 7.6.8 Prior to 7.4.8 Prior to 7.2.12 FortiAnalyzer Cloud Prior to…",
+  "title": "Fortinet security advisory (AV26-1145)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ae0b626d100528f6",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+  "published": "2026-11-12T15:15:40Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches.",
+  "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ee85d4dfa2e2909e",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
+  "published": "2026-11-12T15:07:20Z",
+  "source": "BleepingComputer",
+  "summary": "Europol and law enforcement partners from nine countries have seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations. [...]",
+  "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "3e7debc0e16a4bf1",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/hpe-security-advisory-av26-1144",
+  "published": "2026-11-12T15:04:28Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1144 Date: November 12, 2026 As of November 10, 2026, Hewlett Packard Enterprise (HPE) is affected by vulnerabilities in the following product: HPE Networking Private 5G Core (P5G Core) Prior to or equal to 1.26.1.4 The Cyber…",
+  "title": "HPE security advisory (AV26-1144)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "1856e16cb2d293ae",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
+  "published": "2026-11-12T15:00:10Z",
+  "source": "BleepingComputer",
+  "summary": "Endpoint management platforms can become powerful attack tools when compromised, allowing hackers to deploy malware, execute commands, and disrupt thousands of devices.",
+  "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-125883"
+  ],
+  "id": "a0f9cfb3563e7ea4",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/n-able-security-advisory-av26-1143",
+  "published": "2026-11-12T14:56:51Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1143 Date: November 12, 2026 As of November 10, 2026, N-able is affected by vulnerabilities in the following product: N-central Prior to 2026.4.1.26 Open-source reporting indicates that CVE-2026-125883 is exploited in the wild.",
+  "title": "N-able security advisory (AV26-1143)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "4e27461b264a10c4",
+  "kev": false,
+  "link": "https://therecord.media/europe-hoax-email-threats",
+  "published": "2026-11-12T14:45:00Z",
+  "source": "The Record",
+  "summary": "Bomb threats sent to thousands of schools across Europe this week came from a compromised email account at a Taiwanese university, the latest incident in a series of hoax threats that have targeted airports and newsrooms using messages sent from…",
+  "title": "Hijacked email accounts complicate investigations into European bomb hoaxes",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "398d005965853bfa",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
+  "published": "2026-11-12T14:36:47Z",
+  "source": "BleepingComputer",
+  "summary": "Apify has rotated critical internal secrets and revoked some third-party OAuth connections after detecting unauthorized access to its internal systems. [...]",
+  "title": "Apify rotates API tokens, prompts 2FA resets after breach",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-124194"
+  ],
+  "id": "0fadecb7c983798c",
+  "kev": true,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/microsoft-security-advisory-november-2026-monthly-rollup-av26-1142",
+  "published": "2026-11-12T14:31:09Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1142 Date: November 10, 2026 As of November 10, 2026, Microsoft is affected by vulnerabilities in the following products: .NET 10.0 .NET 11.0 .NET 8.0 .NET 9.0 Aspire Dashboard Aspire Cli Aspire Dashboard Sdk Aspire Hosting…",
+  "title": "Microsoft security advisory – November 2026 monthly rollup (AV26-1142)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-125350"
+  ],
+  "id": "efd2ae04c3d4137d",
+  "kev": true,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/google-security-advisory-av26-1140",
+  "published": "2026-11-12T14:29:08Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1140 Date: November 10, 2026 As of November 9, 2026, Google is affected by vulnerabilities in the following product: Stable Channel Chrome for Desktop Versions prior to 157.0.8103.50/.51 (Windows/Mac), and 157.0.8103.50 (Linux)…",
+  "title": "Google security advisory (AV26-1140) - Update 1",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20320"
+  ],
+  "id": "7374095cf4050617",
+  "kev": true,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/cisco-security-advisory-av26-834",
+  "published": "2026-11-12T14:25:44Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-834 Date: August 20, 2026 Updated: November 10, 2026 As of August 19, 2026, Cisco is affected by vulnerabilities in the following products: BroadWorks Application Delivery Platform Prior to RI.2026.07 BroadWorks Application…",
+  "title": "Cisco security advisory (AV26-834) - Update 1",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "a711f5d3b97f81bc",
+  "kev": false,
+  "link": "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/",
+  "published": "2026-11-12T13:42:09Z",
+  "source": "SecurityWeek",
+  "summary": "Google fixed 83 flaws with a new Chrome 157 release, and Mozilla addressed 99 bugs in Firefox 160. The post Chrome, Firefox Updates Patch Over 180 Vulnerabilities appeared first on SecurityWeek .",
+  "title": "Chrome, Firefox Updates Patch Over 180 Vulnerabilities",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "c6955400f0a8bfd6",
+  "kev": false,
+  "link": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/",
+  "published": "2026-11-12T13:39:03Z",
+  "source": "SecurityWeek",
+  "summary": "Using thousands of hijacked accounts, the wfx-loot campaign planted a CI secret stealer that ran in over 1,800 GitHub repositories. The post Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign appeared first on SecurityWeek .",
+  "title": "Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "41246b4bb39c7e59",
+  "kev": false,
+  "link": "https://therecord.media/romania-russia-cyberattack-emails",
+  "published": "2026-11-12T13:30:00Z",
+  "source": "The Record",
+  "summary": "Romania's intelligence agency said it stopped a cyber-espionage campaign by Russian state-linked hackers before the group exfiltrated sensitive data.",
+  "title": "Romania says it stopped Russian cyberattack targeting government emails",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ab032698f0fa5813",
+  "kev": false,
+  "link": "https://www.securityweek.com/daylight-lands-80-million-for-ai-powered-security-operations/",
+  "published": "2026-11-12T13:12:11Z",
+  "source": "SecurityWeek",
+  "summary": "The company plans to accelerate product development, hire new talent, expand its US presence, and enter new markets. The post Daylight Lands $80 Million for AI-Powered Security Operations appeared first on SecurityWeek .",
+  "title": "Daylight Lands $80 Million for AI-Powered Security Operations",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-84869"
+  ],
+  "id": "9790d4e8295b508c",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+  "published": "2026-11-12T13:08:28Z",
+  "source": "The Hacker News",
+  "summary": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged.",
+  "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "01b83c122b52281c",
+  "kev": false,
+  "link": "https://therecord.media/kazakhstan-hackers-central-asia",
+  "published": "2026-11-12T13:00:00Z",
+  "source": "The Record",
+  "summary": "Suspected Kazakhstan-linked hackers used an artificial intelligence agent to help spy on Central Asian governments, steal sensitive documents and infiltrate critical infrastructure networks, according to new research.",
+  "title": "Kazakhstan-linked hackers used AI agent to spy on Central Asian governments",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "bbe230ede7020981",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
+  "published": "2026-11-12T12:11:11Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft has confirmed that Windows updates released since the October 2026 Patch Tuesday are causing SQL Server performance and stability issues. [...]",
+  "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "bcaa15da7b1f2b05",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+  "published": "2026-11-12T12:09:14Z",
+  "source": "The Hacker News",
+  "summary": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week.",
+  "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3fa946e98ba3b45c",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+  "published": "2026-11-12T12:02:51Z",
+  "source": "The Hacker News",
+  "summary": "Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what can they access?",
+  "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "id": "b807876ba9a45ec7",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
+  "published": "2026-11-12T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup: - No Management Applications installed: No action is required.",
+  "title": "Siemens Industrial Edge Management",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "id": "a4cabc9873846e17",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
+  "published": "2026-11-12T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and…",
+  "title": "Siemens Building Automation and Energy Products",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "id": "947851847f15f40d",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
+  "published": "2026-11-12T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497).",
+  "title": "Siemens Desigo, Gridscale",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "id": "66efe3c332a71d45",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04",
+  "published": "2026-11-12T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Palo Alto Networks has published information on a vulnerability in PAN-OS related to the Node2Shell vulnerability. This advisory lists the related Siemens Industrial products affected by this vulnerability.",
+  "title": "Siemens RUGGEDCOM APE1808",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "id": "5989bad4f9a9da77",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05",
+  "published": "2026-11-12T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Palo Alto Networks has published information on vulnerabilities in PAN-OS related to PHP2Shell vulnerabilities. This advisory lists the related Siemens Industrial products affected by these vulnerabilities.",
+  "title": "Siemens RUGGEDCOM APE1808",
+  "trust": "official"
+ },
+ {
+  "category": "research",
+  "cves": [
+   "CVE-2026-102895"
+  ],
+  "id": "2bbd75e2949305e6",
+  "kev": true,
+  "link": "https://isc.sans.edu/diary/rss/33514",
+  "published": "2026-11-12T11:56:24Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads.",
+  "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "30cd0808ea68627e",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+  "published": "2026-11-12T11:51:43Z",
+  "source": "The Hacker News",
+  "summary": "N-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running version 2026.4.1 HF2.",
+  "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "c04bee4104ae523e",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+  "published": "2026-11-12T11:51:31Z",
+  "source": "The Hacker News",
+  "summary": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose.",
+  "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-126325"
+  ],
+  "id": "22459023aec72ff4",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+  "published": "2026-11-12T11:33:15Z",
+  "source": "The Hacker News",
+  "summary": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution.",
+  "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+  "trust": "media"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "2b4f09bc1e0f5c34",
@@ -1401,6 +1999,20 @@
   "trust": "media"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-121683"
+  ],
+  "id": "3ae41c376784b21a",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/ivanti-security-advisory-av26-1141",
+  "published": "2026-11-10T16:56:09Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1141 Date: November 10, 2026 As of November 10, 2026, Ivanti is affected by vulnerabilities in the following products: Endpoint Manager Prior or equal to version 2024 SU7 Cloud Services Application (CSA) Version 5.0.8 The Cyber…",
+  "title": "Ivanti security advisory (AV26-1141)",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "0df29ef9d3b1be1c",
@@ -1490,6 +2102,18 @@
   "summary": "Fireworks said the incident affected a “limited number of customer accounts” — all of whom were notified of the attack.",
   "title": "AI company Fireworks says hackers stole data, billing info during October breaches",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "cfb88c09acd7afcb",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/control-systems-siemens-security-advisory-av26-1139",
+  "published": "2026-11-10T16:03:18Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1139 Date: November 10, 2026 As of November 10, 2026, Siemens is affected by vulnerabilities in the following products: Mendix Studio Pro 11 Prior to V11.16.0 Mendix Studio Pro 11.12 Prior to V11.12.7 ROS# Prior to V2.3.1 SIMATIC…",
+  "title": "[Control systems] Siemens security advisory (AV26-1139)",
+  "trust": "official"
  },
  {
   "category": "news",
@@ -4559,6 +5183,18 @@
   "summary": "Cybercriminals are infecting devices on a large scale with spyware, increasingly compromising systems belonging to average people, according to a new report.",
   "title": "Cybercriminals are increasingly infecting regular people with spyware",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "c1b99187695c7aaa",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/control-systems-hitachi-security-advisory-av26-1138",
+  "published": "2026-11-10T15:43:22Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1138 Date: November 10, 2026 As of November 10, 2026, Hitachi is affected by vulnerabilities in the following products: HA Monitor Multiple versions HiRDB Server Version 10 Multiple versions HiRDB Server Version 9 Multiple…",
+  "title": "[Control systems] Hitachi security advisory (AV26-1138)",
+  "trust": "official"
  },
  {
   "category": "news",
@@ -11390,6 +12026,90 @@
   "trust": "vendor"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76524"
+  ],
+  "id": "ffca2027bd0810a6",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-opensrc-snort3-2fXGJPfe?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Open%20Source%20Snort%203%20Control%20Channel%20Socket%20Arbitrary%20Command%20Execution%20Vulnerability%26vs_k=1",
+  "published": "2026-10-21T16:00:00Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the control channel socket implementation of Open Source Snort 3 could allow an authenticated, local attacker with low privileges to execute arbitrary commands as the Snort 3 process user.",
+  "title": "Open Source Snort 3 Control Channel Socket Arbitrary Command Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76435"
+  ],
+  "id": "f2c16fbf9924c443",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-expressway-inf-disc-vvYqgSTS?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Expressway%20Series%20Information%20Disclosure%20Vulnerability%26vs_k=1",
+  "published": "2026-10-21T16:00:00Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in Cisco Expressway Series could allow an unauthenticated, remote attacker to obtain sensitive information from an affected device.",
+  "title": "Cisco Expressway Series Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76505"
+  ],
+  "id": "b3dec24289ab66a9",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asr9k-tUyxcyXN?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20for%20ASR%209000%20Series%20Routers%20IPv4%20Unicast%20Packets%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+  "published": "2026-10-21T16:00:00Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the IPv4 packet processing functionality of Cisco IOS XR Software that affects Cisco ASR 9000 and 9900 Series Aggregation Services Routers as well as Cisco ASR 9902 and 9903 Compact High-Performance Routers could allow an…",
+  "title": "Cisco IOS XR Software for ASR 9000 Series Routers IPv4 Unicast Packets Denial of Service Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76466"
+  ],
+  "id": "a87227e472ee99ca",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vcs-static-cred-hr7EWZ8t?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Expressway%20Series%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
+  "published": "2026-10-21T16:00:00Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the database service feature of Cisco Expressway Series could allow an unauthenticated, remote attacker with network access to a Cisco Expressway device to execute arbitrary operating system commands as root .",
+  "title": "Cisco Expressway Series Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76487"
+  ],
+  "id": "4c02f38fa271a326",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-access-PW9e8Jt2?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Communications%20Manager%20Improper%20Access%20Control%20Vulnerability%26vs_k=1",
+  "published": "2026-10-21T16:00:00Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) could allow an unauthenticated, remote attacker to conduct access control bypass attacks on an…",
+  "title": "Cisco Unified Communications Manager Improper Access Control Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76462"
+  ],
+  "id": "202014921ce2dfab",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sec-client-priv-esc-muF8eZdm?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Client%20Secure%20Firewall%20Posture%20Module%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
+  "published": "2026-10-21T16:00:00Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the interprocess communication (IPC) channel of the Secure Firewall Posture module in Cisco Secure Client could allow an authenticated, local attacker to elevate privileges on an affected device.",
+  "title": "Cisco Secure Client Secure Firewall Posture Module Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "316fc35124f15a8e",
@@ -11458,6 +12178,20 @@
   "source": "Cisco Talos",
   "summary": "The September Microsoft Patch Tuesday release included 975 vulnerability advisories. This month, 1,415 vulnerabilities were just dropped. Compared to a pre-June average of 100 a month, that increase is staggering. Where did they come from?",
   "title": "There's only so much code: the rise in vulnerability numbers",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20327"
+  ],
+  "id": "b40a52cd935001f2",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cuic-sql-inject-2qbfWSm5?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Intelligence%20Center%20SQL%20Injection%20Vulnerability%26vs_k=1",
+  "published": "2026-10-20T12:53:16Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the web-based management interface of Cisco Unified Intelligence Center could allow an authenticated, local attacker to perform a blind SQL injection attack against an affected device.",
+  "title": "Cisco Unified Intelligence Center SQL Injection Vulnerability",
   "trust": "vendor"
  },
  {
@@ -11575,6 +12309,38 @@
   "trust": "vendor"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20353",
+   "CVE-2026-76440",
+   "CVE-2026-76441",
+   "CVE-2026-76442",
+   "CVE-2026-76443"
+  ],
+  "id": "7552c15f506b2ef6",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-esa-dfCrfXkm?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Email%20Gateway%20and%20Secure%20Email%20and%20Web%20Manager%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
+  "published": "2026-10-14T16:00:43Z",
+  "source": "Cisco Security Advisories",
+  "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Email Gateway and Cisco Secure Email and Web Manager engineering team has conducted a comprehensive internal security review.",
+  "title": "Cisco Secure Email Gateway and Secure Email and Web Manager Security Hardening Release: September 2026",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76519"
+  ],
+  "id": "6e4a89c30a2905ac",
+  "kev": true,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Email%20Gateway%20Arbitrary%20File%20Write%20Vulnerability%26vs_k=1",
+  "published": "2026-10-14T16:00:00Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.",
+  "title": "Cisco Secure Email Gateway Arbitrary File Write Vulnerability",
+  "trust": "vendor"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "ef3ddb0be283afb1",
@@ -11611,6 +12377,20 @@
   "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software.",
   "title": "Microsoft Patches More Than 1,400 Security Flaws",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20293"
+  ],
+  "id": "a17a99f999f04740",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucs-uefi-sb-bypass-eb6xC5GW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20UCS%20and%20UCS-Based%20Appliances%20UEFI%20Shell%20Secure%20Boot%20Bypass%20Vulnerability%26vs_k=1",
+  "published": "2026-10-13T21:05:13Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the Unified Extensible Firmware Interface (UEFI) Shell implementation of Cisco UCS Servers and UCS-based appliances could allow an authenticated attacker with valid credentials for a user account with the role of user or admin or…",
+  "title": "Cisco UCS and UCS-Based Appliances UEFI Shell Secure Boot Bypass Vulnerability",
+  "trust": "vendor"
  },
  {
   "category": "research",
@@ -11668,6 +12448,20 @@
  },
  {
   "category": "advisories",
+  "cves": [
+   "CVE-2026-76471"
+  ],
+  "id": "f457882e12bec1f2",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-napi-rce-r2shwu2j?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20NX-OS%20Software%20NX-API%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
+  "published": "2026-10-08T14:11:23Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the NX-API feature of Cisco NX-OS Software could allow an unauthenticated, remote attacker to execute arbitrary code with root privileges or cause a denial of service (DoS) condition on an affected device.",
+  "title": "Cisco NX-OS Software NX-API Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
   "cves": [],
   "id": "4935e8a4b5e74ac6",
   "kev": false,
@@ -11679,6 +12473,198 @@
   "summary": "Joint advisory with international partners highlights malicious targeting of organisations from a range of sectors across the globe.",
   "title": "China-linked malicious actors called out by UK and international partners for targeting sensitive data globally",
   "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20032",
+   "CVE-2026-20038",
+   "CVE-2026-20173",
+   "CVE-2026-76453",
+   "CVE-2026-76455",
+   "CVE-2026-76456",
+   "CVE-2026-76457",
+   "CVE-2026-76458",
+   "CVE-2026-76459",
+   "CVE-2026-76465"
+  ],
+  "id": "b6455986c51ce56f",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-fBn58ELx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20October%207,%202026,%20Security%20Advisories%26vs_k=1",
+  "published": "2026-10-07T16:00:41Z",
+  "source": "Cisco Security Advisories",
+  "summary": "On October 7, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the advisories that are listed in the following tables.",
+  "title": "Cisco Advance Notification for Publication of October 7, 2026, Security Advisories",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76465"
+  ],
+  "id": "ff5eb7364513894b",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-moam-rce-uBTzYV7?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Nexus%203000%20and%209000%20Series%20Switches%20MPLS%20OAM%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
+  "published": "2026-10-07T16:00:00Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the MPLS Operation, Administration, and Maintenance (OAM) feature of Cisco NX-OS Software for Cisco Nexus 3000 Series Switches and Cisco Nexus 9000 Series Switches could allow an unauthenticated, remote attacker to execute…",
+  "title": "Cisco Nexus 3000 and 9000 Series Switches MPLS OAM Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76485",
+   "CVE-2026-76486",
+   "CVE-2026-76501"
+  ],
+  "id": "e519f7be863bd3ac",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ngoam-rce-LWKQ4BU?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Nexus%203000%20and%209000%20Series%20Switches%20NGOAM%20Remote%20Code%20Execution%20Vulnerabilities%26vs_k=1",
+  "published": "2026-10-07T16:00:00Z",
+  "source": "Cisco Security Advisories",
+  "summary": "Multiple vulnerabilities in the Operation, Administration, and Maintenance (OAM) feature of Cisco NX-OS Software, known as Next Generation OAM (NGOAM), could allow an unauthenticated, remote attacker to execute arbitrary code with root privileges or…",
+  "title": "Cisco Nexus 3000 and 9000 Series Switches NGOAM Remote Code Execution Vulnerabilities",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20032"
+  ],
+  "id": "e1a298e1231db50f",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nxos-mppe-dhKZAFgb?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20NX-OS%20Software%20Python%20Sandbox%20Escape%20Vulnerability%26vs_k=1",
+  "published": "2026-10-07T16:00:00Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the Python interpreter of Cisco NX-OS Software could allow an authenticated, local attacker with low privileges to escape the Python sandbox and gain unauthorized access to the underlying operating system of an affected device.",
+  "title": "Cisco NX-OS Software Python Sandbox Escape Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20328",
+   "CVE-2026-76437",
+   "CVE-2026-76452",
+   "CVE-2026-76454"
+  ],
+  "id": "b1966a0081f9b393",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ssm-access-nttb2dhE?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20License%20(Smart%20Software%20Manager)%20On-Prem%20Vulnerabilities%26vs_k=1",
+  "published": "2026-10-07T16:00:00Z",
+  "source": "Cisco Security Advisories",
+  "summary": "Multiple vulnerabilities in the web-based management interface and API endpoints of Cisco License On-Prem, formerly Cisco Smart Software Manager On-Prem (SSM On-Prem), could allow a remote attacker to gain unauthorized access, access sensitive…",
+  "title": "Cisco License (Smart Software Manager) On-Prem Vulnerabilities",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20173"
+  ],
+  "id": "a0c4bd7afdd9a88c",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nxos-nscpdos-SnderkC7?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20NX-OS%20Software%20Control%20Plane%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+  "published": "2026-10-07T16:00:00Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in Cisco NX-OS Software could allow an unauthenticated, remote attacker to exhaust system resources, causing a denial of service (DoS) condition.",
+  "title": "Cisco NX-OS Software Control Plane Denial of Service Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20321"
+  ],
+  "id": "a0a233098e9e73f4",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apic-cmdinj-L6VR4E7?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Application%20Policy%20Infrastructure%20Controller%20API%20Command%20Injection%20Vulnerability%26vs_k=1",
+  "published": "2026-10-07T16:00:00Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the web-based management API for Cisco Application Policy Infrastructure Controller (APIC) could allow an authenticated, remote attacker to execute arbitrary commands as the root user.",
+  "title": "Cisco Application Policy Infrastructure Controller API Command Injection Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76453",
+   "CVE-2026-76455",
+   "CVE-2026-76456",
+   "CVE-2026-76457",
+   "CVE-2026-76458",
+   "CVE-2026-76459"
+  ],
+  "id": "3f7863e4d16d86c9",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-nxosw1-cWzSbtR?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20NX-OS%20Software%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
+  "published": "2026-10-07T16:00:00Z",
+  "source": "Cisco Security Advisories",
+  "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco NX-OS Software engineering team has conducted a comprehensive internal security review.",
+  "title": "Cisco NX-OS Software Security Hardening Release: October 2026",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76488"
+  ],
+  "id": "3a986b9db9b0bfac",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apic-info-priv-enAdB5vD?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Application%20Policy%20Infrastructure%20Controller%20Unauthorized%20File%20Access%20Vulnerability%26vs_k=1",
+  "published": "2026-10-07T16:00:00Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the export policies functionality of Cisco Application Policy Infrastructure Controller (APIC) could allow an authenticated, remote attacker to access sensitive files on an affected device.",
+  "title": "Cisco Application Policy Infrastructure Controller Unauthorized File Access Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76498",
+   "CVE-2026-76499",
+   "CVE-2026-76500"
+  ],
+  "id": "3a1ebf7728ad9c50",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-apic-UOXWtfh?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Application%20Policy%20Infrastructure%20Controller%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
+  "published": "2026-10-07T16:00:00Z",
+  "source": "Cisco Security Advisories",
+  "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Application Policy Infrastructure Controller (APIC) engineering team has conducted a comprehensive internal security review.",
+  "title": "Cisco Application Policy Infrastructure Controller Security Hardening Release: October 2026",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20038"
+  ],
+  "id": "1b3434ce17dea67e",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-aci-epgcbp-SfDU7NLf?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Nexus%209000%20Series%20Fabric%20Switches%20in%20ACI%20Mode%20Endpoint%20Group%20Contract%20Bypass%20Vulnerability%26vs_k=1",
+  "published": "2026-10-07T16:00:00Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the endpoint group (EPG) contract functionality of Cisco Nexus 9000 Series Fabric Switches in ACI Mode could allow an unauthenticated, remote attacker to bypass configured EPG contracts.",
+  "title": "Cisco Nexus 9000 Series Fabric Switches in ACI Mode Endpoint Group Contract Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76480",
+   "CVE-2026-76482",
+   "CVE-2026-76483",
+   "CVE-2026-76484"
+  ],
+  "id": "0ad8e2d0a0e9ed3f",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-ssm-Ph77wdhf?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20License%20(Smart%20Software%20Manager)%20On-Prem%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
+  "published": "2026-10-07T16:00:00Z",
+  "source": "Cisco Security Advisories",
+  "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the engineering team for Cisco License On-Prem, formerly Cisco Smart Software Manager On-Prem (SSM On-Prem), has conducted a comprehensive internal security review.",
+  "title": "Cisco License (Smart Software Manager) On-Prem Security Hardening Release: October 2026",
+  "trust": "vendor"
  },
  {
   "category": "news",
@@ -11732,6 +12718,40 @@
   "source": "Google Project Zero",
   "summary": "Project Zero often works with software vendors to remediate the vulnerabilities we report and provide broader guidance on making software more secure.",
   "title": "How to fix a bug in a fix",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76504"
+  ],
+  "id": "effea4acf6bdde57",
+  "kev": true,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-webauth-xr8beuuU?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20API%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
+  "published": "2026-10-02T23:18:42Z",
+  "source": "Cisco Security Advisories",
+  "summary": "A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user.",
+  "title": "Cisco Catalyst SD-WAN Manager API Authentication Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20267",
+   "CVE-2026-20268",
+   "CVE-2026-20269",
+   "CVE-2026-20270",
+   "CVE-2026-20271",
+   "CVE-2026-20272",
+   "CVE-2026-20273"
+  ],
+  "id": "6aadb0b0e70a363c",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxe-V8NMuMZJ?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XE%20Software%20Security%20Hardening%20Release:%20August%202026%26vs_k=1",
+  "published": "2026-10-02T19:21:28Z",
+  "source": "Cisco Security Advisories",
+  "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XE Software engineering team has conducted a comprehensive internal security review.",
+  "title": "Cisco IOS XE Software Security Hardening Release: August 2026",
   "trust": "vendor"
  },
  {
@@ -11815,6 +12835,23 @@
   "trust": "vendor"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76439",
+   "CVE-2026-76444",
+   "CVE-2026-76446",
+   "CVE-2026-76447"
+  ],
+  "id": "ff80de429f4d579e",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multiauth-bypass-sgD2HbL4?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Authentication%20Bypass%20Vulnerabilities%26vs_k=1",
+  "published": "2026-09-24T17:16:37Z",
+  "source": "Cisco Security Advisories",
+  "summary": "Multiple vulnerabilities in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow a remote attacker to access or manipulate data, obtain sensitive information, or cause a reload of certificate and key…",
+  "title": "Cisco Identity Services Engine Authentication Bypass Vulnerabilities",
+  "trust": "vendor"
+ },
+ {
   "category": "research",
   "cves": [],
   "id": "fb7d8207e819afa7",
@@ -11826,6 +12863,20 @@
   "source": "Google Threat Intelligence",
   "summary": "Introduction The landscape of software supply chain security has undergone a significant shift. Recent campaigns demonstrate that sophisticated threat actors are systematically targeting the engineering lifecycle by compromising trusted security and…",
   "title": "Proactive Defense: Hardening Code Pipelines and CI/CD Infrastructure",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2024-20260"
+  ],
+  "id": "35be0be08d479858",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftdvirtual-dos-MuenGnYR?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20SSL%20VPN%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+  "published": "2026-09-23T13:26:33Z",
+  "source": "Cisco Security Advisories",
+  "summary": "Update for September 16, 2026: The original 1.0 version of this advisory was specific to the Cisco Adaptive Security Virtual Appliance (ASAv) and Cisco Secure Firewall Threat Defense Virtual (FTDv) models.",
+  "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software SSL VPN Denial of Service Vulnerability",
   "trust": "vendor"
  },
  {
