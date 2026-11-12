@@ -91,7 +91,10 @@ CTRL_RE = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f-\x9f\u202a-\u202e\u2066-\
 
 
 def log(msg): print(msg, flush=True)
-def warn(msg): print(f"::warning::{msg}", flush=True)
+def warn(msg):
+    # Strip dangerous characters to prevent GitHub Actions log injection
+    clean_msg = re.sub(r'[\x00-\x1F\x7F]', '', str(msg)).replace("\r", " ").replace("\n", " ")
+    print(f"::warning::{clean_msg[:300].replace('%', '%25')}", flush=True)
 def now_utc(): return datetime.now(timezone.utc)
 def iso(dt): return dt.strftime("%Y-%m-%dT%H:%M:%SZ")
 
@@ -182,6 +185,7 @@ def load_state():
     state.setdefault("kev_cves", [])   # CVEs currently in CISA KEV
     state.setdefault("live", {})       # snapshot source name -> item ids listed as open right now
     state.setdefault("daily_errors", {}) # YYYY-MM-DD -> error count
+    state.setdefault("skips", {})
     return state
 
 
@@ -531,9 +535,16 @@ def collect():
 
         # Guard 2: sudden flood of new items. Re-run manually with accept_spike=<feed name> if legitimate.
         if not first and len(fresh) > ANOMALY_FRESH and name not in accept:
-            failed += 1
-            warn(f"{name}: SKIPPED, {len(fresh)} new items in one run (limit {ANOMALY_FRESH})")
-            continue
+            n = state["skips"].get(name, 0) + 1
+            state["skips"][name], dirty = n, True
+            if n < 6:
+                failed += 1
+                warn(f"{name}: SKIPPED, {len(fresh)} new items in one run (limit {ANOMALY_FRESH}), run {n}/6")
+                continue
+            warn(f"{name}: spike persisted {n} runs, accepting automatically")
+        
+        if state["skips"].pop(name, None) is not None:
+            dirty = True
 
         if kev_new is not None:
             kev_set = kev_new
@@ -656,7 +667,14 @@ def build():
         if not MONTH_RE.fullmatch(p.stem):
             continue
         raw = json.loads(p.read_text("utf-8"))
-        good = [i for i in raw if valid_item(i, by_source)]
+        good = [i for i in raw if valid_item(i, by_source) and matches(i, by_source[i["source"]])]
+        
+        seen_links, uniq = set(), []
+        for i in good:
+            if i["link"] not in seen_links:
+                seen_links.add(i["link"])
+                uniq.append(i)
+        good = uniq
         dropped += len(raw) - len(good)
         months[p.stem] = sorted(good, key=lambda i: (i["published"], i["id"]), reverse=True)
     if dropped:
