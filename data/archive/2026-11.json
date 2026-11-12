@@ -1,5 +1,31 @@
 [
  {
+  "category": "news",
+  "cves": [
+   "CVE-2026-119618"
+  ],
+  "id": "e17e280806ec9b7d",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+  "published": "2026-11-12T05:12:26Z",
+  "source": "The Hacker News",
+  "summary": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday.",
+  "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "892b98fa98f1abce",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+  "published": "2026-11-12T04:39:48Z",
+  "source": "The Hacker News",
+  "summary": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access.",
+  "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+  "trust": "media"
+ },
+ {
   "category": "research",
   "cves": [],
   "id": "0ff47b7fbd1d6b57",
@@ -733,6 +759,246 @@
   "trust": "media"
  },
  {
+  "category": "advisories",
+  "cves": [],
+  "id": "dfb905e279001fc1",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-949/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-949: (0Day) Meta FAIRChem utils load_model_and_weights_from_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "cac0d0988300c97d",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-944/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-944: (0Day) Meta fairseq load_ema_from_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "c4e0e94d1c6c237c",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-940/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-940: (0Day) Meta fairseq dump_km_label Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "ad970a1cf730e1ff",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-943/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-943: (0Day) Meta fairseq load_checkpoint_to_cpu Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "936a26d716f27801",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-951/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-951: (0Day) Meta FAIRChem utils load_tasks Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "8df5a1ef76c97bd1",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-938/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-938: (0Day) Meta fairseq parse_manifest Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "86f3384b952b59cd",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-952/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-952: (0Day) Meta FAIRChem _cli YAML File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "83de49c8726a9c9b",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-953/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-953: (0Day) Meta FAIRChem utils load_inference_model Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "7c69d1e6ac5a611b",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-934/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-934: (0Day) Meta fairseq FConvLanguageModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "5f8f9f7014897d4d",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-941/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-941: (0Day) Meta fairseq FConvModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "5e39d1bcbde02954",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-935/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-935: (0Day) Meta fairseq FConvModelSelfAtt YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "513d8bc1183ab311",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-939/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-939: (0Day) Meta fairseq2 FileCheckpointManager _load_state_dict Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "488d7ac40a7d7e7e",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-942/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-942: (0Day) Meta fairseq rerank Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "473b693411adf5f7",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-947/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-947: (0Day) Meta FAIRChem make_submission_file NPZ File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "3ef0b730f3c1324b",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-945/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-945: (0Day) Meta FAIRChem convert_fine_tune_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "3bbeacd809ecada2",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-950/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-950: (0Day) Meta FAIRChem migrate_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "387b64c3343b9614",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-937/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-937: (0Day) Meta fairseq quantize_with_kmeans Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "1e799ddb52adf754",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-946/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-946: (0Day) Meta FAIRChem make_challenge_submission_file NPZ File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "18f43a699d1fb6ef",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-936/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-936: (0Day) Meta fairseq FairseqCPUAdam YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "035b116e382fed14",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-948/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-948: (0Day) Meta FAIRChem MLIPPredictUnit Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
   "category": "research",
   "cves": [],
   "id": "d05fbccf1b1de7ab",
@@ -1351,6 +1617,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-114151"
+  ],
+  "id": "fbdf4860c916a6f0",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114151",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Deserialization of untrusted data in Visual Studio allows an unauthorized attacker to execute code over a network.",
+  "title": "CVE-2026-114151 Visual Studio Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-109485"
   ],
   "id": "f9ccc3123fb6de58",
@@ -1542,6 +1822,20 @@
   "source": "Microsoft MSRC",
   "summary": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
   "title": "CVE-2026-96047 Windows Installer Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114157"
+  ],
+  "id": "e8e620b8871277ee",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114157",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in ASP.NET Core allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-114157 ASP.NET Core Security Feature Bypass Vulnerability",
   "trust": "vendor"
  },
  {
@@ -2079,6 +2373,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-120006"
+  ],
+  "id": "b8690e1fe516c69b",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-120006",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Insertion of sensitive information into sent data in .NET Aspire allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-120006 Aspire Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-94511"
   ],
   "id": "b7475e82387dd503",
@@ -2242,6 +2550,20 @@
   "source": "Microsoft MSRC",
   "summary": "Authentication bypass by capture-replay in SQL Server allows an unauthorized attacker to disclose information over a network.",
   "title": "CVE-2026-62903 Microsoft.Data.SqlClient Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114150"
+  ],
+  "id": "a16671e71e6dfce8",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114150",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use of uninitialized resource in ASP.NET Core allows an unauthorized attacker to disclose information over a network.",
+  "title": "CVE-2026-114150 ASP.NET Core Information Disclosure Vulnerability",
   "trust": "vendor"
  },
  {
@@ -2583,6 +2905,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-114152"
+  ],
+  "id": "84dbe4273d189646",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114152",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Stack-based buffer overflow in Visual Studio allows an unauthorized attacker to execute code over a network.",
+  "title": "CVE-2026-114152 Visual Studio Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96066"
   ],
   "id": "83280a6aecc9f8ca",
@@ -2718,6 +3054,20 @@
   "source": "Microsoft MSRC",
   "summary": "Cross-site request forgery (csrf) in ASP.NET Core allows an unauthorized attacker to elevate privileges over a network.",
   "title": "CVE-2026-109481 ASP.NET Core Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118746"
+  ],
+  "id": "79eecccd6c729efc",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118746",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Not failing securely ('failing open') in .NET allows an unauthorized attacker to bypass a security feature over a network.",
+  "title": "CVE-2026-118746 .NET Security Feature Bypass Vulnerability",
   "trust": "vendor"
  },
  {
@@ -3115,6 +3465,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-114158"
+  ],
+  "id": "570feafde0fdff0c",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114158",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in Visual Studio allows an unauthorized attacker to execute code over a network.",
+  "title": "CVE-2026-114158 Visual Studio Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96129"
   ],
   "id": "566d0e226bb876ff",
@@ -3395,6 +3759,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-114156"
+  ],
+  "id": "451090ddd628e62d",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114156",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Improper input validation in ASP.NET Core allows an unauthorized attacker to bypass a security feature over a network.",
+  "title": "CVE-2026-114156 ASP.NET Core Security Feature Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96056"
   ],
   "id": "44c3fb3b817b2779",
@@ -3479,6 +3857,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-114146"
+  ],
+  "id": "3d79e70b54e18d65",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114146",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Incorrect authorization in ASP.NET Core allows an authorized attacker to elevate privileges over a network.",
+  "title": "CVE-2026-114146 ASP.NET Core Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96026"
   ],
   "id": "3d56465ad65bf32a",
@@ -3502,6 +3894,20 @@
   "source": "Microsoft MSRC",
   "summary": "Missing authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over an adjacent network.",
   "title": "CVE-2026-109466 Microsoft Office SharePoint Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114149"
+  ],
+  "id": "39a39484e73abc04",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114149",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Uncontrolled resource consumption in ASP.NET Core allows an unauthorized attacker to deny service over a network.",
+  "title": "CVE-2026-114149 ASP.NET Core Denial of Service Vulnerability",
   "trust": "vendor"
  },
  {
@@ -3591,6 +3997,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-118745"
+  ],
+  "id": "32129f12eb6cf7f5",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118745",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in Visual Studio allows an unauthorized attacker to execute code over a network.",
+  "title": "CVE-2026-118745 Visual Studio Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-88232"
   ],
   "id": "2d8d494ffb59214d",
@@ -3675,6 +4095,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-114159"
+  ],
+  "id": "28b283b081b805ac",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114159",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in Visual Studio allows an unauthorized attacker to execute code over a network.",
+  "title": "CVE-2026-114159 Visual Studio Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96043"
   ],
   "id": "27b5930ff1384ba4",
@@ -3745,6 +4179,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-114155"
+  ],
+  "id": "1f2729c4616e6683",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114155",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Time-of-check time-of-use (toctou) race condition in .NET allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-114155 .NET Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96184"
   ],
   "id": "1e9ad4d49ca1b490",
@@ -3768,6 +4216,20 @@
   "source": "Microsoft MSRC",
   "summary": "Improper neutralization of special elements used in an os command ('os command injection') in Azure CLI allows an authorized attacker to execute code over a network.",
   "title": "CVE-2026-109457 Azure CLI Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114154"
+  ],
+  "id": "1e044f0068d0a8cf",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114154",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Uncontrolled resource consumption in ASP.NET Core allows an unauthorized attacker to deny service over a network.",
+  "title": "CVE-2026-114154 ASP.NET Core Denial of Service Vulnerability",
   "trust": "vendor"
  },
  {
@@ -3838,6 +4300,20 @@
   "source": "Microsoft MSRC",
   "summary": "Use after free in Remote Desktop Gateway Service allows an authorized attacker to execute code locally.",
   "title": "CVE-2026-69565 Windows Remote Desktop Services Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114147"
+  ],
+  "id": "17defa2249a59d5b",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114147",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Missing release of memory after effective lifetime in ASP.NET Core allows an unauthorized attacker to deny service over a network.",
+  "title": "CVE-2026-114147 ASP.NET Core Denial of Service Vulnerability",
   "trust": "vendor"
  },
  {
@@ -5365,6 +5841,26 @@
   "summary": "It was discovered that the Security component of OpenJDK 21 did not correctly authenticate users. A remote attacker could possibly use this issue to modify sensitive data.",
   "title": "USN-9015-1: OpenJDK 21 vulnerabilities",
   "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-76463",
+   "CVE-2026-76464",
+   "CVE-2026-76467",
+   "CVE-2026-76468",
+   "CVE-2026-76469",
+   "CVE-2026-76470",
+   "CVE-2026-76472"
+  ],
+  "id": "d87a8a35f1e20085",
+  "kev": false,
+  "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-meraki-os-drbEX9GH?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Meraki%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
+  "published": "2026-11-09T17:55:54Z",
+  "source": "Cisco Security Advisories",
+  "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams conducted a comprehensive internal security review.",
+  "title": "Cisco Meraki Security Hardening Release: October 2026",
+  "trust": "vendor"
  },
  {
   "category": "news",
@@ -10872,6 +11368,22 @@
   "trust": "official"
  },
  {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-104935",
+   "CVE-2026-111357",
+   "CVE-2026-118527"
+  ],
+  "id": "c4030e056e9efe21",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357",
+  "published": "2026-10-30T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
+  "title": "CVE-2026-111357: Ivanti Connect Secure (Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability)",
+  "trust": "official"
+ },
+ {
   "category": "jobs",
   "cves": [],
   "id": "bffb29be87fa8956",
@@ -11029,6 +11541,22 @@
   "source": "Diavgeia: IT posts",
   "summary": "ΑΔΑ: Ε7ΘΙ469ΗΡ8-03Κ",
   "title": "Απόφαση αποδοχής αποτελεσμάτων του πρακτικού αξιολόγησης και επιλογής υποψηφίων της υπ’ αριθμόν 49948/16-10-2026 Πρόσκλησης Εκδήλωσης Ενδιαφέροντος @ ΕΚΕΤΑ/Ινστιτούτο Τεχνολογιών Πληροφορικής και…",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-104935",
+   "CVE-2026-111357",
+   "CVE-2026-118527"
+  ],
+  "id": "017f3e7c6208428f",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527",
+  "published": "2026-10-30T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk.",
+  "title": "CVE-2026-118527: Ivanti Connect Secure (Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability)",
   "trust": "official"
  },
  {
@@ -11269,6 +11797,20 @@
   "trust": "official"
  },
  {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-76418"
+  ],
+  "id": "972a8b447c1a702b",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
+  "published": "2026-10-29T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting…",
+  "title": "CVE-2026-76418: Cisco Secure Firewall ASA Software and Cisco Secure FTD Software (Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference…",
+  "trust": "official"
+ },
+ {
   "category": "jobs",
   "cves": [],
   "id": "8fc02365685c8223",
@@ -11326,6 +11868,20 @@
   "source": "Diavgeia: cybersecurity posts",
   "summary": "ΑΔΑ: ΨΤ4746907Υ-ΟΥ2",
   "title": "Ορισμός Επιτροπής Διενέργειας της Πρόσκλησης Υποβολής Προσφοράς, σε τρεις (3) Οικονομικούς Φορείς, για κατάθεση Τεχνικό-Οικονομικής Προσφοράς, σχετικά με την «Παροχή Συμβουλευτικών Υπηρεσιών…",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-97229"
+  ],
+  "id": "0c7af40fd7e4332c",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
+  "published": "2026-10-29T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD…",
+  "title": "CVE-2026-97229: GitLab Community Edition and Enterprise Edition (GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability)",
   "trust": "official"
  },
  {
@@ -11403,6 +11959,36 @@
   "source": "CISA Advisories",
   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619",
+   "CVE-2026-46300"
+  ],
+  "id": "9ebf713e3a408c87",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300",
+  "published": "2026-10-28T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input…",
+  "title": "CVE-2026-46300: Linux Kernel (Linux Kernel Missing Initialization of a Variable Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-41709"
+  ],
+  "id": "59207cd29da879e3",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709",
+  "published": "2026-10-28T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.",
+  "title": "CVE-2026-41709: Broadcom VMware ESX (Broadcom VMWare ESX Insufficient Logging Vulnerability)",
   "trust": "official"
  },
  {
@@ -11547,6 +12133,20 @@
   "summary": "Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system.",
   "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
   "trust": "vendor"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-48356"
+  ],
+  "id": "f8504e3d2f92c785",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356",
+  "published": "2026-10-27T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's…",
+  "title": "CVE-2026-48356: Adobe Commerce and Magento (Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability)",
+  "trust": "official"
  },
  {
   "category": "advisories",
@@ -12380,6 +12980,18 @@
   "trust": "vendor"
  },
  {
+  "category": "news",
+  "cves": [],
+  "id": "316fc35124f15a8e",
+  "kev": false,
+  "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+  "published": "2026-10-21T15:26:07Z",
+  "source": "Krebs on Security",
+  "summary": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers.",
+  "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+  "trust": "media"
+ },
+ {
   "category": "research",
   "cves": [],
   "id": "2391322698657e4b",
@@ -12619,6 +13231,18 @@
   "summary": "ΑΔΑ: Ψ7Ζ146ΨΧΞ3-ΑΤ2",
   "title": "παροχής υπηρεσίας συμβουλευτικής υποστήριξης στο πλαίσιο του προτύπου 27001 για την ασφάλεια πληροφοριών",
   "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2e4391d4afe47f1c",
+  "kev": false,
+  "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+  "published": "2026-10-19T13:48:56Z",
+  "source": "Krebs on Security",
+  "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the…",
+  "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+  "trust": "media"
  },
  {
   "category": "jobs",
@@ -12973,6 +13597,18 @@
   "trust": "official"
  },
  {
+  "category": "news",
+  "cves": [],
+  "id": "ef3ddb0be283afb1",
+  "kev": false,
+  "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+  "published": "2026-10-14T14:22:49Z",
+  "source": "Krebs on Security",
+  "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that…",
+  "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+  "trust": "media"
+ },
+ {
   "category": "research",
   "cves": [],
   "id": "2a6ff44c55a29daf",
@@ -13105,6 +13741,18 @@
   "summary": "ΑΔΑ: Ψ0Ε746ΨΧΗΘ-Ο30",
   "title": "ΕΞΕ 4016 - 14/10/2026 Παροχή ολοκληρωμένων Λύσεων Κυβερνοασφάλειας προς την εταιρία Ελληνικά Αμυντικά Συστήματα ΑΕΒΕ (ΕΑΣ) για περίοδο τριών (3) ετών",
   "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "083f57ca27c3c4a6",
+  "kev": false,
+  "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+  "published": "2026-10-13T23:24:53Z",
+  "source": "Krebs on Security",
+  "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software.",
+  "title": "Microsoft Patches More Than 1,400 Security Flaws",
+  "trust": "media"
  },
  {
   "category": "research",
@@ -13379,6 +14027,18 @@
   "trust": "official"
  },
  {
+  "category": "news",
+  "cves": [],
+  "id": "07e3850cc23c0df4",
+  "kev": false,
+  "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+  "published": "2026-10-10T00:17:42Z",
+  "source": "Krebs on Security",
+  "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on…",
+  "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
+  "trust": "media"
+ },
+ {
   "category": "advisories",
   "cves": [],
   "id": "4935e8a4b5e74ac6",
@@ -13405,6 +14065,18 @@
   "summary": "Location: Lüneburg, Germany URL: https://www.greenjobs.de/stellenanzeige/software-engineer-devops--100155170/?s=allerleih Description: AllerLeih e.V., a non-profit from Lüneburg, Germany, builds a decentralised open-source platform that makes…",
   "title": "[Part-time] Software-Engineer (DevOps) (w/d/m) at AllerLeih e.V.",
   "trust": "community"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "9e42c327d1802ff0",
+  "kev": false,
+  "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+  "published": "2026-10-07T13:48:45Z",
+  "source": "Krebs on Security",
+  "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang.",
+  "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
+  "trust": "media"
  },
  {
   "category": "advisories",
