@@ -1,12 +1,12 @@
 {
  "daily_errors": {
-  "2026-11-12": 2
+  "2026-11-12": 4
  },
  "empty": {},
  "feeds": {
   "BleepingComputer": {
-   "etag": "9908cdc35efd818f582900e7fd7145d7",
-   "last_modified": "Thu, 12 Nov 2026 07:12:46 GMT"
+   "etag": "1173a05d04e9313279510ae406df2b97",
+   "last_modified": "Thu, 12 Nov 2026 07:22:47 GMT"
   },
   "CERT-EU": {},
   "CISA Advisories": {},
@@ -41,7 +41,7 @@
   },
   "Google Threat Intelligence": {},
   "Krebs on Security": {
-   "last_modified": "Thu, 12 Nov 2026 06:40:29 GMT"
+   "last_modified": "Thu, 12 Nov 2026 07:16:43 GMT"
   },
   "Microsoft MSRC": {
    "etag": "\"0x8DF4016A56E1C47\"",
@@ -50,8 +50,8 @@
   "Neurosoft Careers": {},
   "PwC Greece (Tech & Cyber)": {},
   "SANS Internet Storm Center": {
-   "etag": "W/\"1a70-6600efc327cd0\"",
-   "last_modified": "Thu, 12 Nov 2026 07:08:57 GMT"
+   "etag": "W/\"1a70-6600f31cbbd11\"",
+   "last_modified": "Thu, 12 Nov 2026 07:23:56 GMT"
   },
   "SecurityWeek": {
    "etag": "\"7e31cf10d88d04b126e90a10a894fde3\"",
