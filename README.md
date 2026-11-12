@@ -2,9 +2,9 @@
 
 ## TL;DR
 
-Threat Feed is a GitHub Actions-powered RSS intelligence service for a phone RSS reader. Every hour it collects trusted cybersecurity news, advisories, research, exploited vulnerabilities, relevant early-career jobs, Greek public recruitment notices, and free training. It validates and sanitizes the input, commits structured data, builds a static dashboard/site, and publishes category RSS feeds through GitHub Pages.
+Threat Feed is a GitHub Actions-powered RSS intelligence service. Every hour it collects trusted cybersecurity news, advisories, research, and exploited vulnerabilities. It validates and sanitizes the input, commits structured data, builds a static dashboard/site, and publishes category RSS feeds through GitHub Pages.
 
-- **Collects**: Security news, advisories, research, exploited vulnerabilities (CISA KEV), open jobs, Greek public recruitment notices, and free training from a fixed, trusted source list.
+- **Collects**: Security news, advisories, research, and exploited vulnerabilities (CISA KEV) from a fixed, trusted source list.
 - **Validates & Sanitizes**: Enforces strict URL allowlists, HTTPS-only hops, size/timeout caps, an XML entity-expansion check, and HTML tag stripping for clean plain-text reading.
 - **Static Output**: Builds a static HTML site with category views, monthly archives, a statistics dashboard, and one RSS feed per category.
 - **Hourly Automation**: Runs via GitHub Pages and GitHub Actions every hour with zero long-lived credentials and robust concurrency protection.
@@ -16,7 +16,7 @@ flowchart TD
     A[Hourly Schedule / Manual Run] --> B[collect job]
     subgraph collect job
         B --> B1[Fetch: HTTPS-only, size cap, redirect limits]
-        B1 --> B2[Parse RSS / KEV / Watch / Workable / Diavgeia / Static]
+        B1 --> B2[Parse RSS / KEV / Static]
         B2 --> B3[Sanitize HTML summaries & Validate allowlist]
         B3 --> B4[Deduplicate and commit data/ to repo]
     end
@@ -32,9 +32,7 @@ flowchart TD
 
 ## Features
 
-- **Categories**: Exploited, Advisories, News, Research, Jobs, and Training.
-- **Jobs Scoring & Top Match**: Ranks job listings based on relevance and highlights top-matching security roles.
-- **Job interests**: Cybersecurity, research, RF/radio/wireless, AI/development, HPC/Daedalus, ENISA, Workable employers, and Greek public notices.
+- **Categories**: Exploited, Advisories, News, and Research.
 - **Statistics Dashboard**: Visualizes monthly feed volume and errors with an SVG trend chart (`stats.svg`) plus operational counts.
 - **Subscribe Page**: Easy RSS subscription links for all categories.
 
@@ -86,3 +84,4 @@ flowchart TD
 - Keyword filtering rules and scoring logic are fully public.
 - The `data/` directory is committed to the repository and publicly visible.
 - **Archive policy**: collection filters apply only to new items. Valid archived records are immutable history and are not re-filtered when interests or source keywords change. Records that fail schema or current source allowlist validation are intentionally excluded from the generated site and reported during builds.
+- **Source permissions**: `data/feeds.json` contains only sources selected for the public workflow. Job pages, Workable searches, Diavgeia searches, and training links are not collected or published by GitHub Actions.
