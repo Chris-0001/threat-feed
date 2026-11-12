@@ -29,3 +29,72 @@ h1{font-size:1.6rem;line-height:1.2;margin:0 0 .25rem;letter-spacing:-.01em}
 code{font-size:.85rem;overflow-wrap:anywhere}
 footer{color:var(--mute);font-size:.85rem;padding-bottom:2rem;margin-top:1.5rem}
 .top{background:var(--c-research);color:var(--on);padding:0 .5rem;border-radius:2px;font-weight:700}
+.stats-chart {
+  margin: 2rem auto 0;
+  text-align: center;
+}
+
+.stats-chart img {
+  height: auto;
+  max-width: 100%;
+}
+
+.dashboard-grid {
+  display: grid;
+  gap: .75rem;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  margin: 1.25rem 0;
+}
+
+.dashboard-grid div {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: .35rem;
+  padding: .75rem;
+  text-align: center;
+}
+
+.dashboard-grid strong,
+.dashboard-grid span {
+  display: block;
+}
+
+.dashboard-grid strong {
+  font-size: 1.4rem;
+}
+
+.dashboard-grid span {
+  color: var(--mute);
+  font-size: .8rem;
+}
+
+.architecture-diagram {
+  margin-top: 3rem;
+}
+
+.architecture-flow {
+  margin: 1rem auto;
+  max-width: 48rem;
+  text-align: center;
+}
+
+.architecture-group {
+  border: 1px solid #9aa8b5;
+  border-radius: 0.5rem;
+  margin: 0.75rem 0;
+  padding: 1rem;
+}
+
+.architecture-node {
+  background: #eef4f8;
+  border: 1px solid #6f8798;
+  border-radius: 0.35rem;
+  margin: 0.5rem auto;
+  padding: 0.65rem 0.8rem;
+}
+
+.architecture-arrow {
+  color: #536b7b;
+  font-size: 1.25rem;
+  line-height: 1;
+}

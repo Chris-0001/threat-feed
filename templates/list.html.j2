@@ -6,10 +6,6 @@
 <article class="item cat-{{ it.category }}">
 <p class="meta"><span class="cat">{{ categories[it.category] }}</span><span>{{ it.source }}</span><span>{{ it.trust }} source</span><time datetime="{{ it.published }}">{{ it.published[:10] }}</time></p>
 <h2>
-  {% if it.get('scanned') and not it.get('malicious') %}
-    <span title="URL Scanned by VirusTotal" class="scan-ok">✅</span>
-  {% endif %}
-  
   {% if it.get('score', 0) >= 60 %}<span class="top">Top match</span> {% endif %}
   <a href="{{ it.link }}" rel="noopener noreferrer nofollow">{{ it.title }}</a>
 </h2>

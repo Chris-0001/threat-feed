@@ -190,7 +190,7 @@ def load_state():
         
     defaults = {
         "feeds": {}, "seen": {}, "kev_cves": [], "live": {}, "empty": {},
-        "skips": {},
+        "skips": {}, "daily_errors": {},
     }
     
     for key, default in defaults.items():
@@ -264,6 +264,22 @@ def matches(item, feed):
         and not kw_hit(text, feed["exclude"])
         and not kw_hit(fold(item["title"]), feed["exclude_title"])
     )
+
+
+def job_score(item):
+    """Prefer relevant, early-career roles without hiding other open jobs."""
+    text = fold(f"{item['title']} {item['summary']}")
+    score = 0
+    for word, points in (
+        ("junior", 40), ("entry level", 35), ("entry-level", 35),
+        ("intern", 35), ("trainee", 30), ("graduate", 30),
+        ("associate", 20), ("hpc", 25), ("cyber", 20), ("security", 20),
+        ("infosec", 20), ("ai", 15), ("research", 15), ("developer", 15),
+        ("software", 10), ("radio", 15), ("wireless", 15), ("rf", 15),
+    ):
+        if kw_hit(text, [word]):
+            score += points
+    return score
 
 
 def build_item(feed, title, link, summary_html, published, key):
@@ -668,28 +684,36 @@ def is_open(it, feed, live, now):
 
 def build():
     feeds = load_feeds()
+    state = load_state()
     by_source = {f["name"]: f for f in feeds}
     owner, _, repo = os.environ.get("GITHUB_REPOSITORY", "you/threat-feed").partition("/")
     require(re.fullmatch(r"[\w.-]+", owner) and re.fullmatch(r"[\w.-]+", repo), "bad GITHUB_REPOSITORY")
     site_url = f"https://{owner.lower()}.github.io/{repo}/"
 
-    months, dropped = {}, 0
+    months, dropped, duplicate_count = {}, 0, 0
     for p in sorted(ARCHIVE_DIR.glob("*.json"), reverse=True):
         if not MONTH_RE.fullmatch(p.stem):
             continue
         raw = json.loads(p.read_text("utf-8"))
-        good = [i for i in raw if valid_item(i, by_source) and matches(i, by_source[i["source"]])]
+        # Archive policy: collection filters apply only when an item is first
+        # collected. Valid historical records remain immutable even if today's
+        # interests or source filters change.
+        good = [i for i in raw if valid_item(i, by_source)]
         
+        invalid_count = len(raw) - len(good)
         seen_links, uniq = set(), []
         for i in good:
             if i["link"] not in seen_links:
                 seen_links.add(i["link"])
                 uniq.append(i)
+        duplicate_count += len(good) - len(uniq)
         good = uniq
-        dropped += len(raw) - len(good)
+        dropped += invalid_count
         months[p.stem] = sorted(good, key=lambda i: (i["published"], i["id"]), reverse=True)
     if dropped:
         warn(f"{dropped} archived items failed validation and were left out")
+    if duplicate_count:
+        log(f"{duplicate_count} duplicate archived links were collapsed")
     items = sorted((i for m in months.values() for i in m),
                    key=lambda i: (i["published"], i["id"]), reverse=True)
 
@@ -724,6 +748,9 @@ def build():
         [i for i in open_items if i["category"] not in NOT_IN_LATEST])
     for slug, (label, desc) in CATEGORIES.items():
         subset = [i for i in open_items if i["category"] == slug]
+        if slug == "jobs":
+            subset = [dict(i, score=job_score(i)) for i in subset]
+            subset = sorted(subset, key=lambda i: (i["score"], i["published"], i["id"]), reverse=True)
         render(f"{slug}.html", "list.html.j2", title=label, heading=label, intro=desc,
                items=subset[:PAGE_ITEMS], current=slug)
         rss(slug, f"Threat feed: {label}", desc, subset)
@@ -735,32 +762,38 @@ def build():
     render("subscribe.html", "subscribe.html.j2", title="Subscribe", current="subscribe")
     from stats import generate_graphs
     from collections import defaultdict
-    date_counts = defaultdict(int)
+    month_counts = defaultdict(int)
     for m, subset in months.items():
         for i in subset:
-            d = i["published"][:10]
-            date_counts[d] += 1
-    
-    # Last 30 calendar days
-    end_d = built.date()
-    sorted_dates = [(end_d - timedelta(days=i)).strftime("%Y-%m-%d") for i in range(29, -1, -1)]
-    items_scanned_vals = [date_counts[d] for d in sorted_dates]
-    
-    daily_errs_map = state.get("daily_errors", {}) if 'state' in locals() else {}
-    if not daily_errs_map:
-        try:
-            daily_errs_map = json.loads(STATE_FILE.read_text("utf-8")).get("daily_errors", {})
-        except Exception:
-            daily_errs_map = {}
-    error_counts_vals = [daily_errs_map.get(d, 0) for d in sorted_dates]
-    
+            month_counts[i["published"][:7]] += 1
+
+    month_labels = []
+    cursor = built.replace(day=1)
+    for _ in range(11, -1, -1):
+        month_labels.append(cursor.strftime("%Y-%m"))
+        cursor = (cursor - timedelta(days=1)).replace(day=1)
+    items_scanned_vals = [month_counts[m] for m in month_labels]
+    daily_errs_map = state.get("daily_errors", {})
+    error_counts = defaultdict(int)
+    for day, count in daily_errs_map.items():
+        error_counts[day[:7]] += count
+    error_counts_vals = [error_counts[m] for m in month_labels]
+
     try:
-        generate_graphs(sorted_dates, items_scanned_vals, error_counts_vals)
+        generate_graphs(month_labels, items_scanned_vals, error_counts_vals)
     except Exception as e:
         warn(f"Failed to generate stats graphs: {e}")
 
     render("stats.html", "stats.html.j2", title="Statistics", heading="Statistics & System Health",
-           intro="Hand-drawn performance and error metrics for the threat feed aggregator.", current="stats")
+           intro="Monthly collection volume, errors, and operational status for the automated feed.",
+           current="stats", stats={
+               "configured_feeds": len(feeds),
+               "archive_items": len(items),
+               "open_jobs": sum(1 for i in open_items if i["category"] == "jobs"),
+               "archive_months": len(months),
+               "errors_30d": sum(v for d, v in daily_errs_map.items()
+                                 if d >= (built - timedelta(days=30)).strftime("%Y-%m-%d")),
+           })
     shutil.copy(ROOT / "static" / "style.css", SITE_DIR / "style.css")
     log(f"Built site with {len(items)} items in {len(months)} month(s).")
 

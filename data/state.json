@@ -5,8 +5,8 @@
  "empty": {},
  "feeds": {
   "BleepingComputer": {
-   "etag": "1173a05d04e9313279510ae406df2b97",
-   "last_modified": "Thu, 12 Nov 2026 07:22:47 GMT"
+   "etag": "f9b3a89007fa8a1881087e7fd3af79c3",
+   "last_modified": "Thu, 12 Nov 2026 08:32:49 GMT"
   },
   "CERT-EU": {},
   "CISA Advisories": {},
@@ -27,8 +27,8 @@
    "last_modified": "Thu, 12 Nov 2026 02:03:10 GMT"
   },
   "ENISA Vacancies": {
-   "etag": "\"1794448990-gzip\"",
-   "last_modified": "Thu, 12 Nov 2026 02:03:10 GMT"
+   "etag": "\"1794465201-gzip\"",
+   "last_modified": "Thu, 12 Nov 2026 06:33:21 GMT"
   },
   "FOSS Jobs: Consultants": {},
   "FOSS Jobs: Programmers": {},
@@ -41,7 +41,7 @@
   },
   "Google Threat Intelligence": {},
   "Krebs on Security": {
-   "last_modified": "Thu, 12 Nov 2026 07:16:43 GMT"
+   "last_modified": "Thu, 12 Nov 2026 06:40:29 GMT"
   },
   "Microsoft MSRC": {
    "etag": "\"0x8DF4016A56E1C47\"",
@@ -50,20 +50,20 @@
   "Neurosoft Careers": {},
   "PwC Greece (Tech & Cyber)": {},
   "SANS Internet Storm Center": {
-   "etag": "W/\"1a70-6600f31cbbd11\"",
-   "last_modified": "Thu, 12 Nov 2026 07:23:56 GMT"
+   "etag": "W/\"1a70-660101a443f35\"",
+   "last_modified": "Thu, 12 Nov 2026 08:28:56 GMT"
   },
   "SecurityWeek": {
    "etag": "\"7e31cf10d88d04b126e90a10a894fde3\"",
    "last_modified": "Thu, 12 Nov 2026 05:15:20 GMT"
   },
   "The Hacker News": {
-   "last_modified": "Thu, 12 Nov 2026 06:26:25 GMT"
+   "last_modified": "Thu, 12 Nov 2026 08:09:52 GMT"
   },
   "The Record": {},
   "UK NCSC": {
-   "etag": "W/\"1794398407\"",
-   "last_modified": "Wed, 11 Nov 2026 12:00:07 GMT"
+   "etag": "W/\"1794472189\"",
+   "last_modified": "Thu, 12 Nov 2026 08:29:49 GMT"
   },
   "Ubuntu Security Notices": {},
   "Zero Day Initiative": {}
@@ -5124,6 +5124,7 @@
   "92d9ac1ab5b3600b": "2026-11-12",
   "92e0784712af7903": "2026-11-12",
   "92e2fddcc47e898e": "2026-11-12",
+  "93195e6a70f070f0": "2026-11-12",
   "932e078feeb828a5": "2026-11-12",
   "933b8240f5a13ce2": "2026-11-12",
   "93424d6afc398d32": "2026-11-12",

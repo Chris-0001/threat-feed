@@ -2,29 +2,40 @@
 {% block content %}
 <h1>{{ heading }}</h1>
 <p class="intro">{{ intro }}</p>
-<div style="text-align: center; margin-top: 2rem;">
-    <img src="assets/stats.svg" alt="Statistics Graphs" style="max-width: 100%; height: auto;">
+<div class="stats-chart">
+    <img src="assets/stats.svg" alt="Statistics Graphs">
 </div>
-<section class="architecture-diagram" style="margin-top: 3rem;">
+<div class="dashboard-grid">
+  <div><strong>{{ stats.configured_feeds }}</strong><span>configured feeds</span></div>
+  <div><strong>{{ stats.open_jobs }}</strong><span>currently open jobs</span></div>
+  <div><strong>{{ stats.archive_items }}</strong><span>valid archive items</span></div>
+  <div><strong>{{ stats.archive_months }}</strong><span>archive months</span></div>
+  <div><strong>{{ stats.errors_30d }}</strong><span>errors in last 30 days</span></div>
+</div>
+<section class="architecture-diagram">
   <h2>System Architecture</h2>
-  <div class="mermaid">
-    flowchart TD
-        A[Hourly Schedule / Manual Run] --> B[collect job]
-        subgraph collect job
-            B --> B1[Fetch: HTTPS-only, size cap, redirect limits]
-            B1 --> B2[Parse RSS / KEV / Watch / Workable / Static with defusedxml]
-            B2 --> B3[Sanitize HTML summaries & Validate allowlist]
-            B3 --> B4["Deduplicate & Optional VirusTotal Scan<br>(VT_API_KEY secret)"]
-            B4 --> B5[Commit data/ to repo]
-        end
-        B5 --> C[build job]
-        subgraph build job
-            C --> C1[Validate archive data schema]
-            C1 --> C2[Render HTML pages, RSS feeds & stats.svg]
-        end
-        C2 --> D[deploy job]
-        D --> E[GitHub Pages Site & RSS Feeds]
-        E --> F[Reader / RSS App / Browser]
+  <div class="architecture-flow" aria-label="Threat feed system architecture">
+    <div class="architecture-node">Hourly schedule or manual run</div>
+    <div class="architecture-arrow" aria-hidden="true">↓</div>
+    <div class="architecture-group">
+      <strong>Collect job</strong>
+      <div class="architecture-node">Fetch HTTPS feeds with size, timeout, and redirect limits</div>
+      <div class="architecture-arrow" aria-hidden="true">↓</div>
+      <div class="architecture-node">Parse RSS, KEV, watch pages, Workable, Diavgeia, and static sources</div>
+      <div class="architecture-arrow" aria-hidden="true">↓</div>
+      <div class="architecture-node">Sanitize text, validate allowlists, filter, and deduplicate</div>
+      <div class="architecture-arrow" aria-hidden="true">↓</div>
+      <div class="architecture-node">Commit validated data to the repository</div>
+    </div>
+    <div class="architecture-arrow" aria-hidden="true">↓</div>
+    <div class="architecture-group">
+      <strong>Build job</strong>
+      <div class="architecture-node">Validate archive data and render HTML, RSS, and statistics SVG</div>
+    </div>
+    <div class="architecture-arrow" aria-hidden="true">↓</div>
+    <div class="architecture-node">Upload Pages artifact and deploy to GitHub Pages</div>
+    <div class="architecture-arrow" aria-hidden="true">↓</div>
+    <div class="architecture-node">Reader, browser, or RSS application</div>
   </div>
 </section>
 {% endblock %}
