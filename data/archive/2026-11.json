@@ -1,5 +1,34 @@
 [
  {
+<<<<<<< Updated upstream
+=======
+  "category": "news",
+  "cves": [
+   "CVE-2026-119618"
+  ],
+  "id": "e17e280806ec9b7d",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+  "published": "2026-11-12T05:12:26Z",
+  "source": "The Hacker News",
+  "summary": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday.",
+  "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "892b98fa98f1abce",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+  "published": "2026-11-12T04:39:48Z",
+  "source": "The Hacker News",
+  "summary": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access.",
+  "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+  "trust": "media"
+ },
+ {
+>>>>>>> Stashed changes
   "category": "research",
   "cves": [],
   "id": "0ff47b7fbd1d6b57",
@@ -192,6 +221,7 @@
   "trust": "media"
  },
  {
+<<<<<<< Updated upstream
   "category": "advisories",
   "cves": [],
   "id": "1d696928694b18aa",
@@ -204,6 +234,8 @@
   "trust": "official"
  },
  {
+=======
+>>>>>>> Stashed changes
   "category": "news",
   "cves": [],
   "id": "3ae8091dec8539df",
@@ -470,6 +502,7 @@
   "trust": "media"
  },
  {
+<<<<<<< Updated upstream
   "category": "advisories",
   "cves": [
    "CVE-2026-35341",
@@ -543,6 +576,8 @@
   "trust": "official"
  },
  {
+=======
+>>>>>>> Stashed changes
   "category": "news",
   "cves": [],
   "id": "60fe7a47de24952c",
@@ -596,6 +631,7 @@
  {
   "category": "news",
   "cves": [],
+<<<<<<< Updated upstream
   "id": "e4e5c48cf0e993fe",
   "kev": false,
   "link": "https://www.securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd/",
@@ -631,6 +667,8 @@
  {
   "category": "news",
   "cves": [],
+=======
+>>>>>>> Stashed changes
   "id": "98673cb69a449a65",
   "kev": false,
   "link": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
@@ -641,6 +679,7 @@
   "trust": "media"
  },
  {
+<<<<<<< Updated upstream
   "category": "advisories",
   "cves": [
    "CVE-2023-54397",
@@ -695,6 +734,8 @@
   "trust": "media"
  },
  {
+=======
+>>>>>>> Stashed changes
   "category": "news",
   "cves": [],
   "id": "5948f9c7deb0fa2a",
@@ -757,6 +798,7 @@
   "trust": "vendor"
  },
  {
+<<<<<<< Updated upstream
   "category": "jobs",
   "cves": [],
   "id": "d9b53b57b0bc959b",
@@ -793,6 +835,8 @@
   "trust": "official"
  },
  {
+=======
+>>>>>>> Stashed changes
   "category": "advisories",
   "cves": [
    "CVE-2026-20183",
@@ -821,6 +865,7 @@
   "trust": "media"
  },
  {
+<<<<<<< Updated upstream
   "category": "jobs",
   "cves": [],
   "id": "bb1f28670cfc1b78",
@@ -833,6 +878,8 @@
   "trust": "official"
  },
  {
+=======
+>>>>>>> Stashed changes
   "category": "news",
   "cves": [],
   "id": "75bc7585bfcaa683",
