@@ -1,5 +1,91 @@
 [
  {
+  "category": "news",
+  "cves": [],
+  "id": "2b4f09bc1e0f5c34",
+  "kev": false,
+  "link": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
+  "published": "2026-11-12T11:08:52Z",
+  "source": "SecurityWeek",
+  "summary": "The attackers accessed chat transcripts for fewer than 1% of Notion workspaces. Most transcripts were unattributable. The post Notion Customer Data Compromised in Fireworks AI Hack appeared first on SecurityWeek .",
+  "title": "Notion Customer Data Compromised in Fireworks AI Hack",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "793eecf1c16c64a8",
+  "kev": false,
+  "link": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
+  "published": "2026-11-12T10:39:34Z",
+  "source": "SecurityWeek",
+  "summary": "The attackers exploited a vulnerability in a legitimate extension to bypass ScreenConnect authentication. The post Hackers Deploy Malware in Fresh ScreenConnect Campaign appeared first on SecurityWeek .",
+  "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3723bf521ddcdf8c",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
+  "published": "2026-11-12T10:24:07Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft has confirmed reports that the November 2026 security updates are failing to install on Windows 11 systems with the October preview update. [...]",
+  "title": "Microsoft confirms Windows security updates installation issues",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2fb93d2d43260c5c",
+  "kev": false,
+  "link": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/",
+  "published": "2026-11-12T09:39:55Z",
+  "source": "SecurityWeek",
+  "summary": "The malicious activity started shortly after a researcher dropped over 30 zero-days. N-able patched the unauthenticated ones. The post Hackers Target N-central Zero-Days as N-able Rushes Patches appeared first on SecurityWeek .",
+  "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "83d0f4db2e7942aa",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+  "published": "2026-11-12T09:38:00Z",
+  "source": "BleepingComputer",
+  "summary": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patching the vulnerabilities exploited to gain initial access. [...]",
+  "title": "Hackers plant GSocket on Linux servers for persistent access",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-118383"
+  ],
+  "id": "d85625e945a4a135",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+  "published": "2026-11-12T09:25:00Z",
+  "source": "The Hacker News",
+  "summary": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server.",
+  "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "7aaf4357f7b64697",
+  "kev": false,
+  "link": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
+  "published": "2026-11-12T09:23:21Z",
+  "source": "SecurityWeek",
+  "summary": "Attackers could exploit a critical Red Hat Quay flaw to steal private container images, overwrite repositories and maintain persistent access.",
+  "title": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
+  "trust": "media"
+ },
+ {
   "category": "jobs",
   "cves": [],
   "id": "a4488723e46ca761",
@@ -70,6 +156,30 @@
   "summary": "",
   "title": "Seconded National Experts (SNE)",
   "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "4ef39c7e31880e90",
+  "kev": false,
+  "link": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/",
+  "published": "2026-11-12T08:38:47Z",
+  "source": "SecurityWeek",
+  "summary": "The WhiteArmor ransomware group claims it stole 100GB of data from the shipping giant’s systems. The post Maersk Confirms Data Theft Amid $5 Million Extortion Attempt appeared first on SecurityWeek .",
+  "title": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "454c76a866bd5cf9",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+  "published": "2026-11-12T08:20:37Z",
+  "source": "The Hacker News",
+  "summary": "A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines.",
+  "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+  "trust": "media"
  },
  {
   "category": "jobs",
@@ -432,6 +542,18 @@
   "summary": "",
   "title": "ISC Stormcast For Thursday, November 12th, 2026 https://isc.sans.edu/podcastdetail/10176, (Thu, Nov 12th)",
   "trust": "vendor"
+ },
+ {
+  "category": "jobs",
+  "cves": [],
+  "id": "2a9280fcbee83674",
+  "kev": false,
+  "link": "https://apply.workable.com/neurosoft-1/j/87579C0EAD/",
+  "published": "2026-11-12T00:00:00Z",
+  "source": "Neurosoft Careers",
+  "summary": "Athens, Greece | Full-time | Associate. Neurosoft is a leading Managed Services Provider (MSP) that specializes in offering end-to-end premium integrated services in the areas of Cyber Security, Technology Solutions and Field Services.",
+  "title": "Information Security Consultant",
+  "trust": "official"
  },
  {
   "category": "news",
@@ -5075,6 +5197,18 @@
   "summary": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for…",
   "title": "Fireworks AI Breach Widens to Expose Customer Billing Data and Incomplete Model Weights",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "9b9f02502593e5fc",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/sap-security-advisory-november-2026-monthly-rollup-av26-1137",
+  "published": "2026-11-10T15:31:51Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1137 Date: November 10, 2026 As of November 10, 2026, SAP_SE is affected by vulnerabilities in the following products: SAP NetWeaver AS ABAP (Internet Communication Manager) Versions KRNL64UC 7.53, KERNEL 7.53, 7.54, 7.77, 7.93…",
+  "title": "SAP security advisory – November 2026 monthly rollup (AV26-1137)",
+  "trust": "official"
  },
  {
   "category": "news",

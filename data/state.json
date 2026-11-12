@@ -5,8 +5,8 @@
  "empty": {},
  "feeds": {
   "BleepingComputer": {
-   "etag": "f9b3a89007fa8a1881087e7fd3af79c3",
-   "last_modified": "Thu, 12 Nov 2026 08:32:49 GMT"
+   "etag": "3206268f254d9485b2d19ea26402aca0",
+   "last_modified": "Thu, 12 Nov 2026 11:04:10 GMT"
   },
   "CERT-EU": {},
   "CISA Advisories": {},
@@ -17,14 +17,14 @@
   "Canadian Cyber Centre": {},
   "Cisco Security Advisories": {},
   "Cisco Talos": {
-   "etag": "W/\"f7806-bLtRawyTuZqg/ZGDl/Dxejis+rU\""
+   "etag": "W/\"f7806-ZSFadiTh0ulcOH3b7VKHOJPsB5I\""
   },
   "Diavgeia: IT posts": {},
   "Diavgeia: cybersecurity posts": {},
   "Diavgeia: infosec posts": {},
   "ENISA Careers": {
-   "etag": "\"1794472626-gzip\"",
-   "last_modified": "Thu, 12 Nov 2026 08:37:06 GMT"
+   "etag": "\"1794477743-gzip\"",
+   "last_modified": "Thu, 12 Nov 2026 10:02:23 GMT"
   },
   "ENISA Vacancies": {
    "etag": "\"1794465201-gzip\"",
@@ -41,7 +41,7 @@
   },
   "Google Threat Intelligence": {},
   "Krebs on Security": {
-   "last_modified": "Thu, 12 Nov 2026 06:40:29 GMT"
+   "last_modified": "Thu, 12 Nov 2026 11:07:42 GMT"
   },
   "Microsoft MSRC": {
    "etag": "\"0x8DF4016A56E1C47\"",
@@ -50,20 +50,20 @@
   "Neurosoft Careers": {},
   "PwC Greece (Tech & Cyber)": {},
   "SANS Internet Storm Center": {
-   "etag": "W/\"1a70-660102c239448\"",
-   "last_modified": "Thu, 12 Nov 2026 08:33:56 GMT"
+   "etag": "W/\"1a70-6601256952936\"",
+   "last_modified": "Thu, 12 Nov 2026 11:08:58 GMT"
   },
   "SecurityWeek": {
-   "etag": "\"7e31cf10d88d04b126e90a10a894fde3\"",
-   "last_modified": "Thu, 12 Nov 2026 05:15:20 GMT"
+   "etag": "W/\"93d5fa278dd15b20c61c6c0e35d7ae1f\"",
+   "last_modified": "Thu, 12 Nov 2026 11:08:57 GMT"
   },
   "The Hacker News": {
-   "last_modified": "Thu, 12 Nov 2026 08:09:52 GMT"
+   "last_modified": "Thu, 12 Nov 2026 10:44:02 GMT"
   },
   "The Record": {},
   "UK NCSC": {
-   "etag": "W/\"1794472189\"",
-   "last_modified": "Thu, 12 Nov 2026 08:29:49 GMT"
+   "etag": "W/\"1794480794\"",
+   "last_modified": "Thu, 12 Nov 2026 10:53:14 GMT"
   },
   "Ubuntu Security Notices": {},
   "Zero Day Initiative": {}
@@ -1893,6 +1893,7 @@
   ],
   "Neurosoft Careers": [
    "1383a429a794ceaa",
+   "2a9280fcbee83674",
    "46ebbe273efda748",
    "524f15925c69d9e7",
    "60a99a841204efc3",
@@ -2846,6 +2847,7 @@
   "2a85c4af74d25435": "2026-11-12",
   "2a8903712bdb8499": "2026-11-12",
   "2a8a75bf185f9d72": "2026-11-12",
+  "2a9280fcbee83674": "2026-11-12",
   "2a96f9a1b9974a14": "2026-11-12",
   "2a9ac4d4eb04ffdc": "2026-11-12",
   "2aa32ca1e18b1179": "2026-11-12",
@@ -2858,6 +2860,7 @@
   "2b0e1b7caacea6da": "2026-11-12",
   "2b2ebc06558cb16c": "2026-11-12",
   "2b352954bf2918e8": "2026-11-12",
+  "2b4f09bc1e0f5c34": "2026-11-12",
   "2b5093d00aa7ad23": "2026-11-12",
   "2b53be66e000543b": "2026-11-12",
   "2b7c6c97fa21332a": "2026-11-12",
@@ -2964,6 +2967,7 @@
   "2faa838d74c74071": "2026-11-12",
   "2fb55a28f30467d2": "2026-11-12",
   "2fb61f29cd902654": "2026-11-12",
+  "2fb93d2d43260c5c": "2026-11-12",
   "2fbac012afd8660f": "2026-11-12",
   "2fbae584eb3c08dd": "2026-11-12",
   "2fd248b984cf71e9": "2026-11-12",
@@ -3123,6 +3127,7 @@
   "3715fda2d674837d": "2026-11-12",
   "3718092b4054aade": "2026-11-12",
   "371c7e35c74b8f11": "2026-11-12",
+  "3723bf521ddcdf8c": "2026-11-12",
   "372d756e8f52e799": "2026-11-12",
   "3731b4229fa74174": "2026-11-12",
   "373229732e76c9bd": "2026-11-12",
@@ -3426,6 +3431,7 @@
   "453daa964360d22c": "2026-11-12",
   "454afc61d58f142d": "2026-11-12",
   "454ba8c8c3fda95e": "2026-11-12",
+  "454c76a866bd5cf9": "2026-11-12",
   "45533d547505711d": "2026-11-12",
   "455c1b93f9a77a66": "2026-11-12",
   "457578f97d71fe59": "2026-11-12",
@@ -3625,6 +3631,7 @@
   "4eecccfb39802c11": "2026-11-12",
   "4ef3216b6add528e": "2026-11-12",
   "4ef335d722e79d39": "2026-11-12",
+  "4ef39c7e31880e90": "2026-11-12",
   "4ef8ddb66ddfb5ef": "2026-11-12",
   "4efc71dbb9adaa6c": "2026-11-12",
   "4efe31ab5d5a95c6": "2026-11-12",
@@ -4559,6 +4566,7 @@
   "790272dc77f4a6fd": "2026-11-12",
   "790481ca66e91dcf": "2026-11-12",
   "790612942f314c40": "2026-11-12",
+  "793eecf1c16c64a8": "2026-11-12",
   "79404c26b75054ed": "2026-11-12",
   "7946e569c05b5bb8": "2026-11-12",
   "79484c608d460678": "2026-11-12",
@@ -4593,6 +4601,7 @@
   "7a9415b9e0111e22": "2026-11-12",
   "7a97a5fdb088cef0": "2026-11-12",
   "7aae0a46e022630a": "2026-11-12",
+  "7aaf4357f7b64697": "2026-11-12",
   "7ac555f71c17cc24": "2026-11-12",
   "7ad35cb1fcf0d636": "2026-11-12",
   "7ad8bd1d61d97f55": "2026-11-12",
@@ -4801,6 +4810,7 @@
   "83ac8a5e0e43f609": "2026-11-12",
   "83ca1852dbbaecb0": "2026-11-12",
   "83ce0d20faf67488": "2026-11-12",
+  "83d0f4db2e7942aa": "2026-11-12",
   "83dd6db746876757": "2026-11-12",
   "83de49c8726a9c9b": "2026-11-12",
   "83dedfb487fb4511": "2026-11-12",
@@ -5270,6 +5280,7 @@
   "9b6d648ab8ff68bf": "2026-11-12",
   "9b8f415515f2ab02": "2026-11-12",
   "9b9316dc15b4755a": "2026-11-12",
+  "9b9f02502593e5fc": "2026-11-12",
   "9ba1affd6eeeddaf": "2026-11-12",
   "9ba6c3b28ed5fc87": "2026-11-12",
   "9bafce2ae5f66f3d": "2026-11-12",
@@ -6557,6 +6568,7 @@
   "d843171b454cda58": "2026-11-12",
   "d84bd1632ce1759c": "2026-11-12",
   "d84d0223959d228f": "2026-11-12",
+  "d85625e945a4a135": "2026-11-12",
   "d85c0adce4d3218a": "2026-11-12",
   "d85f77da54a63eb0": "2026-11-12",
   "d86ce015e6c26d1e": "2026-11-12",
