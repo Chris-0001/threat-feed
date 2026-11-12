@@ -1,6 +1,66 @@
 [
  {
   "category": "advisories",
+  "cves": [],
+  "id": "475227bd002e45a9",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/react-security-advisory-av26-1152",
+  "published": "2026-11-12T18:51:10Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1152 Date: November 12, 2026 As of November 10, 2026, React is affected by a vulnerability in the following product: react Prior to 19.0.9 Prior to 19.1.10 Prior to 19.2.9 Prior to 19.3.1 The Cyber Centre encourages users and…",
+  "title": "React security advisory (AV26-1152)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "603caa7cacf9b3b8",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/mongodb-security-advisory-av26-1151",
+  "published": "2026-11-12T18:43:52Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1151 Date: November 12, 2026 As of November 10, 2026, MongoDB is affected by vulnerabilities in the following product: MongoDB Server Prior to 4.4.32 Prior to 5.0.35 Prior to 6.0.30 Prior to 7.0.48 Prior to 8.0.37 Prior to 8.3.16…",
+  "title": "MongoDB security advisory (AV26-1151)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "7241c50e015607d3",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/apple-security-advisory-av26-1149",
+  "published": "2026-11-12T18:35:43Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1149 Date: November 12, 2026 As of November 9, 2026, Apple is affected by vulnerabilities in the following products: iOS and iPadOS Prior to 18.7.12 Prior to 26.7.3 Prior to 27.2.1 MacOS Golden Gate Prior to 27.2.1 MacOS Tahoe…",
+  "title": "Apple security advisory (AV26-1149)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "72d8090658396a20",
+  "kev": false,
+  "link": "https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system",
+  "published": "2026-11-12T18:28:00Z",
+  "source": "The Record",
+  "summary": "The incident is the latest in a string of attacks on ports and other shipping organizations worldwide, with Brazil’s largest port hit with ransomware last week.",
+  "title": "Shipping giant Maersk says recent cyber incident affected legacy system",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "a889ef0591d74712",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
+  "published": "2026-11-12T18:02:51Z",
+  "source": "The Hacker News",
+  "summary": "A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there.",
+  "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
   "cves": [
    "CVE-2026-120868"
   ],
@@ -12,6 +72,18 @@
   "summary": "On 12 November 2026, the Cloud Software Group published security bulletins for its Citrix products addressing 28 memory flaws in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
   "title": "2026-020: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
   "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "b08091e2cce8f315",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+  "published": "2026-11-12T17:50:27Z",
+  "source": "The Hacker News",
+  "summary": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver.",
+  "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+  "trust": "media"
  },
  {
   "category": "advisories",
