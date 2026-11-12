@@ -7,7 +7,6 @@
 </div>
 <div class="dashboard-grid">
   <div><strong>{{ stats.configured_feeds }}</strong><span>configured feeds</span></div>
-  <div><strong>{{ stats.open_jobs }}</strong><span>currently open jobs</span></div>
   <div><strong>{{ stats.archive_items }}</strong><span>valid archive items</span></div>
   <div><strong>{{ stats.archive_months }}</strong><span>archive months</span></div>
   <div><strong>{{ stats.errors_30d }}</strong><span>errors in last 30 days</span></div>
@@ -21,7 +20,7 @@
       <strong>Collect job</strong>
       <div class="architecture-node">Fetch HTTPS feeds with size, timeout, and redirect limits</div>
       <div class="architecture-arrow" aria-hidden="true">↓</div>
-      <div class="architecture-node">Parse RSS, KEV, watch pages, Workable, Diavgeia, and static sources</div>
+      <div class="architecture-node">Parse RSS and KEV sources</div>
       <div class="architecture-arrow" aria-hidden="true">↓</div>
       <div class="architecture-node">Sanitize text, validate allowlists, filter, and deduplicate</div>
       <div class="architecture-arrow" aria-hidden="true">↓</div>

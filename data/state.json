@@ -2,7 +2,6 @@
  "daily_errors": {
   "2026-11-12": 4
  },
- "empty": {},
  "feeds": {
   "BleepingComputer": {
    "etag": "3206268f254d9485b2d19ea26402aca0",
@@ -18,10 +17,6 @@
   "Cisco Security Advisories": {},
   "Cisco Talos": {
    "etag": "W/\"f7806-ZSFadiTh0ulcOH3b7VKHOJPsB5I\""
-  },
-  "ENISA Vacancies": {
-   "etag": "\"1794465201-gzip\"",
-   "last_modified": "Thu, 12 Nov 2026 06:33:21 GMT"
   },
   "Google Project Zero": {
    "last_modified": "Wed, 11 Nov 2026 00:07:29 GMT"
@@ -1834,31 +1829,6 @@
   "CVE-2026-96951",
   "CVE-2026-97229"
  ],
- "live": {
-  "ENISA Vacancies": [
-   "04aaaaaee0322640",
-   "1e13d0d70527a24e",
-   "217a5fd90e12957f",
-   "2fe9605efb62171f",
-   "4371e0a5f6e41666",
-   "5282fe5c6eb3792e",
-   "5a965edd4c7d6939",
-   "5cf55892736a9699",
-   "62bb63879da2bc87",
-   "62e128ebba0a159b",
-   "7bd2beeb55575aa0",
-   "8afa0b472a9ad88a",
-   "946338139d1b7978",
-   "99c197999bc54e20",
-   "b656f08726684a9c",
-   "b7661147cd4c28b4",
-   "d9615bf42453f2d4",
-   "e386158956e3a22c",
-   "f044082c4448e267",
-   "f6319131d94c4edd",
-   "fe3147ed189beb69"
-  ]
- },
  "seen": {
   "00a95bd009ef59a5": "2026-11-12",
   "00c8d96e049a15d4": "2026-11-12",

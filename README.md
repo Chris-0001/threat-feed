@@ -84,4 +84,4 @@ flowchart TD
 - Keyword filtering rules and scoring logic are fully public.
 - The `data/` directory is committed to the repository and publicly visible.
 - **Archive policy**: collection filters apply only to new items. Valid archived records are immutable history and are not re-filtered when interests or source keywords change. Records that fail schema or current source allowlist validation are intentionally excluded from the generated site and reported during builds.
-- **Source permissions**: `data/feeds.json` contains only sources selected for the public workflow. Job pages, Workable searches, Diavgeia searches, and training links are not collected or published by GitHub Actions.
+- **Source permissions**: `data/feeds.json` contains only the RSS and KEV sources selected for the public workflow.
