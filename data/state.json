@@ -1,11 +1,11 @@
 {
  "daily_errors": {
-  "2026-11-12": 6
+  "2026-11-12": 9
  },
  "feeds": {
   "BleepingComputer": {
-   "etag": "d37777681fe84099b2c995272c50a46e",
-   "last_modified": "Thu, 12 Nov 2026 17:44:05 GMT"
+   "etag": "b393163a2cacc3e0f6b8fed481fe029f",
+   "last_modified": "Thu, 12 Nov 2026 18:04:05 GMT"
   },
   "CERT-EU": {},
   "CISA Advisories": {},
@@ -30,8 +30,8 @@
    "last_modified": "Wed, 11 Nov 2026 17:10:11 GMT"
   },
   "SANS Internet Storm Center": {
-   "etag": "W/\"1b24-66017ecfa2297\"",
-   "last_modified": "Thu, 12 Nov 2026 17:48:56 GMT"
+   "etag": "W/\"1b24-6601822a94893\"",
+   "last_modified": "Thu, 12 Nov 2026 18:03:57 GMT"
   },
   "SecurityWeek": {
    "etag": "\"8099a3f947e0dbae3a34666a3030b23e\"",
@@ -2541,7 +2541,7 @@
   "ffca2027bd0810a6": "2026-11-12"
  },
  "skips": {
-  "Microsoft MSRC": 1,
+  "Microsoft MSRC": 2,
   "Zero Day Initiative": 1
  }
 }
