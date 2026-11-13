@@ -2,6 +2,128 @@
  {
   "category": "news",
   "cves": [],
+  "id": "e57687ad480e9f9a",
+  "kev": false,
+  "link": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
+  "published": "2026-11-13T21:33:27Z",
+  "source": "SecurityWeek",
+  "summary": "Federal officials have yet to say what caused the communications disruption or whether they are investigating a possible cyberattack. The post FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’ appeared first on SecurityWeek .",
+  "title": "FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "fca3eed013918ed9",
+  "kev": false,
+  "link": "https://therecord.media/artex-ai-tool-fbi-flash-alert",
+  "published": "2026-11-13T21:32:00Z",
+  "source": "The Record",
+  "summary": "Open source hacking tool Artex \"significantly reduces the time required to chain attack techniques, with some intrusions progressing from initial targeting to privileged access in under three hours,\" the FBI said.",
+  "title": "FBI flash alert says Artex tool automating cyberattacks at ‘machine speed’",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "ad80e781b8f0232d",
+  "kev": false,
+  "link": "https://blog.talosintelligence.com/artex-and-beyond/",
+  "published": "2026-11-13T20:57:13Z",
+  "source": "Cisco Talos",
+  "summary": "AI-enabled penetration testing and red team frameworks can automate and chain reconnaissance, vulnerability testing, and follow-on actions, lowering the skill threshold for attackers and accelerating intrusions when the tools are misused.",
+  "title": "ARTEX and beyond: AI-enabled penetration testing platforms",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "b4480884950efcdd",
+  "kev": false,
+  "link": "https://therecord.media/city-of-osaka-japan-email-data-breach",
+  "published": "2026-11-13T19:43:00Z",
+  "source": "The Record",
+  "summary": "Osaka, Japan's third-largest city, told its 2.8 million residents to be wary of suspicious emails purporting to come from the local government.",
+  "title": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "98a96aff07fa450d",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+  "published": "2026-11-13T19:38:36Z",
+  "source": "BleepingComputer",
+  "summary": "Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send them to attackers over cellular…",
+  "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "8e958305b7668264",
+  "kev": false,
+  "link": "https://therecord.media/nyc-council-passes-bill-ban-surveillance-pricing",
+  "published": "2026-11-13T18:35:00Z",
+  "source": "The Record",
+  "summary": "The New York City government will be able to fine companies $1,000 for each verified instance of surveillance pricing.",
+  "title": "NYC to bar surveillance pricing as momentum for bans grows nationwide",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "dec72ae8ae411073",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+  "published": "2026-11-13T17:31:56Z",
+  "source": "BleepingComputer",
+  "summary": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\" [...]",
+  "title": "German military drone operations disrupted by cyberattack",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "22ca72a3edcb3809",
+  "kev": false,
+  "link": "https://therecord.media/university-of-texas-arlington-warns-data-breach",
+  "published": "2026-11-13T17:26:00Z",
+  "source": "The Record",
+  "summary": "In a statement to Recorded Future News, a spokesperson said an investigation into the attack confirmed the stolen data but declined to say what information was obtained by the threat actors.",
+  "title": "University of Texas at Arlington warns personal information stolen during cyberattack",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-6460"
+  ],
+  "id": "39bbbdb17d04c6e2",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+  "published": "2026-11-13T16:53:08Z",
+  "source": "The Hacker News",
+  "summary": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws.",
+  "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "12ffd53e4f053e24",
+  "kev": false,
+  "link": "https://therecord.media/german-parliament-passes-law-giving-spy-agencies-hacking-power",
+  "published": "2026-11-13T16:32:00Z",
+  "source": "The Record",
+  "summary": "In the biggest overhaul of the country’s spy laws of the postwar era, the Bundestag approved the bill by 308 votes to 190 — with 71 abstentions — months after Chancellor Friedrich Merz’s cabinet signed off on the draft.",
+  "title": "German parliament passes law giving spy agencies hacking, sabotage powers",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "676e754b730c0543",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
@@ -84,6 +206,18 @@
   "trust": "media"
  },
  {
+  "category": "advisories",
+  "cves": [],
+  "id": "dd4c8a3b55cfd010",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/n8n-security-advisory-av26-1160",
+  "published": "2026-11-13T14:28:49Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1160 Date: November 13, 2026 As of November 13, 2026, n8n is affected by vulnerabilities in the following product: n8n Prior to 2.45.5 Prior to 2.46.1 Prior to 3.0.1 The Cyber Centre encourages users and administrators to review…",
+  "title": "n8n security advisory (AV26-1160)",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "bbb59bb3dcf73064",
@@ -94,6 +228,18 @@
   "summary": "ActiveCloud said hackers had breached its systems and encrypted parts of its cloud infrastructure, leaving customers unable to access key services for several days.",
   "title": "Ransomware attack on Belarusian cloud firm disrupts businesses for days",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "df7db588ae27eab9",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/apache-security-advisory-av26-1159",
+  "published": "2026-11-13T14:10:44Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1159 Date: November 13, 2026 As of November 11, 2026, Apache is affected by vulnerabilities in the following product: Apache HTTP Server Prior to 2.4.71 The Cyber Centre encourages users and administrators to review the provided…",
+  "title": "Apache security advisory (AV26-1159)",
+  "trust": "official"
  },
  {
   "category": "advisories",
@@ -178,6 +324,21 @@
   "summary": "Enea says SilentAir hijacked mobile network nodes to intercept calls and messages, with Taiwanese subscribers the primary targets. The post SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks appeared first on SecurityWeek .",
   "title": "SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114713",
+   "CVE-2026-123039"
+  ],
+  "id": "f85c3653c73b3fb3",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+  "published": "2026-11-13T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+  "trust": "official"
  },
  {
   "category": "news",
@@ -365,6 +526,18 @@
   "trust": "media"
  },
  {
+  "category": "research",
+  "cves": [],
+  "id": "7768b15d6878f498",
+  "kev": false,
+  "link": "https://projectzero.google/2026/11/disclosure-policy.html",
+  "published": "2026-11-13T08:00:00Z",
+  "source": "Google Project Zero",
+  "summary": "Since 2021, Project Zero has followed a “90 + 30” vulnerability disclosure policy, allowing vendors up to 90 days to remediate a vulnerability plus an extra 30 days “soak time” for patch rollout.",
+  "title": "Policy and Disclosure: 2026 Edition",
+  "trust": "vendor"
+ },
+ {
   "category": "news",
   "cves": [
    "CVE-2026-123039"
@@ -389,6 +562,768 @@
   "summary": "Dubbed 4EverAble2Shell, the flaw could allow remote, unauthenticated attackers to execute code with root privileges. The post Hackers Exploit New N-central Zero-Day Hours After PoC Publication appeared first on SecurityWeek .",
   "title": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126974"
+  ],
+  "id": "f90110e37a98b0c6",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-975/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-975: llama.cpp GGUF File Parsing Integer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126962"
+  ],
+  "id": "f484672a6abf05c4",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-990/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of open62541. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8.",
+  "title": "ZDI-26-990: open62541 Subscription Use-After-Free Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126975"
+  ],
+  "id": "efacbcce53559104",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-976/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-976: llama.cpp GGUF File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-110930"
+  ],
+  "id": "ef27201c46a9afac",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-968/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OpenAI Codex. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-968: (Pwn2Own) OpenAI Codex GUI OpenProjectInCodex Argument Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2025-14713"
+  ],
+  "id": "e48972c2fb4a0019",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1009/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Synology DiskStation DS925+ devices. Authentication is not required to exploit this vulnerability.",
+  "title": "ZDI-26-1009: (Pwn2Own) Synology DiskStation DS925+ C2 Identity Plugin Exposed Dangerous Method Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126963"
+  ],
+  "id": "dce68f2619d0eb6d",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-991/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Hinemos Agent. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5.",
+  "title": "ZDI-26-991: Hinemos Agent Improper Certificate Validation Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126973"
+  ],
+  "id": "d47cae0ca257f0f1",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-955/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of KDE Gwenview. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-955: KDE Gwenview PNG File Parsing Integer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-64138"
+  ],
+  "id": "d0d6b475b4961db7",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1003/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Linux Kernel. Authentication is required to exploit this vulnerability. However, only systems with ksmbd enabled are vulnerable.",
+  "title": "ZDI-26-1003: Linux Kernel ksmbd smb_inherit_dacl Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111790"
+  ],
+  "id": "cf56ac353e2f89ee",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-988/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent.",
+  "title": "ZDI-26-988: TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-99284"
+  ],
+  "id": "cc8ac9b6913b8641",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1006/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
+  "title": "ZDI-26-1006: Linux Kernel skbuff skb_zerocopy Improper Ownership Management Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126977"
+  ],
+  "id": "c92f27db11765c51",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-962/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.1.",
+  "title": "ZDI-26-962: (Pwn2Own) Philips Hue Bridge HomeKit Pair-Setup Default Password Authentication Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "c8e4692d5c74110b",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-998/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Linux Kernel KSMBD. Authentication may or may not be required to exploit this vulnerability, depending upon configuration.",
+  "title": "ZDI-26-998: Linux Kernel KSMBD SMB Direct Integer Underflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126981"
+  ],
+  "id": "c2937e0013724b15",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-966/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.1.",
+  "title": "ZDI-26-966: (Pwn2Own) Philips Hue Bridge HomeKit Authentication Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111783"
+  ],
+  "id": "bf9663f585a7d08b",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-982/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent.",
+  "title": "ZDI-26-982: TrendAI Vision One Security Agent TMBMServer Heap-based Buffer Overflow Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "bef087eddea059d0",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-999/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
+  "title": "ZDI-26-999: Linux Kernel Proc File System Pagemap Scan Use-After-Free Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-92182"
+  ],
+  "id": "bb6dd05189d85115",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-960/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Netgate pfSense. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8.",
+  "title": "ZDI-26-960: Netgate pfSense CE XMLRPC Incorrect Authorization Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126980"
+  ],
+  "id": "bb4bc6e1402dd199",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-965/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.5.",
+  "title": "ZDI-26-965: (Pwn2Own) Philips Hue Bridge HomeKit Observable Discrepancy Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126966"
+  ],
+  "id": "b117431d58e1fc64",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-995/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to escalate privileges on affected installations of SmarterTools SmarterMail. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8.",
+  "title": "ZDI-26-995: SmarterTools SmarterMail Missing Authorization Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-98797"
+  ],
+  "id": "acb98fa90cf66403",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1002/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
+  "title": "ZDI-26-1002: Linux Kernel Net Scheduler Qdisc Improper Validation of Array Index Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111785"
+  ],
+  "id": "ab1839d32acd56d6",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-984/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent.",
+  "title": "ZDI-26-984: TrendAI Vision One Security Agent TMBMServer Heap-based Buffer Overflow Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "a7b29a9131223a3f",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-970/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Google Android. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-970: libhevc HEVC Video Decoder Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111777"
+  ],
+  "id": "a16d166e40310c03",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-989/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Apex One server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this…",
+  "title": "ZDI-26-989: TrendAI Apex One Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "96303dc81f182b5e",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1004/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Linux Kernel KSMBD. Authentication is not required to exploit this vulnerability. However, only systems with ksmbd enabled are vulnerable.",
+  "title": "ZDI-26-1004: Linux Kernel KSMBD Request Buffer Use of Uninitialized Resource Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126978"
+  ],
+  "id": "8f68845cc38d47e5",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-963/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8.",
+  "title": "ZDI-26-963: (Pwn2Own) Philips Hue Bridge hap_pair_setup_handler Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126979"
+  ],
+  "id": "8ae040077925e6e9",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-964/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8.",
+  "title": "ZDI-26-964: (Pwn2Own) Philips Hue Bridge HomeKit Accessory Protocol chacha20_decrypt Integer Underflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126969"
+  ],
+  "id": "8296563741eb31de",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-997/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to bypass authentication on affected installations of SmarterTools SmarterMail. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.1.",
+  "title": "ZDI-26-997: SmarterTools SmarterMail Insufficient Entropy Authentication Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126972"
+  ],
+  "id": "7f1d2d3e605be284",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-958/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of KiCad. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-958: KiCad Plugin Directory Traversal Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "7f1a8c6364c60a7b",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-959/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to execute arbitrary code on affected installations of Docker Agent. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-959: Docker Agent read_skill Missing Authorization Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126968"
+  ],
+  "id": "7d71c80656fd1c79",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-996/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of SmarterTools SmarterMail. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.5.",
+  "title": "ZDI-26-996: SmarterTools SmarterMail Missing Authorization Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126976"
+  ],
+  "id": "7c6564c5f2dc2fc0",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-954/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-954: llama.cpp MTMD Multimodal GGUF File Parsing Integer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111784"
+  ],
+  "id": "7bfa3d75c7861421",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-983/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent.",
+  "title": "ZDI-26-983: TrendAI Vision One Security Agent TMBMServer Null Pointer Dereference Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "7486dcf67957b9d5",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-971/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Signal for Windows. User interaction is required to exploit this vulnerability in that the target must accept a malicious attachment.",
+  "title": "ZDI-26-971: Signal for Windows Insufficient UI Warning Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2024-50073"
+  ],
+  "id": "72e2f5d9310fe558",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1000/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability.",
+  "title": "ZDI-26-1000: Linux Kernel GSM Multiplexing Race Condition Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126965"
+  ],
+  "id": "70223e5a169afa62",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-993/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of ATEN eco DC. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 2.7.",
+  "title": "ZDI-26-993: ATEN eco DC chartDefine SQL Injection Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111780"
+  ],
+  "id": "6aeb3c774ce7ca72",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-979/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent.",
+  "title": "ZDI-26-979: TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "65c56e4c52c50add",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1007/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability.",
+  "title": "ZDI-26-1007: Linux Kernel BPF Local Storage Race Condition Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-25293"
+  ],
+  "id": "568a9620a7b491c6",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1008/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Qualcomm Technologies QCA7005 powerline chips. Authentication is not required to exploit this vulnerability.",
+  "title": "ZDI-26-1008: (Pwn2Own) Qualcomm Technologies QCA7005 GreenPhy Heap-based Buffer Overflow Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "5370fa4cef637f99",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-972/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Hong Kong University Data Intelligence Lab nanobot.",
+  "title": "ZDI-26-972: Hong Kong University Data Intelligence Lab nanobot WebFetch Server-Side Request Forgery Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-119824"
+  ],
+  "id": "515843d1f5671e81",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-967/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must connect to a malicious server.",
+  "title": "ZDI-26-967: Microsoft Windows Remote Desktop Connection Client Link Following Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-14676"
+  ],
+  "id": "4f14976feb0af637",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-974/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of PostgreSQL. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8.",
+  "title": "ZDI-26-974: PostgreSQL pg_stat_statements Extension Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111782"
+  ],
+  "id": "493ba062e997290c",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-981/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent.",
+  "title": "ZDI-26-981: TrendAI Vision One Security Agent Stack-based Buffer Overflow Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126970"
+  ],
+  "id": "41806b524b8bf697",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-956/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of KiCad. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-956: KiCad Altium SCHLIB File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "3d01fb565ab68448",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-973/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of EmbedThis Updater. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5.",
+  "title": "ZDI-26-973: EmbedThis Updater Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111787"
+  ],
+  "id": "3a75211673dceee0",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-986/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent.",
+  "title": "ZDI-26-986: TrendAI Vision One Security Agent TMBMServer Type Confusion Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "38e3004a84912f7f",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1005/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability.",
+  "title": "ZDI-26-1005: Linux Kernel eBPF Race Condition Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111779"
+  ],
+  "id": "34f7943b9b70a119",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-978/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent.",
+  "title": "ZDI-26-978: TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126967"
+  ],
+  "id": "32f157cbf72f46f7",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-994/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of SmarterTools SmarterMail. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8.",
+  "title": "ZDI-26-994: SmarterTools SmarterMail File Edit API Directory Traversal Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-98130"
+  ],
+  "id": "3278cc0ae9c47841",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1001/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
+  "title": "ZDI-26-1001: Linux Kernel SCTP Subsystem Race Condition Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111786"
+  ],
+  "id": "302d24a92d955181",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-985/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent.",
+  "title": "ZDI-26-985: TrendAI Vision One Security Agent TMBMServer Out-Of-Bounds Read Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126964"
+  ],
+  "id": "2e5da8cee8886fca",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-992/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to delete arbitrary files on affected installations of ATEN eco DC. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 5.5.",
+  "title": "ZDI-26-992: ATEN eco DC fwDeletes.json Directory Traversal Arbitrary File Deletion Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111778"
+  ],
+  "id": "28e247b10090e74d",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-977/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent.",
+  "title": "ZDI-26-977: TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126971"
+  ],
+  "id": "204c09c067ef5073",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-957/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of KiCad. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-957: KiCad Project Archive File Handling Directory Traversal Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118630"
+  ],
+  "id": "1ddc13fd3956804b",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-961/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Winmate devices. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
+  "title": "ZDI-26-961: Winmate HotTab Exposed Dangerous Function Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "1965b183f8ceed53",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-969/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Google Android. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-969: libhevc HEVC Video Decoder Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111788"
+  ],
+  "id": "0628149e527f1cde",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-987/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent.",
+  "title": "ZDI-26-987: TrendAI Vision One Security Agent TMBMServer Type Confusion Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111781"
+  ],
+  "id": "01d66a36368559c6",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-980/",
+  "published": "2026-11-13T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent.",
+  "title": "ZDI-26-980: TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
  },
  {
   "category": "news",
@@ -2289,6 +3224,42 @@
  {
   "category": "advisories",
   "cves": [],
+  "id": "fcfce3a6c9da14e4",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-918/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-918: (0Day) Meta fairseq VGGTransformerModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "fadd2cb917cd2358",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-909/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-909: (0Day) Meta Detectron2 CfgNode.merge_from_file Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "e9a1443fa5b0a3aa",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-915/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-915: (0Day) Meta fairseq FilterNamesDataset Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
   "id": "dfb905e279001fc1",
   "kev": false,
   "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-949/",
@@ -2325,6 +3296,30 @@
  {
   "category": "advisories",
   "cves": [],
+  "id": "b9a04b9e73bf1958",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-923/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-923: (0Day) Meta fairseq HubertModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "b26ededa823e23e8",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-912/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-912: (0Day) Meta Detectron2 detection_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
   "id": "ad970a1cf730e1ff",
   "kev": false,
   "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-943/",
@@ -2332,6 +3327,30 @@
   "source": "Zero Day Initiative",
   "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
   "title": "ZDI-26-943: (0Day) Meta fairseq load_checkpoint_to_cpu Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "a76b795773de2a21",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-929/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-929: (0Day) Meta fairseq FairseqAdamax YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "9f7e7002c868618f",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-908/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-908: (0Day) Meta Detectron2 load_proposals_into_dataset Deserialization of Untrusted Data Remote Code Execution Vulnerability",
   "trust": "vendor"
  },
  {
@@ -2361,6 +3380,42 @@
  {
   "category": "advisories",
   "cves": [],
+  "id": "8c1d381a27d77172",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-913/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-913: (0Day) Meta fairseq load_audio_path Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "8900cf0c565b003b",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-911/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-911: (0Day) Meta Detectron2 DensePose Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "8894843a1ced8909",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-927/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-927: (0Day) Meta fairseq FairseqAdam YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
   "id": "86f3384b952b59cd",
   "kev": false,
   "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-952/",
@@ -2385,6 +3440,18 @@
  {
   "category": "advisories",
   "cves": [],
+  "id": "7cd9418c5f4a0fa2",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-930/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-930: (0Day) Meta fairseq LightConvLanguageModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
   "id": "7c69d1e6ac5a611b",
   "kev": false,
   "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-934/",
@@ -2392,6 +3459,42 @@
   "source": "Zero Day Initiative",
   "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
   "title": "ZDI-26-934: (0Day) Meta fairseq FConvLanguageModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "7a3bb4d58f12de9b",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-932/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-932: (0Day) Meta fairseq CtcCriterion YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "66e6b47320f3f4d3",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-931/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-931: (0Day) Meta fairseq AudioModalityConfig YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "641e75b42f6688ac",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-928/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-928: (0Day) Meta fairseq W2lConvGluEncoder YAML File Parsing Code Injection Remote Code Execution Vulnerability",
   "trust": "vendor"
  },
  {
@@ -2409,6 +3512,18 @@
  {
   "category": "advisories",
   "cves": [],
+  "id": "5ec36ece5a8cf650",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-919/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-919: (0Day) Meta fairseq FairseqAdafactor YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
   "id": "5e39d1bcbde02954",
   "kev": false,
   "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-935/",
@@ -2421,6 +3536,42 @@
  {
   "category": "advisories",
   "cves": [],
+  "id": "5908e3baeee9ec41",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-933/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-933: (0Day) Meta fairseq MultiresHubertModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "5898b44de791fcbf",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-916/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-916: (0Day) Meta fairseq split_by_lang Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "51f56c8a2262e8f0",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-910/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-910: (0Day) Meta Detectron2 LazyConfig Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
   "id": "513d8bc1183ab311",
   "kev": false,
   "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-939/",
@@ -2428,6 +3579,30 @@
   "source": "Zero Day Initiative",
   "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
   "title": "ZDI-26-939: (0Day) Meta fairseq2 FileCheckpointManager _load_state_dict Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "512adb94d797a546",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-907/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-907: (0Day) Meta Detectron2 vertex_feature_embedder Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "4f70aa4003cfd207",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-917/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-917: (0Day) Meta fairseq load_speaker Code Injection Remote Code Execution Vulnerability",
   "trust": "vendor"
  },
  {
@@ -2452,6 +3627,18 @@
   "source": "Zero Day Initiative",
   "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
   "title": "ZDI-26-947: (0Day) Meta FAIRChem make_submission_file NPZ File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "430d535c42294d61",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-922/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-922: (0Day) Meta fairseq Wav2Vec2Model YAML File Parsing Code Injection Remote Code Execution Vulnerability",
   "trust": "vendor"
  },
  {
@@ -2493,6 +3680,54 @@
  {
   "category": "advisories",
   "cves": [],
+  "id": "30d22a74f53977b5",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-926/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-926: (0Day) Meta fairseq RawAudioDataset YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "2e359c37dccd88b7",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-920/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-920: (0Day) Meta fairseq Data2VecAudioModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "25884d4779dfb4df",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-925/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-925: (0Day) Meta fairseq FairseqLAMB YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "1fd7c95e67615552",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-914/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-914: (0Day) Meta fairseq Wav2VecModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
   "id": "1e799ddb52adf754",
   "kev": false,
   "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-946/",
@@ -2517,6 +3752,18 @@
  {
   "category": "advisories",
   "cves": [],
+  "id": "1733bee5efb2f079",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-924/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-924: (0Day) Meta fairseq S2TWavTransformerEncoder YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
   "id": "035b116e382fed14",
   "kev": false,
   "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-948/",
@@ -2524,6 +3771,18 @@
   "source": "Zero Day Initiative",
   "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
   "title": "ZDI-26-948: (0Day) Meta FAIRChem MLIPPredictUnit Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "026b5412ca2655c4",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-921/",
+  "published": "2026-11-11T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-921: (0Day) Meta fairseq TransformerLanguageModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
   "trust": "vendor"
  },
  {
@@ -10001,6 +11260,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-114560"
+  ],
+  "id": "ef9eb826b898fbd3",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-877/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-877: OriginLab Origin Viewer OPJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-114567"
   ],
   "id": "d654a3eb8ed48409",
@@ -10209,6 +11482,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-114559"
+  ],
+  "id": "4399e9acb8494f62",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-876/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-876: OriginLab Origin Viewer OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-114563"
   ],
   "id": "4360023662863cc1",
@@ -10252,6 +11539,20 @@
   "source": "Zero Day Initiative",
   "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of libilbm. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
   "title": "ZDI-26-887: libilbm ILBM File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114569"
+  ],
+  "id": "20b774bee7c8812d",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-875/",
+  "published": "2026-11-06T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-875: OriginLab Origin Viewer OGWU File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
   "trust": "vendor"
  },
  {
@@ -11798,6 +13099,90 @@
   "trust": "media"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-121742"
+  ],
+  "id": "fada7e26a713b64a",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-874/",
+  "published": "2026-11-04T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-874: (0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114556"
+  ],
+  "id": "e128bdd93dfd98ad",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-869/",
+  "published": "2026-11-04T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to create arbitrary files on affected installations of MailEnable. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.4.",
+  "title": "ZDI-26-869: MailEnable Save Directory Traversal Arbitrary File Creation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-121743"
+  ],
+  "id": "d9635e367ea25d5d",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-873/",
+  "published": "2026-11-04T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-873: (0Day) Ashlar-Vellum Cobalt AR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-121753"
+  ],
+  "id": "ce8eaccdb9633d97",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-872/",
+  "published": "2026-11-04T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-872: (0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-121744"
+  ],
+  "id": "a3638e451e214dc5",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-870/",
+  "published": "2026-11-04T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-870: (0Day) Ashlar-Vellum Cobalt XE File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-121752"
+  ],
+  "id": "7858ba3a5d97c5ae",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-871/",
+  "published": "2026-11-04T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-871: (0Day) Ashlar-Vellum Cobalt LI File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
   "category": "news",
   "cves": [
    "CVE-2026-119977"
@@ -12673,6 +14058,116 @@
   "summary": "Attackers remotely changed the settings on refrigeration controls at supermarkets in Belgium, Sweden, Estonia and other European countries overnight into Monday, November 2, warming fridges and freezers.",
   "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-20043"
+  ],
+  "id": "840abb8c3faee323",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-867/",
+  "published": "2026-11-03T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco Snort. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.8.",
+  "title": "ZDI-26-867: Cisco Snort sf_unfold_header Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-92185"
+  ],
+  "id": "77a85d6c4ce3bc27",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-862/",
+  "published": "2026-11-03T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.2.",
+  "title": "ZDI-26-862: Quest Foglight for Databases AbstractParser XML External Entity Processing Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-92199"
+  ],
+  "id": "5fc77492d124403f",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-863/",
+  "published": "2026-11-03T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Quest Foglight for Databases. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this…",
+  "title": "ZDI-26-863: Quest Foglight for Databases EncryptionUtil Hardcoded Encyption Key Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-92198"
+  ],
+  "id": "4670ca2848b4fd01",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-864/",
+  "published": "2026-11-03T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.2.",
+  "title": "ZDI-26-864: Quest Foglight for Databases getSource XML External Entity Processing Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-92200"
+  ],
+  "id": "461a0b581ba39f4f",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-865/",
+  "published": "2026-11-03T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Quest Foglight for Databases. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this…",
+  "title": "ZDI-26-865: Quest Foglight for Databases Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-92196"
+  ],
+  "id": "2b8053394777b71e",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-866/",
+  "published": "2026-11-03T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.2.",
+  "title": "ZDI-26-866: Quest Foglight for Databases renderTemplateString Server-Side Template Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-92189"
+  ],
+  "id": "2ac4a49c631c1519",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-861/",
+  "published": "2026-11-03T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.8.",
+  "title": "ZDI-26-861: Quest Foglight for Databases writeTopologySectionToFile External Control of File Path Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "117a12bea6b5ce50",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-868/",
+  "published": "2026-11-03T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Microsoft Windows.",
+  "title": "ZDI-26-868: Microsoft Windows Aero Theme Improper Handling Of Error Condition Denial-of-Service Vulnerability",
+  "trust": "vendor"
  },
  {
   "category": "news",
