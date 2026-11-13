@@ -1,6 +1,80 @@
 [
  {
   "category": "news",
+  "cves": [
+   "CVE-2026-123039"
+  ],
+  "id": "c38c01693e1b4321",
+  "kev": false,
+  "link": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
+  "published": "2026-11-13T07:39:04Z",
+  "source": "SecurityWeek",
+  "summary": "PHP2Shell enabled initial compromise, while CVE-2026-123039 allowed attackers to elevate privileges to root. The post PHP2Shell Exploited in Destructive Check Point Gateway Attacks appeared first on SecurityWeek .",
+  "title": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "d7a67713cf4f856b",
+  "kev": false,
+  "link": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/",
+  "published": "2026-11-13T07:20:50Z",
+  "source": "SecurityWeek",
+  "summary": "Dubbed 4EverAble2Shell, the flaw could allow remote, unauthenticated attackers to execute code with root privileges. The post Hackers Exploit New N-central Zero-Day Hours After PoC Publication appeared first on SecurityWeek .",
+  "title": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "112f84532069c9f3",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+  "published": "2026-11-13T05:43:28Z",
+  "source": "The Hacker News",
+  "summary": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell.",
+  "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "534bfcc4b6c78159",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33518",
+  "published": "2026-11-13T03:41:41Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "Introduction",
+  "title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "324727271af0d57e",
+  "kev": false,
+  "link": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/",
+  "published": "2026-11-13T02:28:21Z",
+  "source": "SecurityWeek",
+  "summary": "Also Thursday, the FBI blamed North Korea for a separate social engineering scheme that officials say resulted in the theft of $400 million worth of cryptocurrency.",
+  "title": "FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "3fe948d1bcf3f4e3",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33516",
+  "published": "2026-11-13T02:00:03Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "",
+  "title": "ISC Stormcast For Friday, November 13th, 2026 https://isc.sans.edu/podcastdetail/10178, (Fri, Nov 13th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
   "cves": [],
   "id": "a0dc5e5e8203ba8a",
   "kev": false,
