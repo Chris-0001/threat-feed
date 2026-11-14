@@ -2,6 +2,18 @@
  {
   "category": "news",
   "cves": [],
+  "id": "5979ebe3f3d48a64",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+  "published": "2026-11-14T17:27:25Z",
+  "source": "BleepingComputer",
+  "summary": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]",
+  "title": "Cursor confirms security breach led to malicious Claude Code extension",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "a19af6bf03463799",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
