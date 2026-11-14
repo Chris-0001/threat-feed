@@ -1,12 +1,13 @@
 {
  "daily_errors": {
   "2026-11-12": 11,
-  "2026-11-13": 7
+  "2026-11-13": 7,
+  "2026-11-14": 3
  },
  "feeds": {
   "BleepingComputer": {
-   "etag": "17ce97f7bbcb488651a8ae06465ca70b",
-   "last_modified": "Fri, 13 Nov 2026 22:28:42 GMT"
+   "etag": "589030146dd37a77a96f6a1f08e40146",
+   "last_modified": "Sat, 14 Nov 2026 03:08:50 GMT"
   },
   "CERT-EU": {},
   "CISA Advisories": {},
@@ -24,22 +25,22 @@
   },
   "Google Threat Intelligence": {},
   "Krebs on Security": {
-   "last_modified": "Thu, 12 Nov 2026 13:06:56 GMT"
+   "last_modified": "Sat, 14 Nov 2026 03:01:55 GMT"
   },
   "Microsoft MSRC": {
    "etag": "\"0x8DF40DA5EBE79BA\"",
    "last_modified": "Thu, 12 Nov 2026 16:31:14 GMT"
   },
   "SANS Internet Storm Center": {
-   "etag": "W/\"1833-6603006132673\"",
-   "last_modified": "Fri, 13 Nov 2026 22:33:56 GMT"
+   "etag": "W/\"1833-66033ef6c8bc6\"",
+   "last_modified": "Sat, 14 Nov 2026 03:13:56 GMT"
   },
   "SecurityWeek": {
    "etag": "\"b53935ae04deee63d310d93a69e0c7ec\"",
    "last_modified": "Fri, 13 Nov 2026 21:41:27 GMT"
   },
   "The Hacker News": {
-   "last_modified": "Fri, 13 Nov 2026 22:32:37 GMT"
+   "last_modified": "Sat, 14 Nov 2026 02:53:49 GMT"
   },
   "The Record": {},
   "UK NCSC": {
@@ -2821,7 +2822,8 @@
   "ffca2027bd0810a6": "2026-11-12"
  },
  "skips": {
-  "CISA KEV": 1,
-  "Microsoft MSRC": 1
+  "CISA KEV": 2,
+  "Microsoft MSRC": 2,
+  "Zero Day Initiative": 1
  }
 }
