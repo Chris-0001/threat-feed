@@ -2,6 +2,56 @@
  {
   "category": "news",
   "cves": [],
+  "id": "a19af6bf03463799",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+  "published": "2026-11-14T15:15:49Z",
+  "source": "BleepingComputer",
+  "summary": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency. [...]",
+  "title": "US disrupts North Korean campaign behind $400 million crypto theft",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "13526d4b1aea7747",
+  "kev": false,
+  "link": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
+  "published": "2026-11-14T14:00:00Z",
+  "source": "SecurityWeek",
+  "summary": "Overreliance on AI could erode the creativity, clear communication, and critical thinking security teams need when there’s no playbook. The post Is AI Making Us Worse at Cybersecurity? appeared first on SecurityWeek .",
+  "title": "Is AI Making Us Worse at Cybersecurity?",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-114713"
+  ],
+  "id": "fd4e34466352c51c",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+  "published": "2026-11-14T12:38:35Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following…",
+  "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "8915f3e44fe543c4",
+  "kev": false,
+  "link": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
+  "published": "2026-11-14T11:00:00Z",
+  "source": "SecurityWeek",
+  "summary": "The tech giant has detailed the architecture designed to isolate ambient sensor data from the main OS on HomeView and new iPhones. The post Apple Reveals How Secure Exclaves Shield Camera and Microphone Data appeared first on SecurityWeek .",
+  "title": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "b8d29e9846223b0b",
   "kev": false,
   "link": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/",

@@ -2,12 +2,12 @@
  "daily_errors": {
   "2026-11-12": 11,
   "2026-11-13": 7,
-  "2026-11-14": 6
+  "2026-11-14": 9
  },
  "feeds": {
   "BleepingComputer": {
-   "etag": "549a8c014aebed5f5a86abc46270f680",
-   "last_modified": "Sat, 14 Nov 2026 10:29:03 GMT"
+   "etag": "9f48ba2762e19fcac08151666dbe1cc7",
+   "last_modified": "Sat, 14 Nov 2026 17:09:14 GMT"
   },
   "CERT-EU": {},
   "CISA Advisories": {},
@@ -32,15 +32,15 @@
    "last_modified": "Thu, 12 Nov 2026 16:31:14 GMT"
   },
   "SANS Internet Storm Center": {
-   "etag": "W/\"1833-6603a14fcdaa8\"",
-   "last_modified": "Sat, 14 Nov 2026 10:33:56 GMT"
+   "etag": "W/\"1833-6603f75e6ddcc\"",
+   "last_modified": "Sat, 14 Nov 2026 16:58:57 GMT"
   },
   "SecurityWeek": {
-   "etag": "\"482154e1b474afc55adc6ec3ff55f906\"",
-   "last_modified": "Sat, 14 Nov 2026 08:44:33 GMT"
+   "etag": "\"4737982e3a3c8b8b348be497e59cad11\"",
+   "last_modified": "Sat, 14 Nov 2026 14:59:42 GMT"
   },
   "The Hacker News": {
-   "last_modified": "Sat, 14 Nov 2026 09:53:20 GMT"
+   "last_modified": "Sat, 14 Nov 2026 16:26:33 GMT"
   },
   "The Record": {},
   "UK NCSC": {
@@ -1896,6 +1896,7 @@
   "11b142fc9b4329b7": "2026-11-12",
   "11b64a1aec813606": "2026-11-12",
   "12ffd53e4f053e24": "2026-11-13",
+  "13526d4b1aea7747": "2026-11-14",
   "136a1c6b52ea2ec5": "2026-11-12",
   "13aa0613523a83ff": "2026-11-13",
   "13da8c30c4466e3d": "2026-11-12",
@@ -2359,6 +2360,7 @@
   "8894843a1ced8909": "2026-11-13",
   "88b807e27a6d305d": "2026-11-12",
   "8900cf0c565b003b": "2026-11-13",
+  "8915f3e44fe543c4": "2026-11-14",
   "891df70d73c2dfec": "2026-11-12",
   "892b98fa98f1abce": "2026-11-12",
   "893612882992b041": "2026-11-12",
@@ -2451,6 +2453,7 @@
   "a16671e71e6dfce8": "2026-11-12",
   "a16d166e40310c03": "2026-11-13",
   "a17a99f999f04740": "2026-11-12",
+  "a19af6bf03463799": "2026-11-14",
   "a20d05962103a73b": "2026-11-12",
   "a22739840d8d8393": "2026-11-12",
   "a26ba547268740f5": "2026-11-13",
@@ -2814,6 +2817,7 @@
   "fca3eed013918ed9": "2026-11-13",
   "fcdce44c72d05d7d": "2026-11-12",
   "fcfce3a6c9da14e4": "2026-11-13",
+  "fd4e34466352c51c": "2026-11-14",
   "fd4f68aa2d76b7c2": "2026-11-12",
   "fe1ce61e0f6a75dc": "2026-11-12",
   "fe3f203f5901f2d2": "2026-11-12",
@@ -2823,8 +2827,8 @@
   "ffca2027bd0810a6": "2026-11-12"
  },
  "skips": {
-  "CISA KEV": 3,
-  "Microsoft MSRC": 3,
-  "Zero Day Initiative": 2
+  "CISA KEV": 4,
+  "Microsoft MSRC": 4,
+  "Zero Day Initiative": 3
  }
 }
