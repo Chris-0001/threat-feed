@@ -2,12 +2,12 @@
  "daily_errors": {
   "2026-11-12": 11,
   "2026-11-13": 7,
-  "2026-11-14": 3
+  "2026-11-14": 6
  },
  "feeds": {
   "BleepingComputer": {
-   "etag": "589030146dd37a77a96f6a1f08e40146",
-   "last_modified": "Sat, 14 Nov 2026 03:08:50 GMT"
+   "etag": "549a8c014aebed5f5a86abc46270f680",
+   "last_modified": "Sat, 14 Nov 2026 10:29:03 GMT"
   },
   "CERT-EU": {},
   "CISA Advisories": {},
@@ -32,15 +32,15 @@
    "last_modified": "Thu, 12 Nov 2026 16:31:14 GMT"
   },
   "SANS Internet Storm Center": {
-   "etag": "W/\"1833-66033ef6c8bc6\"",
-   "last_modified": "Sat, 14 Nov 2026 03:13:56 GMT"
+   "etag": "W/\"1833-6603a14fcdaa8\"",
+   "last_modified": "Sat, 14 Nov 2026 10:33:56 GMT"
   },
   "SecurityWeek": {
-   "etag": "\"b53935ae04deee63d310d93a69e0c7ec\"",
-   "last_modified": "Fri, 13 Nov 2026 21:41:27 GMT"
+   "etag": "\"482154e1b474afc55adc6ec3ff55f906\"",
+   "last_modified": "Sat, 14 Nov 2026 08:44:33 GMT"
   },
   "The Hacker News": {
-   "last_modified": "Sat, 14 Nov 2026 02:53:49 GMT"
+   "last_modified": "Sat, 14 Nov 2026 09:53:20 GMT"
   },
   "The Record": {},
   "UK NCSC": {
@@ -2547,6 +2547,7 @@
   "b8690e1fe516c69b": "2026-11-12",
   "b88d0a2cccbf5add": "2026-11-13",
   "b8b3d816f70f08f2": "2026-11-12",
+  "b8d29e9846223b0b": "2026-11-14",
   "b98298c1c800e379": "2026-11-12",
   "b9a04b9e73bf1958": "2026-11-13",
   "b9a2578f47041d68": "2026-11-13",
@@ -2822,8 +2823,8 @@
   "ffca2027bd0810a6": "2026-11-12"
  },
  "skips": {
-  "CISA KEV": 2,
-  "Microsoft MSRC": 2,
-  "Zero Day Initiative": 1
+  "CISA KEV": 3,
+  "Microsoft MSRC": 3,
+  "Zero Day Initiative": 2
  }
 }
