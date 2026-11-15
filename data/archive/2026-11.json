@@ -2,6 +2,42 @@
  {
   "category": "news",
   "cves": [],
+  "id": "38357f92686a19a9",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+  "published": "2026-11-15T15:23:48Z",
+  "source": "BleepingComputer",
+  "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
+  "title": "TSMC employee data breach linked to cloud provider",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ad2bd385ddfae50e",
+  "kev": false,
+  "link": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+  "published": "2026-11-15T12:51:33Z",
+  "source": "SecurityWeek",
+  "summary": "The move follows President Trump’s order to replace “artificial intelligence” with “super intelligence” in executive branch communications. The post Pentagon Renames CDAO ‘Super Intelligence Office’ appeared first on SecurityWeek .",
+  "title": "Pentagon Renames CDAO ‘Super Intelligence Office’",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "126b3ad6575a9207",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+  "published": "2026-11-15T11:27:31Z",
+  "source": "The Hacker News",
+  "summary": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post.",
+  "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "50bc14eeff687fd2",
   "kev": false,
   "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
@@ -9,6 +45,18 @@
   "source": "The Hacker News",
   "summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI.",
   "title": "Stolen Fireworks AI Key Led to Cursor Data Breach and Trojanized Claude Code Extension",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "90aa63984ed7c413",
+  "kev": false,
+  "link": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+  "published": "2026-11-14T19:00:00Z",
+  "source": "SecurityWeek",
+  "summary": "The directive protects smartphones as part of a person’s private sphere and requires “free and informed consent” for such access, the authority said.",
+  "title": "Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook",
   "trust": "media"
  },
  {
@@ -15576,6 +15624,76 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-92191"
+  ],
+  "id": "cf71193cf965aa41",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-859/",
+  "published": "2026-11-03T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8.",
+  "title": "ZDI-26-859: Quest Foglight for Databases runScript Incorrect Authorization Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-92195"
+  ],
+  "id": "cc76b7924009c560",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-856/",
+  "published": "2026-11-03T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8.",
+  "title": "ZDI-26-856: Quest Foglight for Databases loadEvolveLicense Directory Traversal Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-92193"
+  ],
+  "id": "a95a9c68f39161ff",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-853/",
+  "published": "2026-11-03T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.5.",
+  "title": "ZDI-26-853: Quest Foglight for Databases FileServlet External Control of File Path Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-92192"
+  ],
+  "id": "9e696646e43a70fd",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-855/",
+  "published": "2026-11-03T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8.",
+  "title": "ZDI-26-855: Quest Foglight for Databases installLicense Directory Traversal Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-92197"
+  ],
+  "id": "86f60de2e5c9014b",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-860/",
+  "published": "2026-11-03T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8.",
+  "title": "ZDI-26-860: Quest Foglight for Databases unzipFile Directory Traversal Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-20043"
   ],
   "id": "840abb8c3faee323",
@@ -15604,6 +15722,48 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-92186"
+  ],
+  "id": "73cb60299509758a",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-858/",
+  "published": "2026-11-03T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8.",
+  "title": "ZDI-26-858: Quest Foglight for Databases paFnUploadFileAndCreateInfo Directory Traversal Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-92187"
+  ],
+  "id": "6e5403fc710f47a5",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-852/",
+  "published": "2026-11-03T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8.",
+  "title": "ZDI-26-852: Quest Foglight for Databases extractAndCreateUploadInfoList Directory Traversal Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-92190"
+  ],
+  "id": "6724e6759d6fefc6",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-851/",
+  "published": "2026-11-03T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.8.",
+  "title": "ZDI-26-851: Quest Foglight for Databases baseRmiServiceExporter Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-92199"
   ],
   "id": "5fc77492d124403f",
@@ -15613,6 +15773,20 @@
   "source": "Zero Day Initiative",
   "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Quest Foglight for Databases. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this…",
   "title": "ZDI-26-863: Quest Foglight for Databases EncryptionUtil Hardcoded Encyption Key Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-92188"
+  ],
+  "id": "4f82b4440c67d9b4",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-854/",
+  "published": "2026-11-03T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.8.",
+  "title": "ZDI-26-854: Quest Foglight for Databases ForgeMBeanServerSupport Missing Authentication Remote Code Execution Vulnerability",
   "trust": "vendor"
  },
  {
@@ -15641,6 +15815,20 @@
   "source": "Zero Day Initiative",
   "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Quest Foglight for Databases. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this…",
   "title": "ZDI-26-865: Quest Foglight for Databases Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-92194"
+  ],
+  "id": "4179aa0150f09ba7",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-857/",
+  "published": "2026-11-03T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8.",
+  "title": "ZDI-26-857: Quest Foglight for Databases loadManageServerLicense Directory Traversal Remote Code Execution Vulnerability",
   "trust": "vendor"
  },
  {
@@ -16114,6 +16302,42 @@
   "trust": "media"
  },
  {
+  "category": "advisories",
+  "cves": [],
+  "id": "f2b78498fdb2841f",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-850/",
+  "published": "2026-11-02T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Qlib. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-850: Microsoft Qlib MLflowRecorder Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "ecd7b2c411ca8624",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-849/",
+  "published": "2026-11-02T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Qlib. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-849: Microsoft Qlib RestrictedUnpickler Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "bdaec584c77d7195",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-848/",
+  "published": "2026-11-02T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Qlib. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-848: Microsoft Qlib StaticDataLoader Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "5f507373b6fb81cf",
@@ -16456,6 +16680,202 @@
   "trust": "vendor"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118625"
+  ],
+  "id": "ecefa64acc8886e7",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-841/",
+  "published": "2026-10-29T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to escalate privileges on affected installations of MLflow. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.3.",
+  "title": "ZDI-26-841: MLflow Tracking Server Missing Authorization Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-80844"
+  ],
+  "id": "ec0ddba792bc86c2",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-834/",
+  "published": "2026-10-29T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
+  "title": "ZDI-26-834: Linux Kernel IPv6 AH Routing Header Integer Underflow Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-98231"
+  ],
+  "id": "c5e080a47c0ef326",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-837/",
+  "published": "2026-10-29T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
+  "title": "ZDI-26-837: Linux Kernel XFRM Subsystem Use-After-Free Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-72315"
+  ],
+  "id": "b65084a548bec3df",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-836/",
+  "published": "2026-10-29T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability.",
+  "title": "ZDI-26-836: Linux Kernel CIFS File System Use-After-Free Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118623"
+  ],
+  "id": "b48c1411e1ee19a3",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-839/",
+  "published": "2026-10-29T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of MLflow. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-839: MLflow PickleEvaluationArtifact Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-93826"
+  ],
+  "id": "ad8fe1c51fa8bacb",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-835/",
+  "published": "2026-10-29T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
+  "title": "ZDI-26-835: Linux Kernel Logitech HIDPP Protocol Use-After-Free Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2024-37052"
+  ],
+  "id": "9e51d5dec5859954",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-845/",
+  "published": "2026-10-29T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of MLflow. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-845: MLflow Statsmodels _load_model Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118624"
+  ],
+  "id": "9d978d2f2a0b8f9b",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-840/",
+  "published": "2026-10-29T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of MLflow. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 5.4.",
+  "title": "ZDI-26-840: MLflow Tracking Server Jobs Missing Authorization Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-64849"
+  ],
+  "id": "872b9cea3a52cca0",
+  "kev": true,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-846/",
+  "published": "2026-10-29T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of MLflow. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.8.",
+  "title": "ZDI-26-846: MLflow Webhook Server-Side Request Forgery Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118626"
+  ],
+  "id": "734f042b519b44b5",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-842/",
+  "published": "2026-10-29T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to escalate privileges on affected installations of MLflow. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 5.4.",
+  "title": "ZDI-26-842: MLflow Tracking Server Issues Missing Authorization Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-71211"
+  ],
+  "id": "5bf0048d8f2a2f02",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-847/",
+  "published": "2026-10-29T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of MLflow. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.7.",
+  "title": "ZDI-26-847: MLflow AI Gateway Server-Side Request Forgery Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118628"
+  ],
+  "id": "448a232747180c3a",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-844/",
+  "published": "2026-10-29T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of MLflow. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.2.",
+  "title": "ZDI-26-844: MLflow get-artifacts Server-Side Request Forgery Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-58093"
+  ],
+  "id": "1f5bb0c467b7889d",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-838/",
+  "published": "2026-10-29T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of FreeBSD Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
+  "title": "ZDI-26-838: FreeBSD Kernel TTY Race Condition Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118627"
+  ],
+  "id": "1840ac8263a11fcc",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-843/",
+  "published": "2026-10-29T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of MLflow. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-843: MLflow SHAP load_explainer Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
   "category": "exploited",
   "cves": [
    "CVE-2026-76418"
@@ -16547,6 +16967,312 @@
   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
   "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112656"
+  ],
+  "id": "fd294f3928f23f1d",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-831/",
+  "published": "2026-10-28T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-831: Apple macOS CoreText GDEF LigCaretList Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118611"
+  ],
+  "id": "f760b75eb25953a5",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-829/",
+  "published": "2026-10-28T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.8.",
+  "title": "ZDI-26-829: (0Day) (Pwn2Own) Alpine iLX-F511 Bluetooth OBEX Packet Handling Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118618"
+  ],
+  "id": "eba315b600e10d28",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-817/",
+  "published": "2026-10-28T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-817: (0Day) Ultralytics parse_model Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-6064"
+  ],
+  "id": "df9b7602d5aa1e87",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-832/",
+  "published": "2026-10-28T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of AVG Internet Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this…",
+  "title": "ZDI-26-832: AVG Internet Security avgToolsSvc Link Following Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118614"
+  ],
+  "id": "db57753ae2b9126c",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-813/",
+  "published": "2026-10-28T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-813: (0Day) Ultralytics check_det_dataset Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118619"
+  ],
+  "id": "daedfa77bdcc48f5",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-818/",
+  "published": "2026-10-28T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-818: (0Day) Ultralytics Google Drive Download Path Traversal Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118601"
+  ],
+  "id": "b126201a42919f21",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-819/",
+  "published": "2026-10-28T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.3.",
+  "title": "ZDI-26-819: (0Day) (Pwn2Own) Alpine iLX-F511 SSH Hard-Coded Credentials Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-86974"
+  ],
+  "id": "b01ef3deae815937",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-830/",
+  "published": "2026-10-28T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-830: Apple Safari jsToWasm IC Entrypoint Type Confusion Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118615"
+  ],
+  "id": "ae92e658edc7b058",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-814/",
+  "published": "2026-10-28T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-814: (0Day) Ultralytics torch_safe_load Command Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118606"
+  ],
+  "id": "ac6ba07e65407e5b",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-824/",
+  "published": "2026-10-28T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8.",
+  "title": "ZDI-26-824: (0Day) (Pwn2Own) Alpine iLX-F511 Framework Service Exposed Dangerous Function Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "a3369a87bb85e5d5",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-833/",
+  "published": "2026-10-28T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Valkey. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8.",
+  "title": "ZDI-26-833: Valkey clusterCreatePublishMsgBlock Numeric Truncation Error Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118613"
+  ],
+  "id": "a2241edf4f9daf93",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-812/",
+  "published": "2026-10-28T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-812: (0Day) Ultralytics torch_load Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118602"
+  ],
+  "id": "9a6a343eb2c14870",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-820/",
+  "published": "2026-10-28T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Alpine iLX-F511. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
+  "title": "ZDI-26-820: (0Day) (Pwn2Own) Alpine iLX-F511 Fiv.System Exposed Dangerous Method Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118603"
+  ],
+  "id": "8e9d3666b3b400c0",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-821/",
+  "published": "2026-10-28T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected Alpine iLX-F511 devices. User interaction is required to exploit this vulnerability in that the target must connect to a malicious Bluetooth device.",
+  "title": "ZDI-26-821: (0Day) (Pwn2Own) Alpine iLX-F511 vCard Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118617"
+  ],
+  "id": "88e72db3e734d630",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-816/",
+  "published": "2026-10-28T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-816: (0Day) Ultralytics load_dataset_cache_file Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118607"
+  ],
+  "id": "77befc4023134365",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-825/",
+  "published": "2026-10-28T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.8.",
+  "title": "ZDI-26-825: (0Day) (Pwn2Own) Alpine iLX-F511 diagapp Command Injection Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118609"
+  ],
+  "id": "64f27e7afcc3ce5e",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-827/",
+  "published": "2026-10-28T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.8.",
+  "title": "ZDI-26-827: (0Day) (Pwn2Own) Alpine iLX-F511 Android Auto Connection Handler Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118616"
+  ],
+  "id": "5e62435816fa6f1f",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-815/",
+  "published": "2026-10-28T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-815: (0Day) Ultralytics parse_model Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118605"
+  ],
+  "id": "59221df5b481f315",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-823/",
+  "published": "2026-10-28T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices.",
+  "title": "ZDI-26-823: (0Day) (Pwn2Own) Alpine iLX-F511 prh_sdp_service_search_decode Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118604"
+  ],
+  "id": "1dae1bbb4211207a",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-822/",
+  "published": "2026-10-28T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.8.",
+  "title": "ZDI-26-822: (0Day) (Pwn2Own) Alpine iLX-F511 Framework Service Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118608"
+  ],
+  "id": "072108358a3f39c2",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-826/",
+  "published": "2026-10-28T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Alpine iLX-F511 devices.",
+  "title": "ZDI-26-826: (0Day) (Pwn2Own) Alpine iLX-F511 libanwbtstack.so prh_rfcomm_cc_process_test Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-118610"
+  ],
+  "id": "01aadf9fa8d84b8d",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-828/",
+  "published": "2026-10-28T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8.",
+  "title": "ZDI-26-828: (0Day) (Pwn2Own) Alpine iLX-F511 Android Auto Service Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
  },
  {
   "category": "exploited",
@@ -16719,6 +17445,34 @@
   "source": "Google Project Zero",
   "summary": "Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system.",
   "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114552"
+  ],
+  "id": "e5f7ebf48e70bdd0",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-811/",
+  "published": "2026-10-27T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of MailEnable. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.5.",
+  "title": "ZDI-26-811: MailEnable parseObjectResponse XML External Entity Processing Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114551"
+  ],
+  "id": "a21ae1b11547dc71",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-810/",
+  "published": "2026-10-27T05:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of MailEnable. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 5.9.",
+  "title": "ZDI-26-810: MailEnable Auth Cleartext Storage Information Disclosure Vulnerability",
   "trust": "vendor"
  },
  {
