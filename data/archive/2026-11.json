@@ -208,6 +208,1000 @@
   "trust": "media"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126854"
+  ],
+  "id": "fe70d054e28648cd",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126854",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126854: Incorrect authorization",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126910"
+  ],
+  "id": "fe076bce4aca5d06",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126910",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126910: Type confusion",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126844"
+  ],
+  "id": "fc322ca3b8b1ae0e",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126844",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126844: Uninitialized resource",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126865"
+  ],
+  "id": "f9d2e4cdd42e417e",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126865",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126865: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126886"
+  ],
+  "id": "f50915086dbb2beb",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126886",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126886: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126881"
+  ],
+  "id": "efcbaf8e443da060",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126881",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126881: Improper initialization",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126921"
+  ],
+  "id": "edea0c1cf5c688b9",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126921",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126921: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126887"
+  ],
+  "id": "ea2d925a32524bac",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126887",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126887: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126894"
+  ],
+  "id": "e77a58eb0b4d6df8",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126894",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126894: Out of bounds read",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126892"
+  ],
+  "id": "e5895b3e0898cc8b",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126892",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126892: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126864"
+  ],
+  "id": "df10382107e139a3",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126864",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126864: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126868"
+  ],
+  "id": "dd7ba081657ce62c",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126868",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126868: Type confusion",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126872"
+  ],
+  "id": "dafd9db7eef12dd7",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126872",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126872: Incorrect authorization",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126920"
+  ],
+  "id": "d9be306686349f6d",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126920",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126920: Information leak",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126905"
+  ],
+  "id": "c49705b0ead38f54",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126905",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126905: Incomplete cleanup",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126891"
+  ],
+  "id": "c196ee7df88d3395",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126891",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126891: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126845"
+  ],
+  "id": "c02949f0e7644384",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126845",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126845: Uninitialized resource",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126871"
+  ],
+  "id": "be326b0c95f4efb4",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126871",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126871: Out of bounds read",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126908"
+  ],
+  "id": "a3fd4caf4388bc63",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126908",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126908: Type confusion",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126876"
+  ],
+  "id": "a2ea676d4c5886fa",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126876",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126876: Integer overflow",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126889"
+  ],
+  "id": "9f60425176b3203c",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126889",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126889: Off-by-one error",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126901"
+  ],
+  "id": "96f226b43f7d38f5",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126901",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126901: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-125344"
+  ],
+  "id": "95ba2a1b52977538",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-125344",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-125344: Type confusion",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126917"
+  ],
+  "id": "93298d2b0866d830",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126917",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126917: Memory corruption",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126874"
+  ],
+  "id": "91b8b5421a1c5f5a",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126874",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126874: Type confusion",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126840"
+  ],
+  "id": "907fb20469d50ddb",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126840",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126840: Out of bounds write",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126875"
+  ],
+  "id": "8d6ef23a49fb6253",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126875",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126875: Missing authorization",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126848"
+  ],
+  "id": "87670c4ff9149d9f",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126848",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126848: Uninitialized resource",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126851"
+  ],
+  "id": "85ba11a030a5e4d1",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126851",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126851: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126902"
+  ],
+  "id": "84b2eda792e9cdd4",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126902",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126902: Incorrect reference resolution",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126914"
+  ],
+  "id": "8351c6dc2ff3803b",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126914",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126914: Uninitialized resource",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-125342"
+  ],
+  "id": "7631818b9efee681",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-125342",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-125342: Uninitialized resource",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126853"
+  ],
+  "id": "758f770cd8c18c84",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126853",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126853: Uninitialized resource",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126859"
+  ],
+  "id": "73bed635b86e74fd",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126859",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126859: Link following",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126857"
+  ],
+  "id": "6f892fad17c8e520",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126857",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126857: Out of bounds read",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126870"
+  ],
+  "id": "6ee0b1eafa9d1121",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126870",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126870: Uninitialized resource",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126841"
+  ],
+  "id": "6809b91451ba8fb3",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126841",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126841: Out of bounds read",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126922"
+  ],
+  "id": "6709c9b2681b0812",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126922",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126922: Out of bounds read",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126900"
+  ],
+  "id": "66526981d43a0cce",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126900",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126900: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126878"
+  ],
+  "id": "65031541341704c2",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126878",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126878: Information leak",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126897"
+  ],
+  "id": "63ebc3790c114988",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126897",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126897: Type confusion",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126907"
+  ],
+  "id": "633335629a131513",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126907",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126907: Uninitialized resource",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126895"
+  ],
+  "id": "5f6b7d65474e22df",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126895",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126895: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126863"
+  ],
+  "id": "5c4a34545c452603",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126863",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126863: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126918"
+  ],
+  "id": "5b38c3dc5c47b972",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126918",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126918: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126912"
+  ],
+  "id": "573415a2a49fa0a5",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126912",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126912: Buffer overflow",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-125348"
+  ],
+  "id": "4e2c5a9469d0df7f",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-125348",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-125348: Out of bounds write",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126903"
+  ],
+  "id": "4e01702cde34acce",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126903",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126903: Improper state validation",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126883"
+  ],
+  "id": "49e15fb657fd9fef",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126883",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126883: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126880"
+  ],
+  "id": "48b722c8d73981c8",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126880",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126880: Type confusion",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126896"
+  ],
+  "id": "438926c9af877d08",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126896",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126896: Missing authorization",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126847"
+  ],
+  "id": "42c1f72dbbca323d",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126847",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126847: Type confusion",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126911"
+  ],
+  "id": "3f1a6cb18b7c723d",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126911",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126911: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126885"
+  ],
+  "id": "3cb40cc3961cd572",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126885",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126885: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126852"
+  ],
+  "id": "3ad40a25ee36938b",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126852",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126852: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126919"
+  ],
+  "id": "348c745c1dbbdb49",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126919",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126919: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126873"
+  ],
+  "id": "342bb055226af97a",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126873",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126873: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126906"
+  ],
+  "id": "30c1d38d6c6485f0",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126906",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126906: Race condition",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126869"
+  ],
+  "id": "2b7f39ed7046a966",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126869",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126869: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126866"
+  ],
+  "id": "299bdb182c815c25",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126866",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126866: Incorrect authorization",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126849"
+  ],
+  "id": "28f54e407e8b0e45",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126849",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126849: Type confusion",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126893"
+  ],
+  "id": "241925f002a79cb3",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126893",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126893: Out of bounds write",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126858"
+  ],
+  "id": "21409e5a0182dcba",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126858",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126858: Uninitialized resource",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126888"
+  ],
+  "id": "1fe2764c25366d94",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126888",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126888: Buffer overflow",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126898"
+  ],
+  "id": "11f3e341ad397b90",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126898",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126898: Uninitialized resource",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126916"
+  ],
+  "id": "11c35e63ad081589",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126916",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126916: Integer overflow",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126879"
+  ],
+  "id": "10c2e73ae6038dfb",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126879",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126879: Use after free",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126913"
+  ],
+  "id": "092069c3c5316757",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126913",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126913: Out of bounds read",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126843"
+  ],
+  "id": "04c14aea8dfd94ed",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126843",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126843: Type confusion",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126856"
+  ],
+  "id": "02ced9721d537e72",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126856",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126856: Incomplete cleanup",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126884"
+  ],
+  "id": "02036bc7b6c251a1",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126884",
+  "published": "2026-11-13T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+  "title": "Chromium CVE-2026-126884: Out of bounds read",
+  "trust": "vendor"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "009cf39ed8f039af",
@@ -1446,6 +2440,34 @@
   "summary": "",
   "title": "ISC Stormcast For Friday, November 13th, 2026 https://isc.sans.edu/podcastdetail/10178, (Fri, Nov 13th)",
   "trust": "vendor"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-114713"
+  ],
+  "id": "f7b63ddce66de773",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713",
+  "published": "2026-11-13T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.",
+  "title": "CVE-2026-114713: UnrealIRCd UnrealIRCd (UnrealIRCd Improper Neutralization of Delimiters Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-123039"
+  ],
+  "id": "92d8e7c730629c02",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039",
+  "published": "2026-11-13T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon…",
+  "title": "CVE-2026-123039: Check Point Multiple Products (Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability)",
+  "trust": "official"
  },
  {
   "category": "news",
@@ -4472,6 +5494,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-96139"
+  ],
+  "id": "f1181af05ce286d1",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96139",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Untrusted pointer dereference in Windows Kernel-Mode Drivers allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-96139 Windows Kernel-Mode Drivers Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-85907"
   ],
   "id": "efb31a552d34f34d",
@@ -4495,6 +5531,20 @@
   "source": "Microsoft MSRC",
   "summary": "Authorization bypass through user-controlled key in Microsoft MCP Gateway allows an authorized attacker to elevate privileges over a network.",
   "title": "CVE-2026-109492 Microsoft MCP Gateway Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-96162"
+  ],
+  "id": "ef67e3a50768fba0",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96162",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Incorrect authorization in Windows Clipboard Virtual Channel Extension allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-96162 Windows Clipboard Virtual Channel Extension Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -4836,6 +5886,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-113749"
+  ],
+  "id": "db95e84142a56592",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-113749",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in Microsoft Windows Codecs Library allows an unauthorized attacker to execute code over a network.",
+  "title": "CVE-2026-113749 Microsoft Windows Codecs Library Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96064"
   ],
   "id": "db764992924a01bd",
@@ -4887,6 +5951,20 @@
   "source": "Microsoft MSRC",
   "summary": "Null pointer dereference in Microsoft Windows SCSI Class System File allows an authorized attacker to elevate privileges locally.",
   "title": "CVE-2026-105586 Microsoft Windows SCSI Class System File Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-85929"
+  ],
+  "id": "d7eff217f30a52ff",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-85929",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Incorrect permission assignment for critical resource in Windows Brokering File System allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-85929 Microsoft Brokering File System Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -5083,6 +6161,20 @@
   "source": "Microsoft MSRC",
   "summary": "Use of uninitialized resource in Windows Graphics Kernel allows an authorized attacker to disclose information locally.",
   "title": "CVE-2026-96048 Windows Graphics Kernel Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-119396"
+  ],
+  "id": "ceeae49ae4f0b8cb",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119396",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Improper access control in Windows Remote Access API allows an authorized attacker to perform tampering locally.",
+  "title": "CVE-2026-119396 Windows Remote Access API Tampering Vulnerability",
   "trust": "vendor"
  },
  {
@@ -5368,6 +6460,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-119988"
+  ],
+  "id": "bcac727703c3fa93",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119988",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Numeric truncation error in Windows SMB allows an authorized attacker to execute code over a network.",
+  "title": "CVE-2026-119988 Windows SMB Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96102"
   ],
   "id": "bcabd17828cc2b10",
@@ -5508,6 +6614,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-68783"
+  ],
+  "id": "b5e427e7ba8c241b",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68783",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use of uninitialized resource in SQL Server allows an authorized attacker to disclose information over a network.",
+  "title": "CVE-2026-68783 Microsoft SQL Server Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96051"
   ],
   "id": "b4ae729379f2cf61",
@@ -5536,6 +6656,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-108401"
+  ],
+  "id": "b3dd3f5beb02b9f2",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108401",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in Windows Remote Desktop Services allows an authorized attacker to execute code over a network.",
+  "title": "CVE-2026-108401 Remote Desktop Services Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-88247"
   ],
   "id": "b3d5a78d9c2a0bfa",
@@ -5545,6 +6679,20 @@
   "source": "Microsoft MSRC",
   "summary": "Use of uninitialized resource in Windows Program Compatibility Assistant Service allows an authorized attacker to disclose information locally.",
   "title": "CVE-2026-88247 Windows Program Compatibility Assistant Service Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-67375"
+  ],
+  "id": "b3712c768c03fedb",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-67375",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Stack-based buffer overflow in SQL Server allows an authorized attacker to elevate privileges over a network.",
+  "title": "CVE-2026-67375 Microsoft SQL Server Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -5606,6 +6754,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-96127"
+  ],
+  "id": "afb5db42f596ffb0",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96127",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in Windows Biometric Service allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-96127 Windows Biometric Service Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-120792"
   ],
   "id": "af2c124eee6a52fe",
@@ -5662,6 +6824,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-96175"
+  ],
+  "id": "ab05ebca19dc42db",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96175",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Release of invalid pointer or reference in Desktop Window Manager allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-96175 Desktop Window Manager Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-95876"
   ],
   "id": "a91c8203c64e8087",
@@ -5699,6 +6875,20 @@
   "source": "Microsoft MSRC",
   "summary": "An elevation of privilege vulnerability exists in Windows Error Reporting (WER) when WER handles and executes files. The vulnerability could allow elevation of privilege if an attacker can successfully exploit it.",
   "title": "CVE-2026-94525 Windows Error Reporting Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-96156"
+  ],
+  "id": "a712c1a8745ad330",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96156",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use of uninitialized resource in Windows Broker Infrastructure Service allows an authorized attacker to disclose information locally.",
+  "title": "CVE-2026-96156 Windows Broker Infrastructure Service Information Disclosure Vulnerability",
   "trust": "vendor"
  },
  {
@@ -5788,6 +6978,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-121680"
+  ],
+  "id": "a2efaed61f8836f7",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-121680",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Exposure of sensitive information to an unauthorized actor in Windows NTLM allows an unauthorized attacker to perform spoofing over a network.",
+  "title": "CVE-2026-121680 Windows NTLM Spoofing Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96074"
   ],
   "id": "a26ba547268740f5",
@@ -5853,6 +7057,20 @@
   "source": "Microsoft MSRC",
   "summary": "Use of uninitialized resource in Windows Graphics Kernel allows an authorized attacker to disclose information locally.",
   "title": "CVE-2026-96144 Windows Graphics Kernel Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-119853"
+  ],
+  "id": "9f5724373cd039a1",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119853",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Untrusted search path in Windows Remote Access API allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-119853 Remote Access API Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -6362,6 +7580,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-96994"
+  ],
+  "id": "7e92fd2941953b35",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96994",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Winsock allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-96994 Winsock Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-85801"
   ],
   "id": "7e594e530c75540b",
@@ -6544,6 +7776,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-96172"
+  ],
+  "id": "77a33212a546bf86",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96172",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "No cwe for this issue in Desktop Window Manager allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-96172 Desktop Window Manager Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96029"
   ],
   "id": "76f156242732434d",
@@ -6595,6 +7841,20 @@
   "source": "Microsoft MSRC",
   "summary": "Out-of-bounds read in Windows iSCSI allows an authorized attacker to disclose information over a network.",
   "title": "CVE-2026-88231 Windows iSCSI Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-119856"
+  ],
+  "id": "72de6fdb8bf6c1d9",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119856",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Exposure of sensitive system information to an unauthorized control sphere in Windows Win32K allows an authorized attacker to disclose information locally.",
+  "title": "CVE-2026-119856 Win32k Information Disclosure Vulnerability",
   "trust": "vendor"
  },
  {
@@ -6866,6 +8126,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-67374"
+  ],
+  "id": "61d597964c9f5204",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-67374",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in SQL Server allows an authorized attacker to execute code over a network.",
+  "title": "CVE-2026-67374 Microsoft SQL Server Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-108411"
   ],
   "id": "61c5f950cd46289f",
@@ -6917,6 +8191,20 @@
   "source": "Microsoft MSRC",
   "summary": "Integer underflow (wrap or wraparound) in HID Parser Library allows an authorized attacker to elevate privileges over a network.",
   "title": "CVE-2026-96010 HID Parser Library Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-96982"
+  ],
+  "id": "5ea0b5840af864ab",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96982",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Integer overflow or wraparound in HID Parser Library allows an unauthorized attacker to elevate privileges with a physical attack.",
+  "title": "CVE-2026-96982 HID Parser Library Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -7160,6 +8448,34 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-96124"
+  ],
+  "id": "5317cbd61ab6424d",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96124",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-96124 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-96160"
+  ],
+  "id": "52b2549039c8273e",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96160",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Out-of-bounds read in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-96160 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-88187"
   ],
   "id": "52112a04ff2e4ee7",
@@ -7183,6 +8499,20 @@
   "source": "Microsoft MSRC",
   "summary": "Out-of-bounds read in Windows Graphics Kernel allows an authorized attacker to disclose information locally.",
   "title": "CVE-2026-95946 Windows Graphics Kernel Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-96168"
+  ],
+  "id": "518ab35a416bc9c4",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96168",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Untrusted pointer dereference in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-96168 Windows Graphics Kernel Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -7734,6 +9064,34 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-96155"
+  ],
+  "id": "36e61b306e319629",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96155",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows Audio Service allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-96155 Windows Audio Service Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-96157"
+  ],
+  "id": "3695aad868eda2ba",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96157",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network.",
+  "title": "CVE-2026-96157 Microsoft Windows Media Foundation Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-95968"
   ],
   "id": "3638441ca40e2865",
@@ -7799,6 +9157,20 @@
   "source": "Microsoft MSRC",
   "summary": "Heap-based buffer overflow in Visual Studio allows an unauthorized attacker to execute code over a network.",
   "title": "CVE-2026-118745 Visual Studio Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-96974"
+  ],
+  "id": "2fd248b984cf71e9",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96974",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Integer overflow or wraparound in HID Parser Library allows an unauthorized attacker to elevate privileges with a physical attack.",
+  "title": "CVE-2026-96974 HID Parser Library Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -8009,6 +9381,20 @@
   "source": "Microsoft MSRC",
   "summary": "Use after free in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
   "title": "CVE-2026-94519 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-96153"
+  ],
+  "id": "240a80d6c4d23336",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96153",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in Windows Error Reporting allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-96153 Windows Error Reporting Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -8233,6 +9619,34 @@
   "source": "Microsoft MSRC",
   "summary": "Use after free in Remote Desktop Gateway Service allows an authorized attacker to execute code locally.",
   "title": "CVE-2026-69565 Windows Remote Desktop Services Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-109473"
+  ],
+  "id": "18ae48b1ac614717",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-109473",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows Kernel allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-109473 Windows Kernel Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-119861"
+  ],
+  "id": "1849d1e939cf373e",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119861",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in Windows Internet Connection Sharing (ICS) allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-119861 Windows Internet Connection Sharing (ICS) Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -8597,6 +10011,20 @@
   "source": "Microsoft MSRC",
   "summary": "Stack-based buffer overflow in Windows Installer allows an authorized attacker to elevate privileges locally.",
   "title": "CVE-2026-96152 Windows Installer Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112765"
+  ],
+  "id": "0312c72250763c83",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112765",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in Windows Print Spooler Components allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112765 Windows Print Spooler Components Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -16702,6 +18130,20 @@
   "trust": "vendor"
  },
  {
+  "category": "exploited",
+  "cves": [
+   "CVE-2025-39682"
+  ],
+  "id": "a81e317a5bd58047",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-39682",
+  "published": "2026-09-18T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Linux Kernel contains an improper check for unusual or exceptional conditions vulnerability in the TLS receive path which allows a zero-length record retrieved from the rx_list to bypass the intended recvmsg() record-type handling, potentially…",
+  "title": "CVE-2025-39682: Linux Kernel (Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability)",
+  "trust": "official"
+ },
+ {
   "category": "advisories",
   "cves": [],
   "id": "a22739840d8d8393",
@@ -16727,6 +18169,48 @@
   "source": "UK NCSC",
   "summary": "Adversary simulation ('red teaming') tests your ability to prevent, detect and respond to cyber attacks.",
   "title": "Adversary simulation: what you need to know",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-87886"
+  ],
+  "id": "e8b36cbfe265f261",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-87886",
+  "published": "2026-09-16T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Acronis Backup plugin for cPanel & WHM and extension for Plesk contains an incorrect default permissions vulnerability that could allow for privilege escalation.",
+  "title": "CVE-2026-87886: Acronis Backup (Acronis Backup Incorrect Default Permissions Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-76460"
+  ],
+  "id": "7ed5e83e9b9ae439",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76460",
+  "published": "2026-09-16T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) contain an incorrect use of privileged APIs vulnerability that could allow an unauthenticated, remote attacker to gain unauthorized access to the affected device…",
+  "title": "CVE-2026-76460: Cisco Identity Services Engine (Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-58704"
+  ],
+  "id": "17f6087ae4f9331f",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-58704",
+  "published": "2026-09-16T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Google Pixel devices contain an improper authorization vulnerability in the cellular modem. A logic error may allow an attacker to bypass permission checks and escalate privileges.",
+  "title": "CVE-2026-58704: Google Pixel (Google Pixel Improper Authorization Vulnerability)",
   "trust": "official"
  },
  {
@@ -16758,6 +18242,76 @@
   "trust": "official"
  },
  {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-76461"
+  ],
+  "id": "770256ed8b9086f7",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76461",
+  "published": "2026-09-14T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Cisco AsyncOS software for Cisco Secure Email Gateway (SEG) contains a SQL injection vulnerability that could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system.",
+  "title": "CVE-2026-76461: Cisco Secure Email Gateway (Cisco Secure Email Gateway SQL Injection Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-42018"
+  ],
+  "id": "cb950f44112eddf6",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-42018",
+  "published": "2026-09-11T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "JFrog Artifactory contains an improper authentication vulnerability that could return an internal anonymous-user token to an unauthenticated caller when anonymous access is disabled, potentially exposing sensitive resources.",
+  "title": "CVE-2026-42018: JFrog Artifactory (JFrog Artifactory Improper Authentication Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-85706"
+  ],
+  "id": "91c05488770aa194",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-85706",
+  "published": "2026-09-11T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "GitLab Community Edition and Enterprise Edition contains a path traversal vulnerability that allows an unauthenticated user to read arbitrary files due to an improper path confinement and missing authentication enforcement in the repository commits…",
+  "title": "CVE-2026-85706: GitLab Community Edition and Enterprise Edition (GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-84869"
+  ],
+  "id": "8b84748c4ddce2dd",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-84869",
+  "published": "2026-09-11T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to transfer and execute files through an active remote session without authorization or host confirmation.",
+  "title": "CVE-2026-84869: ConnectWise ScreenConnect (ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-42016"
+  ],
+  "id": "32b89d0f9eb4fa51",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-42016",
+  "published": "2026-09-11T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "JFrog Artifactory contains an incorrect authorization vulnerability that leads to a privilege escalation attack due to a validation check of the token signature/issuer and not the token’s scope.",
+  "title": "CVE-2026-42016: JFrog Artifactory (JFrog Artifactory Incorrect Authorization Vulnerability)",
+  "trust": "official"
+ },
+ {
   "category": "advisories",
   "cves": [],
   "id": "0cd2da7c5fcad49e",
@@ -16769,6 +18323,34 @@
   "source": "CERT-EU",
   "summary": "On 9 September 2026, Check Point released emergency security updates addressing two critical vulnerabilities affecting Check Point Security Gateway, Security Management Server, and Spark Firewall deployments configured to use Remote Access VPN or…",
   "title": "2026-012: Critical Vulnerabilities in Check Point Products",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-86060"
+  ],
+  "id": "f0473751acbd27dd",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86060",
+  "published": "2026-09-10T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacker to change the trusted RouterOS policy mask, leading to privilege escalation.",
+  "title": "CVE-2026-86060: MikroTik RouterOS (MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-67277"
+  ],
+  "id": "1852aa0befe95a42",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-67277",
+  "published": "2026-09-10T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "MikroTik RouterOS contains a missing authentication for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.",
+  "title": "CVE-2026-67277: MikroTik RouterOS (MikroTik RouterOS Missing Authentication for Critical Function Vulnerability)",
   "trust": "official"
  },
  {
@@ -16786,6 +18368,62 @@
   "source": "CERT-EU",
   "summary": "On 8 September 2026, as part of its September Security Patch Day, SAP released Security Notes addressing two critical vulnerabilities affecting a broad range of SAP products[3].",
   "title": "2026-011: Critical Vulnerabilities in SAP Kernel and NetWeaver Message Server",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-87491"
+  ],
+  "id": "7ece271c510ebceb",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-87491",
+  "published": "2026-09-09T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Google Chromium V8 contains an out of bounds write vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page.",
+  "title": "CVE-2026-87491: Google Chromium V8 (Google Chromium V8 Out of Bounds Write Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2025-25249"
+  ],
+  "id": "76d34d76643416e1",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-25249",
+  "published": "2026-09-09T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Fortinet FortiOS, FortiSwitchManager, and FortiSASE contain a heap-based buffer overflow vulnerability that allows an attacker to execute unauthorized code or commands via specially crafted packets.",
+  "title": "CVE-2025-25249: Fortinet Multiple Products (Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-20079"
+  ],
+  "id": "7455e25949a37ff9",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20079",
+  "published": "2026-09-09T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management contain an authentication Bypass using an alternate path or channel vulnerability that could allow an unauthenticated, remote attacker…",
+  "title": "CVE-2026-20079: Cisco Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management (Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or…",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-19490"
+  ],
+  "id": "59aff4a62233457f",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-19490",
+  "published": "2026-09-09T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Citrix NetScaler ADC and NetScaler Gateway contain an authentication-bypass vulnerability involving an alternate path or channel.",
+  "title": "CVE-2026-19490: Citrix NetScaler (Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability)",
   "trust": "official"
  },
  {
@@ -16817,6 +18455,62 @@
   "trust": "vendor"
  },
  {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-81963"
+  ],
+  "id": "e444342a237f601b",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81963",
+  "published": "2026-09-08T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Microsoft Windows Update Stack contains a link following vulnerability that allows a local attacker to escalate privileges locally up to SYSTEM.",
+  "title": "CVE-2026-81963: Microsoft Windows (Microsoft Windows Link Following Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-75650"
+  ],
+  "id": "923dafd987d07a9d",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-75650",
+  "published": "2026-09-08T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Adobe Commerce and Magento Open Source contain an improper neutralization of special elements used in a template engine vulnerability that could allow an attacker to execute arbitrary code.",
+  "title": "CVE-2026-75650: Adobe Commerce and Magento (Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-85880"
+  ],
+  "id": "5d8053e0f109a2df",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-85880",
+  "published": "2026-09-08T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Microsoft Windows Advanced Local Procedure Call contains a heap-based buffer overflow vulnerability that allows an attacker to elevate privileges locally.",
+  "title": "CVE-2026-85880: Microsoft Windows (Microsoft Windows Heap-Based Buffer Overflow Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-86218"
+  ],
+  "id": "50011a4f7a5c00cd",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86218",
+  "published": "2026-09-08T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "N-able N-central contains a static code injection vulnerability that could allow for pre-authentication remote code execution.",
+  "title": "CVE-2026-86218: N-able N-central (N-able N-central Static Code Injection Vulnerability)",
+  "trust": "official"
+ },
+ {
   "category": "advisories",
   "cves": [],
   "id": "b1bbc67fa2955f8c",
@@ -16828,6 +18522,119 @@
   "source": "UK NCSC",
   "summary": "Understanding why staff use unapproved AI tools is key to managing the security challenges they can create.",
   "title": "The hidden risks of shadow AI",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-85046"
+  ],
+  "id": "a523f91e92e6e24e",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-85046",
+  "published": "2026-09-04T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Google Chromium V8 contains a type confusion vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page.",
+  "title": "CVE-2026-85046: Google Chromium V8 (Google Chromium V8 Type Confusion Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-42271",
+   "CVE-2026-48710"
+  ],
+  "id": "a380bef8472bb5d5",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48710",
+  "published": "2026-09-02T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Kludex Starlette contains a HTTP request/response smuggling vulnerability that could allow attackers to inject paths into the host part, prepending the actual path leading to issues such as authentication bypass when the authentication depends on…",
+  "title": "CVE-2026-48710: Kludex Starlette (Kludex Starlette HTTP Request/Response Smuggling Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-83548"
+  ],
+  "id": "68fdf749ae13dfb5",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-83548",
+  "published": "2026-09-02T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "SonicWall SMA1000 Appliances contains a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to gain unauthorized access to sensitive functionality and perform unauthorized operations.",
+  "title": "CVE-2026-83548: SonicWall SMA1000 Appliances (SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-49869"
+  ],
+  "id": "484fbf563abed8ea",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-49869",
+  "published": "2026-09-02T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Kestra OSS contains an OS command injection vulnerability that could allow an unauthenticated remote attacker to create and execute arbitrary workflows without credentials.",
+  "title": "CVE-2026-49869: Kestra Kestra OSS (Kestra OSS OS Command Injection Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-59822"
+  ],
+  "id": "40c1edafc111800d",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-59822",
+  "published": "2026-09-02T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "BerriAI LiteLLM contains an improper authentication vulnerability in the MCP Streamable HTTP endpoint that could allow an unauthenticated attacker to establish an authenticated MCP session using an arbitrary Bearer token.",
+  "title": "CVE-2026-59822: BerriAI LiteLLM (BerriAI LiteLLM Improper Authentication Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-83549"
+  ],
+  "id": "39a7d29fb8b8d03e",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-83549",
+  "published": "2026-09-02T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "SonicWall SMA1000 Appliances contains an OS command injection vulnerability that could enable a remote authenticated attacker as administrator to execute arbitrary OS commands, resulting in remote code execution.",
+  "title": "CVE-2026-83549: SonicWall SMA1000 Appliances (SonicWall SMA1000 Appliances OS Command Injection Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-82329"
+  ],
+  "id": "335ed64a96c87b3f",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-82329",
+  "published": "2026-09-02T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "JFrog Artifactory contains an improper authentication vulnerability that under default configuration can allow an unauthenticated attacker with network access to obtain administrative privileges.",
+  "title": "CVE-2026-82329: JFrog Artifactory (JFrog Artifactory Improper Authentication Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-9586"
+  ],
+  "id": "14e4e7b43aacc1d9",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-9586",
+  "published": "2026-09-02T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Sangoma Switchvox contains a SQL injection vulnerability which allows an unauthenticated remote attacker to execute arbitrary SQL statements against the backend PostgreSQL database using a single crafted request, including database operations and…",
+  "title": "CVE-2026-9586: Sangoma Switchvox (Sangoma Switchvox SQL Injection Vulnerability)",
   "trust": "official"
  },
  {
@@ -16845,6 +18652,36 @@
   "trust": "vendor"
  },
  {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-81578",
+   "CVE-2026-82078"
+  ],
+  "id": "73021d8dc2a07235",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-82078",
+  "published": "2026-08-31T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "PaperCut NG/MF contains an unsafe reflection vulnerability that allows an attacker to manipulate system configuration parameters and execute arbitrary Java bytecode residing on the application classpath under the security context of the PaperCut…",
+  "title": "CVE-2026-82078: PaperCut NG/MF (PaperCut NG/MF Unsafe Reflection Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-81578",
+   "CVE-2026-82078"
+  ],
+  "id": "198dcfdc4ba5bdd3",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81578",
+  "published": "2026-08-31T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "PaperCut NG/MF contains a missing authentication for critical function vulnerability which allows an unauthenticated remote attacker to modify certain system configurations. This vulnerability can be chained with CVE-2026-82078.",
+  "title": "CVE-2026-81578: PaperCut NG/MF (PaperCut NG/MF Missing Authentication for Critical Function Vulnerability)",
+  "trust": "official"
+ },
+ {
   "category": "advisories",
   "cves": [],
   "id": "a40aacc4a9ad016d",
@@ -16856,6 +18693,174 @@
   "source": "UK NCSC",
   "summary": "Owners of operational technology encouraged to address avoidable vulnerabilities, and build long-term cyber resilience.",
   "title": "Disruptive cyber activity highlights risk from internet-exposed systems and edge devices",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-66384"
+  ],
+  "id": "fe08131befb6f4db",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-66384",
+  "published": "2026-08-27T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "JFrog Artifactory contains an improper limitation of a pathname to a restricted directory vulnerability. This can allow an authenticated user to write data outside the intended Docker cache path under specific remote-repository conditions.",
+  "title": "CVE-2026-66384: JFrog Artifactory (JFrog Artifactory Improper Limitation of a Pathname to a Restricted Directory Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2023-49105"
+  ],
+  "id": "ce7c5f620f6cbd0a",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2023-49105",
+  "published": "2026-08-27T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "ownCloud contains an improper authentication vulnerability that allows an attacker to access, modify, or delete any file without authentication if the username of a victim is known, and the victim has no signing-key configured.",
+  "title": "CVE-2023-49105: ownCloud ownCloud (ownCloud Improper Authentication Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-53362"
+  ],
+  "id": "814b6afa94b855a1",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-53362",
+  "published": "2026-08-27T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Linux Kernel contains an unspecified vulnerability that can allow for privilege escalation via IPv6 networking subsystem. This vulnerability can impact multiple products, including but not limited to Suse, Red Hat, and other products using Linux.",
+  "title": "CVE-2026-53362: Linux Kernel (Linux Kernel Unspecified Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2015-3246"
+  ],
+  "id": "ceb5156c69fc20d3",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2015-3246",
+  "published": "2026-08-26T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Red Hat libuser contains a race condition vulnerability that allows authenticated local users to corrupt the /etc/passwd file to cause a denial of service or privilege escalation.",
+  "title": "CVE-2015-3246: Red Hat Libuser (Red Hat Libuser Race Condition Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2019-1068"
+  ],
+  "id": "ac32daddbfa76f7a",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2019-1068",
+  "published": "2026-08-26T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Microsoft SQL Server contains a remote code execution vulnerability that could allow an attacker to execute code in the context of the SQL Server Database Engine service account.",
+  "title": "CVE-2019-1068: Microsoft SQL Server (Microsoft SQL Server Remote Code Execution Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-8452"
+  ],
+  "id": "948e9b3a1ab44f01",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-8452",
+  "published": "2026-08-26T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability which could lead to denial of service.",
+  "title": "CVE-2026-8452: Citrix NetScaler ADC and NetScaler Gateway (Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2022-0995"
+  ],
+  "id": "84918faf4435ada0",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2022-0995",
+  "published": "2026-08-26T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Linux Kernel contains an out-of-bounds memory write vulnerability which could allow a local user to gain privileged access or cause a denial of service on the system.",
+  "title": "CVE-2022-0995: Linux Kernel (Linux Kernel Out-of-Bounds Write Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2021-23758"
+  ],
+  "id": "7f8f45efa0751da6",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2021-23758",
+  "published": "2026-08-26T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Ajax.NET Professional (AjaxPro) contains a deserialization of untrusted data vulnerability that could allow for remote code execution via arbitrary .NET classes. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS).",
+  "title": "CVE-2021-23758: Ajax.NET Professional Ajax.NET Professional (Ajax.NET Professional Deserialization of Untrusted Data Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2015-5287"
+  ],
+  "id": "08f962b7fdedb510",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2015-5287",
+  "published": "2026-08-26T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Red Hat Automatic Bug Reporting Tool (ABRT) contains a privilege escalation vulnerability that could allow local users with certain permissions to gain privileges via a symlink attack on a file with a predictable name.",
+  "title": "CVE-2015-5287: Red Hat Automatic Bug Reporting Tool (Red Hat Automatic Bug Reporting Tool Privilege Escalation Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-60004"
+  ],
+  "id": "420b0381b4980635",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-60004",
+  "published": "2026-08-25T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Gitea contains a code injection vulnerability that allows an attacker with repository write access to send a malicious patch to the diffpatch API endpoint to plant an executable Git hook and run shell commands as the Gitea service account.",
+  "title": "CVE-2026-60004: Gitea Gitea (Gitea Code Injection Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-21962"
+  ],
+  "id": "69e8f073ea8ff75f",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-21962",
+  "published": "2026-08-24T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in contain an improper access control vulnerability that can result in unauthorized creation, deletion or modification access to critical data as well as unauthorized access to critical data…",
+  "title": "CVE-2026-21962: Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in (Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-73570"
+  ],
+  "id": "03b35523115071a8",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-73570",
+  "published": "2026-08-21T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Zimbra Collaboration Suite (ZCS) contains an OS command injection vulnerability which could allow an unauthenticated attacker to send specially crafted SMTP requests that may result in execution of arbitrary operating system commands as the Zimbra…",
+  "title": "CVE-2026-73570: Synacor Zimbra Collaboration Suite (ZCS) (Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability)",
   "trust": "official"
  },
  {
@@ -16887,6 +18892,34 @@
   "trust": "official"
  },
  {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-72529"
+  ],
+  "id": "c2bd46b5fb9364ae",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-72529",
+  "published": "2026-08-20T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "TrueConf Server contains a missing authentication for critical function vulnerability which could allow a remote unauthorized attacker with network access via port 4307/TCP to execute an arbitrary script.",
+  "title": "CVE-2026-72529: TrueConf Server (TrueConf Server Missing Authentication for Critical Function Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-72530"
+  ],
+  "id": "5229444d6d137ce3",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-72530",
+  "published": "2026-08-20T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "TrueConf Server contains a code injection vulnerability that could allow an unauthorized remote attacker with network access via port 4307/TCP to use a specially crafted script to break out of the isolated environment and execute arbitrary code on…",
+  "title": "CVE-2026-72530: TrueConf Server (TrueConf Server Code Injection Vulnerability)",
+  "trust": "official"
+ },
+ {
   "category": "advisories",
   "cves": [],
   "id": "97abfe1fe4d6dd13",
@@ -16898,6 +18931,20 @@
   "source": "CERT-EU",
   "summary": "On 19 August 2026, Citrix published a security advisory addressing multiple critical vulnerabilities in NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix Gateway).",
   "title": "2026-010: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-64849"
+  ],
+  "id": "ff34e57e89ca4fd9",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-64849",
+  "published": "2026-08-19T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "MLflow contains a server-side request forgery vulnerability that can allow attackers to reach internal or cloud metadata services and receive response_status and response_body.",
+  "title": "CVE-2026-64849: MLflow MLflow (MLflow Server-Side Request Forgery Vulnerability)",
   "trust": "official"
  },
  {
@@ -16916,6 +18963,62 @@
   "summary": "Written by: Alex Tselevich, Michael Maturi Introduction Adversarial misuse of AI has increased the risk of data theft and extortion events, because when proprietary source code is exposed, defenders must scramble to identify and patch…",
   "title": "Staying Ahead of Adversarial AI Through Agentic Source Code Review",
   "trust": "vendor"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-59310"
+  ],
+  "id": "fb1f8d428ecfed4a",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310",
+  "published": "2026-08-18T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Broadcom VMware vCenter contains a path traversal vulnerability which could allow a threat actor with network access to vCenter to execute arbitrary code.",
+  "title": "CVE-2026-59310: Broadcom VMware vCenter (Broadcom VMware vCenter Path Traversal Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-55040"
+  ],
+  "id": "7adc9b07fedb42a0",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-55040",
+  "published": "2026-08-18T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Microsoft SharePoint contains a weak authentication vulnerability which allows an unauthorized attacker to bypass a security feature over a network.",
+  "title": "CVE-2026-55040: Microsoft SharePoint (Microsoft SharePoint Weak Authentication Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-65400"
+  ],
+  "id": "69a61e534a984a09",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
+  "published": "2026-08-18T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Apple macOS contains an improper authentication vulnerability that could allow an attacker on the network to authenticate to Screen Sharing without valid credentials.",
+  "title": "CVE-2026-65400: Apple macOS (Apple macOS Improper Authentication Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-33824"
+  ],
+  "id": "38054dfe13bcfb35",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-33824",
+  "published": "2026-08-18T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Microsoft Internet Key Exchange (IKE) Service Extensions contains a double free vulnerability that could enable remote code execution.",
+  "title": "CVE-2026-33824: Microsoft Internet Key Exchange (IKE) Service Extensions (Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability)",
+  "trust": "official"
  },
  {
   "category": "advisories",
