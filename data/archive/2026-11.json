@@ -2,6 +2,30 @@
  {
   "category": "news",
   "cves": [],
+  "id": "2dce8a3e0023e628",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+  "published": "2026-11-15T18:29:53Z",
+  "source": "BleepingComputer",
+  "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer…",
+  "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "4bad93eb2eddb016",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33496",
+  "published": "2026-11-15T18:17:27Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "YARA-X&#;x26;#;39;s 1.23.0 release brings 4 improvements and 16 bugfixes.",
+  "title": "YARA-X 1.23.0 Release, (Sun, Nov 15th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "38357f92686a19a9",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
