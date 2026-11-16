@@ -1,5 +1,77 @@
 [
  {
+  "category": "news",
+  "cves": [],
+  "id": "d2ae22574db36888",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+  "published": "2026-11-16T09:30:04Z",
+  "source": "BleepingComputer",
+  "summary": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations. [...]",
+  "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "d8c709adf2e32f58",
+  "kev": false,
+  "link": "https://www.securityweek.com/tor-updates-dos-defenses-again-as-relay-attacks-continue/",
+  "published": "2026-11-16T08:55:32Z",
+  "source": "SecurityWeek",
+  "summary": "Tor 0.4.9.17 patches several security issues, including one related to how built-in DoS protections deal with IPv6. The post Tor Updates DoS Defenses Again as Relay Attacks Continue appeared first on SecurityWeek .",
+  "title": "Tor Updates DoS Defenses Again as Relay Attacks Continue",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "00465c2a6c8c7898",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
+  "published": "2026-11-16T08:26:52Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft has released emergency out-of-band updates to fix Windows activation and licensing failures caused by this month's security updates. [...]",
+  "title": "Microsoft pushes Windows emergency updates to fix activation failures",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "1ea816b3b35007b7",
+  "kev": false,
+  "link": "https://www.securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign/",
+  "published": "2026-11-16T08:15:12Z",
+  "source": "SecurityWeek",
+  "summary": "Phishing emails posing as Microsoft 365 service notices referenced the real outage incident and threatened to delete held messages. The post Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign appeared first on SecurityWeek .",
+  "title": "Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "1843c792acc362da",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+  "published": "2026-11-16T07:34:21Z",
+  "source": "The Hacker News",
+  "summary": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records.",
+  "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "db4186fe7d68b859",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+  "published": "2026-11-16T06:53:34Z",
+  "source": "The Hacker News",
+  "summary": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server.",
+  "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+  "trust": "media"
+ },
+ {
   "category": "research",
   "cves": [],
   "id": "34d4a9f6bf576e0e",
