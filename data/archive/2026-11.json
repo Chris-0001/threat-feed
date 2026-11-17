@@ -2,6 +2,325 @@
  {
   "category": "news",
   "cves": [],
+  "id": "2730b527059f1051",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
+  "published": "2026-11-17T21:27:17Z",
+  "source": "BleepingComputer",
+  "summary": "Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication. [...]",
+  "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "8b919fcd1c179128",
+  "kev": false,
+  "link": "https://therecord.media/optimizely-malicious-code-customer-sites",
+  "published": "2026-11-17T21:20:00Z",
+  "source": "The Record",
+  "summary": "Researchers said they found malicious JavaScript code on 178 different widely visited websites run through the Optimizely Web experimentation platform. The company confirmed the breach.",
+  "title": "Website management platform Optimizely confirms hackers put malicious code into customer sites",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "d4b80abc94a3cca1",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
+  "published": "2026-11-17T20:51:21Z",
+  "source": "BleepingComputer",
+  "summary": "The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach. [...]",
+  "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "bf30f36961aa318c",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+  "published": "2026-11-17T19:34:20Z",
+  "source": "The Hacker News",
+  "summary": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company.",
+  "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2649180f798de24b",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
+  "published": "2026-11-17T19:24:07Z",
+  "source": "BleepingComputer",
+  "summary": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Manager, and Schoolwork. [...]",
+  "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "3d0bf4b1975e43b0",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/control-systems-codesys-security-advisory-av26-1169",
+  "published": "2026-11-17T19:17:56Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1169 Date: November 17, 2026 As of November 17, 2026, CODESYS is affected by vulnerabilities in the following products: CODESYS Automation Server Connector Prior to 1.40.0.0 CODESYS Service Tool Prior to 1.40.0.0 The Cyber Centre…",
+  "title": "[Control systems] CODESYS security advisory (AV26-1169)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "4c8d3149b75d95bd",
+  "kev": false,
+  "link": "https://therecord.media/kazakh-suspected-extradited-charges-8-digits-team-inc-lynx",
+  "published": "2026-11-17T19:09:00Z",
+  "source": "The Record",
+  "summary": "The U.S. accused Roman Khlynovskiy of participating in ransomware attacks against healthcare organizations, schools and companies as part of the \"8 Digits Team\" connected with INC and Lynx.",
+  "title": "Kazakh ransomware hacking suspect extradited from Italy",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "b2782b32ced041ce",
+  "kev": false,
+  "link": "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage",
+  "published": "2026-11-17T18:50:00Z",
+  "source": "The Record",
+  "summary": "Google released its latest AI Threat Tracker report on Monday, writing that threat actors are rapidly evolving their use of artificial intelligence in attacks — now leaning more heavily on autonomous multi-agent offensive frameworks like Artex…",
+  "title": "Chinese state group developing automated attack tool for cyber espionage, Google says",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "eb340953f43f781b",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
+  "published": "2026-11-17T18:21:24Z",
+  "source": "BleepingComputer",
+  "summary": "A Lack of ownership verification on the Hugging Face platform allowed researchers to take control of Kokoro, a text-to-speech model used in projects from Google, NVIDIA, AMD, Intel, and Amazon Web Services. [...]",
+  "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "4d35999ac5e2b838",
+  "kev": false,
+  "link": "https://www.securityweek.com/ai-framework-autonomously-weaponized-flaws-in-real-attacks-google-says/",
+  "published": "2026-11-17T18:16:17Z",
+  "source": "SecurityWeek",
+  "summary": "Threat actors are deploying multi-agent offensive frameworks to increase the velocity of multi-stage intrusions. The post AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says appeared first on SecurityWeek .",
+  "title": "AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "7a46b3beaee89dd4",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
+  "published": "2026-11-17T18:04:15Z",
+  "source": "BleepingComputer",
+  "summary": "The Tor Project has released a security update for its network relay software to increase defenses against an ongoing distributed denial-of-service attack that it says has overwhelmed relays and affected most operators. [...]",
+  "title": "Tor releases emergency update amid ongoing DDoS attack",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "07962b6ea68f66c2",
+  "kev": false,
+  "link": "https://therecord.media/california-fines-hertz-state-data-privacy-law",
+  "published": "2026-11-17T17:13:00Z",
+  "source": "The Record",
+  "summary": "Hertz agreed to the fine and said it would change its business practices, according to a court filing shared by the regulator, the California Privacy Protection Agency (CPPA).",
+  "title": "California fines Hertz $1.5 million for breaking state data privacy law",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "b8d1679d48612297",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/gitlab-security-advisory-av26-1168",
+  "published": "2026-11-17T16:42:08Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1168 Date: November 17, 2026 As of November 17, 2026, GitLab is affected by vulnerabilities in the following product: GitLab Prior to 19.3.9 Prior to 19.4.8 Prior to 19.5.6 The Cyber Centre encourages users and administrators to…",
+  "title": "GitLab security advisory (AV26-1168)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "a8a3a7b4199a1faf",
+  "kev": false,
+  "link": "https://therecord.media/nsa-net-disruptions",
+  "published": "2026-11-17T16:21:00Z",
+  "source": "The Record",
+  "summary": "The NSA has ordered staggered arrivals at its headquarters at Fort Meade, Maryland, as technicians work to fully restore the classified internal network NSA Net.",
+  "title": "NSA Net, agency’s classified internal network, faces unspecified disruptions",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "7a3ced43671d7138",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/zyxel-security-advisory-av26-1167",
+  "published": "2026-11-17T16:20:00Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1167 Date: November 17, 2026 As of November 17, 2026, Zyxel is affected by vulnerabilities in the following products: DX3300-T0 firmware Prior to or equal to 5.50(ABVY.8.3)C0 DX3301-T0 firmware Prior to or equal to…",
+  "title": "Zyxel security advisory (AV26-1167)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "8f03d6de8c9317d2",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
+  "published": "2026-11-17T16:00:00Z",
+  "source": "BleepingComputer",
+  "summary": "Flipper Devices, the company behind the popular Flipper Zero pentesting device, has launched a crowdfunding campaign for Flipper One, a portable Linux computer and networking multi-tool. [...]",
+  "title": "Flipper Devices launches $399 ‘Flipper One’ Linux-based multi-tool",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "c8b194bed93f4a3e",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/atlassian-security-advisory-av26-1166",
+  "published": "2026-11-17T15:22:04Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1166 Date: November 17, 2026 As of November 17, 2026, Atlassian is affected by a vulnerability in the following products: Jira Service Management Data Center Version 10.3.27 and prior Version 11.3.13 and prior Jira Service…",
+  "title": "Atlassian security advisory (AV26-1166)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-114938"
+  ],
+  "id": "8c2938cc1499d55f",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+  "published": "2026-11-17T15:17:36Z",
+  "source": "The Hacker News",
+  "summary": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution…",
+  "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "bc626a4cad04e3c2",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+  "published": "2026-11-17T15:17:28Z",
+  "source": "The Hacker News",
+  "summary": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram.",
+  "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-129271",
+   "CVE-2026-129272"
+  ],
+  "id": "4e6d3c7e30fbd6aa",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/n-able-security-advisory-av26-1165",
+  "published": "2026-11-17T15:02:31Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1165 Date: November 17, 2026 As of November 17, 2026, N-able is affected by vulnerabilities in the following products: N-central Prior to 2026.4.1 HF3 N-central Patch Management Component Prior to 2.14.4.5829 The Cyber Centre…",
+  "title": "N-able security advisory (AV26-1165)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ab1eb22dc8a1cf32",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
+  "published": "2026-11-17T15:01:11Z",
+  "source": "BleepingComputer",
+  "summary": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them. [...]",
+  "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "affb434128dd69a3",
+  "kev": false,
+  "link": "https://www.securityweek.com/market-research-giant-ipsos-investigating-breach-of-internal-system/",
+  "published": "2026-11-17T14:55:30Z",
+  "source": "SecurityWeek",
+  "summary": "The company made the incident public on Monday, November 16, five days after filing a complaint with authorities. The post Market Research Giant Ipsos Investigating Breach of Internal System appeared first on SecurityWeek .",
+  "title": "Market Research Giant Ipsos Investigating Breach of Internal System",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "8e838d3de7789c37",
+  "kev": false,
+  "link": "https://www.securityweek.com/fandango-warns-ticket-buyers-of-payment-card-data-exposure/",
+  "published": "2026-11-17T14:14:24Z",
+  "source": "SecurityWeek",
+  "summary": "Card numbers, CVVs, expiration dates, and email addresses used at Fandango’s ticketing checkout over four days in October may have been exposed. The post Fandango Warns Ticket Buyers of Payment Card Data Exposure appeared first on SecurityWeek .",
+  "title": "Fandango Warns Ticket Buyers of Payment Card Data Exposure",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "eca953185924b0cf",
+  "kev": false,
+  "link": "https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise/",
+  "published": "2026-11-17T14:00:00Z",
+  "source": "Google Threat Intelligence",
+  "summary": "Written by: Josh Murchie, John Wolfram, Joseph Spero, Peter Ukhanov, Fernando Tomlinson, Jr., Wesley Shields Introduction Over the past year, Mandiant has responded to a series of linked intrusions demonstrating how Russian cyber espionage group…",
+  "title": "COLD RELIC: A Case Study in Impersonation and Compromise",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2f60f4d260c7e13b",
+  "kev": false,
+  "link": "https://www.securityweek.com/pretxt-emerges-stealth-with-5m-seed-and-an-ai-supervision-tool/",
+  "published": "2026-11-17T14:00:00Z",
+  "source": "SecurityWeek",
+  "summary": "Pretxt provides technology to prevent AI agents escaping their guardrails and causing unintended harm. The post Pretxt Emerges Stealth With $5M Seed and an AI Supervision Tool appeared first on SecurityWeek .",
+  "title": "Pretxt Emerges Stealth With $5M Seed and an AI Supervision Tool",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-84869"
+  ],
+  "id": "9ffddf454a3d1c63",
+  "kev": true,
+  "link": "https://www.securityweek.com/msp-screenconnect-servers-targeted-in-month-long-campaign/",
+  "published": "2026-11-17T13:24:43Z",
+  "source": "SecurityWeek",
+  "summary": "More than 40 servers received over 688,000 requests exploiting CVE-2026-84869 to execute guest-pushed files. The post MSP ScreenConnect Servers Targeted in Month-Long Campaign appeared first on SecurityWeek .",
+  "title": "MSP ScreenConnect Servers Targeted in Month-Long Campaign",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "3c8141a1809dca97",
   "kev": false,
   "link": "https://www.securityweek.com/access-dental-management-data-breach-impacts-over-340000/",
@@ -72,6 +391,110 @@
   "trust": "official"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-117659",
+   "CVE-2026-120157",
+   "CVE-2026-120255",
+   "CVE-2026-120260",
+   "CVE-2026-120271",
+   "CVE-2026-120298"
+  ],
+  "id": "c5d5368561efd0b3",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
+  "published": "2026-11-17T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, recover stored credentials, or intercept and manipulate network…",
+  "title": "Dorsett Controls InfoScan",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-115731"
+  ],
+  "id": "a5cc6bf90a50d42f",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
+  "published": "2026-11-17T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-59082"
+  ],
+  "id": "8e79b25544d5af23",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
+  "published": "2026-11-17T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Graphics Designer of SIMATIC WinCC before V8.2 contains an implicit active content execution vulnerability upon opening files, which could allow an attacker to cause arbitrary code execution on the device.",
+  "title": "Siemens SIMATIC WinCC",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112136",
+   "CVE-2026-112137"
+  ],
+  "id": "8b49769387393aaf",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
+  "published": "2026-11-17T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or trick a user's browser into sending unauthorized requests, potentially…",
+  "title": "Siemens Mendix Studio Pro",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-109830"
+  ],
+  "id": "71f98814a0682359",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
+  "published": "2026-11-17T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary meta-iot2050 (https://github.com/siemens/meta-iot2050) from V01.03.01 contains a Command Injection vulnerability in the firmware update tool that could allow an attacker which is able to manipulate a configuration file to have…",
+  "title": "Siemens meta-iot2050",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "id": "703aaaf391af83fa",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
+  "published": "2026-11-17T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497).",
+  "title": "Siemens Industrial Software Products",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-109097"
+  ],
+  "id": "652e121211592269",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+  "published": "2026-11-17T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the generated program.",
+  "title": "Siemens ROS#",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "5bdd04033b53f611",
@@ -82,6 +505,77 @@
   "summary": "The lawsuit alleges that OpenAI misled and endangered the public and users by knowingly developing advanced AI models without necessary safeguards.",
   "title": "California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "id": "5b84e5e19ff4e4d8",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
+  "published": "2026-11-17T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497).",
+  "title": "Siemens Industrial Automation Software Products",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-85114",
+   "CVE-2026-85115"
+  ],
+  "id": "5abf6b3493c06823",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
+  "published": "2026-11-17T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory.",
+  "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-106175"
+  ],
+  "id": "4b5e53ccaab21c2d",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
+  "published": "2026-11-17T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Fortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products.",
+  "title": "Siemens RUGGEDCOM APE1808",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-64629"
+  ],
+  "id": "441bcc574fc0c0f7",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+  "published": "2026-11-17T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Simcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code.",
+  "title": "Siemens Simcenter Femap",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-58114"
+  ],
+  "id": "1234c565b69244e2",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
+  "published": "2026-11-17T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary The products listed below contain an authentication bypass vulnerability that could allow an on-path attacker to take over the session of a legitimate user and execute arbitrary code with the privileges of the victim user.",
+  "title": "Siemens SIMATIC",
+  "trust": "official"
  },
  {
   "category": "news",
@@ -289,6 +783,22 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2016-4570",
+   "CVE-2016-4571",
+   "CVE-2018-20004"
+  ],
+  "id": "0f2d2367ef6a3010",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9115-1",
+  "published": "2026-11-17T00:51:50Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that Mini-XML used unbounded recursion when deleting and writing XML nodes. An attacker could possibly use these issues to cause Mini-XML to crash, resulting in a denial of service. These issues only affected Ubuntu 16.04 LTS.",
+  "title": "USN-9115-1: Mini-XML vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2017-7178",
    "CVE-2017-9031"
   ],
@@ -304,6 +814,42 @@
  {
   "category": "advisories",
   "cves": [],
+  "id": "fd722c32fe32f0ba",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9130-1",
+  "published": "2026-11-17T00:49:28Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that zcat in zutils incorrectly handled the -v option, leading to a buffer overflow. If a user were tricked into opening a specially crafted compressed file, an attacker could possibly use this issue to cause a denial of service or…",
+  "title": "USN-9130-1: zutils vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "ae1131010e896519",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9129-1",
+  "published": "2026-11-17T00:49:13Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that ZBar incorrectly handled certain QR codes, leading to a heap-based buffer overflow. If a user or automated system were tricked into scanning a specially crafted QR code, an attacker could possibly use this issue to obtain…",
+  "title": "USN-9129-1: ZBar vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "e47cf7f6bc5bafd0",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9128-1",
+  "published": "2026-11-17T00:49:05Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that YADIFA did not check for infinite pointer loops when parsing DNS packets. A remote attacker could possibly use this issue to cause YADIFA to consume excessive CPU resources, leading to a denial of service.",
+  "title": "USN-9128-1: YADIFA vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
   "id": "37ee3355c5462aed",
   "kev": false,
   "link": "https://ubuntu.com/security/notices/USN-9127-1",
@@ -311,6 +857,46 @@
   "source": "Ubuntu Security Notices",
   "summary": "It was discovered that Syntastic searched the current directory and its parents for checker configuration files. If a user were tricked into checking a file in a directory controlled by an attacker, the attacker could possibly use this issue to…",
   "title": "USN-9127-1: Syntastic vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "db853b20ed1f8646",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9126-1",
+  "published": "2026-11-17T00:48:52Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that tmpreaper incorrectly handled certain mount operations, leading to a race condition. A local attacker could possibly use this issue to create arbitrary files, leading to privilege escalation.",
+  "title": "USN-9126-1: tmpreaper vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2023-33863",
+   "CVE-2023-33864",
+   "CVE-2023-33865"
+  ],
+  "id": "dd7eb706af068c9b",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9124-1",
+  "published": "2026-11-17T00:48:44Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that RenderDoc did not properly verify array sizes when serialising strings, leading to an integer overflow.",
+  "title": "USN-9124-1: RenderDoc vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "c5c6d2042fa21ac0",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9123-1",
+  "published": "2026-11-17T00:48:35Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Erik Krogh Kristensen and Rasmus Petersen discovered that mechanize used an inefficient regular expression to parse authentication headers.",
+  "title": "USN-9123-1: mechanize vulnerability",
   "trust": "official"
  },
  {
@@ -398,6 +984,20 @@
   "source": "Ubuntu Security Notices",
   "summary": "It was discovered that Apache Groovy incorrectly handled the deserialization of MethodClosure objects. An attacker could possibly use this issue to execute arbitrary code or cause a denial of service.",
   "title": "USN-9101-1: Apache Groovy vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-115731"
+  ],
+  "id": "0b6b15f94d61ee4e",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731",
+  "published": "2026-11-17T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by…",
+  "title": "CVE-2026-115731: Perforce Puppet Enterprise (Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability)",
   "trust": "official"
  },
  {
