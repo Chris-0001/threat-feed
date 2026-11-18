@@ -2,6 +2,82 @@
  {
   "category": "news",
   "cves": [],
+  "id": "b9b3788a69a2209e",
+  "kev": false,
+  "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+  "published": "2026-11-18T02:52:04Z",
+  "source": "Krebs on Security",
+  "summary": "At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a security vulnerability involving Optimizely, a company that helps websites customize user experiences and test out…",
+  "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "fe219a96c5adaadf",
+  "kev": false,
+  "link": "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/",
+  "published": "2026-11-18T02:15:07Z",
+  "source": "SecurityWeek",
+  "summary": "The problem disrupted the operations of NSANet, a classified internal network used by employees of the agency. The post Classified Communications Network at the National Security Agency Goes Down, Defense Official Says appeared first on SecurityWeek…",
+  "title": "Classified Communications Network at the National Security Agency Goes Down, Defense Official Says",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "f50c1f83e4def9db",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33528",
+  "published": "2026-11-18T02:00:03Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "",
+  "title": "ISC Stormcast For Wednesday, November 18th, 2026 https://isc.sans.edu/podcastdetail/10184, (Wed, Nov 18th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "research",
+  "cves": [
+   "CVE-2026-114938"
+  ],
+  "id": "faecebeef41efbe1",
+  "kev": false,
+  "link": "https://blog.talosintelligence.com/java4shell/",
+  "published": "2026-11-18T01:53:03Z",
+  "source": "Cisco Talos",
+  "summary": "Cisco Talos is tracking the disclosure of a critical vulnerability in OpenJDK Java (CVE-2026-114938), dubbed “Java4Shell,” with a CVSS 4.0 score of 9.2 that may lead to unauthenticated remote code execution (RCE).",
+  "title": "CVE-2026-114938: Critical vulnerability in OpenJDK JAVA",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114938"
+  ],
+  "id": "58a74c43361829e7",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/al26-029-critical-vulnerability-impacting-oracle-java-cve-2026-114938",
+  "published": "2026-11-17T23:30:00Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Number: AL26-029 Date: November 17, 2026 Audience This Alert is intended for IT professionals and managers. Purpose An Alert is used to raise awareness of a recently identified cyber threat that may impact cyber information assets, and to provide…",
+  "title": "AL26-029 - Critical vulnerability impacting Oracle Java - CVE-2026-114938",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "5151a6e223f28e43",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+  "published": "2026-11-17T23:04:21Z",
+  "source": "BleepingComputer",
+  "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins, Atlassian Jira, Confluence, and…",
+  "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "2730b527059f1051",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
@@ -388,6 +464,20 @@
   "source": "UK NCSC",
   "summary": "Monitoring alone cannot detect every threat. Proactive threat hunting can expose gaps in defences and help organisations learn from others facing common threats.",
   "title": "Why threat hunting should matter to every board",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114938"
+  ],
+  "id": "d23a943d63567a11",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+  "published": "2026-11-17T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "Purpose CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938 .",
+  "title": "Critical Java Vulnerability Requires Immediate Patching",
   "trust": "official"
  },
  {
