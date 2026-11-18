@@ -2,6 +2,364 @@
  {
   "category": "news",
   "cves": [],
+  "id": "fe2643a889e1166e",
+  "kev": false,
+  "link": "https://therecord.media/russia-hockey-cyberattack-championships",
+  "published": "2026-11-18T13:45:00Z",
+  "source": "The Record",
+  "summary": "The International Ice Hockey Federation (IIHF) confirmed a cyberattack on its website after hackers replaced its homepage with a pro-Russian message criticizing the country's exclusion from international competitions.",
+  "title": "Ice hockey governing body website defaced by hackers amid dispute over Russia's exclusion",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "a7978f02a12078b4",
+  "kev": false,
+  "link": "https://www.securityweek.com/russian-apt-poses-as-employee-of-hacked-firm-to-breach-another-us-organization/",
+  "published": "2026-11-18T13:33:47Z",
+  "source": "SecurityWeek",
+  "summary": "Star Blizzard weaponized data and identities stolen in late 2025 to phish and compromise a US organization. The post Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization appeared first on SecurityWeek .",
+  "title": "Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "ad166766a813fe54",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/google-security-advisory-av26-1171",
+  "published": "2026-11-18T13:31:24Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1171 Date: November 17, 2026 As of November 17, 2026, Google is affected by a vulnerability in the following product: Stable Channel Chrome for Desktop Versions prior to 158.0.8127.36/.37 (Windows/Mac), and 158.0.8127.36 (Linux)…",
+  "title": "Google security advisory (AV26-1171)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "7032cc00da2fed41",
+  "kev": false,
+  "link": "https://therecord.media/norway-equinor-cyberattack-energy",
+  "published": "2026-11-18T13:30:00Z",
+  "source": "The Record",
+  "summary": "The Norwegian energy giant Equinor is working to contain a cyberattack on its IT systems that the company said has not impacted oil and gas production.",
+  "title": "Cyberattack hits Norwegian energy giant Equinor, disrupting internal services",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f1df388a84c18e89",
+  "kev": false,
+  "link": "https://www.securityweek.com/last-of-five-defendants-sentenced-in-us-scattered-spider-hacking-case/",
+  "published": "2026-11-18T13:19:32Z",
+  "source": "SecurityWeek",
+  "summary": "British national Tyler Robert Buchanan has been sentenced to 6 years in prison in the United States, the DOJ announced. The post Last of Five Defendants Sentenced in US Scattered Spider Hacking Case appeared first on SecurityWeek .",
+  "title": "Last of Five Defendants Sentenced in US Scattered Spider Hacking Case",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "4ca02454c562e7b4",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/oracle-corporation-security-advisory-av26-1170",
+  "published": "2026-11-18T12:51:56Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1170 Date: November 18, 2026 As of November 17, 2026, Oracle Corporation is affected by vulnerabilities in the following products: Helidon JD Edwards EnterpriseOne Localizations MySQL Cluster MySQL Server MySQL Server, MySQL…",
+  "title": "Oracle Corporation security advisory (AV26-1170)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "c28555d70b984a68",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
+  "published": "2026-11-18T12:28:30Z",
+  "source": "The Hacker News",
+  "summary": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universität Berlin say. That leaves short PINs open to guessing.",
+  "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "b5dea2f4e21d3adf",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
+  "published": "2026-11-18T12:15:00Z",
+  "source": "The Hacker News",
+  "summary": "TL;DR Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure day.",
+  "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "a16140cc5b22244c",
+  "kev": false,
+  "link": "https://www.securityweek.com/microsoft-takes-perception-agentic-security-platform-out-of-preview/",
+  "published": "2026-11-18T12:14:23Z",
+  "source": "SecurityWeek",
+  "summary": "Four blue team agents and the Recon Agent are now generally available, while integrations and vulnerability shielding are in preview. The post Microsoft Takes Perception Agentic Security Platform Out of Preview appeared first on SecurityWeek .",
+  "title": "Microsoft Takes Perception Agentic Security Platform Out of Preview",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "0b0d9f6b1541fd51",
+  "kev": false,
+  "link": "https://www.securityweek.com/ciso-conversations-patti-degnan-part-of-the-job-is-deciding-what-not-to-do/",
+  "published": "2026-11-18T12:00:00Z",
+  "source": "SecurityWeek",
+  "summary": "Patti Degnan’s identity was stolen in 2006. It set her on a path to the CISO seat at endpoint security firm Glow. The post CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do appeared first on SecurityWeek .",
+  "title": "CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-114938"
+  ],
+  "id": "da1c6fe8c4381758",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+  "published": "2026-11-18T11:55:49Z",
+  "source": "The Hacker News",
+  "summary": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week.",
+  "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ae5ebec54c4070f4",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
+  "published": "2026-11-18T11:50:25Z",
+  "source": "BleepingComputer",
+  "summary": "The Alliance for Creativity and Entertainment (ACE) has announced the shutdown of Dizigom, one of Turkey's largest piracy sites, after a settlement agreement with the site's operators. [...]",
+  "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "9b0e6eeeedd657d9",
+  "kev": false,
+  "link": "https://www.securityweek.com/chrome-158-patches-204-vulnerabilities/",
+  "published": "2026-11-18T11:43:22Z",
+  "source": "SecurityWeek",
+  "summary": "Google handed out $11,000 for five externally reported flaws but has yet to determine the amounts to be paid for 36 bugs. The post Chrome 158 Patches 204 Vulnerabilities appeared first on SecurityWeek .",
+  "title": "Chrome 158 Patches 204 Vulnerabilities",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "718a97f8bad140cb",
+  "kev": false,
+  "link": "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/",
+  "published": "2026-11-18T11:05:39Z",
+  "source": "SecurityWeek",
+  "summary": "Versions 1.26.1 and 1.26.2 of agent-framework on PyPI steal Azure, Azure DevOps, and GitHub Actions credentials when Python starts. The post Microsoft Agent Framework Releases Poisoned With Credential Stealer appeared first on SecurityWeek .",
+  "title": "Microsoft Agent Framework Releases Poisoned With Credential Stealer",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "6f5effd33b96ef9f",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
+  "published": "2026-11-18T11:03:57Z",
+  "source": "The Hacker News",
+  "summary": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with time-to-exploit now down to a single day.",
+  "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "786745f9e928d246",
+  "kev": false,
+  "link": "https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/",
+  "published": "2026-11-18T11:00:00Z",
+  "source": "Cisco Talos",
+  "summary": "The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure.",
+  "title": "The challenge of defending against bulletproof dead drops on public blockchains",
+  "trust": "vendor"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "1fbf4ddf7e61146f",
+  "kev": false,
+  "link": "https://blog.talosintelligence.com/uat-12643-suspected-north-korea-aligned-actor-blends-blockchain-resilience-with-targeted-infostealing/",
+  "published": "2026-11-18T11:00:00Z",
+  "source": "Cisco Talos",
+  "summary": "Cisco Talos discovered malicious infrastructure associated with a financially motivated threat group we are tracking as UAT-12643.",
+  "title": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infostealing",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-115731"
+  ],
+  "id": "fa1742cbff34159a",
+  "kev": true,
+  "link": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/",
+  "published": "2026-11-18T10:37:08Z",
+  "source": "SecurityWeek",
+  "summary": "Tracked as CVE-2026-115731, it allows a client that holds any CA-signed agent certificate to execute code on the server. The post Critical Perforce Puppet RCE Exploited in Attacks appeared first on SecurityWeek .",
+  "title": "Critical Perforce Puppet RCE Exploited in Attacks",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "0318dcd295b97929",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+  "published": "2026-11-18T10:35:05Z",
+  "source": "BleepingComputer",
+  "summary": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
+  "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114938"
+  ],
+  "id": "73f3cbc91ed99975",
+  "kev": false,
+  "link": "https://cert.europa.eu/publications/security-advisories/2026-021/",
+  "published": "2026-11-18T10:11:05Z",
+  "source": "CERT-EU",
+  "summary": "On 17 November 2026, Oracle and the OpenJDK project released fixes for CVE-2026-114938, a high severity vulnerability in OpenJDK which could lead, under certain circumstances, in unauthenticated Remote Code Execution (RCE).",
+  "title": "2026-021: High Severity Vulnerability in Java SE and OpenJDK",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "a7f98a2e72a74cf8",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
+  "published": "2026-11-18T09:24:31Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday. [...]",
+  "title": "Microsoft announces Windows Server 2028 with hardened security",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ff87fe0ee3227440",
+  "kev": false,
+  "link": "https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu/",
+  "published": "2026-11-18T08:47:18Z",
+  "source": "SecurityWeek",
+  "summary": "Over 300 patches address unauthenticated, remotely exploitable flaws, while 62 fix critical-severity flaws. The post Oracle Patches 950 Vulnerabilities With November 2026 CSPU appeared first on SecurityWeek .",
+  "title": "Oracle Patches 950 Vulnerabilities With November 2026 CSPU",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-115731"
+  ],
+  "id": "1f9fa7a7b1cf2d91",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+  "published": "2026-11-18T08:24:31Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited…",
+  "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-114938"
+  ],
+  "id": "0116882845714518",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+  "published": "2026-11-18T08:24:23Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java.",
+  "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ceabdcfd0f55ef1a",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+  "published": "2026-11-18T08:24:18Z",
+  "source": "BleepingComputer",
+  "summary": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. [...]",
+  "title": "British Scattered Spider hacker sentenced to 6 years in prison",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "4f5a7b5e83f88afe",
+  "kev": false,
+  "link": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/",
+  "published": "2026-11-18T07:43:34Z",
+  "source": "SecurityWeek",
+  "summary": "Calif demonstrated remote code execution in Jira, Jenkins and Keycloak, while VulnCheck says real-world RCE requires per-target work The post Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover appeared first on…",
+  "title": "Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "c8ba4e3e952a1b91",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9151-1",
+  "published": "2026-11-18T07:33:31Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Armaan Sandhu discovered that needrestart did not properly handle systemd cgroup paths and process names. A local attacker could possibly use these issues to escalate privileges.",
+  "title": "USN-9151-1: needrestart vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "6088b3d7315135be",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+  "published": "2026-11-18T06:45:26Z",
+  "source": "The Hacker News",
+  "summary": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz.",
+  "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "b3083fba4f09959c",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+  "published": "2026-11-18T05:58:04Z",
+  "source": "The Hacker News",
+  "summary": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise.",
+  "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "b9b3788a69a2209e",
   "kev": false,
   "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
@@ -48,6 +406,18 @@
   "summary": "Cisco Talos is tracking the disclosure of a critical vulnerability in OpenJDK Java (CVE-2026-114938), dubbed “Java4Shell,” with a CVSS 4.0 score of 9.2 that may lead to unauthenticated remote code execution (RCE).",
   "title": "CVE-2026-114938: Critical vulnerability in OpenJDK JAVA",
   "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "713b87d62cea0084",
+  "kev": false,
+  "link": "https://therecord.media/cisa-issues-java4shell-alert",
+  "published": "2026-11-18T00:00:00Z",
+  "source": "The Record",
+  "summary": "The federal cybersecurity agency urged organizations to immediately patch a new vulnerability affecting Java — one of the world’s most used programming languages — after experts warned that it could allow an attacker to take over servers without a…",
+  "title": "CISA warns of ‘Java4Shell,’ an AI-found Java bug touching most of the Fortune 500",
+  "trust": "media"
  },
  {
   "category": "advisories",
@@ -208,6 +578,112 @@
   "trust": "media"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2017-6960",
+   "CVE-2017-6961",
+   "CVE-2017-6962"
+  ],
+  "id": "3d22670360aa9c51",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9132-1",
+  "published": "2026-11-17T17:45:22Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Dileep Kumar Jallepalli discovered that apng2gif incorrectly handled loading APNG files, leading to an integer overflow and a heap-based buffer over-read.",
+  "title": "USN-9132-1: apng2gif vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2025-41259",
+   "CVE-2026-109399"
+  ],
+  "id": "6cb98b3ecebb191c",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9150-1",
+  "published": "2026-11-17T17:18:22Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that SWUpdate did not verify that a path was a directory before cleaning it up, leading to a race condition. A local attacker could possibly use this issue to escalate privileges or install untrusted content using a signed update.",
+  "title": "USN-9150-1: SWUpdate vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "d56fb7e057e75812",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9149-1",
+  "published": "2026-11-17T17:17:34Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that MiniMagick passed the file names and URLs given to Image.open directly to Kernel#open. If an application opened an image from an untrusted file name or URL, an attacker could possibly use this issue to execute arbitrary…",
+  "title": "USN-9149-1: MiniMagick vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "4ff8b50e417096e0",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9148-1",
+  "published": "2026-11-17T17:17:28Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that Mechanize used Kernel#open to open local files in several methods. If an application passed untrusted input as a local file name to one of these methods, an attacker could possibly use this issue to execute arbitrary commands.",
+  "title": "USN-9148-1: Mechanize vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "7c00508b20f9aa9f",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9147-1",
+  "published": "2026-11-17T17:17:04Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that PyWPS did not disable the resolution of XML external entities when parsing requests. A remote attacker could possibly use this issue to read arbitrary files on the server.",
+  "title": "USN-9147-1: PyWPS vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2021-44540",
+   "CVE-2021-44543"
+  ],
+  "id": "992d56aefd5dc3b6",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9146-1",
+  "published": "2026-11-17T17:16:26Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Joshua Rogers discovered that Privoxy incorrectly handled memory allocation, leading to a memory leak. An attacker could possibly use this issue to cause Privoxy to consume excessive resources, leading to a denial of service.",
+  "title": "USN-9146-1: Privoxy vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "dba506f05a427e47",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9145-1",
+  "published": "2026-11-17T17:14:01Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that the oarsh script in OAR did not properly filter OpenSSH options. An authenticated user could possibly use this issue to obtain sensitive information or escalate privileges.",
+  "title": "USN-9145-1: OAR vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "c6fe5c88eac426c9",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9144-1",
+  "published": "2026-11-17T17:13:18Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that ngIRCd incorrectly handled SERVER commands without a prefix, leading to an out-of-bounds read. A remote attacker could possibly use this issue to cause ngIRCd to crash, resulting in a denial of service.",
+  "title": "USN-9144-1: ngIRCd vulnerability",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "07962b6ea68f66c2",
@@ -218,6 +694,18 @@
   "summary": "Hertz agreed to the fine and said it would change its business practices, according to a court filing shared by the regulator, the California Privacy Protection Agency (CPPA).",
   "title": "California fines Hertz $1.5 million for breaking state data privacy law",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "125053bd9de8a70e",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9143-1",
+  "published": "2026-11-17T17:11:46Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that the Murmur server in Mumble did not rate limit certain client messages. A remote attacker could possibly use this issue to cause Murmur to hang or crash, resulting in a denial of service.",
+  "title": "USN-9143-1: Mumble vulnerability",
+  "trust": "official"
  },
  {
   "category": "advisories",
@@ -1261,6 +1749,34 @@
   "summary": "It was discovered that GStreamer did not properly handle certain RTSP messages. A remote attacker could possibly use this issue to cause a denial of service.",
   "title": "USN-9094-1: GStreamer vulnerabilities",
   "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-124222"
+  ],
+  "id": "b5e8ef2c49925c4f",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-124222",
+  "published": "2026-11-16T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Information published. This CVE was addressed by updates that were released in November 2026, but the CVE was inadvertently omitted from the November 2026 Security Updates. This is an informational change only.",
+  "title": "CVE-2026-124222 Microsoft Office SharePoint Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-124223"
+  ],
+  "id": "94ef429ca22ecf50",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-124223",
+  "published": "2026-11-16T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Information published. This CVE was addressed by updates that were released in November 2026, but the CVE was inadvertently omitted from the November 2026 Security Updates. This is an informational change only.",
+  "title": "CVE-2026-124223 Microsoft Office SharePoint Remote Code Execution Vulnerability",
+  "trust": "vendor"
  },
  {
   "category": "news",
@@ -7107,6 +7623,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112980"
+  ],
+  "id": "f8c8c68904db4614",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112980",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows Print Spooler Components allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112980 Windows Print Spooler Components Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96076"
   ],
   "id": "f81edaead4a2ce70",
@@ -7247,6 +7777,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-96985"
+  ],
+  "id": "f1a7d9a8caadade5",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96985",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Out-of-bounds read in Windows DNS allows an authorized attacker to disclose information over a network.",
+  "title": "CVE-2026-96985 Windows DNS Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96134"
   ],
   "id": "f17f2bb1629338d3",
@@ -7340,6 +7884,20 @@
   "source": "Microsoft MSRC",
   "summary": "Improper neutralization of special elements used in an os command ('os command injection') in Azure CycleCloud allows an authorized attacker to elevate privileges over a network.",
   "title": "CVE-2026-102224 Azure CycleCloud Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112757"
+  ],
+  "id": "ec8756577c95b782",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112757",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Exposure of sensitive information to an unauthorized actor in Windows Secure Kernel Mode allows an authorized attacker to disclose information locally.",
+  "title": "CVE-2026-112757 Windows Secure Kernel Mode Information Disclosure Vulnerability",
   "trust": "vendor"
  },
  {
@@ -7499,6 +8057,34 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112764"
+  ],
+  "id": "e26abd26477b889a",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112764",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows USB Driver allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112764 Windows USB Driver Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-96983"
+  ],
+  "id": "e1faa7d7b0abe2d1",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96983",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows DNS allows an unauthorized attacker to deny service over an adjacent network.",
+  "title": "CVE-2026-96983 Windows DNS Denial of Service Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96078"
   ],
   "id": "e1e5ce488029efe6",
@@ -7522,6 +8108,20 @@
   "source": "Microsoft MSRC",
   "summary": "Use of uninitialized resource in Windows Text Services Framework allows an authorized attacker to disclose information locally.",
   "title": "CVE-2026-96022 Windows Text Services Framework Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-113755"
+  ],
+  "id": "e056f5862ba6d283",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-113755",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows Filter Manager allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-113755 Windows Filter Manager Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -7555,6 +8155,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112971"
+  ],
+  "id": "dfcfc90895d0c357",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112971",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in Windows SMB Client allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112971 Windows SMB Client Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-109472"
   ],
   "id": "dfbafba90094c59e",
@@ -7578,6 +8192,34 @@
   "source": "Microsoft MSRC",
   "summary": "Heap-based buffer overflow in Windows DirectX allows an authorized attacker to elevate privileges locally.",
   "title": "CVE-2026-94507 DirectX Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-97002"
+  ],
+  "id": "dda049011e6b840d",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97002",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Out-of-bounds read in Windows VMSwitch allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-97002 Microsoft Windows VMSwitch Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112982"
+  ],
+  "id": "dd42ba43e5b79145",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112982",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Missing authentication for critical function in Microsoft Account allows an authorized attacker to perform tampering locally.",
+  "title": "CVE-2026-112982 Microsoft Account Tampering Vulnerability",
   "trust": "vendor"
  },
  {
@@ -7723,6 +8365,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112984"
+  ],
+  "id": "d9178e830abd5a61",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112984",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in Windows USB Video Driver allows an authorized attacker to elevate privileges with a physical attack.",
+  "title": "CVE-2026-112984 Windows USB Video Driver Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-85929"
   ],
   "id": "d7eff217f30a52ff",
@@ -7732,6 +8388,20 @@
   "source": "Microsoft MSRC",
   "summary": "Incorrect permission assignment for critical resource in Windows Brokering File System allows an authorized attacker to elevate privileges locally.",
   "title": "CVE-2026-85929 Microsoft Brokering File System Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112756"
+  ],
+  "id": "d79c989190809106",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112756",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows Filtering Platform (WFP) allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112756 Windows Filtering Platform (WFP) Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -7835,6 +8505,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112989"
+  ],
+  "id": "d34e9830498fbac8",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112989",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Untrusted pointer dereference in Servicing Stack Updates allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112989 Windows Servicing Stack Updates Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-88217"
   ],
   "id": "d32d0057fb3c1659",
@@ -7900,6 +8584,20 @@
   "source": "Microsoft MSRC",
   "summary": "Heap-based buffer overflow in Windows Advanced Rasterization Platform allows an authorized attacker to elevate privileges locally.",
   "title": "CVE-2026-94515 Windows Advanced Rasterization Platform Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-113748"
+  ],
+  "id": "d0ca9e175e956703",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-113748",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Stack-based buffer overflow in Software Protection Platform (SPP) allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-113748 Software Protection Platform (SPP) Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -7975,6 +8673,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112796"
+  ],
+  "id": "cdb0ed0c08b12c51",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112796",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Double free in Windows Event Collector Service allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112796 Windows Event Collector Service Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96103"
   ],
   "id": "cd4c0427ad5a36cc",
@@ -8017,6 +8729,34 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112753"
+  ],
+  "id": "cb18e0add74bd2ed",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112753",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Access of resource using incompatible type ('type confusion') in Windows Container Isolation FS Filter Driver (unionfs.sys) allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112753 Windows Container Isolation FS Filter Driver (unionfs.sys) Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-113750"
+  ],
+  "id": "cace69de0d04e111",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-113750",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in Windows Device Inventory allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-113750 Windows Device Inventory Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-67382"
   ],
   "id": "ca85837a7745becc",
@@ -8026,6 +8766,20 @@
   "source": "Microsoft MSRC",
   "summary": "Use of uninitialized resource in SQL Server allows an authorized attacker to disclose information over a network.",
   "title": "CVE-2026-67382 Microsoft SQL Server Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-113822"
+  ],
+  "id": "ca5e5523be497232",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-113822",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Missing authorization in Azure CycleCloud allows an authorized attacker to elevate privileges over a network.",
+  "title": "CVE-2026-113822 Azure CycleCloud Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -8045,6 +8799,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-96969"
+  ],
+  "id": "c9b2335c0df0a86d",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96969",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Double free in Windows TCP/IP allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-96969 Windows TCP/IP Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-95977"
   ],
   "id": "c95da359d66fc538",
@@ -8054,6 +8822,20 @@
   "source": "Microsoft MSRC",
   "summary": "Out-of-bounds read in Windows Event Viewer allows an authorized attacker to disclose information locally.",
   "title": "CVE-2026-95977 Windows Event Viewer Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112762"
+  ],
+  "id": "c78fc1117b297ad6",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112762",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Relative path traversal in Windows Print Spooler Components allows an unauthorized attacker to elevate privileges over a network.",
+  "title": "CVE-2026-112762 Windows Print Spooler Components Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -8101,6 +8883,48 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112755"
+  ],
+  "id": "c4bbf918d96cded2",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112755",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Out-of-bounds read in Windows RNDIS allows an unauthorized attacker to elevate privileges with a physical attack.",
+  "title": "CVE-2026-112755 Windows RNDIS Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-96989"
+  ],
+  "id": "c45968232812ec7c",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96989",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Out-of-bounds read in Secondary Logon allows an authorized attacker to disclose information locally.",
+  "title": "CVE-2026-96989 Secondary Logon Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112792"
+  ],
+  "id": "c4517cbbb265c6d5",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112792",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows Print Spooler Components allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112792 Windows Print Spooler Components Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96970"
   ],
   "id": "c43b30daa2c3f974",
@@ -8143,6 +8967,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112763"
+  ],
+  "id": "c2e76df35923e21d",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112763",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows Cloud Files Mini Filter Driver allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112763 Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-109455"
   ],
   "id": "c2708d9d1f13982e",
@@ -8180,6 +9018,34 @@
   "source": "Microsoft MSRC",
   "summary": "Missing release of memory after effective lifetime in Windows DNS allows an unauthorized attacker to deny service over a network.",
   "title": "CVE-2026-96176 Windows DNS Denial of Service Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112794"
+  ],
+  "id": "c014e08b18b95af8",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112794",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in Windows Smart Card allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112794 Windows Smart Card Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-113757"
+  ],
+  "id": "bf79588f8a928478",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-113757",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Improper access control in Windows FileCrypt Driver allows an authorized attacker to disclose information locally.",
+  "title": "CVE-2026-113757 Windows FileCrypt Driver Information Disclosure Vulnerability",
   "trust": "vendor"
  },
  {
@@ -8255,6 +9121,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-97000"
+  ],
+  "id": "ba8ca4023beec5e0",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97000",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Null pointer dereference in Windows USM Communication Manager allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-97000 Windows USM Communication Manager Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-70240"
   ],
   "id": "ba71916526747918",
@@ -8278,6 +9158,34 @@
   "source": "Microsoft MSRC",
   "summary": "Use after free in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
   "title": "CVE-2026-95895 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112793"
+  ],
+  "id": "ba2d01f3ce5e3e7a",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112793",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows Event Collector Service allows an authorized attacker to elevate privileges over a network.",
+  "title": "CVE-2026-112793 Windows Event Collector Service Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-113752"
+  ],
+  "id": "b9ec0828dbe69430",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-113752",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows Print Spooler Components allows an unauthorized attacker to execute code over an adjacent network.",
+  "title": "CVE-2026-113752 Windows Print Spooler Components Remote Code Execution Vulnerability",
   "trust": "vendor"
  },
  {
@@ -8451,6 +9359,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112805"
+  ],
+  "id": "b37b3993c2326c30",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112805",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Untrusted pointer dereference in Windows Kernel allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112805 Windows Kernel Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-67375"
   ],
   "id": "b3712c768c03fedb",
@@ -8605,6 +9527,34 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-96979"
+  ],
+  "id": "aaf35727a501d645",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96979",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Integer overflow or wraparound in HID Parser Library allows an unauthorized attacker to elevate privileges with a physical attack.",
+  "title": "CVE-2026-96979 HID Parser Library Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112758"
+  ],
+  "id": "a9797aafe537ba3e",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112758",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Double free in Windows Defender Firewall Service allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112758 Windows Defender Firewall Service Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-95876"
   ],
   "id": "a91c8203c64e8087",
@@ -8647,6 +9597,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112802"
+  ],
+  "id": "a759895aea71ad06",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112802",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Missing authorization in Windows Kernel allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112802 Windows Kernel Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96156"
   ],
   "id": "a712c1a8745ad330",
@@ -8656,6 +9620,20 @@
   "source": "Microsoft MSRC",
   "summary": "Use of uninitialized resource in Windows Broker Infrastructure Service allows an authorized attacker to disclose information locally.",
   "title": "CVE-2026-96156 Windows Broker Infrastructure Service Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112974"
+  ],
+  "id": "a7123482667c68b8",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112974",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Improper access control in Microsoft Account allows an authorized attacker to perform tampering locally.",
+  "title": "CVE-2026-112974 Microsoft Account Tampering Vulnerability",
   "trust": "vendor"
  },
  {
@@ -8698,6 +9676,20 @@
   "source": "Microsoft MSRC",
   "summary": "Out-of-bounds read in Windows Installer allows an authorized attacker to elevate privileges locally.",
   "title": "CVE-2026-96060 Windows Installer Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112766"
+  ],
+  "id": "a56da0f689ea786f",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112766",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows exFAT File System allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112766 Windows exFAT File System Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -8754,6 +9746,20 @@
   "source": "Microsoft MSRC",
   "summary": "Exposure of sensitive information to an unauthorized actor in Windows NTLM allows an unauthorized attacker to perform spoofing over a network.",
   "title": "CVE-2026-121680 Windows NTLM Spoofing Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-97006"
+  ],
+  "id": "a26e4c3e6a917b38",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97006",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Out-of-bounds read in Windows DNS allows an authorized attacker to disclose information over a network.",
+  "title": "CVE-2026-97006 Windows DNS Information Disclosure Vulnerability",
   "trust": "vendor"
  },
  {
@@ -8843,6 +9849,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-119914"
+  ],
+  "id": "9f14b836c9db69d6",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119914",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Improper restriction of communication channel to intended endpoints in Windows Setup and Deployment allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-119914 Windows Setup and Deployment Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-88176"
   ],
   "id": "9e5c0b31d0e296d8",
@@ -8866,6 +9886,20 @@
   "source": "Microsoft MSRC",
   "summary": "Use after free in Windows Client for NFS allows an unauthorized attacker to elevate privileges over a network.",
   "title": "CVE-2026-95885 Windows Client for NFS Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112751"
+  ],
+  "id": "9d68be447419cee0",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112751",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows Remote Assistance allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112751 Windows Remote Assistance Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -9025,6 +10059,48 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-113760"
+  ],
+  "id": "91fea9427efe4e9e",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-113760",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in Windows XWizard Framework allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-113760 Windows XWizard Framework Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112804"
+  ],
+  "id": "916195c07e06be40",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112804",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in Windows exFAT File System allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112804 Windows exFAT File System Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112790"
+  ],
+  "id": "8fcb07a35d30d6fd",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112790",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows Kernel allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112790 Windows Kernel Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-95956"
   ],
   "id": "8f96f618159456c8",
@@ -9034,6 +10110,20 @@
   "source": "Microsoft MSRC",
   "summary": "Use after free in Windows eSCL Scanner allows an unauthorized attacker to execute code over a network.",
   "title": "CVE-2026-95956 Windows eSCL Scanner Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112799"
+  ],
+  "id": "8f860a6139800bb4",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112799",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Stack-based buffer overflow in Windows Projected File System allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112799 Windows Projected File System Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -9095,6 +10185,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112803"
+  ],
+  "id": "8bb1e372c17dab17",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112803",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Improper access control in Windows Cloud Files Mini Filter Driver allows an authorized attacker to disclose information locally.",
+  "title": "CVE-2026-112803 Windows Cloud Files Mini Filter Driver Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-102236"
   ],
   "id": "8ba247dd6907bc2a",
@@ -9118,6 +10222,20 @@
   "source": "Microsoft MSRC",
   "summary": "Out-of-bounds read in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
   "title": "CVE-2026-95942 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-113753"
+  ],
+  "id": "894ceb80e4166068",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-113753",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Untrusted pointer dereference in Windows Hyper-V allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-113753 Windows Hyper-V Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -9193,6 +10311,34 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112987"
+  ],
+  "id": "87256a01a2dc4bfb",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112987",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Integer overflow or wraparound in Windows Modern Device Management (MDM) allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112987 Windows Modern Device Management (MDM) Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112972"
+  ],
+  "id": "863e31e445a0afed",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112972",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Integer overflow or wraparound in Windows SMB Server allows an authorized attacker to execute code over a network.",
+  "title": "CVE-2026-112972 Windows SMBv3 Server Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-83684"
   ],
   "id": "85acb2d06ab9f659",
@@ -9263,6 +10409,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-96975"
+  ],
+  "id": "83e3c28b350bce36",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96975",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Out-of-bounds read in DNS Server allows an unauthorized attacker to deny service over a network.",
+  "title": "CVE-2026-96975 Role: DNS Server Denial of Service Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96066"
   ],
   "id": "83280a6aecc9f8ca",
@@ -9272,6 +10432,20 @@
   "source": "Microsoft MSRC",
   "summary": "Stack-based buffer overflow in Windows Local Security Authority Subsystem Service (LSASS) allows an authorized attacker to elevate privileges locally.",
   "title": "CVE-2026-96066 Windows Local Security Authority Subsystem Service (LSASS) Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-96971"
+  ],
+  "id": "81f006a025423c24",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96971",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows NetBIOS allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-96971 Windows NetBIOS Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -9389,6 +10563,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112797"
+  ],
+  "id": "7c6a68c7644263cf",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112797",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows Print Spooler Components allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112797 Windows Print Spooler Components Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-95893"
   ],
   "id": "7ba34c253e130da5",
@@ -9501,6 +10689,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112754"
+  ],
+  "id": "78c34c9a346c8c51",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112754",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Out-of-bounds read in Microsoft Graphics Component allows an unauthorized attacker to disclose information locally.",
+  "title": "CVE-2026-112754 Microsoft Graphics Component Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96158"
   ],
   "id": "78a6502f49ee1fd3",
@@ -9543,6 +10745,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112973"
+  ],
+  "id": "77bea8d654355ab5",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112973",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Improper access control in Windows Kernel allows an authorized attacker to bypass a security feature locally.",
+  "title": "CVE-2026-112973 Windows Kernel Security Feature Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96172"
   ],
   "id": "77a33212a546bf86",
@@ -9571,6 +10787,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112978"
+  ],
+  "id": "76f10abf7a997e57",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112978",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows Print Spooler Components allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112978 Windows Print Spooler Components Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96150"
   ],
   "id": "76778dc95e9195b4",
@@ -9580,6 +10810,20 @@
   "source": "Microsoft MSRC",
   "summary": "Use of uninitialized resource in Microsoft Windows Codecs Library allows an authorized attacker to disclose information locally.",
   "title": "CVE-2026-96150 Microsoft Windows Codecs Library Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112806"
+  ],
+  "id": "75ff34793d2b208e",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112806",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Insufficiently protected credentials in Windows Print Spooler Components allows an authorized attacker to disclose information locally.",
+  "title": "CVE-2026-112806 Windows Print Spooler Components Information Disclosure Vulnerability",
   "trust": "vendor"
  },
  {
@@ -9608,6 +10852,20 @@
   "source": "Microsoft MSRC",
   "summary": "Out-of-bounds read in Windows iSCSI allows an authorized attacker to disclose information over a network.",
   "title": "CVE-2026-88231 Windows iSCSI Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112970"
+  ],
+  "id": "74e1b2d9084bc9a9",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112970",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows SMB Client allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112970 Windows SMB Client Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -9655,6 +10913,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112977"
+  ],
+  "id": "7131c826f92a089c",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112977",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Improper privilege management in Windows Deployment Services allows an authorized attacker to disclose information locally.",
+  "title": "CVE-2026-112977 Windows Deployment Services Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-88216"
   ],
   "id": "7117f3c873a85d8c",
@@ -9664,6 +10936,34 @@
   "source": "Microsoft MSRC",
   "summary": "Time-of-check time-of-use (toctou) race condition in Windows DHCP Server allows an authorized attacker to execute code over a network.",
   "title": "CVE-2026-88216 Windows DHCP Server Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112801"
+  ],
+  "id": "709dfb0d952d6a21",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112801",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Insufficiently protected credentials in Windows eSCL Scanner allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112801 Windows eSCL Scanner Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112965"
+  ],
+  "id": "708a771ee475a593",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112965",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Out-of-bounds read in Windows Management Instrumentation allows an authorized attacker to disclose information locally.",
+  "title": "CVE-2026-112965 Windows Management Instrumentation Information Disclosure Vulnerability",
   "trust": "vendor"
  },
  {
@@ -9748,6 +11048,20 @@
   "source": "Microsoft MSRC",
   "summary": "Use after free in Windows Hyper-V allows an unauthorized attacker to deny service over a network.",
   "title": "CVE-2026-95913 Windows Hyper-V Denial of Service Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112800"
+  ],
+  "id": "6dd8ebf08526d20e",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112800",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in Windows Diagnostic Policy Service allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112800 Windows Diagnostic Policy Service Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -9851,6 +11165,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112752"
+  ],
+  "id": "653e50db33923193",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112752",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Improper access control in Windows Print Spooler Components allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112752 Windows Print Spooler Components Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-120778"
   ],
   "id": "64bfa87224e1c7bd",
@@ -9921,6 +11249,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-105567"
+  ],
+  "id": "61c0139afa97b23f",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105567",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows Print Spooler Components allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-105567 Windows Print Spooler Components Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-95909"
   ],
   "id": "614f190915475780",
@@ -9930,6 +11272,20 @@
   "source": "Microsoft MSRC",
   "summary": "Out-of-bounds read in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
   "title": "CVE-2026-95909 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112795"
+  ],
+  "id": "60f350db522549b8",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112795",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Untrusted pointer dereference in Windows Security Account Manager allows an authorized attacker to deny service over a network.",
+  "title": "CVE-2026-112795 Windows Security Account Manager Denial of Service Vulnerability",
   "trust": "vendor"
  },
  {
@@ -10005,6 +11361,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112761"
+  ],
+  "id": "5ba6fcca69639fce",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112761",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows Broadcast DVR User Service allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112761 Windows Broadcast DVR User Service Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-94529"
   ],
   "id": "5ac43464315c3e61",
@@ -10014,6 +11384,20 @@
   "source": "Microsoft MSRC",
   "summary": "Heap-based buffer overflow in Windows Broadcast DVR User Service allows an authorized attacker to elevate privileges locally.",
   "title": "CVE-2026-94529 Windows Broadcast DVR User Service Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112814"
+  ],
+  "id": "5a859eb4d406da10",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112814",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Out-of-bounds read in Windows Management Instrumentation allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112814 Windows Management Instrumentation Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -10047,6 +11431,34 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112759"
+  ],
+  "id": "599d966f46bea34c",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112759",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in Windows Task Scheduler allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112759 Windows Task Scheduler Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112967"
+  ],
+  "id": "595ea1cf3e5a86ec",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112967",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in Windows Xbox Live Networking Service allows an unauthorized attacker to execute code over a network.",
+  "title": "CVE-2026-112967 Windows Xbox Live Networking Service Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96053"
   ],
   "id": "59555ef18a2ae72d",
@@ -10056,6 +11468,20 @@
   "source": "Microsoft MSRC",
   "summary": "Improper neutralization of special elements used in a command ('command injection') in Windows Task Scheduler allows an authorized attacker to elevate privileges locally.",
   "title": "CVE-2026-96053 Windows Task Scheduler Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112812"
+  ],
+  "id": "587abf4b745974e6",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112812",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows SMB Client allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112812 Windows SMB Client Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -10201,6 +11627,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112750"
+  ],
+  "id": "53a6001a92392536",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112750",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Numeric truncation error in Windows Overlay Filter allows an authorized attacker to disclose information locally.",
+  "title": "CVE-2026-112750 Windows Overlay Filter Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-109491"
   ],
   "id": "535fe498779b3056",
@@ -10238,6 +11678,20 @@
   "source": "Microsoft MSRC",
   "summary": "Out-of-bounds read in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
   "title": "CVE-2026-96160 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-96973"
+  ],
+  "id": "523363a939f807e7",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96973",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows Encrypting File System (EFS) allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-96973 Windows Encrypting File System (EFS) Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -10294,6 +11748,34 @@
   "source": "Microsoft MSRC",
   "summary": "Heap-based buffer overflow in Windows Imaging Component allows an unauthorized attacker to execute code over a network.",
   "title": "CVE-2026-96164 Windows Imaging Component Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112986"
+  ],
+  "id": "5048a4625f318809",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112986",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "No cwe for this issue in Windows DWM Core Library allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112986 Windows DWM Core Library Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-113751"
+  ],
+  "id": "4fd9dc7f96d45ba3",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-113751",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Fast FAT Driver allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-113751 Windows Fast FAT Driver Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -10383,6 +11865,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112810"
+  ],
+  "id": "4ea488a0c5253697",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112810",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Time-of-check time-of-use (toctou) race condition in Windows Cloud Files Mini Filter Driver allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112810 Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96082"
   ],
   "id": "4de43c572ccb62cd",
@@ -10392,6 +11888,20 @@
   "source": "Microsoft MSRC",
   "summary": "Out-of-bounds read in Windows Kerberos allows an authorized attacker to deny service over a network.",
   "title": "CVE-2026-96082 Windows Kerberos Denial of Service Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112985"
+  ],
+  "id": "4d9435f6bb767961",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112985",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Integer overflow or wraparound in Microsoft JScript allows an unauthorized attacker to execute code over a network.",
+  "title": "CVE-2026-112985 Windows JScript Remote Code Execution Vulnerability",
   "trust": "vendor"
  },
  {
@@ -10621,6 +12131,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112798"
+  ],
+  "id": "42be57046d443831",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112798",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows NetBIOS allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112798 Windows NetBIOS Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-95976"
   ],
   "id": "41df9a33384f5513",
@@ -10714,6 +12238,20 @@
   "source": "Microsoft MSRC",
   "summary": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
   "title": "CVE-2026-96026 Windows Installer Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112975"
+  ],
+  "id": "3a2cdfe9821a19cc",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112975",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Untrusted pointer dereference in Windows Link-Layer Discovery Protocol (LLDP) allows an unauthorized attacker to deny service over an adjacent network.",
+  "title": "CVE-2026-112975 Windows Link-Layer Discovery Protocol (LLDP) Denial of Service Vulnerability",
   "trust": "vendor"
  },
  {
@@ -10859,6 +12397,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112969"
+  ],
+  "id": "3675ebf73f325461",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112969",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in Windows Kernel allows an authorized attacker to elevate privileges with a physical attack.",
+  "title": "CVE-2026-112969 Windows Kernel Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-95968"
   ],
   "id": "3638441ca40e2865",
@@ -10882,6 +12434,34 @@
   "source": "Microsoft MSRC",
   "summary": "Heap-based buffer overflow in Windows Microsoft DirectMusic allows an authorized attacker to execute code locally.",
   "title": "CVE-2026-95891 Microsoft DirectMusic Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-113756"
+  ],
+  "id": "34f67ad7aabd0478",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-113756",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Improper access control in Windows FileCrypt Driver allows an authorized attacker to bypass a security feature over a network.",
+  "title": "CVE-2026-113756 Windows FileCrypt Driver Security Feature Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112968"
+  ],
+  "id": "348a80a87980aede",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112968",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows COM allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112968 Windows COM Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -10929,6 +12509,34 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112789"
+  ],
+  "id": "310f5e236d50a5b7",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112789",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Installer allows an authorized attacker to disclose information locally.",
+  "title": "CVE-2026-112789 Windows Installer Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112990"
+  ],
+  "id": "30ba6f2232b97297",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112990",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Buffer over-read in Windows USB Video Driver allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112990 Windows USB Video Driver Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96974"
   ],
   "id": "2fd248b984cf71e9",
@@ -10952,6 +12560,20 @@
   "source": "Microsoft MSRC",
   "summary": "Inclusion of functionality from untrusted control sphere in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
   "title": "CVE-2026-95932 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112811"
+  ],
+  "id": "2f0a4599f2ef4b1c",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112811",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Stack-based buffer overflow in Windows Print Spooler Components allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112811 Windows Print Spooler Components Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -10985,6 +12607,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-96980"
+  ],
+  "id": "2d5108344f864ed1",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96980",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Out-of-bounds read in Windows DNS allows an authorized attacker to disclose information over a network.",
+  "title": "CVE-2026-96980 Windows DNS Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-95894"
   ],
   "id": "2cea56732fa3523a",
@@ -10994,6 +12630,20 @@
   "source": "Microsoft MSRC",
   "summary": "Heap-based buffer overflow in Windows Task Scheduler allows an authorized attacker to elevate privileges locally.",
   "title": "CVE-2026-95894 Windows Task Scheduler Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112981"
+  ],
+  "id": "2cb972d361d7e331",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112981",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in Windows Print Spooler Components allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112981 Windows Print Spooler Components Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -11036,6 +12686,20 @@
   "source": "Microsoft MSRC",
   "summary": "Integer overflow or wraparound in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
   "title": "CVE-2026-95935 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112807"
+  ],
+  "id": "2a749031da874c96",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112807",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Heap-based buffer overflow in Microsoft Local Security Authority Server (lsasrv) allows an authorized attacker to deny service over a network.",
+  "title": "CVE-2026-112807 Windows Local Security Authority Subsystem Service (LSASS) Denial of Service Vulnerability",
   "trust": "vendor"
  },
  {
@@ -11097,6 +12761,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112809"
+  ],
+  "id": "27dd979c989611e0",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112809",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Improper access control in Windows Composite Image File System allows an authorized attacker to disclose information locally.",
+  "title": "CVE-2026-112809 Windows Composite Image File System Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96043"
   ],
   "id": "27b5930ff1384ba4",
@@ -11111,6 +12789,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112791"
+  ],
+  "id": "279e3bcf3a56c17d",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112791",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Time-of-check time-of-use (toctou) race condition in Windows Print Spooler Components allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112791 Windows Print Spooler Components Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-95879"
   ],
   "id": "2714f96d38dc9bfb",
@@ -11120,6 +12812,20 @@
   "source": "Microsoft MSRC",
   "summary": "Out-of-bounds read in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
   "title": "CVE-2026-95879 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112966"
+  ],
+  "id": "26f75f859dc336cd",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112966",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Uncontrolled resource consumption in Windows Security Account Manager allows an unauthorized attacker to deny service over a network.",
+  "title": "CVE-2026-112966 Windows Security Account Manager Denial of Service Vulnerability",
   "trust": "vendor"
  },
  {
@@ -11153,6 +12859,34 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-113759"
+  ],
+  "id": "2499f4f779e0d450",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-113759",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Microsoft Office Word allows an unauthorized attacker to execute code locally.",
+  "title": "CVE-2026-113759 Microsoft Word Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112976"
+  ],
+  "id": "244fffae0cd57b81",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112976",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Use after free in Windows Print Spooler Components allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112976 Windows Print Spooler Components Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96153"
   ],
   "id": "240a80d6c4d23336",
@@ -11181,6 +12915,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-119961"
+  ],
+  "id": "229cdf9f8790fea3",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119961",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Internet Information Services allows an unauthorized attacker to execute code over a network.",
+  "title": "CVE-2026-119961 Windows Internet Information Services Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-88241"
   ],
   "id": "2280c6c4b977f9dd",
@@ -11190,6 +12938,20 @@
   "source": "Microsoft MSRC",
   "summary": "Heap-based buffer overflow in Windows Sensor Data Service allows an authorized attacker to elevate privileges locally.",
   "title": "CVE-2026-88241 Windows Sensor Data Service Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112988"
+  ],
+  "id": "218903192fbd12bd",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112988",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Untrusted pointer dereference in Desktop Window Manager allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112988 Windows Desktop Window Manager Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
@@ -11475,6 +13237,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112979"
+  ],
+  "id": "1656a6245b091b8a",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112979",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Weak authentication in Windows State Repository Service allows an authorized attacker to perform tampering locally.",
+  "title": "CVE-2026-112979 Windows State Repository Service Tampering Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-96097"
   ],
   "id": "1483d53d0f5af989",
@@ -11531,6 +13307,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-113758"
+  ],
+  "id": "10035970c4564989",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-113758",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Out-of-bounds read in Desktop Window Manager allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-113758 Windows Desktop Window Manager Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-105734"
   ],
   "id": "0f760babb631b05b",
@@ -11568,6 +13358,20 @@
   "source": "Microsoft MSRC",
   "summary": "Use after free in Remote Desktop Gateway Service allows an unauthorized attacker to execute code locally.",
   "title": "CVE-2026-69327 Windows Remote Desktop Services Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112808"
+  ],
+  "id": "0e7e48dc5132e5dd",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112808",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Exposure of sensitive system information to an unauthorized control sphere in Windows Print Spooler Components allows an authorized attacker to disclose information over a network.",
+  "title": "CVE-2026-112808 Windows Print Spooler Components Information Disclosure Vulnerability",
   "trust": "vendor"
  },
  {
@@ -11629,6 +13433,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112760"
+  ],
+  "id": "0a8a8dfc5ec279b4",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112760",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Integer overflow or wraparound in Windows Overlay Filter allows an unauthorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112760 Windows Overlay Filter Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-88227"
   ],
   "id": "0a0783d877c693f6",
@@ -11643,6 +13461,34 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-112813"
+  ],
+  "id": "0a055c92f0efee91",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112813",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Overlay Filter allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112813 Windows Overlay Filter Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-113754"
+  ],
+  "id": "09b9ee6c8d2a56e6",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-113754",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Improper access control in Windows FileCrypt Driver allows an authorized attacker to disclose information locally.",
+  "title": "CVE-2026-113754 Windows FileCrypt Driver Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-95889"
   ],
   "id": "0994bc0ca3205185",
@@ -11652,6 +13498,20 @@
   "source": "Microsoft MSRC",
   "summary": "Untrusted pointer dereference in Windows Storage allows an authorized attacker to elevate privileges with a physical attack.",
   "title": "CVE-2026-95889 Windows Storage Elevation of Privilege Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-113823"
+  ],
+  "id": "08fbcc68596fa51a",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-113823",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Improper limitation of a pathname to a restricted directory ('path traversal') in Azure CycleCloud allows an unauthorized attacker to disclose information over a network.",
+  "title": "CVE-2026-113823 Azure CycleCloud Information Disclosure Vulnerability",
   "trust": "vendor"
  },
  {
@@ -11741,6 +13601,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-96984"
+  ],
+  "id": "052ee6a344613420",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96984",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Out-of-bounds read in Windows DNS allows an authorized attacker to disclose information over a network.",
+  "title": "CVE-2026-96984 Windows DNS Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-67372"
   ],
   "id": "04a657ab31e9164a",
@@ -11820,6 +13694,20 @@
   "source": "Microsoft MSRC",
   "summary": "Improper neutralization of special elements used in a command ('command injection') in Github Copilot allows an authorized attacker to disclose information locally.",
   "title": "CVE-2026-83953 GitHub Copilot for Jetbrains Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-112743"
+  ],
+  "id": "02b5636344d26813",
+  "kev": false,
+  "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112743",
+  "published": "2026-11-10T16:00:00Z",
+  "source": "Microsoft MSRC",
+  "summary": "Untrusted pointer dereference in Windows Device Association Service allows an authorized attacker to elevate privileges locally.",
+  "title": "CVE-2026-112743 Windows Device Association Service Elevation of Privilege Vulnerability",
   "trust": "vendor"
  },
  {
