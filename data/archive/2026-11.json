@@ -2,6 +2,583 @@
  {
   "category": "news",
   "cves": [],
+  "id": "b752c47b46412c9a",
+  "kev": false,
+  "link": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
+  "published": "2026-11-19T21:19:00Z",
+  "source": "The Record",
+  "summary": "Seven of 26 founding members of the caucus are Republicans, a notable number given the White House’s steadfast opposition to regulating AI.",
+  "title": "Lawmakers launch new AI safety caucus amid rising security concerns",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2b9cbabe5ba092ed",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
+  "published": "2026-11-19T21:15:59Z",
+  "source": "BleepingComputer",
+  "summary": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]",
+  "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "a2133f15b896c756",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9176-1",
+  "published": "2026-11-19T20:07:34Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Stephan Lipp discovered that Ruby incorrectly handled converting the case of certain strings. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code.",
+  "title": "USN-9176-1: Ruby vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "d8a7441e866d3ab8",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/drupal-security-advisory-av26-1186",
+  "published": "2026-11-19T19:29:19Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1186 Date: November 19, 2026 As of November 19, 2026, Drupal is affected by vulnerabilities in the following product: Drupal core Prior to 10.6.22 Prior to 11.3.22 Prior to 11.4.13 The Cyber Centre encourages users and…",
+  "title": "Drupal security advisory (AV26-1186)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3fcbdb78d84e1524",
+  "kev": false,
+  "link": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
+  "published": "2026-11-19T19:21:06Z",
+  "source": "SecurityWeek",
+  "summary": "Google says a China-linked espionage group exploited a critical VMware vCenter authentication bypass before Broadcom released a patch. The post Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT appeared first on SecurityWeek .",
+  "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-123890",
+   "CVE-2026-123891",
+   "CVE-2026-123892",
+   "CVE-2026-123893",
+   "CVE-2026-123894"
+  ],
+  "id": "3d659fb03390eca0",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/vmware-security-advisory-av26-1185",
+  "published": "2026-11-19T19:02:48Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1185 Date: November 19, 2026 As of November 19, 2026, VMware is affected by vulnerabilities in the following products: VMware Cloud Foundation / VMware vSphere Foundation - vCenter 9.1.x.x Versions prior to 9.1.1.0200 9.0.x.x…",
+  "title": "VMware security advisory (AV26-1185)",
+  "trust": "official"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "6dedd833ba8ff470",
+  "kev": false,
+  "link": "https://blog.talosintelligence.com/the-internet-needs-a-nap-and-you-do-too/",
+  "published": "2026-11-19T19:00:00Z",
+  "source": "Cisco Talos",
+  "summary": "Bill takes a break from the non-stop breaking news to promote prioritizing environmental awareness and team stability over reactive patching.",
+  "title": "The internet needs a nap (and you do, too)",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "d3873ab6c12e275f",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/mitel-security-advisory-av26-1184",
+  "published": "2026-11-19T18:51:37Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1184 Date: November 19, 2026 As of November 19, 2026, Mitel is affected by vulnerabilities in the following product: MiCollab Prior to or equal to 10.3 (10.3.0.18) The Cyber Centre encourages users and administrators to review…",
+  "title": "Mitel security advisory (AV26-1184)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "04aa83eed1394723",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+  "published": "2026-11-19T18:47:58Z",
+  "source": "The Hacker News",
+  "summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem.",
+  "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "efc6d56c7d69dde0",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/php-group-security-advisory-av26-1183",
+  "published": "2026-11-19T18:33:33Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1183 Date: November 19, 2026 As of November 19, 2026, PHP Group is affected by vulnerabilities in the following product: PHP Prior to 8.2.36 Prior to 8.3.37 Prior to 8.4.28 Prior to 8.5.13 Prior to 8.6.0 The Cyber Centre…",
+  "title": "PHP Group security advisory (AV26-1183)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "f4b9a839d767e959",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/ubiquiti-security-advisory-av26-1182",
+  "published": "2026-11-19T18:28:56Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1182 Date: November 19, 2026 As of November 18, 2026, Ubiquiti is affected by vulnerabilities in the following product: UniFi Access Application Prior to 4.3.24 The Cyber Centre encourages users and administrators to review the…",
+  "title": "Ubiquiti security advisory (AV26-1182)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "8dbf41f37a675b01",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/jetbrains-security-advisory-av26-1181",
+  "published": "2026-11-19T18:24:30Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1181 Date: November 19, 2026 As of November 19, 2026, JetBrains is affected by vulnerabilities in the following product: TeamCity Prior to 2026.2.1 Prior to 2026.1.5 The Cyber Centre encourages users and administrators to review…",
+  "title": "JetBrains security advisory (AV26-1181)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "7cc955f7030d7454",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+  "published": "2026-11-19T18:20:01Z",
+  "source": "BleepingComputer",
+  "summary": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
+  "title": "Transport for London breach exposes 265,000 Oyster card users' data",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "c7ab9901ade53641",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/craftcms-security-advisory-av26-1180",
+  "published": "2026-11-19T18:19:24Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1180 Date: November 19, 2026 As of November 18, 2026, CraftCMS is affected by vulnerabilities in the following product: CMS Prior to 5.11.5 The Cyber Centre encourages users and administrators to review the provided web links and…",
+  "title": "CraftCMS security advisory (AV26-1180)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "876b0fba93a53cda",
+  "kev": false,
+  "link": "https://therecord.media/doj-dhs-partner-on-new-unit-tackling-scams-cybercrime",
+  "published": "2026-11-19T17:25:00Z",
+  "source": "The Record",
+  "summary": "The departments are partnering on the Threat Disruption Center to better triage victim complaints, map cybercriminal networks and provide a direct channel to private sector organizations that work with victims.",
+  "title": "DOJ, DHS partner on new unit tackling scams and cybercrime",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "585ccfa0f5b452c0",
+  "kev": false,
+  "link": "https://therecord.media/cisa-losapio-nomination-trump",
+  "published": "2026-11-19T17:00:00Z",
+  "source": "The Record",
+  "summary": "President Donald Trump’s pick to lead the Cybersecurity and Infrastructure Security Agency pledged to lawmakers to uncover any “gaps” within the organization while also denying the Capitol came under attack on January 6, 2021.",
+  "title": "CISA nominee LoSapio vows to bolster cyber defenses while denying Jan. 6 Capitol attack",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-126714"
+  ],
+  "id": "ea61004ebcb6a455",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+  "published": "2026-11-19T16:59:56Z",
+  "source": "The Hacker News",
+  "summary": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment.",
+  "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "7c57a868b02a0958",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+  "published": "2026-11-19T16:28:23Z",
+  "source": "BleepingComputer",
+  "summary": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
+  "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "7ffccd90797fa9e9",
+  "kev": false,
+  "link": "https://therecord.media/apple-uk-encryption-notice",
+  "published": "2026-11-19T16:15:00Z",
+  "source": "The Record",
+  "summary": "The British government served Apple with a secret legal notice targeting the company’s cryptographic protections for iCloud accounts, a tribunal has confirmed, ending almost two years of official refusal to acknowledge what had been widely reported.",
+  "title": "UK court confirms British government served Apple with secret encryption notice",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2d3582645a8ac406",
+  "kev": false,
+  "link": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
+  "published": "2026-11-19T15:54:20Z",
+  "source": "SecurityWeek",
+  "summary": "Successful exploitation could allow attackers to crash the worker process and execute code with the PHP worker’s privileges. The post PHP Patches Seven Critical RCE Vulnerabilities appeared first on SecurityWeek .",
+  "title": "PHP Patches Seven Critical RCE Vulnerabilities",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2024-14040",
+   "CVE-2024-40954",
+   "CVE-2024-41008",
+   "CVE-2024-42107",
+   "CVE-2024-42139",
+   "CVE-2024-44951",
+   "CVE-2024-49940",
+   "CVE-2024-56544",
+   "CVE-2024-56702",
+   "CVE-2024-56712"
+  ],
+  "id": "5fce7961e17888a3",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9175-1",
+  "published": "2026-11-19T15:43:10Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Multiple devices driver; - eXpress Data Path; - Kernel build…",
+  "title": "USN-9175-1: Linux kernel (Oracle) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-121720"
+  ],
+  "id": "c5a6f04982c5236f",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/openvpn-security-advisory-av26-1179",
+  "published": "2026-11-19T15:39:51Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1179 Date: November 19, 2026 As of November 18, 2026, OpenVPN is affected by a vulnerability in the following product: OpenVPN Prior to or equal to 2.7.8 The Cyber Centre encourages users and administrators to review the provided…",
+  "title": "OpenVPN security advisory (AV26-1179)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-116953",
+   "CVE-2026-120285",
+   "CVE-2026-120292",
+   "CVE-2026-120722",
+   "CVE-2026-121805",
+   "CVE-2026-123637"
+  ],
+  "id": "19d49b3173ca697a",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/f5-security-advisory-av26-1178",
+  "published": "2026-11-19T15:33:03Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1178 Date: November 19, 2026 As of November 18, 2026, F5 is affected by vulnerabilities in the following products: BIG-IP 17.1.0 Prior to BIGIP-17.1.3.7.0.21.4-ENG 17.5.0 Prior to BIGIP-17.5.1.11.0.61.12-ENG 21.1.0 Prior to…",
+  "title": "F5 security advisory (AV26-1178)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-115560"
+  ],
+  "id": "dd6d4273291b0ea6",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+  "published": "2026-11-19T15:18:07Z",
+  "source": "The Hacker News",
+  "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560.",
+  "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "9659a4a8ab5fe212",
+  "kev": false,
+  "link": "https://therecord.media/european-commission-confirms-cyberattack-using-ai",
+  "published": "2026-11-19T15:15:00Z",
+  "source": "The Record",
+  "summary": "POLITICO had reported CERT-EU had identified the attackers’ use of ARTEX, an open-source AI hacking platform that the FBI last week warned was being used both by criminals and state-sponsored groups.",
+  "title": "European Commission confirms cyberattack, says hackers used AI tool",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2024-14040",
+   "CVE-2024-40954",
+   "CVE-2024-41008",
+   "CVE-2024-42107",
+   "CVE-2024-42139",
+   "CVE-2024-44951",
+   "CVE-2024-49940",
+   "CVE-2024-56544",
+   "CVE-2024-56702",
+   "CVE-2024-56712"
+  ],
+  "id": "3f2f8a1b50f2059d",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9173-1",
+  "published": "2026-11-19T15:13:04Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Multiple devices driver; - eXpress Data Path; - Kernel build…",
+  "title": "USN-9173-1: Linux kernel vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2024-14040",
+   "CVE-2024-40954",
+   "CVE-2024-41008",
+   "CVE-2024-42107",
+   "CVE-2024-42139",
+   "CVE-2024-44951",
+   "CVE-2024-49940",
+   "CVE-2024-56544",
+   "CVE-2024-56702",
+   "CVE-2024-56712"
+  ],
+  "id": "abae49c2be56feda",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9174-1",
+  "published": "2026-11-19T15:12:43Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Multiple devices driver; - eXpress Data Path; - Kernel build…",
+  "title": "USN-9174-1: Linux kernel (GCP FIPS) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2022-49622",
+   "CVE-2022-50167",
+   "CVE-2023-52561",
+   "CVE-2023-53651",
+   "CVE-2023-53733",
+   "CVE-2024-49901",
+   "CVE-2025-38728",
+   "CVE-2025-40135",
+   "CVE-2026-31678",
+   "CVE-2026-46265"
+  ],
+  "id": "1badb85438160630",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9168-2",
+  "published": "2026-11-19T15:12:17Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Stream parser; - ARM64 architecture; - S390 architecture; - x86…",
+  "title": "USN-9168-2: Linux kernel (FIPS) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-98432",
+   "CVE-2026-99999"
+  ],
+  "id": "a98e765dd614735a",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9171-2",
+  "published": "2026-11-19T15:12:06Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - IPv4 networking; - Ethernet bridge; - Netfilter; - XFRM subsystem…",
+  "title": "USN-9171-2: Linux kernel (Oracle) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-64564",
+   "CVE-2026-98432",
+   "CVE-2026-99999"
+  ],
+  "id": "4f9fd2dbba6c0b48",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9170-2",
+  "published": "2026-11-19T15:12:06Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - IPv4 networking; - Ethernet bridge; - Netfilter; - SCTP protocol; -…",
+  "title": "USN-9170-2: Linux kernel (AWS FIPS) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "0de36cacbf728407",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+  "published": "2026-11-19T15:11:06Z",
+  "source": "The Hacker News",
+  "summary": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today.",
+  "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ce0adc003748ea2d",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+  "published": "2026-11-19T15:00:10Z",
+  "source": "BleepingComputer",
+  "summary": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins.",
+  "title": "Five warning signs of ransomware breach before encryption or data theft",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "b1474f872efd0913",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+  "published": "2026-11-19T14:57:24Z",
+  "source": "BleepingComputer",
+  "summary": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access. [...]",
+  "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "20108a47564dac42",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+  "published": "2026-11-19T14:33:06Z",
+  "source": "The Hacker News",
+  "summary": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site.",
+  "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "624726a6afb69d4a",
+  "kev": false,
+  "link": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
+  "published": "2026-11-19T14:17:32Z",
+  "source": "SecurityWeek",
+  "summary": "Nvidia says it has found no indication that its systems were compromised after the Gentlemen ransomware group listed the company as a victim. The post Nvidia Responds to Gentlemen Ransomware Claim appeared first on SecurityWeek .",
+  "title": "Nvidia Responds to Gentlemen Ransomware Claim",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [
+   "CVE-2025-22457",
+   "CVE-2026-102764",
+   "CVE-2026-123890",
+   "CVE-2026-59309"
+  ],
+  "id": "e4b80fc44fbf1817",
+  "kev": true,
+  "link": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere/",
+  "published": "2026-11-19T14:00:00Z",
+  "source": "Google Threat Intelligence",
+  "summary": "Written by: Jayson Frost, Bryce Greathouse, Dhanesh Kizhakkinan, John Palmisano, Steve Rasch, Daniel Sislo, John Wolfram Introduction On Oct.",
+  "title": "ARMORY CASTLE Exploits vSphere",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-98432",
+   "CVE-2026-99999"
+  ],
+  "id": "41d4fb40b1e1a018",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9172-1",
+  "published": "2026-11-19T13:43:11Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - IPv4 networking; - Ethernet bridge; - Netfilter; - XFRM subsystem…",
+  "title": "USN-9172-1: Linux kernel vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-98432",
+   "CVE-2026-99999"
+  ],
+  "id": "f7af0cc5552727b9",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9171-1",
+  "published": "2026-11-19T13:43:00Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - IPv4 networking; - Ethernet bridge; - Netfilter; - XFRM subsystem…",
+  "title": "USN-9171-1: Linux kernel vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-64564",
+   "CVE-2026-98432",
+   "CVE-2026-99999"
+  ],
+  "id": "4c61b000b309c268",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9170-1",
+  "published": "2026-11-19T13:42:53Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - IPv4 networking; - Ethernet bridge; - Netfilter; - SCTP protocol; -…",
+  "title": "USN-9170-1: Linux kernel vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "d5de3f9f2b5ad8d6",
+  "kev": false,
+  "link": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
+  "published": "2026-11-19T13:12:20Z",
+  "source": "SecurityWeek",
+  "summary": "Attackers hacked clustered Cisco Expressway devices at a Russian organization and prepared tooling for lateral movement. The post Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release appeared first on SecurityWeek .",
+  "title": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "018f9eaf536d18b5",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+  "published": "2026-11-19T13:08:08Z",
+  "source": "BleepingComputer",
+  "summary": "The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites. [...]",
+  "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "11aad19b5ccfb184",
   "kev": false,
   "link": "https://www.securityweek.com/stepsecurity-secures-20-million-to-expand-supply-chain-protection/",
@@ -24,6 +601,36 @@
   "trust": "media"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126088"
+  ],
+  "id": "c952286264ebd6f5",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+  "published": "2026-11-19T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created.",
+  "title": "Autonomy Logic OpenPLC Runtime",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-124281",
+   "CVE-2026-125273",
+   "CVE-2026-96805"
+  ],
+  "id": "66686fc2e9a8bc5e",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
+  "published": "2026-11-19T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a trailer, modify the firmware, disable the brake lights, modify the brake conditions or disable other critical safety…",
+  "title": "Elecbrakes EB2, VM1, ELBC2000",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "57b19240249849b8",
@@ -34,6 +641,20 @@
   "summary": "Lower costs, data privacy, and greater control are driving open-weight AI adoption, but many organizations are not addressing the risks that come with it.",
   "title": "The Governance Gap in Open-Weight AI and What to Do About It",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-125132"
+  ],
+  "id": "2ed63e8f05c62a66",
+  "kev": false,
+  "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+  "published": "2026-11-19T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure.",
+  "title": "libumqtt",
+  "trust": "official"
  },
  {
   "category": "news",
@@ -272,6 +893,20 @@
   "summary": "Affecting the session upload progress, CVE-2026-115560 was publicly disclosed two days after PHP2Shell patches landed. The post PHP Readies Critical Security Updates to Patch Another RCE Flaw appeared first on SecurityWeek .",
   "title": "PHP Readies Critical Security Updates to Patch Another RCE Flaw",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-131813"
+  ],
+  "id": "a6750c4ba61720b9",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1038/",
+  "published": "2026-11-19T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability.",
+  "title": "ZDI-26-1038: (0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A OCPP UpdateFirmware Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "trust": "vendor"
  },
  {
   "category": "advisories",
