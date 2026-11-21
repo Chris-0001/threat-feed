@@ -2,6 +2,94 @@
  {
   "category": "news",
   "cves": [],
+  "id": "434b1fd6147bae57",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+  "published": "2026-11-21T15:17:27Z",
+  "source": "BleepingComputer",
+  "summary": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
+  "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "8e69c19663b56679",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+  "published": "2026-11-21T14:26:04Z",
+  "source": "BleepingComputer",
+  "summary": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies.",
+  "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-133325"
+  ],
+  "id": "0a747a59a74b71f0",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/apache-security-advisory-av26-1188",
+  "published": "2026-11-21T13:17:12Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1188 Date: November 21, 2026 As of November 19, 2026, Apache is affected by a vulnerability in the following product: Apache Tomcat Prior to or equal to 10.1.62 Prior or equal to 9.0.124 Prior to or equal to 11.0.29 The Cyber…",
+  "title": "Apache security advisory (AV26-1188)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "572bb8e473f77373",
+  "kev": false,
+  "link": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+  "published": "2026-11-21T12:08:50Z",
+  "source": "SecurityWeek",
+  "summary": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek .",
+  "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "36654661f0cd7b87",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+  "published": "2026-11-21T11:53:07Z",
+  "source": "The Hacker News",
+  "summary": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown.",
+  "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-129975"
+  ],
+  "id": "1ca5cd3c75ea6393",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+  "published": "2026-11-21T11:05:53Z",
+  "source": "The Hacker News",
+  "summary": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG.",
+  "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2151c7c2435107d5",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+  "published": "2026-11-21T11:03:17Z",
+  "source": "The Hacker News",
+  "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week.",
+  "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "04388a5dc44be3f9",
   "kev": false,
   "link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
