@@ -2,6 +2,32 @@
  {
   "category": "news",
   "cves": [],
+  "id": "04388a5dc44be3f9",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+  "published": "2026-11-21T08:49:20Z",
+  "source": "The Hacker News",
+  "summary": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to agentic…",
+  "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-129448"
+  ],
+  "id": "59185d8f05f1d4e7",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+  "published": "2026-11-21T08:49:13Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active…",
+  "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "6f71145f2385223c",
   "kev": false,
   "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
