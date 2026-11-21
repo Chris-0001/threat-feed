@@ -1,5 +1,41 @@
 [
  {
+  "category": "news",
+  "cves": [],
+  "id": "6f71145f2385223c",
+  "kev": false,
+  "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+  "published": "2026-11-21T00:36:39Z",
+  "source": "Krebs on Security",
+  "summary": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation…",
+  "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "b9c49b1602811839",
+  "kev": false,
+  "link": "https://therecord.media/west-virginia-legislature-cyberattack",
+  "published": "2026-11-20T21:34:36Z",
+  "source": "The Record",
+  "summary": "A cybersecurity incident that began Thursday was still ongoing Friday in the West Virginia Legislature. A spokesperson said the disruption did not spread to other government entities.",
+  "title": "West Virginia Legislature hit with cyber incident affecting IT systems",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "0802c04d8d0b91df",
+  "kev": false,
+  "link": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
+  "published": "2026-11-20T20:25:00Z",
+  "source": "The Record",
+  "summary": "An investigation led by the House Homeland Security Committee focused on the dangers of U.S. companies using lower-cost open weight AI models for certain projects.",
+  "title": "US companies’ use of Chinese open weight AI draws rebuke from House chairmen",
+  "trust": "media"
+ },
+ {
   "category": "advisories",
   "cves": [
    "CVE-2026-76466"

@@ -8,12 +8,13 @@
   "2026-11-17": 3,
   "2026-11-18": 4,
   "2026-11-19": 5,
-  "2026-11-20": 1
+  "2026-11-20": 1,
+  "2026-11-21": 1
  },
  "feeds": {
   "BleepingComputer": {
-   "etag": "eb3483cd514983726839436ce93c17f1",
-   "last_modified": "Fri, 20 Nov 2026 20:11:46 GMT"
+   "etag": "7ff6f70a0b33b8d8c0556cab9d408bfc",
+   "last_modified": "Sat, 21 Nov 2026 02:11:56 GMT"
   },
   "CERT-EU": {},
   "CISA Advisories": {},
@@ -31,22 +32,22 @@
   },
   "Google Threat Intelligence": {},
   "Krebs on Security": {
-   "last_modified": "Fri, 20 Nov 2026 03:05:33 GMT"
+   "last_modified": "Sat, 21 Nov 2026 00:36:39 GMT"
   },
   "Microsoft MSRC": {
    "etag": "\"0x8DF46DCB13FB106\"",
    "last_modified": "Fri, 20 Nov 2026 08:02:59 GMT"
   },
   "SANS Internet Storm Center": {
-   "etag": "W/\"20f4-660baf41e4888\"",
-   "last_modified": "Fri, 20 Nov 2026 20:18:56 GMT"
+   "etag": "W/\"20f4-660bfe9be107c\"",
+   "last_modified": "Sat, 21 Nov 2026 02:13:56 GMT"
   },
   "SecurityWeek": {
    "etag": "\"c47bd017e9704b7128cf25653fa5d6a8\"",
    "last_modified": "Fri, 20 Nov 2026 17:55:33 GMT"
   },
   "The Hacker News": {
-   "last_modified": "Fri, 20 Nov 2026 19:45:16 GMT"
+   "last_modified": "Sat, 21 Nov 2026 01:37:58 GMT"
   },
   "The Record": {},
   "UK NCSC": {
@@ -1900,6 +1901,7 @@
   "07962b6ea68f66c2": "2026-11-17",
   "07e3850cc23c0df4": "2026-11-12",
   "07ee23fe21830f7a": "2026-11-12",
+  "0802c04d8d0b91df": "2026-11-21",
   "083f57ca27c3c4a6": "2026-11-12",
   "08ad1db8c426db08": "2026-11-12",
   "08b3216981cfa936": "2026-11-12",
@@ -2609,6 +2611,7 @@
   "6f41de314b039e04": "2026-11-12",
   "6f5effd33b96ef9f": "2026-11-18",
   "6f6c88c473cdc929": "2026-11-18",
+  "6f71145f2385223c": "2026-11-21",
   "6f892fad17c8e520": "2026-11-15",
   "6fd3a0dad894404d": "2026-11-18",
   "6ffc836b63c273aa": "2026-11-12",
@@ -3146,6 +3149,7 @@
   "b9a2578f47041d68": "2026-11-13",
   "b9b3788a69a2209e": "2026-11-18",
   "b9bb61c3aba463e4": "2026-11-12",
+  "b9c49b1602811839": "2026-11-21",
   "b9ec0828dbe69430": "2026-11-18",
   "ba2d01f3ce5e3e7a": "2026-11-18",
   "ba5e0bea8a2d7ee8": "2026-11-13",
