@@ -14,8 +14,8 @@
  },
  "feeds": {
   "BleepingComputer": {
-   "etag": "94f7428c7195f06b711305f5c9bdfec8",
-   "last_modified": "Sun, 22 Nov 2026 11:30:18 GMT"
+   "etag": "9cb7fb56dcb88a87387a865f28729ace",
+   "last_modified": "Sun, 22 Nov 2026 19:35:40 GMT"
   },
   "CERT-EU": {},
   "CISA Advisories": {},
@@ -33,22 +33,22 @@
   },
   "Google Threat Intelligence": {},
   "Krebs on Security": {
-   "last_modified": "Sun, 22 Nov 2026 03:12:34 GMT"
+   "last_modified": "Sun, 22 Nov 2026 19:35:57 GMT"
   },
   "Microsoft MSRC": {
    "etag": "\"0x8DF46DCB13FB106\"",
    "last_modified": "Fri, 20 Nov 2026 08:02:59 GMT"
   },
   "SANS Internet Storm Center": {
-   "etag": "W/\"20f4-660d4de2ad4e7\"",
-   "last_modified": "Sun, 22 Nov 2026 03:13:56 GMT"
+   "etag": "W/\"210e-660e2a0c0c468\"",
+   "last_modified": "Sun, 22 Nov 2026 19:38:56 GMT"
   },
   "SecurityWeek": {
    "etag": "\"c0e927079f0a3681615d3a40097e2a5a\"",
    "last_modified": "Sun, 22 Nov 2026 01:15:31 GMT"
   },
   "The Hacker News": {
-   "last_modified": "Sun, 22 Nov 2026 11:23:04 GMT"
+   "last_modified": "Sun, 22 Nov 2026 19:12:00 GMT"
   },
   "The Record": {},
   "UK NCSC": {
@@ -1956,6 +1956,7 @@
   "10035970c4564989": "2026-11-18",
   "109498d563ead8a7": "2026-11-13",
   "109a821ff931e64a": "2026-11-13",
+  "109d8f17134ed068": "2026-11-22",
   "10c2e73ae6038dfb": "2026-11-15",
   "112f84532069c9f3": "2026-11-13",
   "117a12bea6b5ce50": "2026-11-13",
@@ -2549,6 +2550,7 @@
   "625356621cc531d7": "2026-11-12",
   "6299a8baf4410d8f": "2026-11-12",
   "62ac1bed2ca36549": "2026-11-12",
+  "62eb6478a571f4b8": "2026-11-22",
   "62fe27b4e227d185": "2026-11-12",
   "63272df4629a16a2": "2026-11-20",
   "633335629a131513": "2026-11-15",
@@ -2710,6 +2712,7 @@
   "79ada8ea619bba02": "2026-11-20",
   "79b7d8e7d728f686": "2026-11-22",
   "79eecccd6c729efc": "2026-11-12",
+  "7a22ea75dc16e0c8": "2026-11-22",
   "7a3bb4d58f12de9b": "2026-11-13",
   "7a3ced43671d7138": "2026-11-17",
   "7a46b3beaee89dd4": "2026-11-17",
@@ -2755,6 +2758,7 @@
   "80ab6bf77771f78e": "2026-11-20",
   "80b303c8c7273ff5": "2026-11-16",
   "80bb90a1e4094ab5": "2026-11-12",
+  "80e47a7caeb58612": "2026-11-22",
   "810629d6002b0cb3": "2026-11-12",
   "8114f3a6b9c8ac7b": "2026-11-18",
   "812020898dfddc63": "2026-11-19",
