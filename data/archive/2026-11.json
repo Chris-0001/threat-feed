@@ -2,6 +2,30 @@
  {
   "category": "news",
   "cves": [],
+  "id": "c53e9ca235861743",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+  "published": "2026-11-22T05:06:55Z",
+  "source": "The Hacker News",
+  "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week.",
+  "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "63bad1fbdaafd187",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+  "published": "2026-11-22T05:03:41Z",
+  "source": "The Hacker News",
+  "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it.",
+  "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "79b7d8e7d728f686",
   "kev": false,
   "link": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
