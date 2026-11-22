@@ -2,6 +2,18 @@
  {
   "category": "news",
   "cves": [],
+  "id": "79b7d8e7d728f686",
+  "kev": false,
+  "link": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
+  "published": "2026-11-22T00:53:02Z",
+  "source": "SecurityWeek",
+  "summary": "The FBI is investigating an apparent hack of a national law enforcement database that it maintains. The post FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says appeared first on SecurityWeek .",
+  "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "f2b22cdca8165b8d",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
@@ -60,6 +72,18 @@
   "summary": "Serial number: AV26-1188 Date: November 21, 2026 As of November 19, 2026, Apache is affected by a vulnerability in the following product: Apache Tomcat Prior to or equal to 10.1.62 Prior or equal to 9.0.124 Prior to or equal to 11.0.29 The Cyber…",
   "title": "Apache security advisory (AV26-1188)",
   "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2979815a47b01e8e",
+  "kev": false,
+  "link": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
+  "published": "2026-11-21T13:00:00Z",
+  "source": "SecurityWeek",
+  "summary": "White House says the battle-tested cyber leader will drive an America First cyber strategy. The post President Trump Taps Kirsten Davies as National Cyber Director appeared first on SecurityWeek .",
+  "title": "President Trump Taps Kirsten Davies as National Cyber Director",
+  "trust": "media"
  },
  {
   "category": "news",
