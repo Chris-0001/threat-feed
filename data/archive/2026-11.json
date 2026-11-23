@@ -2,6 +2,42 @@
  {
   "category": "news",
   "cves": [],
+  "id": "e3a3eaa915bb4e43",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+  "published": "2026-11-23T08:24:15Z",
+  "source": "The Hacker News",
+  "summary": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country.",
+  "title": "AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "59c1038838599637",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+  "published": "2026-11-23T07:44:19Z",
+  "source": "BleepingComputer",
+  "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
+  "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+  "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "5b90628b398b4891",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33548",
+  "published": "2026-11-23T02:00:04Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "",
+  "title": "ISC Stormcast For Monday, November 23rd, 2026 https://isc.sans.edu/podcastdetail/10190, (Mon, Nov 23rd)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "62eb6478a571f4b8",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
