@@ -2,6 +2,519 @@
  {
   "category": "news",
   "cves": [],
+  "id": "3addfd596e6593d1",
+  "kev": false,
+  "link": "https://therecord.media/austrian-foreign-ministry-says-website-hacked",
+  "published": "2026-11-23T21:26:07Z",
+  "source": "The Record",
+  "summary": "Austria's Foreign Ministry said late last week that hackers breached one of its websites and accessed the names and official contact information of employees at its Vienna headquarters and at Austria’s diplomatic missions abroad.",
+  "title": "Hackers breach Austrian Foreign Ministry website, access diplomats' contact details",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "746b923f234ecb4a",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+  "published": "2026-11-23T20:54:51Z",
+  "source": "BleepingComputer",
+  "summary": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]",
+  "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "19ec416ca6b3ff00",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
+  "published": "2026-11-23T20:00:20Z",
+  "source": "BleepingComputer",
+  "summary": "OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exposed sensitive data. [...]",
+  "title": "OpenRouter drops AI providers over leaked prompts and secrets",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "7675d47e70a8b429",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+  "published": "2026-11-23T19:42:20Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against energy companies. [...]",
+  "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f1c8eba860221cf3",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
+  "published": "2026-11-23T18:38:40Z",
+  "source": "BleepingComputer",
+  "summary": "LaLiga, Spain's top men's football league, disclosed a data breach that exposed personal information belonging to users of its services and those of some affiliated clubs. [...]",
+  "title": "Spanish LaLiga confirms hackers stole soccer fans’ personal data",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "84b7fd6f31ee40b2",
+  "kev": false,
+  "link": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
+  "published": "2026-11-23T18:37:00Z",
+  "source": "The Record",
+  "summary": "Google’s Gemini Intelligence and Apple's Siri AI \"are changing this environment in a way that’s making it increasingly hostile to privacy,\" Signal said.",
+  "title": "Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "0a4fa3978fa118cf",
+  "kev": false,
+  "link": "https://therecord.media/fbi-cyberattack-data-breach",
+  "published": "2026-11-23T18:30:00Z",
+  "source": "The Record",
+  "summary": "The FBI is reportedly investigating a data breach involving the National Crime Information Center, a database used by U.S. law enforcement agencies that contains information on criminals, fugitives and missing people.",
+  "title": "FBI reportedly facing second data breach involving National Crime Information Center",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "1fda444b0b925430",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/misp-security-advisory-av26-1197",
+  "published": "2026-11-23T18:14:44Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1197 Date: November 23, 2026 As of November 23, 2026, MISP is affected by vulnerabilities in the following product: MISP Prior to v2.5.53 The Cyber Centre encourages users and administrators to review the provided web links and…",
+  "title": "MISP security advisory (AV26-1197)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "e588adeeea02a61e",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+  "published": "2026-11-23T17:45:15Z",
+  "source": "The Hacker News",
+  "summary": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as network-monitoring software to…",
+  "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-59843",
+   "CVE-2026-59846",
+   "CVE-2026-59847",
+   "CVE-2026-59848",
+   "CVE-2026-59850"
+  ],
+  "id": "2041f6dbbda6fa30",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9187-1",
+  "published": "2026-11-23T17:32:05Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Haruto Kimura, Rinku Das, and Yi Lin discovered that libssh did not correctly handle SSH channel open messages advertising a zero maximum packet size.",
+  "title": "USN-9187-1: libssh vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "4635de53574d3685",
+  "kev": false,
+  "link": "https://therecord.media/crowdstrike-zscaler",
+  "published": "2026-11-23T17:14:00Z",
+  "source": "The Record",
+  "summary": "“We see a path to become the largest AI safety and security company the world has ever seen,” CrowdStrike CEO George Kurtz said.",
+  "title": "CrowdStrike to purchase Zscaler for $43.9 billion",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "63505e4ca0eea637",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
+  "published": "2026-11-23T16:50:01Z",
+  "source": "BleepingComputer",
+  "summary": "A cyberattack disrupted operations at B2B top-up solutions provider GlobeTopper, causing an estimated $2.5 million in lost revenue, while the attacker redeemed digital gift cards worth $70,000. [...]",
+  "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "7a56ff8fc61f3d4a",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/splunk-security-advisory-av26-1196",
+  "published": "2026-11-23T15:52:16Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1196 Date: November 23, 2026 As of November 19, 2026, Splunk is affected by vulnerabilities in the following products: Splunk Enterprise Prior to 10.6.1 Prior to 10.4.5 Prior to 10.2.9 Prior to 10.0.12 Prior to 9.4.17 Splunk…",
+  "title": "Splunk security advisory (AV26-1196)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "1ebaecdab5d2ddd0",
+  "kev": false,
+  "link": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
+  "published": "2026-11-23T15:47:40Z",
+  "source": "SecurityWeek",
+  "summary": "Microsoft closed an Azure API Management flaw exploited to target secrets at Norwegian energy companies, with other sectors also affected. The post Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms appeared first on SecurityWeek .",
+  "title": "Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ab6d432c1a8dc477",
+  "kev": false,
+  "link": "https://therecord.media/norway-microsoft-cyberattack-equinor",
+  "published": "2026-11-23T15:45:00Z",
+  "source": "The Record",
+  "summary": "Norwegian energy companies Equinor and Skagerak Energi were affected by a Microsoft cloud security vulnerability that hackers have exploited to target sensitive credentials, Norway's cybersecurity authorities said.",
+  "title": "Norway says hackers exploited Microsoft security flaw to attack energy firms Equinor, Skagerak Energi",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "f702700309780b86",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/spring-security-advisory-av26-1195",
+  "published": "2026-11-23T15:41:08Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1195 Date: November 23, 2026 As of November 23, 2026, Spring is affected by vulnerabilities in the following product: Spring AI Prior to 1.0.11 Prior to 1.1.10 Prior to 2.0.2.1 Prior to 2.0.3 The Cyber Centre encourages users and…",
+  "title": "Spring security advisory (AV26-1195)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-86312"
+  ],
+  "id": "2e5245eb696b611f",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/apache-security-advisory-av26-1194",
+  "published": "2026-11-23T15:34:03Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1194 Date: November 23, 2026 As of November 23, 2026, Apache Software Foundation is affected by vulnerabilities in the following product: Apache Solr Prior to 10.1.0 Prior to 9.11.0 The Cyber Centre encourages users and…",
+  "title": "Apache security advisory (AV26-1194)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "cbce5cabbf3b2185",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/synology-security-advisory-av26-1193",
+  "published": "2026-11-23T15:23:24Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1193 Date: November 23, 2026 As of November 23, 2026, Synology is affected by a vulnerability in the following product: DiskStation Manager (DSM) Prior to 7.1.1-42962-10 Prior to 7.2.1-69057-14 Prior to 7.2.2-72806-11 Prior to…",
+  "title": "Synology security advisory (AV26-1193)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "a146b11897f11e0e",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/jetbrains-security-advisory-av26-1192",
+  "published": "2026-11-23T15:11:22Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1192 Date: November 23, 2026 As of November 19, 2026, JetBrains is affected by vulnerabilities in the following products: Junie Prior to 252.819.35 Prior to 253.819.35 Prior to 252.284.50 Prior to 251.284.50 Prior to 243.284.50…",
+  "title": "JetBrains security advisory (AV26-1192)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "0dcc45639fb3388f",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+  "published": "2026-11-23T15:10:48Z",
+  "source": "The Hacker News",
+  "summary": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door. Sometimes they just use one that's already open.",
+  "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "8d658c0b334b2dfd",
+  "kev": false,
+  "link": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
+  "published": "2026-11-23T15:06:49Z",
+  "source": "SecurityWeek",
+  "summary": "The company has restored access to the affected services and continues to monitor the affected environments. The post N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack appeared first on SecurityWeek .",
+  "title": "N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2900f6091bc01a14",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
+  "published": "2026-11-23T15:00:10Z",
+  "source": "BleepingComputer",
+  "summary": "AI agents operate across multiple platforms, creating security gaps when no single vendor can see or control their actions. Token Security examines the shared responsibility problem and explains how organizations can better manage agent identities…",
+  "title": "AI Agents Are Creating a Shared Responsibility Gap",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-134624"
+  ],
+  "id": "14ad259f9c7caa21",
+  "kev": true,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/n-able-security-advisory-av26-1191",
+  "published": "2026-11-23T14:51:33Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1191 Date: November 23, 2026 As of November 22, 2026, N-able is affected by a vulnerability in the following product: MailAssure Prior to 20261121.1943 The Cyber Centre encourages users and administrators to review the provided…",
+  "title": "N-able security advisory (AV26-1191) - Update 1",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "3a0157f99c66f86f",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/red-hat-security-advisory-av26-1190",
+  "published": "2026-11-23T14:40:09Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1190 Date: November 23, 2026 As of November 23, 2026, Red Hat is affected by vulnerabilities in the following products: Red Hat Enterprise Linux 10 All versions Red Hat Enterprise Linux 9 All versions Red Hat Enterprise Linux 8…",
+  "title": "Red Hat security advisory (AV26-1190)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "6d491313dbe74c84",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9186-1",
+  "published": "2026-11-23T13:59:37Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Multiple security issues were discovered in Tomcat. Tomcat 10 has been updated to 10.1.61 in Ubuntu 24.04 LTS, Ubuntu 26.04 LTS and Ubuntu 26.10. Tomcat 11 has been updated to 11.0.27 in Ubuntu 26.04 LTS and Ubuntu 26.10.",
+  "title": "USN-9186-1: Tomcat vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "750b50aa147e0b6f",
+  "kev": false,
+  "link": "https://www.securityweek.com/phpaftershell-vulnerability-revives-php2shells-attack-path/",
+  "published": "2026-11-23T13:58:07Z",
+  "source": "SecurityWeek",
+  "summary": "If a session overwrite operation is interrupted, an attacker who controls the fresh data could trigger data deserialization and RCE. The post phpAfterShell Vulnerability Revives PHP2Shell’s Attack Path appeared first on SecurityWeek .",
+  "title": "phpAfterShell Vulnerability Revives PHP2Shell’s Attack Path",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "a20b33254d005f02",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/ibm-security-advisory-av26-1189",
+  "published": "2026-11-23T13:38:52Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1189 Date: November 23, 2026 As of November 19, 2026, IBM is affected by vulnerabilities in the following products: Engineering AI Hub Prior to or equal to 1.0.0 Prior to or equal to 1.1.0 Prior to or equal to 1.2.0 Prior to or…",
+  "title": "IBM security advisory (AV26-1189)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ef46a292ebff3515",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
+  "published": "2026-11-23T13:28:45Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft is working to fix a long-standing Windows issue that has been causing significant audio quality drops for Bluetooth headphone users. [...]",
+  "title": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "b3638e9011ac5743",
+  "kev": false,
+  "link": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
+  "published": "2026-11-23T13:26:22Z",
+  "source": "SecurityWeek",
+  "summary": "Attackers abused a flaw in the GoodCloud remote management service to push malware to devices, and cleaning them requires new firmware. The post GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw appeared first on SecurityWeek .",
+  "title": "GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-134814"
+  ],
+  "id": "e517ad86d56ee750",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+  "published": "2026-11-23T13:22:20Z",
+  "source": "The Hacker News",
+  "summary": "A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code.",
+  "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-84869"
+  ],
+  "id": "51b1b18e080b3376",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+  "published": "2026-11-23T12:41:04Z",
+  "source": "The Hacker News",
+  "summary": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers.",
+  "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-134624"
+  ],
+  "id": "38eca61121a8fb7d",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+  "published": "2026-11-23T12:28:09Z",
+  "source": "The Hacker News",
+  "summary": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers.",
+  "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "cb845ec1d1ca8ec9",
+  "kev": false,
+  "link": "https://www.securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos/",
+  "published": "2026-11-23T12:16:20Z",
+  "source": "SecurityWeek",
+  "summary": "Dragos uncovered undetected intrusions at three AI inference providers using nearly two million prompts sent to AI services. The post AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos appeared first on SecurityWeek .",
+  "title": "AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f5655fdd655a15cd",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
+  "published": "2026-11-23T12:02:23Z",
+  "source": "BleepingComputer",
+  "summary": "A Peruvian call center operator was sentenced to eight years in prison for helping steal millions of dollars from over 30,000 Spanish-speaking US residents in a years-long government-impersonation fraud scheme. [...]",
+  "title": "Call center operator gets 8 years for helping scam 30,000 Americans",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-133968",
+   "CVE-2026-134624"
+  ],
+  "id": "38380c47d3921ff2",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+  "published": "2026-11-23T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3015693ad5c2ac1c",
+  "kev": false,
+  "link": "https://www.securityweek.com/badbox-3-0-ad-fraud-operation-generating-40-billion-daily-bid-requests-disrupted/",
+  "published": "2026-11-23T11:44:18Z",
+  "source": "SecurityWeek",
+  "summary": "Backdoors on low-cost consumer devices served modules for ad fraud and for turning devices into residential proxies. The post BadBox 3.0 Ad Fraud Operation Generating 40 Billion Daily Bid Requests Disrupted appeared first on SecurityWeek .",
+  "title": "BadBox 3.0 Ad Fraud Operation Generating 40 Billion Daily Bid Requests Disrupted",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "691730e1cadd4df0",
+  "kev": false,
+  "link": "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/",
+  "published": "2026-11-23T11:35:15Z",
+  "source": "SecurityWeek",
+  "summary": "Threat actors could exploit them to leak or modify server information and to execute commands as root. The post SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks appeared first on SecurityWeek .",
+  "title": "SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "235e4427c0b3465d",
+  "kev": false,
+  "link": "https://www.securityweek.com/crowdstrike-to-acquire-zscaler-in-43-9-billion-deal/",
+  "published": "2026-11-23T11:31:44Z",
+  "source": "SecurityWeek",
+  "summary": "CrowdStrike expects the combined company to have more than $10 billion in annual recurring revenue. The post CrowdStrike to Acquire Zscaler in $43.9 Billion Deal appeared first on SecurityWeek .",
+  "title": "CrowdStrike to Acquire Zscaler in $43.9 Billion Deal",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-131914"
+  ],
+  "id": "6e3d38c2e5beb1a9",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+  "published": "2026-11-23T09:11:56Z",
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild.",
+  "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "e4f8bb79b1a7936d",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
+  "published": "2026-11-23T09:11:15Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft confirmed printing issues on systems running Forcepoint DLP software after installing the KB5132043 November 2026 Windows 11 hotpatch. [...]",
+  "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "d5075d4538ee5fea",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+  "published": "2026-11-23T09:04:08Z",
+  "source": "The Hacker News",
+  "summary": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today.",
+  "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "e3a3eaa915bb4e43",
   "kev": false,
   "link": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
@@ -10,6 +523,18 @@
   "summary": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country.",
   "title": "AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
   "trust": "media"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "f1b9e1d8591a3178",
+  "kev": false,
+  "link": "https://projectzero.google/2026/11/virtualbox-process-hardening.html",
+  "published": "2026-11-23T08:00:00Z",
+  "source": "Google Project Zero",
+  "summary": "Back in 2017 I did some research into Oracle VirtualBox on Windows. Specifically I focussed on their mechanism to protect their VM processes from the user on the host.",
+  "title": "VirtualBox Process Hardening on Windows 2026 Edition: What’s a Single Bit Between Friends?",
+  "trust": "vendor"
  },
  {
   "category": "news",
@@ -34,6 +559,34 @@
   "summary": "",
   "title": "ISC Stormcast For Monday, November 23rd, 2026 https://isc.sans.edu/podcastdetail/10190, (Mon, Nov 23rd)",
   "trust": "vendor"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-134624"
+  ],
+  "id": "b78799526a92fafa",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624",
+  "published": "2026-11-23T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable…",
+  "title": "CVE-2026-134624: N-able MailAssure (N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-133968"
+  ],
+  "id": "95f14577b58a26b1",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968",
+  "published": "2026-11-23T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
+  "title": "CVE-2026-133968: Project MONAI MONAI Label (Project MONAI MONAI Label Path Traversal Vulnerability)",
+  "trust": "official"
  },
  {
   "category": "news",
@@ -627,6 +1180,18 @@
   "source": "Ubuntu Security Notices",
   "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - IPv4 networking; - Ethernet bridge; - Netfilter; - SCTP protocol; -…",
   "title": "USN-9170-3: Linux kernel (Oracle) vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "c967d38c5e157474",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9176-2",
+  "published": "2026-11-20T15:22:29Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "USN-9176-1 fixed vulnerabilities in Ruby. This update provides the corresponding updates for Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, and Ubuntu 20.04 LTS.",
+  "title": "USN-9176-2: Ruby vulnerabilities",
   "trust": "official"
  },
  {
