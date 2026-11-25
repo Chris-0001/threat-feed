@@ -2,6 +2,425 @@
  {
   "category": "news",
   "cves": [],
+  "id": "ece0b227d5cc404e",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+  "published": "2026-11-25T22:05:09Z",
+  "source": "BleepingComputer",
+  "summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
+  "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f80abfcf1c95ffaa",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+  "published": "2026-11-25T21:33:33Z",
+  "source": "BleepingComputer",
+  "summary": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
+  "title": "1Password customer data stolen after employee GitHub account breach",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "32d403ac415d9dd9",
+  "kev": false,
+  "link": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+  "published": "2026-11-25T21:18:00Z",
+  "source": "The Record",
+  "summary": "An AI tool implicated in several high-profile breaches is rapidly being integrated into the hacking suites of groups from China and North Korea, Microsoft said.",
+  "title": "Microsoft: China’s Salt Typhoon hackers are using Artex",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "8520c26c5d3493f9",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9198-1",
+  "published": "2026-11-25T21:14:58Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that HTTP::Tiny incorrectly forwarded credential headers supplied by the caller, such as Authorization, Cookie and Proxy-Authorization, when following cross-origin redirects, including redirects from HTTPS to HTTP.",
+  "title": "USN-9198-1: HTTP::Tiny vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "0c168c0355ce5cf6",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/gitlab-security-advisory-av26-1210",
+  "published": "2026-11-25T21:06:40Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1210 Date: November 25, 2026 As of November 25, 2026, GitLab is affected by vulnerabilities in the following product: GitLab Community Edition (CE) and Enterprise Edition (EE) Prior to 19.6.2 Prior to 19.5.9 Prior to 19.4.11…",
+  "title": "GitLab security advisory (AV26-1210)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "df3f5e22898a905e",
+  "kev": false,
+  "link": "https://therecord.media/fifa-data-breach-limited",
+  "published": "2026-11-25T20:40:00Z",
+  "source": "The Record",
+  "summary": "The Switzerland-based international governing body for soccer says it's working with relevant authorities and law enforcement to investigate a recent breach.",
+  "title": "FIFA says hackers accessed ‘limited set of personal and business information’",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-107364",
+   "CVE-2026-107708",
+   "CVE-2026-107778",
+   "CVE-2026-107884",
+   "CVE-2026-111423",
+   "CVE-2026-112314",
+   "CVE-2026-112315",
+   "CVE-2026-112316",
+   "CVE-2026-112317",
+   "CVE-2026-112318"
+  ],
+  "id": "6593b20404f7d051",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9202-1",
+  "published": "2026-11-25T20:37:30Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that the Kerberos KDC incorrectly handled certain ASN.1 encodings in requests. A remote attacker could possibly use this issue to cause the KDC to crash, resulting in a denial of service.",
+  "title": "USN-9202-1: Kerberos vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f914a267ff61d930",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+  "published": "2026-11-25T19:39:31Z",
+  "source": "BleepingComputer",
+  "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
+  "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136716"
+  ],
+  "id": "698d052d73514d1f",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/drupal-security-advisory-av26-1209",
+  "published": "2026-11-25T19:21:44Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1209 Date: November 25, 2026 As of November 25, 2026, Drupal is affected by a vulnerability in the following product: Drupal core Prior to 10.6.23 Prior to 11.3.23 Prior to 11.4.14 Drupal indicates that CVE-2026-136716 is…",
+  "title": "Drupal security advisory (AV26-1209)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "5a893b7eb35e0837",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/control-systems-hitachi-security-advisory-av26-1208",
+  "published": "2026-11-25T19:11:51Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1208 Date: November 25, 2026 As of November 24, 2026, Hitachi Energy is affected by a vulnerability in the following product: RTU500 series CMU firmware Prior to or equal to 13.9.1 Prior to or equal to 12.7.8 Prior to or equal to…",
+  "title": "[Control systems] Hitachi security advisory (AV26-1208)",
+  "trust": "official"
+ },
+ {
+  "category": "research",
+  "cves": [],
+  "id": "7227466b18ff00cd",
+  "kev": false,
+  "link": "https://blog.talosintelligence.com/oh-is-it-thanksgiving-i-hadnt-noticed/",
+  "published": "2026-11-25T19:00:00Z",
+  "source": "Cisco Talos",
+  "summary": "In true Thanksgiving fashion, David has a few thank-yous to give to the cybersecurity community (and a few choice words for threat actors).",
+  "title": "Oh, is it Thanksgiving? I hadn’t noticed!",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2025-1352",
+   "CVE-2025-1376"
+  ],
+  "id": "c4b77264c552378c",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9200-1",
+  "published": "2026-11-25T18:52:08Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that elfutils incorrectly handled memory when processing certain malformed DWARF data. If a user or automated system were tricked into running readelf on a specially crafted file, an attacker could possibly use this issue to cause…",
+  "title": "USN-9200-1: elfutils vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "197985ac837f701c",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9199-1",
+  "published": "2026-11-25T17:32:51Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Adrian Dombeck discovered that authd incorrectly assigned user and group identifiers during first-time SSH logins. A remote authenticated user could possibly use this issue to access or modify files belonging to another user, potentially leading to…",
+  "title": "USN-9199-1: authd vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "be961fbef52da88c",
+  "kev": false,
+  "link": "https://therecord.media/ransomware-doj-indictment-recovery",
+  "published": "2026-11-25T17:30:00Z",
+  "source": "The Record",
+  "summary": "The CEO of a ransomware recovery firm was indicted by a federal grand jury over allegations he lied about his services and paid out ransoms to cybercriminals.",
+  "title": "Florida ransomware recovery CEO indicted for allegedly paying hacker ransoms",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "dc59ba4f1196fb63",
+  "kev": false,
+  "link": "https://therecord.media/australia-passes-online-safety-legislation-preempt-harms",
+  "published": "2026-11-25T17:07:00Z",
+  "source": "The Record",
+  "summary": "The Digital Duty of Care Act sailed through Australia's Parliament. It will mandate that online providers establish protocols to protect users from threats of violence and rape as well as behavior that could cause significant harms.",
+  "title": "Australia passes tough legislation requiring big tech to preempt foreseeable harms",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "a3dc65f1b635fad7",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+  "published": "2026-11-25T16:13:40Z",
+  "source": "BleepingComputer",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems. [...]",
+  "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "2e01bb6af78ef44d",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9197-1",
+  "published": "2026-11-25T15:48:32Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that Speex incorrectly handled oversize input when appending data to a bit buffer not owned by the library. An attacker could possibly use this issue to cause Speex to crash, resulting in a denial of service, or possibly execute…",
+  "title": "USN-9197-1: Speex vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-120705",
+   "CVE-2026-129243"
+  ],
+  "id": "5956c1236296494d",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/geoserver-security-advisory-av26-1207",
+  "published": "2026-11-25T15:29:23Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1207 Date: November 25, 2026 As of November 23 2026, GeoServer is affected by vulnerabilities in the following product: GeoServer – versions prior to 2.27.7 GeoServer – versions prior to 2.28.6 GeoServer – versions prior to 3.0.2…",
+  "title": "GeoServer security advisory (AV26-1207)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ba6af3a097b8b871",
+  "kev": false,
+  "link": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
+  "published": "2026-11-25T15:27:36Z",
+  "source": "SecurityWeek",
+  "summary": "Attackers are probing GeoServer instances for two high-severity flaws that can be chained with other bugs for unauthenticated RCE. The post Two Newly Disclosed GeoServer Vulnerabilities Under Attack appeared first on SecurityWeek .",
+  "title": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-123167",
+   "CVE-2026-28336"
+  ],
+  "id": "63713c9de7415a11",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/solarwinds-security-advisory-av26-1206",
+  "published": "2026-11-25T15:23:14Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1206 Date: November 25, 2026 As of November 24, 2026, SolarWinds is affected by vulnerabilities in the following products: Dameware Prior to or equal to 2026.3 Serv-U Prior to or equal to 2026.3 The Cyber Centre encourages users…",
+  "title": "SolarWinds security advisory (AV26-1206)",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "1654c0b7c173fc8c",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/adobe-security-advisory-av26-1205",
+  "published": "2026-11-25T15:15:11Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1205 Date: November 25, 2026 As of November 24, 2026, Adobe is affected by vulnerabilities in the following products: Adobe Experience Manager (AEM) Cloud Service (CS) Prior to or equal to 2026.11.29643 Adobe Experience Manager…",
+  "title": "Adobe security advisory (AV26-1205)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2aef82a6c6486cd4",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
+  "published": "2026-11-25T15:00:10Z",
+  "source": "BleepingComputer",
+  "summary": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing.",
+  "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "b65bba61d417f043",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+  "published": "2026-11-25T15:00:00Z",
+  "source": "BleepingComputer",
+  "summary": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than code developed by the vendors…",
+  "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "46a7ff7d0a12b87a",
+  "kev": false,
+  "link": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
+  "published": "2026-11-25T14:15:25Z",
+  "source": "SecurityWeek",
+  "summary": "An account tied to ShinyHunters announced the group’s return, as Okta spots possible links between Inception and ShinyHunters hackers. The post ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties appeared first on SecurityWeek .",
+  "title": "ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-102633",
+   "CVE-2026-113351",
+   "CVE-2026-115506",
+   "CVE-2026-117610",
+   "CVE-2026-118370",
+   "CVE-2026-124317",
+   "CVE-2026-128241",
+   "CVE-2026-134703",
+   "CVE-2026-77214",
+   "CVE-2026-93990"
+  ],
+  "id": "1b214e380d1bcfb7",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9196-1",
+  "published": "2026-11-25T13:48:17Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that Expat did not properly validate UTF-16 surrogate pairs. An attacker could possibly use this issue to pass malformed characters to applications using Expat, resulting in unexpected behavior.",
+  "title": "USN-9196-1: Expat vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "c4356b396c95ca5e",
+  "kev": false,
+  "link": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+  "published": "2026-11-25T13:39:21Z",
+  "source": "SecurityWeek",
+  "summary": "FinCEN has extended deadlines for filers affected by the disruptions while it is investigating the incident. The post US Treasury’s FinCEN Disconnects Systems Following Cyber Incident appeared first on SecurityWeek .",
+  "title": "US Treasury’s FinCEN Disconnects Systems Following Cyber Incident",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "81c396aea9248edd",
+  "kev": false,
+  "link": "https://www.securityweek.com/ground-truth-ciso-matt-martin-on-building-a-real-security-program-without-an-enterprise-budget/",
+  "published": "2026-11-25T13:30:00Z",
+  "source": "SecurityWeek",
+  "summary": "Matthew Martin is Chief Information Security and Privacy Officer at Western Carolina University. The post Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget appeared first on SecurityWeek .",
+  "title": "Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "5d98e386c1c96202",
+  "kev": false,
+  "link": "https://therecord.media/guadeloupe-ransomware-hospital-cyber",
+  "published": "2026-11-25T13:30:00Z",
+  "source": "The Record",
+  "summary": "France’s national cybersecurity agency is investigating a suspected ransomware attack that impaired the computer systems of the University Hospital of Guadeloupe, forcing doctors to postpone surgeries, suspend some cancer treatments and revert to…",
+  "title": "Suspected ransomware attack disrupts cancer treatments, surgeries at Guadeloupe hospital",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-120705",
+   "CVE-2026-129243"
+  ],
+  "id": "209040ebdfa7736d",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+  "published": "2026-11-25T12:48:54Z",
+  "source": "The Hacker News",
+  "summary": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An…",
+  "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "7e27c20206016552",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+  "published": "2026-11-25T12:30:08Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday.",
+  "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2023-25914",
+   "CVE-2023-25915",
+   "CVE-2025-41450",
+   "CVE-2026-103406",
+   "CVE-2026-133275",
+   "CVE-2026-133303",
+   "CVE-2026-133311",
+   "CVE-2026-133323",
+   "CVE-2026-133324",
+   "CVE-2026-133469"
+  ],
+  "id": "fe3568427a660e05",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+  "published": "2026-11-25T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added 10 new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "66594594a49ad08d",
   "kev": false,
   "link": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
@@ -208,6 +627,22 @@
   "trust": "media"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2016-7949",
+   "CVE-2016-7950",
+   "CVE-2026-88807"
+  ],
+  "id": "53651a258503df5e",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9194-1",
+  "published": "2026-11-25T02:38:24Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Adam Bedard discovered that libXrender incorrectly handled certain responses from an X server, resulting in a heap buffer overflow.",
+  "title": "USN-9194-1: libxrender vulnerabilities",
+  "trust": "official"
+ },
+ {
   "category": "research",
   "cves": [],
   "id": "c73b494536977406",
@@ -220,6 +655,104 @@
   "trust": "vendor"
  },
  {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-103406"
+  ],
+  "id": "f871e561e6e8f8a4",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406",
+  "published": "2026-11-25T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.",
+  "title": "CVE-2026-103406: Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router (Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router…",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2023-25915"
+  ],
+  "id": "c96fde2be2e34537",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2023-25915",
+  "published": "2026-11-25T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Danfoss AK-SM 800A Series contains an improper input validation vulnerability that could allow a remote attacker to run arbitrary commands on the affected system.",
+  "title": "CVE-2023-25915: Danfoss AK-SM 800A Series (Danfoss AK-SM 800A Series Improper Input Validation Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2025-41450"
+  ],
+  "id": "b1caa2cb0fea6d18",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-41450",
+  "published": "2026-11-25T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Danfoss AK-SM 800A Series contains an improper authentication vulnerability that could allow an attacker to generate a web report exposing sensitive information, including internal IP addresses, usernames, and store names.",
+  "title": "CVE-2025-41450: Danfoss AK-SM 800A Series (Danfoss AK-SM 800A Series Improper Authentication Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-133303"
+  ],
+  "id": "96f58699988194d3",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303",
+  "published": "2026-11-25T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary commands using pre-staged malicious content.",
+  "title": "CVE-2026-133303: Mitel MiCollab (Mitel MiCollab XML Injection Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2023-25914"
+  ],
+  "id": "8206c166203f6326",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2023-25914",
+  "published": "2026-11-25T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Danfoss AK-SM 800A Series contains a path traversal vulnerability that could allow an attacker to access and read underlying server system files via the XML interface.",
+  "title": "CVE-2023-25914: Danfoss AK-SM 800A Series (Danfoss AK-SM 800A Series Path Traversal Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-133311"
+  ],
+  "id": "7151dfca97ca09f6",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133311",
+  "published": "2026-11-25T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Mitel MiCollab contains a weak authentication vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to access sensitive information using a specific system-generated random identifier or…",
+  "title": "CVE-2026-133311: Mitel MiCollab (Mitel MiCollab Weak Authentication Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-133469"
+  ],
+  "id": "5bd841458e988256",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469",
+  "published": "2026-11-25T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Vates Xen Orchestra contains an improper validation of specified type of input vulnerability that could allow an unauthenticated attacker to bypass authentication and perform actions with administrative privileges via a specially crafted…",
+  "title": "CVE-2026-133469: Vates Xen Orchestra (Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability)",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "3e8cfb7f93165800",
@@ -230,6 +763,48 @@
   "summary": "The Treasury Department has taken some systems offline after a cyberattack after a cybersecurity incident which “resulted in unauthorized access to a limited subset of its systems.”",
   "title": "Treasury's FinCEN takes systems offline after cybersecurity incident",
   "trust": "media"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-133275"
+  ],
+  "id": "3988731559b4b2a3",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133275",
+  "published": "2026-11-25T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Mitel MiCollab contains an unrestricted upload of file with dangerous type vulnerability in the Audio, Web and Video Conferencing (AWV) component due to insufficient file type validation that could allow an unauthenticated attacker to upload…",
+  "title": "CVE-2026-133275: Mitel MiCollab (Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-133323"
+  ],
+  "id": "0f84bfdd1752a873",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323",
+  "published": "2026-11-25T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Mitel MiCollab contains an improper neutralization of special elements used in an OS command (OS command injection) vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute…",
+  "title": "CVE-2026-133323: Mitel MiCollab (Mitel MiCollab OS Command Injection Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-133324"
+  ],
+  "id": "0950a12c0619aee7",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133324",
+  "published": "2026-11-25T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Mitel MiCollab contains a not failing securely vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to bypass authentication controls and perform unauthorized actions.",
+  "title": "CVE-2026-133324: Mitel MiCollab (Mitel MiCollab Not Failing Securely Vulnerability)",
+  "trust": "official"
  },
  {
   "category": "news",
@@ -254,6 +829,18 @@
   "summary": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data. [...]",
   "title": "Rackspace shuts down Spot cloud platform after security breach",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "e9844e7b76b3a7a2",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9193-1",
+  "published": "2026-11-24T21:11:52Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Yunho Kim discovered that PCRE incorrectly handled memory when processing certain regular expressions with JIT compilation enabled. An attacker could possibly use this issue to cause applications using PCRE to expose sensitive information.",
+  "title": "USN-9193-1: PCRE vulnerability",
+  "trust": "official"
  },
  {
   "category": "news",
@@ -362,6 +949,24 @@
   "summary": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus.",
   "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-84384",
+   "CVE-2026-84446",
+   "CVE-2026-84447",
+   "CVE-2026-84448",
+   "CVE-2026-84449"
+  ],
+  "id": "abd58b673693a574",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-8846-2",
+  "published": "2026-11-24T16:53:30Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "USN-8846-1 fixed vulnerabilities in libheif. This update provides the corresponding fixes for CVE-2026-84447 on Ubuntu 22.04 LTS and Ubuntu 24.04 LTS.",
+  "title": "USN-8846-2: libheif vulnerabilities",
+  "trust": "official"
  },
  {
   "category": "advisories",
