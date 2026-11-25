@@ -1,5 +1,137 @@
 [
  {
+  "category": "research",
+  "cves": [],
+  "id": "c73b494536977406",
+  "kev": false,
+  "link": "https://isc.sans.edu/diary/rss/33554",
+  "published": "2026-11-25T02:00:03Z",
+  "source": "SANS Internet Storm Center",
+  "summary": "",
+  "title": "ISC Stormcast For Wednesday, November 25th, 2026 https://isc.sans.edu/podcastdetail/10194, (Wed, Nov 25th)",
+  "trust": "vendor"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "01db807d90468e60",
+  "kev": false,
+  "link": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
+  "published": "2026-11-24T22:41:58Z",
+  "source": "SecurityWeek",
+  "summary": "It was not clear what specific information was compromised or who was responsible. The post An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says appeared first on SecurityWeek .",
+  "title": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "28211d5cf668b497",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+  "published": "2026-11-24T21:37:30Z",
+  "source": "BleepingComputer",
+  "summary": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data. [...]",
+  "title": "Rackspace shuts down Spot cloud platform after security breach",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "d65abaf56a480c56",
+  "kev": false,
+  "link": "https://therecord.media/mycolorado-app-down-data-breach",
+  "published": "2026-11-24T20:52:00Z",
+  "source": "The Record",
+  "summary": "Cybercriminals likely stole data from 150,000 users of myColorado, which residents typically use for digital identification, document storage and accessing state government services.",
+  "title": "Colorado says cyberattack took down myColorado app, warns 150,000 had data stolen",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "60752c9a207fbea5",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+  "published": "2026-11-24T20:21:20Z",
+  "source": "BleepingComputer",
+  "summary": "A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. [...]",
+  "title": "New Inception extortion gang launches large-scale vishing campaign",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "0958d4e50f58e488",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/erlang-security-advisory-av26-1204",
+  "published": "2026-11-24T19:59:34Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1204 Date: November 24, 2026 As of November 24, 2026, Erlang is affected by vulnerabilities in the following product: OTP Multiple versions The Cyber Centre encourages users and administrators to review the provided web link and…",
+  "title": "Erlang security advisory (AV26-1204)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "048468ba900c1764",
+  "kev": false,
+  "link": "https://therecord.media/california-privacy-agency-kemp",
+  "published": "2026-11-24T19:30:00Z",
+  "source": "The Record",
+  "summary": "The director of the trailblazing California Privacy Protection Agency announced his departure following implementation of a first-in-the-nation platform allowing consumers to easily opt out of data sharing.",
+  "title": "California privacy agency director Kemp to leave after two-year tenure",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "23053e8f100f90e1",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+  "published": "2026-11-24T18:59:52Z",
+  "source": "BleepingComputer",
+  "summary": "Turnitin disclosed via a statement from its CEO, Chris Caren, that it recently detected unauthorized activity involving certain customer-facing systems. [...]",
+  "title": "Turnitin discloses cyberattack affecting customer-facing systems",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "83fb7235520139af",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/vmware-security-advisory-av26-1203",
+  "published": "2026-11-24T18:43:41Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial number: AV26-1203 Date: November 24, 2026 As of November 24, 2026, VMware is affected by vulnerabilities in the following products: VMware Cloud Foundation / VMware vSphere Foundation - vCenter 9.1.x.x versions prior to 9.1.2 9.0.x.x versions…",
+  "title": "VMware security advisory (AV26-1203)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "f72996d64a5c654f",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+  "published": "2026-11-24T17:49:05Z",
+  "source": "BleepingComputer",
+  "summary": "Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API that was left exposed online. [...]",
+  "title": "Radware discloses breach exposing customer cloud access keys",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "a1532e4fa10ccb09",
+  "kev": false,
+  "link": "https://therecord.media/idscan-data-breach-warning-congressional-letter",
+  "published": "2026-11-24T17:49:00Z",
+  "source": "The Record",
+  "summary": "A bicameral, bipartisan letter from lawmakers said identity verification companies still have significant security work to do in the wake of a data breach at IDscan in September.",
+  "title": "Lawmakers warn ID verification companies to bolster security after September hack",
+  "trust": "media"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "31ed4adb92d57b77",
@@ -370,6 +502,22 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-131914",
+   "CVE-2026-132165",
+   "CVE-2026-132224"
+  ],
+  "id": "2bebcf58878ae14f",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+  "published": "2026-11-24T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-129713"
   ],
   "id": "0ee4894f60b87b47",
@@ -734,6 +882,20 @@
   "trust": "vendor"
  },
  {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-132224"
+  ],
+  "id": "9ce05ec4bb479b78",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224",
+  "published": "2026-11-24T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript.",
+  "title": "CVE-2026-132224: Optimizely Web Experimentation (Optimizely Web Experimentation External Control of Critical State Data Vulnerability)",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "87001ef47f7b9e20",
@@ -744,6 +906,34 @@
   "summary": "Spain’s professional soccer league LaLiga said Monday hackers stole personal information belonging to fans in a cyberattack affecting its digital services and those of several Spanish clubs.",
   "title": "LaLiga hacked: Spain’s top football league confirms theft of fans’ personal data",
   "trust": "media"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-131914"
+  ],
+  "id": "3d57a09e3510fb8a",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914",
+  "published": "2026-11-24T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS).",
+  "title": "CVE-2026-131914: Idunno AntiCsrf (Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability)",
+  "trust": "official"
+ },
+ {
+  "category": "exploited",
+  "cves": [
+   "CVE-2026-132165"
+  ],
+  "id": "0a885cc389327070",
+  "kev": true,
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
+  "published": "2026-11-24T00:00:00Z",
+  "source": "CISA KEV",
+  "summary": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer.",
+  "title": "CVE-2026-132165: Drupal Core (Drupal Core Remote Code Execution Vulnerability)",
+  "trust": "official"
  },
  {
   "category": "advisories",
