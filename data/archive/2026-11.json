@@ -2,6 +2,193 @@
  {
   "category": "news",
   "cves": [],
+  "id": "eb4fc404bccca9c1",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+  "published": "2026-11-26T15:13:41Z",
+  "source": "The Hacker News",
+  "summary": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025.",
+  "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "306e49c57d8b883d",
+  "kev": false,
+  "link": "https://cyber.gc.ca/en/alerts-advisories/postgresql-security-advisory-av26-1211",
+  "published": "2026-11-26T13:09:51Z",
+  "source": "Canadian Cyber Centre",
+  "summary": "Serial Number: AV26-1211 Date: November 26, 2026 As of November 25, 2026, PostgreSQL is affected by vulnerabilities in the following product: psqlODBC Prior to or equal to 18.00.0006 The Cyber Centre encourages users and administrators to review the…",
+  "title": "PostgreSQL security advisory (AV26-1211)",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-103406"
+  ],
+  "id": "74b93f97b82b3bed",
+  "kev": true,
+  "link": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
+  "published": "2026-11-26T13:04:06Z",
+  "source": "SecurityWeek",
+  "summary": "Tracked as CVE-2026-103406, the vulnerability allows remote attackers to execute arbitrary commands as root. The post Critical Juniper Session Smart Conductor Flaw Exploited in Attacks appeared first on SecurityWeek .",
+  "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "d791e152c4957b8d",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+  "published": "2026-11-26T11:50:17Z",
+  "source": "BleepingComputer",
+  "summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]",
+  "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "67fae69d08626bf9",
+  "kev": false,
+  "link": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+  "published": "2026-11-26T11:35:25Z",
+  "source": "SecurityWeek",
+  "summary": "Accenture says hackers exploited MiCollab flaws before Mitel’s advisory, likely aided by AI, in a suspected extortion campaign. The post Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks appeared first on SecurityWeek .",
+  "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "590f52282bfb7e78",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+  "published": "2026-11-26T10:57:55Z",
+  "source": "The Hacker News",
+  "summary": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about.",
+  "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "a9aee5bcf72b2e60",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+  "published": "2026-11-26T10:57:25Z",
+  "source": "The Hacker News",
+  "summary": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets…",
+  "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "613518a5989ae6d6",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9208-1",
+  "published": "2026-11-26T09:37:19Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that the ALSA library incorrectly handled certain crafted topology files and control element identifiers. An attacker could possibly use these issues to cause a denial of service or expose sensitive information.",
+  "title": "USN-9208-1: alsa-lib vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "1ed3b4f101d2e144",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9209-1",
+  "published": "2026-11-26T09:14:33Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that Simple DirectMedia Layer incorrectly handled memory when encountering errors during OpenGL ES streaming texture creation.",
+  "title": "USN-9209-1: Simple DirectMedia Layer vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "2af1daf48570c72e",
+  "kev": false,
+  "link": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
+  "published": "2026-11-26T09:12:26Z",
+  "source": "SecurityWeek",
+  "summary": "Drupal warns that its previous installer patch left some websites vulnerable to takeover, with attackers already exploiting the gap. The post Drupal Installer Patch Left a Gap Attackers Are Already Exploiting appeared first on SecurityWeek .",
+  "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "fde49e073e0cd27d",
+  "kev": false,
+  "link": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
+  "published": "2026-11-26T08:32:10Z",
+  "source": "SecurityWeek",
+  "summary": "A hacker used a compromised employee GitHub account to push malicious code and steal customer records, but vaults were not accessed. The post 1Password Breach Exposes Customer Data, Internal Source Code appeared first on SecurityWeek .",
+  "title": "1Password Breach Exposes Customer Data, Internal Source Code",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "95e9cd293fa7e453",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9207-1",
+  "published": "2026-11-26T08:23:06Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that Apache Commons BCEL incorrectly cached classes under their self-declared names without validating them against the requested name.",
+  "title": "USN-9207-1: Apache Commons BCEL vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-132165",
+   "CVE-2026-136716"
+  ],
+  "id": "6d02a2ecb38d8d36",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+  "published": "2026-11-26T07:02:34Z",
+  "source": "The Hacker News",
+  "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for…",
+  "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-133275"
+  ],
+  "id": "b76344cce9f4296b",
+  "kev": true,
+  "link": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+  "published": "2026-11-26T06:44:46Z",
+  "source": "The Hacker News",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week.",
+  "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "4358d29f84a381de",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9204-1",
+  "published": "2026-11-26T04:26:04Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that dav1d incorrectly handled certain AV1 video streams with extremely large frame sizes. An attacker could possibly use this issue to cause dav1d to crash, resulting in a denial of service, or possibly execute arbitrary code.",
+  "title": "USN-9204-1: dav1d vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "0de3d4fb7d36441d",
   "kev": false,
   "link": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
@@ -9,6 +196,18 @@
   "source": "The Hacker News",
   "summary": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment.",
   "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "d1e00b15dd66adfb",
+  "kev": false,
+  "link": "https://therecord.media/britain-delays-national-cyber-action-plan-again",
+  "published": "2026-11-26T00:00:00Z",
+  "source": "The Record",
+  "summary": "Officials, who had planned to publish the document in mid-November, now aim to unveil the strategy for defending the wider economy against state-backed and criminal hackers on December 9.",
+  "title": "UK’s long-awaited National Cyber Action Plan delayed until December",
   "trust": "media"
  },
  {
