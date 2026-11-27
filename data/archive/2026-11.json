@@ -2,6 +2,115 @@
  {
   "category": "news",
   "cves": [],
+  "id": "13431ec426e7f3e5",
+  "kev": false,
+  "link": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
+  "published": "2026-11-27T09:30:54Z",
+  "source": "SecurityWeek",
+  "summary": "Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data. The post 100,000 Potentially Impacted by Colorado Data Breach appeared first on SecurityWeek .",
+  "title": "100,000 Potentially Impacted by Colorado Data Breach",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "a2c5dddd6cb33585",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+  "published": "2026-11-27T09:08:16Z",
+  "source": "BleepingComputer",
+  "summary": "Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077). [...]",
+  "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [
+   "CVE-2026-99362"
+  ],
+  "id": "4cb2e8e01ba370f3",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+  "published": "2026-11-27T08:06:58Z",
+  "source": "BleepingComputer",
+  "summary": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",
+  "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "bfaf3a8defb24e77",
+  "kev": false,
+  "link": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
+  "published": "2026-11-27T07:44:49Z",
+  "source": "SecurityWeek",
+  "summary": "A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged. The post Hex Package Manager Warns of Potential Data Breach appeared first on SecurityWeek .",
+  "title": "Hex Package Manager Warns of Potential Data Breach",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "237c0e9c28e91f2c",
+  "kev": false,
+  "link": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+  "published": "2026-11-27T07:36:14Z",
+  "source": "SecurityWeek",
+  "summary": "SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code. The post SAP Confirms Cyberattack, Source Code Reportedly Compromised appeared first on SecurityWeek .",
+  "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "3f28f1afe9c6514d",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+  "published": "2026-11-27T06:04:20Z",
+  "source": "The Hacker News",
+  "summary": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday.",
+  "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "5a17e35a94620649",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+  "published": "2026-11-27T05:48:20Z",
+  "source": "The Hacker News",
+  "summary": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution.",
+  "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-46729",
+   "CVE-2026-47360",
+   "CVE-2026-48005",
+   "CVE-2026-56153",
+   "CVE-2026-56154",
+   "CVE-2026-56449",
+   "CVE-2026-57941",
+   "CVE-2026-58415",
+   "CVE-2026-59797",
+   "CVE-2026-63045"
+  ],
+  "id": "a1e0a1bdee196b03",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9016-2",
+  "published": "2026-11-26T22:34:55Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "USN-9016-1 fixed vulnerabilities in Apache2. Unfortunately the upstream fix introduced a regression that prevented cookies being set during a redirect under certain circumstances. This update fixes the problem.",
+  "title": "USN-9016-2: Apache HTTP Server regression",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "cf82b38aa5155883",
   "kev": false,
   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
@@ -2107,6 +2216,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-136432"
+  ],
+  "id": "f858fd87d2aeff34",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1054/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of PyTorch. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation.",
+  "title": "ZDI-26-1054: (0Day) PyTorch Foundation PyTorch FileSystemReader Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-131817"
   ],
   "id": "f7536c754c4a9025",
@@ -2172,6 +2295,20 @@
   "source": "Zero Day Initiative",
   "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
   "title": "ZDI-26-1071: llama.cpp GGUF File Parsing Integer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136428"
+  ],
+  "id": "ec6bea17c19c3af0",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1055/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of PyTorch Foundation PyTorch. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-1055: (0Day) PyTorch Foundation PyTorch load_compiled_function Deserialization of Untrusted Data Remote Code Execution Vulnerability",
   "trust": "vendor"
  },
  {
@@ -2245,6 +2382,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-136534"
+  ],
+  "id": "e3b8950f746884d0",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1045/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Devin Desktop. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
+  "title": "ZDI-26-1045: (0Day) Devin Desktop Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-102448"
   ],
   "id": "e2cf2ee9ba81d806",
@@ -2273,6 +2424,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-136614"
+  ],
+  "id": "df0e58238e31e963",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1043/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of GNU Inetutils. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 5.9.",
+  "title": "ZDI-26-1043: (0Day) GNU Inetutils talkd Stack-based Buffer Overflow Denial-of-Service Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2025-60037"
   ],
   "id": "dce26f7b52a0a349",
@@ -2282,6 +2447,20 @@
   "source": "Zero Day Initiative",
   "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Bosch Rexroth IndraWorks. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
   "title": "ZDI-26-1088: Bosch Rexroth IndraWorks XIWP File Parsing Deserialization Of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136425"
+  ],
+  "id": "dcbfc1ba3abb70b1",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1051/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Soda PDF Desktop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1051: (0Day) Soda PDF Desktop App Object Use-After-Free Remote Code Execution Vulnerability",
   "trust": "vendor"
  },
  {
@@ -2370,6 +2549,18 @@
  },
  {
   "category": "advisories",
+  "cves": [],
+  "id": "ccc303b0f4333685",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1046/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Texas Instruments Smart Amplifier Driver for Speakers.",
+  "title": "ZDI-26-1046: (0Day) Texas Instruments Smart Amplifier Driver for Speakers Stack-based Buffer Overflow Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
   "cves": [
    "CVE-2026-47591"
   ],
@@ -2422,6 +2613,34 @@
   "source": "Zero Day Initiative",
   "summary": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of ChargePoint Home Flex EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.3.",
   "title": "ZDI-26-1112: (Pwn2Own) ChargePoint Home Flex ssh Hard-coded Credentials Authentication Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136421"
+  ],
+  "id": "c2eecf0647ed84ae",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1047/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of rocket.chat. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.4.",
+  "title": "ZDI-26-1047: (0Day) rocket.chat Server-Side Request Forgery Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136424"
+  ],
+  "id": "c0bb725d8255d1ae",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1050/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Soda PDF Desktop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1050: (0Day) Soda PDF Desktop PDF File Parsing Memory Corruption Remote Code Execution Vulnerability",
   "trust": "vendor"
  },
  {
@@ -2492,6 +2711,34 @@
   "source": "Zero Day Initiative",
   "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
   "title": "ZDI-26-1145: Autodesk AutoCAD DWF File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136431"
+  ],
+  "id": "b5d348eb8aea3327",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1058/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of PyTorch Foundation PyTorch. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a…",
+  "title": "ZDI-26-1058: (0Day) PyTorch Foundation PyTorch load_state_dict_from_url Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136613"
+  ],
+  "id": "b454f49a099d65b9",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1044/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GNU Inetutils FTP Client. User interaction is required to exploit this vulnerability in that the target must interact with a malicious FTP server.",
+  "title": "ZDI-26-1044: (0Day) GNU Inetutils FTP Client File Retrieval Command Injection Remote Code Execution Vulnerability",
   "trust": "vendor"
  },
  {
@@ -2590,6 +2837,34 @@
   "source": "Zero Day Initiative",
   "summary": "This vulnerability allows remote attackers to create arbitrary files on affected installations of LM Studio. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.1.",
   "title": "ZDI-26-1120: (Pwn2Own) LM Studio Plugin Sandbox Directory Traversal Arbitrary File Creation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136422"
+  ],
+  "id": "a04a29ab2154a48c",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1048/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Soda PDF Desktop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1048: (0Day) Soda PDF Desktop PDF File Parsing Memory Corruption Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136429"
+  ],
+  "id": "a0130d4fd34613a2",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1056/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of PyTorch Foundation PyTorch. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-1056: (0Day) PyTorch Foundation PyTorch PT2 File Parsing Exposed Dangerous Method Remote Code Execution Vulnerability",
   "trust": "vendor"
  },
  {
@@ -2772,6 +3047,20 @@
   "source": "Zero Day Initiative",
   "summary": "This vulnerability allows remote attackers to bypass authentication on affected installations of ASUS Control Center Express. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 10.0.",
   "title": "ZDI-26-1155: ASUS Control Center Express Use of Hard-coded Cryptographic Key Authentication Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136430"
+  ],
+  "id": "74c2fc3bb65259e2",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1057/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of PyTorch Foundation PyTorch. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a…",
+  "title": "ZDI-26-1057: (0Day) PyTorch Foundation PyTorch AOTIModelPackageLoader Directory Traversal Remote Code Execution Vulnerability",
   "trust": "vendor"
  },
  {
@@ -3015,6 +3304,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-136433"
+  ],
+  "id": "557e58acab3d4f33",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1059/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of PyTorch Foundation PyTorch. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a…",
+  "title": "ZDI-26-1059: (0Day) PyTorch Foundation PyTorch torch_save_to_dcp Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-121755"
   ],
   "id": "53adfe94a3ab4b34",
@@ -3085,6 +3388,20 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-136423"
+  ],
+  "id": "4a8c2d39e5101b97",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1049/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Soda PDF Desktop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1049: (0Day) Soda PDF Desktop PDF File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-61580"
   ],
   "id": "4a74b80912de7ac3",
@@ -3122,6 +3439,20 @@
   "source": "Zero Day Initiative",
   "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA Megatron Bridge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
   "title": "ZDI-26-1106: (Pwn2Own) NVIDIA Megatron Bridge _validate_target_prefix Permissive List of Allowed Inputs Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136427"
+  ],
+  "id": "46ea30a4ce689c52",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1053/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of PyTorch. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation.",
+  "title": "ZDI-26-1053: (0Day) PyTorch Foundation PyTorch AOTIModelPackageLoader Command Injection Remote Code Execution Vulnerability",
   "trust": "vendor"
  },
  {
@@ -3206,6 +3537,20 @@
   "source": "Zero Day Initiative",
   "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of ChargePoint Home Flex EV chargers.",
   "title": "ZDI-26-1111: (Pwn2Own) ChargePoint Home Flex uploadsm filetype Link Following Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136426"
+  ],
+  "id": "3c091e83a98c3e08",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1052/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of PyTorch. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation.",
+  "title": "ZDI-26-1052: (0Day) PyTorch Foundation PyTorch PT2 File Parsing Code Injection Remote Code Execution Vulnerability",
   "trust": "vendor"
  },
  {
