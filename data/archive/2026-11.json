@@ -2,6 +2,118 @@
  {
   "category": "news",
   "cves": [],
+  "id": "cf82b38aa5155883",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+  "published": "2026-11-26T21:06:22Z",
+  "source": "BleepingComputer",
+  "summary": "OpenAI confirmed that it fixed a 'bug' that incorrectly discounted GPT-6.2 usage, which means you'll now hit GPT usage limits 40% faster than before. [...]",
+  "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2019-1010204",
+   "CVE-2022-27943",
+   "CVE-2022-48064",
+   "CVE-2025-11495",
+   "CVE-2025-1150",
+   "CVE-2025-69644",
+   "CVE-2025-69645",
+   "CVE-2025-69646",
+   "CVE-2025-69652",
+   "CVE-2026-15003"
+  ],
+  "id": "087fee4d3101953b",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9214-1",
+  "published": "2026-11-26T19:39:59Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that the GNU binutils gold linker incorrectly handled certain ELF files. A local attacker could possibly use this issue to cause GNU binutils to crash, resulting in a denial of service. This issue only affected Ubuntu 22.04 LTS.",
+  "title": "USN-9214-1: GNU binutils vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "54815f9dbf2951ca",
+  "kev": false,
+  "link": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+  "published": "2026-11-26T19:39:57Z",
+  "source": "The Hacker News",
+  "summary": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does.",
+  "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "09916beebb2705d5",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
+  "published": "2026-11-26T17:58:42Z",
+  "source": "BleepingComputer",
+  "summary": "NordVPN's 2026 Black Friday and Cyber Monday deal is now live, offering savings of up to 78% on VPN subscriptions, plus three extra months of protection. [...]",
+  "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "ec593b3838beaf12",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+  "published": "2026-11-26T17:15:27Z",
+  "source": "BleepingComputer",
+  "summary": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews and webinars. [...]",
+  "title": "Fake paid expert interviews impersonate brands to steal Google logins",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "40a2f47c8b8771ed",
+  "kev": false,
+  "link": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
+  "published": "2026-11-26T17:06:55Z",
+  "source": "SecurityWeek",
+  "summary": "FIFA didn’t say when the cyberattack took place, or the precise nature of the hacked information. The post FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’ appeared first on SecurityWeek .",
+  "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
+  "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-109089",
+   "CVE-2026-109090",
+   "CVE-2026-93542",
+   "CVE-2026-93543"
+  ],
+  "id": "33a809688e597a7a",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9213-1",
+  "published": "2026-11-26T16:54:17Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Adam Bedard discovered that libXi did not properly validate DEVICE_RESOLUTION replies from the X server, which could result in a heap buffer overflow.",
+  "title": "USN-9213-1: libXi vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "news",
+  "cves": [],
+  "id": "5ac6b8be9cbfea2a",
+  "kev": false,
+  "link": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+  "published": "2026-11-26T15:23:28Z",
+  "source": "BleepingComputer",
+  "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
+  "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+  "trust": "media"
+ },
+ {
+  "category": "news",
+  "cves": [],
   "id": "eb4fc404bccca9c1",
   "kev": false,
   "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
@@ -10,6 +122,56 @@
   "summary": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025.",
   "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-102265",
+   "CVE-2026-103001"
+  ],
+  "id": "0b1b88725ff23a68",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9212-1",
+  "published": "2026-11-26T14:45:08Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that PyJWT incorrectly handled errors when parsing deeply nested token headers. An attacker could possibly use this issue to cause applications using PyJWT to fail unexpectedly, resulting in a denial of service.",
+  "title": "USN-9212-1: PyJWT vulnerabilities",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "eebbc965f401efcb",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9211-1",
+  "published": "2026-11-26T13:25:00Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that Plexus Utils did not properly sanitize file paths when extracting archives. If a user or automated system were tricked into extracting a specially crafted archive, an attacker could possibly use this issue to write arbitrary…",
+  "title": "USN-9211-1: Plexus Utils vulnerability",
+  "trust": "official"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-99082",
+   "CVE-2026-99083",
+   "CVE-2026-99085",
+   "CVE-2026-99086",
+   "CVE-2026-99087",
+   "CVE-2026-99100",
+   "CVE-2026-99103",
+   "CVE-2026-99105",
+   "CVE-2026-99106",
+   "CVE-2026-99109"
+  ],
+  "id": "2887df823c1f5fe8",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9190-2",
+  "published": "2026-11-26T13:20:06Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - S390 architecture; - x86 architecture; - Block layer subsystem; -…",
+  "title": "USN-9190-2: Linux kernel (HWE) vulnerabilities",
+  "trust": "official"
  },
  {
   "category": "advisories",
@@ -146,6 +308,22 @@
   "trust": "official"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2020-8908",
+   "CVE-2023-2976",
+   "CVE-2026-102554"
+  ],
+  "id": "de10af98ba6eb430",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9206-1",
+  "published": "2026-11-26T07:08:32Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "It was discovered that Guava did not correctly handle permissions for certain temporary directories. An attacker could possibly use this issue to read or modify sensitive information. This issue only affected Ubuntu 22.04 LTS.",
+  "title": "USN-9206-1: Guava vulnerabilities",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [
    "CVE-2026-132165",
@@ -159,6 +337,21 @@
   "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for…",
   "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
   "trust": "media"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-12912",
+   "CVE-2026-4775"
+  ],
+  "id": "9c92236c949dc177",
+  "kev": false,
+  "link": "https://ubuntu.com/security/notices/USN-9205-1",
+  "published": "2026-11-26T06:53:32Z",
+  "source": "Ubuntu Security Notices",
+  "summary": "Ariel Schön discovered that LibTIFF did not correctly handle parsing certain PixarLog-compressed images. If a user or automated system were tricked into opening a specially crafted file, an attacker could possibly use this issue to cause a denial of…",
+  "title": "USN-9205-1: LibTIFF vulnerabilities",
+  "trust": "official"
  },
  {
   "category": "news",
@@ -1900,6 +2093,928 @@
  {
   "category": "advisories",
   "cves": [
+   "CVE-2026-136536"
+  ],
+  "id": "fd23f8e845e019f8",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1081/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of LiteLLM. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.4.",
+  "title": "ZDI-26-1081: LiteLLM is_request_body_safe Server-Side Request Forgery Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-131817"
+  ],
+  "id": "f7536c754c4a9025",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1113/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of ChargePoint Home Flex EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8.",
+  "title": "ZDI-26-1113: (Pwn2Own) ChargePoint Home Flex wpa_passphrase Command Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-65111"
+  ],
+  "id": "f304f8d88bbb5d22",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1094/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA NeMo Framework. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-1094: NVIDIA NeMo Framework nemo File Parsing Directory Traversal Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114822"
+  ],
+  "id": "ee72451435d64e9c",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1137/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Oracle Autonomous AI Database.",
+  "title": "ZDI-26-1137: (Pwn2Own) Oracle Autonomous AI Database ONNX Runtime Tree Ensemble Use-After-Free Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136435"
+  ],
+  "id": "edc6c03509c75859",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1061/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of DeepSpeed. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1061: (0Day) DeepSpeed InferenceEngine Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-131828"
+  ],
+  "id": "ecba2c98b91057f3",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1071/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1071: llama.cpp GGUF File Parsing Integer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-121680"
+  ],
+  "id": "e9ca8e9b89fe80de",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1109/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose NTLM responses on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1109: Microsoft Windows EMF File Parsing NTLM Response Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2025-60037"
+  ],
+  "id": "e73be3622a88fe74",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1090/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Bosch Rexroth IndraWorks. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-1090: Bosch Rexroth IndraWorks MTX XIWP File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [],
+  "id": "e458ccb877f102b2",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1149/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Autonomous AI Database.",
+  "title": "ZDI-26-1149: (Pwn2Own) Oracle Autonomous AI Database ORDS AutoUpgrade Servlet Command Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-131836"
+  ],
+  "id": "e3f66219a8062bce",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1078/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must load a malicious model file.",
+  "title": "ZDI-26-1078: llama.cpp GGUF File Parsing MINICPM-V Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2025-60037"
+  ],
+  "id": "e3bc735c41311265",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1087/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Bosch Rexroth IndraWorks. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-1087: Bosch Rexroth IndraWorks XML Print Settings File Parsing Deserialization Of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-102448"
+  ],
+  "id": "e2cf2ee9ba81d806",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1092/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to create arbitrary files on affected installations of Bosch Rexroth IndraWorks MTX.",
+  "title": "ZDI-26-1092: Bosch Rexroth IndraWorks MTX XIWP File Parsing Directory Traversal Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-131833"
+  ],
+  "id": "e18186fe517aa8bb",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1075/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1075: llama.cpp GGUF File Parsing set_swa_pattern Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2025-60037"
+  ],
+  "id": "dce26f7b52a0a349",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1088/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Bosch Rexroth IndraWorks. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-1088: Bosch Rexroth IndraWorks XIWP File Parsing Deserialization Of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-131831"
+  ],
+  "id": "d9dc122e9f97a0d3",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1073/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to cause a denial of service on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-1073: llama.cpp MTMD Multimodal GGUF File Parsing Out-Of-Bounds Read Denial-of-Service Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-65103"
+  ],
+  "id": "d83e977a1ce64e68",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1099/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA AIStore. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.1.",
+  "title": "ZDI-26-1099: NVIDIA AIStore Object Rename Directory Traversal Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-47597"
+  ],
+  "id": "d678208882cd26d2",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1102/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of NVIDIA GPU Display Drivers. An attacker must first obtain the ability to execute low-privileged code on the target system, even if only within a container…",
+  "title": "ZDI-26-1102: (Pwn2Own) NVIDIA GPU Display Drivers Resource Manager Use-After-Free Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-77941"
+  ],
+  "id": "d11880cd67d97864",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1136/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose NTLM responses on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1136: Autodesk AutoCAD AcPal NTLM Response Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-65101"
+  ],
+  "id": "d082b467818adede",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1098/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of NVIDIA AIStore. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.3.",
+  "title": "ZDI-26-1098: NVIDIA AIStore dsort Server-Side Request Forgery Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-131832"
+  ],
+  "id": "d04202cce03af543",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1074/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must load a malicious model file.",
+  "title": "ZDI-26-1074: llama.cpp GGUF File Parsing GEMMA4A Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-47591"
+  ],
+  "id": "c9ba11e34b6e430f",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1101/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of NVIDIA GPU Display Drivers. An attacker must first obtain the ability to execute low-privileged code on the target system, even if only within a container…",
+  "title": "ZDI-26-1101: NVIDIA GPU Display Drivers NVOS32_FUNCTION_ALLOC_OS_DESCRIPTOR Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136438"
+  ],
+  "id": "c860a29115a74008",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1064/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of DeepSpeed. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1064: (0Day) DeepSpeed build_engine_from_ds_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136539"
+  ],
+  "id": "c7251b904ff85e51",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1084/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of LiteLLM. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.2.",
+  "title": "ZDI-26-1084: (Pwn2Own) LiteLLM Pass-Through Endpoint Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-131816"
+  ],
+  "id": "c4c9fb6d7402bf5f",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1112/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of ChargePoint Home Flex EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.3.",
+  "title": "ZDI-26-1112: (Pwn2Own) ChargePoint Home Flex ssh Hard-coded Credentials Authentication Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136537"
+  ],
+  "id": "c05425365cd14087",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1082/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to bypass security features on affected installations of LiteLLM. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.5.",
+  "title": "ZDI-26-1082: LiteLLM key_management_endpoints Missing Authorization Security Feature Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-91483"
+  ],
+  "id": "bb8d5aea96b55228",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1154/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Outside In Technology.",
+  "title": "ZDI-26-1154: Oracle Outside In Technology PNG File Parsing Integer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-131814"
+  ],
+  "id": "bb6650af7e5441d2",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1110/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of ChargePoint Home Flex EV chargers.",
+  "title": "ZDI-26-1110: (Pwn2Own) ChargePoint Home Flex dwnldlogsm tar Command Injection Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-109908"
+  ],
+  "id": "b6f095a5c84878bc",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1158/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
+  "title": "ZDI-26-1158: X.Org Server libfontenc Encoding File Parsing Improper Validation of Array Index Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-85646"
+  ],
+  "id": "b6a4f6991200f876",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1145/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1145: Autodesk AutoCAD DWF File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114849"
+  ],
+  "id": "b1730a2795029d2a",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1125/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to bypass security checks on affected installations of Oracle Autonomous AI Database. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 4.8.",
+  "title": "ZDI-26-1125: (Pwn2Own) Oracle Autonomous AI Database APEX Improper Input Validation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-131837"
+  ],
+  "id": "afc2a4d5608a18e9",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1079/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.1.",
+  "title": "ZDI-26-1079: llama.cpp server_context_impl destroy vocab Use-After-Free Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-47552"
+  ],
+  "id": "a6f7fe9bdf62f2bd",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1096/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to disclose sensitive information on affected installations of NVIDIA GPU Display Drivers.",
+  "title": "ZDI-26-1096: NVIDIA GPU Display Drivers NV_ESC_RM_ACCESS_REGISTRY Missing Authorization Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114849"
+  ],
+  "id": "a48662041c4c4e79",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1122/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to bypass authentication on affected installations of Oracle Autonomous AI Database. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.1.",
+  "title": "ZDI-26-1122: (Pwn2Own) Oracle Autonomous AI Database ORDS APEX SSO Exchange Token Authentication Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-91458"
+  ],
+  "id": "a3a8b9f96b5cabf0",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1150/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Outside In Technology.",
+  "title": "ZDI-26-1150: Oracle Outside In Technology XLSX File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136434"
+  ],
+  "id": "a194aee303af1b87",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1060/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to bypass the sandbox on affected installations of Super Magic. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.8.",
+  "title": "ZDI-26-1060: (0Day) Super Magic PHPSandbox Command Injection Sandbox Escape Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-133994"
+  ],
+  "id": "a1402db78649a617",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1120/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to create arbitrary files on affected installations of LM Studio. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.1.",
+  "title": "ZDI-26-1120: (Pwn2Own) LM Studio Plugin Sandbox Directory Traversal Arbitrary File Creation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114850"
+  ],
+  "id": "9de79337d0d2f44e",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1135/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to bypass form integrity controls on affected installations of Oracle Autonomous AI Database. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 5.9.",
+  "title": "ZDI-26-1135: (Pwn2Own) Oracle Autonomous AI Database APEX Integrity Check Interpretation Conflict Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-84855"
+  ],
+  "id": "9d627d7c8aae6451",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1144/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1144: Autodesk AutoCAD DGN File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-77940"
+  ],
+  "id": "9a0c5d4a836daac5",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1138/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose NTLM responses on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1138: Autodesk AutoCAD AeciIb NTLM Response Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-100968"
+  ],
+  "id": "99c8ddacb4ecc462",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1100/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA Megatron. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1100: NVIDIA Megatron Dataset Cache Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2025-60037"
+  ],
+  "id": "984536a1d3c9c215",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1086/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Bosch Rexroth IndraWorks. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-1086: Bosch Rexroth IndraWorks XIWP File Parsing Deserialization Of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-133991"
+  ],
+  "id": "93d1928fea059c92",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1118/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of LM Studio. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 5.9.",
+  "title": "ZDI-26-1118: (Pwn2Own) LM Studio JSON Schema Validation Error Message Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-91457"
+  ],
+  "id": "939f815e1359e531",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1151/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Outside In Technology.",
+  "title": "ZDI-26-1151: Oracle Outside In Technology BMP File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-47588"
+  ],
+  "id": "8b40217e142d287f",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1103/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of NVIDIA GPU Display Drivers. An attacker must first obtain the ability to execute low-privileged code on the target system, even if only within a container…",
+  "title": "ZDI-26-1103: (Pwn2Own) NVIDIA GPU Display Drivers Video Encoder Improper Update of Reference Count Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114850"
+  ],
+  "id": "87a4b40b9576e7bf",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1131/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to bypass a validation check on affected installations of Oracle Autonomous AI Database. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 3.7.",
+  "title": "ZDI-26-1131: (Pwn2Own) Oracle Autonomous AI Database APEX Workspace Resolution Improper Handling of Exceptional Conditions Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136538"
+  ],
+  "id": "82513c1ad91d6623",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1083/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to escalate privileges on affected installations of LiteLLM. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.5.",
+  "title": "ZDI-26-1083: LiteLLM Virtual Key Model Alias Incorrect Authorization Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-126961"
+  ],
+  "id": "7ee1a0c8b859ee47",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1070/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Devman OpenCart Google Marketing Tools. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.8.",
+  "title": "ZDI-26-1070: Devman OpenCart Google Marketing Tools Extension product_id_key Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-131834"
+  ],
+  "id": "7d5ff94518af5587",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1076/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-1076: llama.cpp Multimodal GGUF File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114202"
+  ],
+  "id": "7cecefd0c3f4303c",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1155/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to bypass authentication on affected installations of ASUS Control Center Express. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 10.0.",
+  "title": "ZDI-26-1155: ASUS Control Center Express Use of Hard-coded Cryptographic Key Authentication Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136442"
+  ],
+  "id": "7480d1396ad4bf9b",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1069/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to create or delete arbitrary files or disclose sensitive information on affected installations of BusyBox. Authentication is not required to exploit this vulnerability.",
+  "title": "ZDI-26-1069: (0Day) BusyBox ftpd Directory Traversal Arbitrary File Read and Write Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-131819"
+  ],
+  "id": "70c5cb57d7f999a1",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1115/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows physically present attackers to bypass authentication on affected ChargePoint Home Flex EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 4.3.",
+  "title": "ZDI-26-1115: (Pwn2Own) ChargePoint Home Flex Debug Interface With Improper Access Control Authentication Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2025-60037"
+  ],
+  "id": "6fbc88883f4e0015",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1091/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Bosch Rexroth IndraWorks. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-1091: Bosch Rexroth IndraWorks MTX XIWP File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-18827"
+  ],
+  "id": "6e7c101d7fee408c",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1134/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1134: Autodesk AutoCAD DWG File Data Link Exposed Dangerous Method Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136441"
+  ],
+  "id": "6df3327d3266c51f",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1067/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to bypass authentication on affected installations of Bytebase DBHub. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.8.",
+  "title": "ZDI-26-1067: (0Day) Bytebase DBHub MCP Incorrect Authorization Authentication Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136437"
+  ],
+  "id": "69244ffd1597795b",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1063/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of DeepSpeed. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1063: (0Day) DeepSpeed parse_optim_states Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-109909"
+  ],
+  "id": "683f09d716f4c064",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1159/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to disclose sensitive information on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this…",
+  "title": "ZDI-26-1159: X.Org Server PCF Font Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-18826"
+  ],
+  "id": "679d13294beaf840",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1132/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1132: Autodesk AutoCAD DXF File Parsing _FldPtr Type Confusion Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-85648"
+  ],
+  "id": "6770d906b92c7ac8",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1147/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1147: Autodesk AutoCAD DDS File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-47602"
+  ],
+  "id": "665e48641345c943",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1107/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to disclose sensitive information on affected installations of NVIDIA GPU Display Drivers.",
+  "title": "ZDI-26-1107: (Pwn2Own) NVIDIA GPU Display Drivers FINN Serializer Untrusted Pointer Dereference Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114850"
+  ],
+  "id": "661e1a971ac49cbc",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1133/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to bypass authorization checks on affected installations of Oracle Autonomous AI Database. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 5.9.",
+  "title": "ZDI-26-1133: (Pwn2Own) Oracle Autonomous AI Database APEX Password Change Missing Authorization Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-77942"
+  ],
+  "id": "619c8b4c46937dd6",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1140/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1140: Autodesk AutoCAD IES File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-133989"
+  ],
+  "id": "5f3f7d427b125291",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1117/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of LM Studio. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.8.",
+  "title": "ZDI-26-1117: (Pwn2Own) LM Studio JSON Schema Server-Side Request Forgery Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-131835"
+  ],
+  "id": "5efb4452c18b9604",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1077/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must load a malicious model file.",
+  "title": "ZDI-26-1077: llama.cpp GGUF File Parsing HunyuanVL Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114849"
+  ],
+  "id": "5b59e99ec5fa6996",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1123/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to bypass authentication on affected installations of Oracle Autonomous AI Database. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 5.3.",
+  "title": "ZDI-26-1123: (Pwn2Own) Oracle Autonomous AI Database PL/SQL Gateway Authentication Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114204"
+  ],
+  "id": "592993e3f15f01c0",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1156/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to bypass authentication of affected installations of ASUS Control Center Express. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.0.",
+  "title": "ZDI-26-1156: ASUS Control Center Express Use of Hard-coded Cryptographic Key Authentication Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-91460"
+  ],
+  "id": "581cd3eaab5dd844",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1152/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Outside In Technology.",
+  "title": "ZDI-26-1152: Oracle Outside In Technology TIFF File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
    "CVE-2026-121755"
   ],
   "id": "53adfe94a3ab4b34",
@@ -1909,6 +3024,104 @@
   "source": "Zero Day Initiative",
   "summary": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Parallels Desktop. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this…",
   "title": "ZDI-26-1041: Parallels Desktop Handle-based Rename Time-Of-Check Time-Of-Use Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-24182"
+  ],
+  "id": "537652e2668c9613",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1108/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of NVIDIA GPU Display Drivers.",
+  "title": "ZDI-26-1108: (Pwn2Own) NVIDIA GPU Display Drivers TLS State Deadlock Denial-of-Service Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-65170"
+  ],
+  "id": "535cb02f51f90c09",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1097/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of NVIDIA AIStore. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.3.",
+  "title": "ZDI-26-1097: NVIDIA AIStore ht Server-Side Request Forgery Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-77943"
+  ],
+  "id": "5266d80dc93add23",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1141/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1141: Autodesk AutoCAD DXF File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-85647"
+  ],
+  "id": "4d89cf5f76de93b8",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1146/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1146: Autodesk AutoCAD DWG File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-61580"
+  ],
+  "id": "4a74b80912de7ac3",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1068/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to bypass authentication on affected installations of Firebird SQL. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.1.",
+  "title": "ZDI-26-1068: (0Day) Firebird SQL SRP Authentication Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-16780"
+  ],
+  "id": "48a0d4466a9e474f",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1130/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1130: Autodesk AutoCAD DXF File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-61752"
+  ],
+  "id": "480eea4af63f1e22",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1106/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA Megatron Bridge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-1106: (Pwn2Own) NVIDIA Megatron Bridge _validate_target_prefix Permissive List of Allowed Inputs Remote Code Execution Vulnerability",
   "trust": "vendor"
  },
  {
@@ -1937,6 +3150,384 @@
   "source": "Zero Day Initiative",
   "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop. An attacker must first obtain the ability to execute low-privileged code on the target host system in order to exploit this…",
   "title": "ZDI-26-1040: Parallels Desktop inittool2 Link Following Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136436"
+  ],
+  "id": "42a44755b6f9c4a0",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1062/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of DeepSpeed. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1062: (0Day) DeepSpeed torch_checkpoint_engine Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114849"
+  ],
+  "id": "4265c692aca0a840",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1126/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to escalate privileges on affected installations of Oracle Autonomous AI Database. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed.",
+  "title": "ZDI-26-1126: (Pwn2Own) Oracle Autonomous AI Database APEX Dynamic Execution Improper Authorization Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-131830"
+  ],
+  "id": "40e207628f92654b",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1072/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must open a malicious file.",
+  "title": "ZDI-26-1072: llama.cpp GGUF File Parsing Integer Overflow Denial-of-Service Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-131815"
+  ],
+  "id": "40b49a7bc309fb34",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1111/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of ChargePoint Home Flex EV chargers.",
+  "title": "ZDI-26-1111: (Pwn2Own) ChargePoint Home Flex uploadsm filetype Link Following Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-61753"
+  ],
+  "id": "3ab9a21bca556937",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1104/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA Megatron Bridge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-1104: (Pwn2Own) NVIDIA Megatron Bridge Weight Map Directory Traversal Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-131818"
+  ],
+  "id": "38f515979e98686d",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1114/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of ChargePoint Home Flex EV chargers.",
+  "title": "ZDI-26-1114: (Pwn2Own) ChargePoint Home Flex busybox Unnecessary Privileges Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-61754"
+  ],
+  "id": "351b26cdcf97bed9",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1105/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA Megatron Bridge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-1105: (Pwn2Own) NVIDIA Megatron Bridge ModelConfig Unsafe Reflection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-91459"
+  ],
+  "id": "35012ba753e84337",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1153/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Outside In Technology.",
+  "title": "ZDI-26-1153: Oracle Outside In Technology BMP File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114850"
+  ],
+  "id": "33207a44a67be9b3",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1129/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to tamper with session state on affected installations of Oracle Autonomous AI Database. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 3.7.",
+  "title": "ZDI-26-1129: (Pwn2Own) Oracle Autonomous AI Database APEX Password Change External Control of Critical State Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-133995"
+  ],
+  "id": "2dfb8d92c7f40615",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1121/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of LM Studio. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.8.",
+  "title": "ZDI-26-1121: (Pwn2Own) LM Studio MCP Tool Schema Code Injection Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-133992"
+  ],
+  "id": "293e2b3a97eec990",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1119/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to bypass authentication on affected installations of LM Studio. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.1.",
+  "title": "ZDI-26-1119: (Pwn2Own) LM Studio Weak Credentials Authentication Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136540"
+  ],
+  "id": "270c20ad4d7c0fad",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1085/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of LiteLLM. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 5.3.",
+  "title": "ZDI-26-1085: (Pwn2Own) LiteLLM Secret Manager oidc Resolver Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114850"
+  ],
+  "id": "23aece4ae5ec455b",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1128/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to bypass URL integrity protections on affected installations of Oracle Autonomous AI Database. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.5.",
+  "title": "ZDI-26-1128: (Pwn2Own) Oracle Autonomous AI Database APEX Request Integrity Improper Verification of Cryptographic Signature Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114934"
+  ],
+  "id": "2273cc061aa328a5",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1143/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of Oracle PeopleSoft. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.3.",
+  "title": "ZDI-26-1143: Oracle PeopleSoft PeopleSoftListeningConnector Server-Side Request Forgery Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-102448"
+  ],
+  "id": "22047ed389a95a59",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1093/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to create arbitrary files on affected installations of Bosch Rexroth IndraWorks. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-1093: Bosch Rexroth IndraWorks CTAPRJ.ZIP File Parsing Directory Traversal Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136439"
+  ],
+  "id": "1fe3067de0ad58af",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1065/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of DeepSpeed. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1065: (0Day) DeepSpeed _get_zero_stage Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2025-15716"
+  ],
+  "id": "1ca0568da7e2d4e7",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1116/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Synology DiskStation DS925+ devices.",
+  "title": "ZDI-26-1116: (Pwn2Own) Synology DiskStation DS925+ VerifySamlResponse Authentication Bypass Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-77944"
+  ],
+  "id": "13ed1eac3b59d4c3",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1142/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose NTLM responses on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1142: Autodesk AutoCAD DXF File Parsing NTLM Response Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114205"
+  ],
+  "id": "1285153e8c4f9984",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1157/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to escalate privileges on affected installations of ASUS Control Center Express. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.9.",
+  "title": "ZDI-26-1157: ASUS Control Center Express User Creation Improper Authorization Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-131827"
+  ],
+  "id": "12031eed96aacb87",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1080/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of RustDesk Client for Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this…",
+  "title": "ZDI-26-1080: RustDesk Client for Windows reg_recovery Missing Authorization Local Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114822"
+  ],
+  "id": "11e7db187a1d5ce9",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1139/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Autonomous AI Database.",
+  "title": "ZDI-26-1139: (Pwn2Own) Oracle Autonomous AI Database ONNX Runtime GPT GreedySearch Type Confusion Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2025-60037"
+  ],
+  "id": "0f415c0e205a183a",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1089/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Bosch Rexroth IndraWorks. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious…",
+  "title": "ZDI-26-1089: Bosch Rexroth IndraWorks MTX IWZ File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-65161"
+  ],
+  "id": "0e96c1aa7b59c416",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1095/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of NVIDIA AIStore. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5.",
+  "title": "ZDI-26-1095: NVIDIA AIStore Promote API External Control of File Path Information Disclosure Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114849"
+  ],
+  "id": "0a7c448430323cfe",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1127/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Autonomous AI Database.",
+  "title": "ZDI-26-1127: (Pwn2Own) Oracle Autonomous AI Database Export Directory Exposure of Resource to Wrong Sphere Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-104868"
+  ],
+  "id": "057936e98705d6b7",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1148/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
+  "title": "ZDI-26-1148: Autodesk AutoCAD DWG File Parsing Integer Overflow Remote Code Execution Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-114849"
+  ],
+  "id": "0283cfe67b99e1b7",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1124/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows remote attackers to escalate privileges on affected installations of Oracle Autonomous AI Database. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed.",
+  "title": "ZDI-26-1124: (Pwn2Own) Oracle Autonomous AI Database APEX wwv_flow.show Missing Authorization Privilege Escalation Vulnerability",
+  "trust": "vendor"
+ },
+ {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-136440"
+  ],
+  "id": "00c42af67662137f",
+  "kev": false,
+  "link": "https://www.zerodayinitiative.com/advisories/ZDI-26-1066/",
+  "published": "2026-11-24T06:00:00Z",
+  "source": "Zero Day Initiative",
+  "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Python Packaging Authority pip. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this…",
+  "title": "ZDI-26-1066: (0Day) Python Packaging Authority pip Configuration File Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
   "trust": "vendor"
  },
  {
