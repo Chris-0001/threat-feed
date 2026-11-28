@@ -120,6 +120,22 @@
   "trust": "media"
  },
  {
+  "category": "advisories",
+  "cves": [
+   "CVE-2026-120705",
+   "CVE-2026-129243",
+   "CVE-2026-136716"
+  ],
+  "id": "524c8948587f8fcd",
+  "kev": true,
+  "link": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+  "published": "2026-11-27T12:00:00Z",
+  "source": "CISA Advisories",
+  "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.",
+  "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+  "trust": "official"
+ },
+ {
   "category": "news",
   "cves": [],
   "id": "a184d3c5d08a4f2d",
